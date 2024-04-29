@@ -1,3 +1,5 @@
+![Logo Visie Groep](logo.png)
+
 # Welkom bij Visie Groep!
 
 Welkom bij de GitHub-repository van Visie Groep! Wij zijn een dagbesteding die mensen leert coderen in onze twee lokalen: front-end en back-end.
