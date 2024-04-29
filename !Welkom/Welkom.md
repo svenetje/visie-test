@@ -36,7 +36,7 @@ In deze introductie leggen we je uit hoe je O-schijf gebruikt
 
 # Stap 1: Waar vind ik de O-schijf?
 
-1.  ![](../explorer.jpg){width="0.6354330708661418in"
+1.  ![](explorer.jpg){width="0.6354330708661418in"
     height="0.4271653543307087in"}Ga met je muis naar de *Windows-balk*
     en klik op *verkenner*. Dit is het map-vormige icoontje met een
     blauwe binder eraan vast.
