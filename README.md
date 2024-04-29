@@ -12,6 +12,12 @@ In het back-end lokaal richten we ons voornamelijk op PHP en C#, maar we gebruik
 
 Voor opdrachten en projecten met betrekking tot back-end ontwikkeling, bekijk de map [Back-end Opdrachten](Backend/).
 
+## Ben je nieuw hier?
+
+Als je net bij Visie groep begint verzoek ik jou om eerst een kijkje te nemen in de [Welkom](!Welkom) map. Hier word uitgelegd wat de regels zijn en hoe je gebruik kan maken van de server. 
+
+
+
 Deze repository is een centrale verzamelplaats voor al onze opdrachten, handig onderverdeeld in front-end en back-end, om je te helpen bij het navigeren door ons curriculum.
 
 Dus, welkom aan boord en laten we samen aan de slag gaan om je programmeervaardigheden naar nieuwe hoogten te tillen!
