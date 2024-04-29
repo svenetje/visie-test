@@ -1,11 +1,9 @@
 ![Logo Visie Groep](logo.png)
 
-# Welkom bij Visie Groep!
-
 Welkom bij de GitHub-repository van Visie Groep! Wij zijn een dagbesteding die mensen leert coderen in onze twee lokalen: front-end en back-end.
 
 ## Front-end Ontwikkeling
-In het front-end lokaal werken we met HTML, CSS en JavaScript om boeiende gebruikersinterfaces te ontwerpen en ontwikkelen. Hier leren onze deelnemers de basisprincipes van webontwikkeling en hoe ze aantrekkelijke en responsieve websites kunnen bouwen.
+In het front-end lokaal werken we met HTML, CSS en JavaScript om boeiende gebruikersinterfaces te ontwerpen en ontwikkelen. Hier leer jij de basisprincipes van webontwikkeling en hoe je aantrekkelijke en responsieve websites kan bouwen.
 
 Voor opdrachten en projecten met betrekking tot front-end ontwikkeling, bekijk de map [Front-end Opdrachten](Frontend/).
 
