@@ -1,0 +1,222 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root
+{
+    --font: "Montserrat", sans-serif;
+
+    --Linear-gradient: hsl(236, 72%, 79%), hsl(237, 63%, 64%);
+
+    --Very-Light-Grayish-Blue: hsl(240, 78%, 98%);
+    --Light-Grayish-Blue: hsl(234, 14%, 74%);
+    --Grayish-Blue: hsl(233, 13%, 49%);
+    --Dark-Grayish-Blue: hsl(232, 13%, 33%);
+}
+
+body
+{
+    height: 100vh;
+    font-family: var(--font);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: url(images/bg-top.svg), url(images/bg-bottom.svg);
+    background-repeat: no-repeat;
+    background-position: top right, bottom left;
+    background-color: var(--Very-Light-Grayish-Blue);
+}
+
+h2
+{
+    font-size: 2.6rem;
+    color: var(--Grayish-Blue);
+}
+
+.switch
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--Grayish-Blue);
+}
+
+.switch-div
+{
+    width: 70px;
+    height:30px;
+    border-radius: 100px;
+    background: linear-gradient(var(--Linear-gradient));
+    position: relative;
+    padding: 2px;
+}
+
+.circle
+{
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    left: 2px;
+    transition: .4s;
+}
+
+.left
+{
+    left: 2px;
+}
+
+.right
+{
+    left: 42px;
+}
+
+.cards
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.card
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 20%;
+    transition: .4s;
+}
+.card:nth-child(1)
+{
+    border-radius: 10px 0 0 10px;
+    box-shadow: 0px 0px 10px var(--Very-Light-Grayish-Blue);
+}
+.card:nth-child(1):hover
+{
+    scale: 1.1;
+    transform: translate(-5%);
+}
+
+.card:nth-child(3)
+{
+    border-radius: 0 10px 10px 0;
+    box-shadow: 10px 0px 10px var(--Very-Light-Grayish-Blue);
+}
+.card:nth-child(3):hover
+{
+    scale: 1.1;
+    transform: translate(5%);
+}
+
+.card h1
+{
+    display: flex;
+    align-items: center;
+    font-size: 4rem;
+}
+
+.card h1 span
+{
+    font-size: 2.5rem;
+    margin-right: 10px;
+}
+
+.card p
+{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.card-small
+{
+    height: 500px;
+    background-color: white;
+    padding: 30px;
+}
+
+.card-small p
+{
+    color: var(--Grayish-Blue);
+}
+
+.card-small h1
+{
+    color: var(--Dark-Grayish-Blue);
+}
+
+.card-big
+{
+    background: linear-gradient(var(--Linear-gradient));
+    height: 600px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px var(--Very-Light-Grayish-Blue);
+    color: white;
+    padding: 80px 30px;
+    z-index: 99;
+}
+.card-big:hover
+{
+    scale: 1.1;
+}
+
+.card-big h1
+{
+    color: white;
+}
+
+border
+{
+    height: 1px;
+    width: 100%;
+    background-color: var(--Light-Grayish-Blue);
+}
+
+button
+{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    outline: none;	
+    border: none;
+    font-size: .9rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: .4s;
+}
+
+.card-small button
+{
+    background: linear-gradient(var(--Linear-gradient));
+    color: white;
+}
+.card-small button:hover
+{
+    background-color: white;
+    background: none;
+    color: hsl(237, 63%, 64%);
+    border: 1px solid hsl(237, 63%, 64%);
+}
+
+.card-big button
+{
+    color: hsl(237, 63%, 64%);
+    background-color: white;
+}
+.card-big button:hover
+{
+    background: linear-gradient(var(--Linear-gradient));
+    color: white;
+    border: 1px solid white;
+}
