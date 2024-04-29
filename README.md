@@ -16,7 +16,7 @@ Voor opdrachten en projecten met betrekking tot back-end ontwikkeling, bekijk de
 
 Als je net bij Visie groep begint verzoek ik jou om eerst een kijkje te nemen in de [Welkom](!Welkom) map. Hier word uitgelegd wat de regels zijn en hoe je gebruik kan maken van de server. 
 
-
+---
 
 Deze repository is een centrale verzamelplaats voor al onze opdrachten, handig onderverdeeld in front-end en back-end, om je te helpen bij het navigeren door ons curriculum.
 
