@@ -20,4 +20,4 @@ Voor meer informatie en om aan de CSS-cursus te beginnen, kun je de [CSS-cursus 
 
 ---
 
-*Zodra je de HTML- en CSS-cursussen hebt afgerond, meld je dit bij de werkbegeleider. Samen gaan jullie kijken naar de eerste opdracht om je vaardigheden in de praktijk te brengen. Je kunt de [opdracht-directory in onze GitHub-repository](../~Opdracht%20#1%203-column-preview-card-component-main) bekijken om aan de slag te gaan.*
+*Zodra je de HTML- en CSS-cursussen hebt afgerond, meld je dit bij de werkbegeleider. Samen gaan jullie kijken naar de eerste opdracht om je vaardigheden in de praktijk te brengen. Je kunt de [opdracht-directory in onze GitHub-repository](<../~Opdracht #1 3-column-preview-card-component-main>) bekijken om aan de slag te gaan.*
