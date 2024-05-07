@@ -1,3 +1,5 @@
+![Front-end image](front-end.jpg)
+
 # Front-end Ontwikkeling bij Visie Groep
 
 Front-end ontwikkeling bij Visie Groep richt zich op het ontwerpen en implementeren van de gebruikersinterface en gebruikerservaring van websites en webapplicaties. Het omvat alle aspecten die de gebruiker direct ziet en interacteert, zoals lay-out, kleuren, typografie, animaties en functionaliteit. Het doel van front-end ontwikkeling is om aantrekkelijke, responsieve en intuïtieve interfaces te creëren die gebruikers aanspreken en een naadloze ervaring bieden.
@@ -18,4 +20,3 @@ Het mapje "Front-end Challenges" bevat alle uitdagingen en opdrachten die deelne
 
 ---
 
-*Opmerking: Deze uitleg is geschreven in Markdown zoals gevraagd.*
