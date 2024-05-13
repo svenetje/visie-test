@@ -3,7 +3,7 @@
 Welkom bij de front-end challenges bij Visie Groep! In deze map vind je uitdagende opdrachten om je front-end vaardigheden te oefenen en te verbeteren. De challenges zijn onderverdeeld in twee hoofdmapjes:
 
 ### 1. HTML en CSS Challenges
-In het mapje "html-CSS" vind je een reeks uitdagingen gericht op het verbeteren van je vaardigheden in HTML en CSS. De uitdagingen beginnen extra makkelijk en worden stapsgewijs steeds moeilijker, waardoor je geleidelijk aan meer geavanceerde technieken leert en toepast. Wij maken gebruik van opdrachten van [Frontend Mentor](https://www.frontendmentor.com/) om realistische projecten te oefenen.
+In het mapje "html-CSS" vind je een reeks uitdagingen gericht op het verbeteren van je vaardigheden in HTML en CSS. De uitdagingen beginnen extra makkelijk en worden stapsgewijs steeds moeilijker, waardoor je geleidelijk aan meer geavanceerde technieken leert en toepast. Wij maken gebruik van opdrachten van [Frontend Mentor](https://www.frontendmentor.io/) om realistische projecten te oefenen.
 
 [Naar HTML en CSS Challenges map](./html-CSS)
 
