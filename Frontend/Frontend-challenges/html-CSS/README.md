@@ -6,10 +6,10 @@ In het mapje "HTML en CSS Challenges" vind je een reeks uitdagende opdrachten ge
 
 #### Opdrachten:
 
-1. Opdracht 1: 3-column preview card component - [Naar Opdracht-1 map](./~Opdracht-1)
-   <img src="Images/desktop-preview.jpg" alt="3-column preview card component" style="width: 400px; float: left;"/>
-2. Opdracht 2: Profile card component - [Naar Opdracht-2 map](./~Opdracht-2)
-3. Opdracht 3: Interactive rating component - [Naar Opdracht-3 map](./~Opdracht-3)
-4. Opdracht 4: Pricing component with toggle - [Naar Opdracht-4 map](./~Opdracht-4)
-5. Opdracht 5: Interactive card details form - [Naar Opdracht-5 map](./~Opdracht-5)
-6. Opdracht 6: E-commerce product page - [Naar Opdracht-6 map](./~Opdracht-6)
+Opdracht 1: 3-column preview card component - [Naar Opdracht-1 map](./~Opdracht-1)
+<img src="Images/desktop-preview.jpg" alt="3-column preview card component" style="width: 400px; float: left;"/>
+Opdracht 2: Profile card component - [Naar Opdracht-2 map](./~Opdracht-2)
+Opdracht 3: Interactive rating component - [Naar Opdracht-3 map](./~Opdracht-3)
+Opdracht 4: Pricing component with toggle - [Naar Opdracht-4 map](./~Opdracht-4)
+Opdracht 5: Interactive card details form - [Naar Opdracht-5 map](./~Opdracht-5)
+Opdracht 6: E-commerce product page - [Naar Opdracht-6 map](./~Opdracht-6)
