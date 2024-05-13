@@ -8,7 +8,7 @@ In het mapje "HTML en CSS Challenges" vind je een reeks uitdagende opdrachten ge
 
 Opdracht 1: 3-column preview card component - [Naar Opdracht-1 map](./~Opdracht-1)
 <br>
-<img src="Images/desktop-preview.jpg" alt="3-column preview card component" style="width: 500px; float: left; padding-top: 20px;"/>
+<img src="Images/desktop-preview.jpg" alt="3-column preview card component" style="width: 500px; float: left; margin-top: 20px;"/>
 <br>
 
 Opdracht 2: Profile card component - [Naar Opdracht-2 map](./~Opdracht-2)
