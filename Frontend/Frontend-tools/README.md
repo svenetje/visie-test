@@ -30,7 +30,12 @@ FontAwesome is een populaire bibliotheek voor pictogrammen en iconen die gebruik
 
 <br>
 
-### 5. CHATGPT helpful prompts for learning:
+### 5. HTML & CSS Full Course - Beginner to Pro
+
+<iframe width="1280" height="720" src="https://www.youtube.com/embed/G3e-cpL7ofc" title="HTML &amp; CSS Full Course - Beginner to Pro" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe
+
+
+### 6. CHATGPT helpful prompts for learning:
 
 CHATGPT biedt nuttige prompts voor het leren van verschillende onderwerpen, waaronder programmeertalen en webontwikkeling. Deze prompts kunnen helpen bij het genereren van ideeën, het oplossen van problemen en het verkennen van nieuwe concepten.
 
