@@ -36,7 +36,11 @@ FontAwesome is een populaire bibliotheek voor pictogrammen en iconen die gebruik
 
 <br>
 
-### 6. CHATGPT helpful prompts for learning:
+### 6. Vue tutorial door Paul
+
+Dit is een korte uitleg over hoe vue in zijn werking gaat. [Het bestand](./Vue_Tutorial_door_Paul.docx)
+
+### 7. CHATGPT helpful prompts for learning:
 
 CHATGPT biedt nuttige prompts voor het leren van verschillende onderwerpen, waaronder programmeertalen en webontwikkeling. Deze prompts kunnen helpen bij het genereren van ideeën, het oplossen van problemen en het verkennen van nieuwe concepten.
 
