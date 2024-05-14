@@ -67,6 +67,3 @@ Mijn luidsprekerconfigurator project als basis?
 ## Bronnen:
 
 - [W3Schools](https://www.w3schools.com)
-``` 
-
-Je kunt deze tekst kopiëren en plakken in je README.md bestand. Laat het me weten als je nog iets wilt aanpassen!
