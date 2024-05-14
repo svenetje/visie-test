@@ -8,23 +8,33 @@ In de map "Frontend Tools" vind je een verzameling handige tools en bronnen om j
 
 W3Schools is een uitgebreide online bron voor het leren van webontwikkeling. Hier vind je tutorials, referentiehandleidingen, voorbeeldcode en meer voor HTML, CSS, JavaScript en andere webtechnologieën.
 
+<br>
+
 ### 2. [FreeCodeCamp](https://www.freecodecamp.org/learn)
 
 FreeCodeCamp is een interactief leerplatform met cursussen, projecten en certificeringen voor webontwikkeling. Het biedt een gestructureerd leertraject van beginner tot gevorderde niveaus, inclusief HTML, CSS, JavaScript en meer.
+
+<br>
 
 ### 3. [HTML en CSS projecten voor beginners](https://mikkegoes.com/html-and-css-projects/)
 
 Deze bron bevat een verzameling eenvoudige HTML- en CSS-projecten voor beginners om de basisprincipes van webontwikkeling te leren door middel van praktische oefeningen.
 
+<br>
+
 ### 4. [FontAwesome](https://fontawesome.com/)
 
-FontAwesome is een populaire bibliotheek voor pictogrammen en iconen die gebruikt kunnen worden in webontwikkelingsprojecten. Met duizenden pictogrammen beschikbaar, kun je eenvoudig visuele elementen toevoegen aan je website of webapplicatie.
+FontAwesome is een populaire bibliotheek voor pictogrammen en iconen die gebruikt kunnen worden in webontwikkelingsprojecten. Met duizenden pictogrammen beschikbaar, kun je eenvoudig visuele elementen toevoegen aan je website of webapplicatie. 
 
 * CDN Link: [FontAwesome CDN](https://cdnjs.com/libraries/font-awesome)
+
+<br>
 
 ### 5. HTML & CSS Full Course - Beginner to Pro
 
 [![HTML & CSS Full Course - Beginner to Pro](https://img.youtube.com/vi/G3e-cpL7ofc/0.jpg)](https://www.youtube.com/watch?v=G3e-cpL7ofc)
+
+<br>
 
 ### 6. CHATGPT helpful prompts for learning:
 
