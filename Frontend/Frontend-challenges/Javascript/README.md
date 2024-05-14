@@ -1,6 +1,7 @@
 # 2. JavaScript Challenges
 
-In het mapje "JavaScript Challenges" vind je uitdagende opdrachten gericht op het verbeteren van je vaardigheden in JavaScript. JavaScript is een programmeertaal die wordt gebruikt om websites interactief en dynamisch te maken. Met JavaScript kun je interactieve elementen toevoegen, zoals knoppen, formulieren, en animaties, en gebruikersinteracties verwerken, zoals klikken, scrollen, en invoeren. Het stelt ontwikkelaars in staat om de functionaliteit van een webpagina te verbeteren en om dynamische inhoud te genereren op basis van gebruikersacties. Voor meer informatie en om aan de JavaScript-cursus te beginnen, kun je de [JavaScript-cursus op Codecademy verkennen](https://www.codecademy.com/learn/introduction-to-javascript).
+In dit mapje vind je uitdagende opdrachten gericht op het oefenen en verbeteren van je vaardigheden in JavaScript. 
+JavaScript is een programmeertaal die wordt gebruikt om websites interactief en dynamisch te maken. Met JavaScript kun je interactieve elementen toevoegen, zoals knoppen, formulieren, en animaties, en gebruikersinteracties verwerken, zoals klikken, scrollen, en invoeren. Het stelt ontwikkelaars in staat om de functionaliteit van een webpagina te verbeteren en om dynamische inhoud te genereren op basis van gebruikersacties. Voor meer informatie en om aan de JavaScript-cursus te beginnen, kun je de [JavaScript-cursus op Codecademy verkennen](https://www.codecademy.com/learn/introduction-to-javascript).
 
 <br>
 
