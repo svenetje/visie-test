@@ -21,6 +21,8 @@ Opdracht 3: Interactive rating component - [Naar Opdracht 3](./#Opdracht-3)
 
 Opdracht 4: Pricing component with toggle - [Naar Opdracht 4](./#Opdracht-4)
 
+___
+
 <img src="Images/opdracht-4.jpg" alt="Pricing component with toggle" style="width: 500px;"/>
 
 Opdracht 5: Interactive card details form - [Naar Opdracht 5](./#Opdracht-5)
