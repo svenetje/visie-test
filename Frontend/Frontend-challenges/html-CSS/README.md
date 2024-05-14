@@ -1,4 +1,4 @@
-### 1. HTML en CSS Challenges
+# 1. HTML en CSS Challenges
 
 We beginnen met het mapje "!De-basis", waarin de basisbeginselen van HTML en CSS worden uitgelegd, inclusief links naar de relevante cursussen op Codecademy.
 
@@ -7,7 +7,7 @@ We beginnen met het mapje "!De-basis", waarin de basisbeginselen van HTML en CSS
 
 ## Opdrachten
 
-<center> Opdracht 1: 3-column preview card component - [Naar Opdracht 1](./#Opdracht-1) </center>
+Opdracht 1: 3-column preview card component - [Naar Opdracht 1](./#Opdracht-1)
 
 <img src="Images/opdracht-1.jpg" alt="3-column preview card component" style="width: 500px;"/>
 
