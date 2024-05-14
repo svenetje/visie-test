@@ -4,8 +4,9 @@ We beginnen met het mapje "!De-basis", waarin de basisbeginselen van HTML en CSS
 
 [Naar de basis map](./!De-basis)
 
+<br>
 
-## Opdrachten
+## Opdrachten:
 
 Opdracht 1: 3-column preview card component - [Naar Opdracht 1](./#Opdracht-1)
 
@@ -20,8 +21,6 @@ Opdracht 3: Interactive rating component - [Naar Opdracht 3](./#Opdracht-3)
 <img src="Images/opdracht-3.jpg" alt="Interactive rating component" style="width: 500px;"/>
 
 Opdracht 4: Pricing component with toggle - [Naar Opdracht 4](./#Opdracht-4)
-
-***
 
 <img src="Images/opdracht-4.jpg" alt="Pricing component with toggle" style="width: 500px;"/>
 
