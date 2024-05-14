@@ -4,9 +4,8 @@ We beginnen met het mapje "!De-basis", waarin de basisbeginselen van HTML en CSS
 
 [Naar de basis map](./!De-basis)
 
- 
 
-<center> #### Opdrachten </center>
+#### Opdrachten
 
 Opdracht 1: 3-column preview card component - [Naar Opdracht 1](./#Opdracht-1)
 
