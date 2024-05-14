@@ -38,7 +38,7 @@ FontAwesome is een populaire bibliotheek voor pictogrammen en iconen die gebruik
 
 ### 6. Vue tutorial door Paul
 
-Dit is een korte uitleg over hoe vue in zijn werking gaat. [Het bestand](./Vue_Tutorial_door_Paul.docx)
+Dit is een korte uitleg over hoe vue in zijn werking gaat. [Het bestand](./Vue_Tutorial_door_Paul.md)
 
 ### 7. CHATGPT helpful prompts for learning:
 
