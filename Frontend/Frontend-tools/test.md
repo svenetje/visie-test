@@ -1,4 +1,3 @@
-```markdown
 # Over Vue
 
 Om Vue te leren is basiskennis van HTML, CSS en JavaScript nodig. Ook is basiskennis van Node.js, npm/npx of Yarn op den duur mogelijk nodig.
