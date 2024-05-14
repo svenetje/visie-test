@@ -32,7 +32,7 @@ FontAwesome is een populaire bibliotheek voor pictogrammen en iconen die gebruik
 
 ### 5. HTML & CSS Full Course - Beginner to Pro
 
-[![]]
+[![HTML & CSS Full Course - Beginner to Pro](https://img.youtube.com/vi/G3e-cpL7ofc/0.jpg)](https://www.youtube.com/watch?v=G3e-cpL7ofc)
 
 
 ### 6. CHATGPT helpful prompts for learning:
