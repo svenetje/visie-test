@@ -18,6 +18,20 @@ Nadat je de basis van HTML hebt geleerd, gaan we verder met de CSS-cursus van Co
 
 Voor meer informatie en om aan de CSS-cursus te beginnen, kun je de [CSS-cursus op Codecademy verkennen](https://www.codecademy.com/learn/learn-css).
 
+### Hulpmiddelen en Tips
+
+Naast de cursussen op Codecademy zijn er nog andere handige hulpmiddelen en bronnen die je kunnen helpen bij het leren van HTML en CSS:
+
+- **W3Schools**: Een uitgebreide online bron met tutorials, referentiehandleidingen en voorbeeldcode voor HTML, CSS en andere webtechnologieën. Je kunt het verkennen op [W3Schools](https://www.w3schools.com/).
+
+- **FreeCodeCamp**: Een interactief leerplatform met cursussen, projecten en certificeringen voor webontwikkeling, inclusief HTML en CSS. Je kunt het verkennen op [FreeCodeCamp](https://www.freecodecamp.org/learn).
+
+- **HTML en CSS projecten voor beginners**: Een verzameling eenvoudige projecten om de basisprincipes van HTML en CSS te leren door middel van praktische oefeningen. Je kunt deze projecten bekijken op [HTML en CSS projecten voor beginners](https://mikkegoes.com/html-and-css-projects/).
+
+- **FontAwesome**: Een populaire bibliotheek voor pictogrammen en iconen die gebruikt kunnen worden in webontwikkelingsprojecten. Het biedt duizenden pictogrammen die je kunt toevoegen aan je website of webapplicatie. Bekijk het op [FontAwesome](https://fontawesome.com/).
+
+- **CHATGPT handige prompts voor leren**: CHATGPT biedt nuttige prompts voor het leren van verschillende onderwerpen, waaronder programmeertalen en webontwikkeling. Deze prompts kunnen helpen bij het genereren van ideeën, het oplossen van problemen en het verkennen van nieuwe concepten. Bekijk enkele voorbeelden op de CHATGPT website.
+
 ---
 
 *Zodra je de HTML- en CSS-cursussen hebt afgerond, meld je dit bij de werkbegeleider. Samen gaan jullie kijken naar de eerste opdracht om je vaardigheden in de praktijk te brengen. Je kunt de [opdracht-directory in onze GitHub-repository](../~Opdracht-1) bekijken om aan de slag te gaan.*
