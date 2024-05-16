@@ -35,3 +35,5 @@ Naast de cursussen op Codecademy zijn er nog andere handige hulpmiddelen en bron
 ---
 
 *Zodra je de HTML- en CSS-cursussen hebt afgerond, meld je dit bij de werkbegeleider. Samen gaan jullie kijken naar de eerste opdracht om je vaardigheden in de praktijk te brengen. Je kunt de [opdracht-directory in onze GitHub-repository](../~Opdracht-1) bekijken om aan de slag te gaan.*
+
+<img src="codecademy.webp"/>
