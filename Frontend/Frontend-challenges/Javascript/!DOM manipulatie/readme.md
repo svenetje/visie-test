@@ -324,3 +324,14 @@ plus.addEventListener("click", () => {
 - We initialiseren een variabele `number` met de waarde 20 en selecteren twee knoppen (`minus` en `plus`) om het nummer te verminderen of te verhogen.
 - Wanneer op de `minus` knop wordt geklikt, wordt het nummer met 1 verminderd en wordt het weergegeven in het element met de id `final_number`. Ook wordt de lettergrootte van dit element aangepast op basis van het nummer.
 - Wanneer op de `plus` knop wordt geklikt, wordt het nummer met 1 verhoogd en wordt het weergegeven in het element met de id `final_number`. Ook wordt de lettergrootte van dit element aangepast op basis van het nummer.
+
+---
+
+### 4. Testen
+
+Nu kun je spelen met de code en verschillende delen ervan aanpassen om de DOM-manipulatie te begrijpen:
+
+- Probeer nieuwe stijlen toe te voegen aan de CSS om de uitstraling van de elementen te wijzigen.
+- Voeg nieuwe functionaliteiten toe aan de JavaScript, zoals het toevoegen van nieuwe knoppen of interactieve elementen.
+- Experimenteer met het selecteren van verschillende HTML-elementen en het manipuleren van hun eigenschappen.
+- Test je kennis door nieuwe event listeners toe te voegen en te zien hoe ze reageren op gebruikersinteracties.
