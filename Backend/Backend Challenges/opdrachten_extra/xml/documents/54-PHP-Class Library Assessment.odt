@@ -1,0 +1,74 @@
+﻿Quick Details
+Opdracht ID : 54
+Opdracht titel : Class Library Assessment
+Opdracht Programmeertalen en/of tech : PHP
+Opdracht (geschatte) moeilijkheidsgraad : Moeilijk
+Opdracht Eisen : "classes voor de apis 
+Opdracht Extra Omschrijving :  bitly, google docs en spreadsheets, google search, weerdata. classes en interfaces voor de apis dashboards. "
+Opdracht: Class Library Assessment
+
+Doel: Maak een class library in PHP om te werken met verschillende API's.
+
+Moeilijkheidsgraad: Moeilijk
+
+Beschrijving:
+
+In deze opdracht ga je een class library ontwikkelen die gebruikt kan worden om met verschillende API's te communiceren
+Je zal classes moeten schrijven voor het uitvoeren van HTTP-verzoeken, het verwerken van JSON-responses en het organiseren van de API-calls
+Denk hierbij aan het gebruik van de cURL bibliotheek (https://www.php.net/manual/en/book.curl.php) voor het uitvoeren van HTTP-verzoeken en het gebruik van json_decode (https://www.php.net/manual/en/function.json-decode.php) voor het verwerken van JSON-responses.
+
+Vereisten:
+
+1
+Maak een abstracte class "ApiBase" die de basisfunctionaliteiten voor het communiceren met API's bevat
+Deze class moet de volgende methoden hebben:
+  
+get($url, $params): Voer een GET-verzoek uit naar de opgegeven URL met de opgegeven parameters.
+  
+post($url, $params): Voer een POST-verzoek uit naar de opgegeven URL met de opgegeven parameters.
+  
+put($url, $params): Voer een PUT-verzoek uit naar de opgegeven URL met de opgegeven parameters.
+  
+delete($url, $params): Voer een DELETE-verzoek uit naar de opgegeven URL met de opgegeven parameters.
+
+Zorg ervoor dat je de HTTP-verzoeken op een gestandaardiseerde manier uitvoert en dat je foutafhandeling implementeert.
+
+2
+Maak een class "JsonResponse" die de JSON-responses van de API's kan verwerken
+Deze class moet de volgende methoden hebben:
+  
+parse($json): Verwerk de JSON-response en sla de gegevens op in een geschikte datastructuur, zoals een associatieve array of een object.
+  
+get($key): Haal de waarde op van de opgegeven sleutel uit de JSON-datastructuur.
+  
+getAll(): Haal alle gegevens op uit de JSON-datastructuur.
+
+Zorg ervoor dat je edge cases en fouten in de JSON-responses afhandelt.
+
+3
+Maak verschillende classes voor de API's die je wilt ondersteunen
+Elke API-class moet de "ApiBase"-class uitbreiden en specifieke methoden hebben om de functionaliteiten van die API te gebruiken
+Enkele voorbeelden van API's zijn:
+  
+WeatherApi: Een class om weersinformatie op te halen van een weer-API, zoals OpenWeatherMap (https://openweathermap.org/api)
+Implementeer methoden zoals getWeatherByCity($city) en getWeatherByCoordinates($lat, $lon).
+  
+NewsApi: Een class om nieuwsartikelen op te halen van een nieuws-API, zoals NewsAPI (https://newsapi.org/)
+Implementeer methoden zoals getTopHeadlines($country, $category) en getEverything($query, $from, $to).
+
+4
+Schrijf enkele testscripts om de functionaliteiten van je class library te demonstreren
+Zorg ervoor dat je verschillende API-calls uitvoert en de JSON-responses correct verwerkt
+Toon de resultaten op een duidelijke en overzichtelijke manier.
+
+5
+Zorg ervoor dat je code goed gedocumenteerd is en dat je objectgeoriënteerde principes toepast, zoals encapsulatie en overerving
+Maak gebruik van PHPDoc (https://www.phpdoc.org/) voor het documenteren van je code en volg de PSR-standaarden (https://www.php-fig.org/psr/) voor code-styling.
+
+Inleveren:
+
+Lever de volgende bestanden in:
+- De PHP classes ("ApiBase", "JsonResponse" en de specifieke API-classes)
+- Testscripts om de functionaliteiten van de class library te demonstreren.
+- Een tekstbestand met een korte uitleg van je class library en instructies voor het uitvoeren van de testscripts
+Vermeld hierin ook eventuele (API-)sleutels die nodig zijn voor het testen van de code en hoe deze toegevoegd moeten worden.

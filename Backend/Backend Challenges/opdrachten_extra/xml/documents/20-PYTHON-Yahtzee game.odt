@@ -1,0 +1,63 @@
+﻿Quick Details
+Opdracht ID : 20
+Opdracht titel : Yahtzee game
+Opdracht Programmeertalen en/of tech : PYTHON
+Opdracht (geschatte) moeilijkheidsgraad : Makkelijk
+Opdracht Eisen : multiplayer door peer to peer discovery en dedicated hosting, gamestate en highscores lokaal voor iedere gebruiker opslaan.
+Opdracht Extra Omschrijving : maak een Yahtzee game waarin spelers samen en tegen elkaar kunnen spelen
+Titel: Yahtzee spel
+
+Doel: Creëer een Yahtzee spel in Python met behulp van peer-to-peer (P2P) discovery en dedicated hosting
+Sla de gamestate en highscores lokaal op voor elke gebruiker.
+
+Moeilijkheidsgraad: Makkelijk
+
+Benodigdheden:
+1
+Python geïnstalleerd op uw computer (https://www.python.org/downloads/)
+2
+Een teksteditor of Integrated Development Environment (IDE) om Python-code te schrijven en uit te voeren.
+
+Stappen:
+
+1
+Creëer een nieuw Python-bestand en noem het "yahtzee.py".
+   Dit wordt het hoofdbestand van je project waarin de meeste code zal worden geschreven.
+
+2
+Importeer de benodigde bibliotheken: socket, threading, random en json.
+   Deze bibliotheken zijn nodig om netwerkcommunicatie, multi-threading, willekeurige getalgeneratie en JSON-bestandsbeheer te ondersteunen.
+
+3
+Definieer een functie die de P2P discovery afhandelt om andere spelers op het netwerk te vinden.
+   Deze functie zal verantwoordelijk zijn voor het zoeken naar andere spelers in het lokale netwerk die ook het spel hosten of spelen.
+
+4
+Definieer een functie voor het opzetten van een dedicated server voor het hosten van het spel.
+   Deze functie zal een server opzetten die verantwoordelijk is voor het beheren van de verbindingen tussen de spelers en het doorgeven van gamestate-informatie.
+
+5
+Creëer een klasse "Player" met eigenschappen zoals naam, huidige score en highscore.
+   Deze klasse zal elke speler in het spel vertegenwoordigen en zijn/haar gegevens bijhouden.
+
+6
+Creëer een klasse "Game" die verantwoordelijk is voor het beheren van gamestates en het bijhouden van de scores van elke speler.
+   Deze klasse zal het verloop van het spel regelen, inclusief het bijhouden van beurten, het rollen van dobbelstenen en het bijhouden van scores.
+
+7
+Voeg functies toe aan de "Game" klasse voor het starten van een nieuw spel, het bijwerken van scores en het beëindigen van een spel.
+   Deze functies zullen worden aangeroepen om het spel te starten, de scores van spelers bij te werken na elke beurt en het spel te beëindigen wanneer de voorwaarden voor het beëindigen van het spel zijn bereikt.
+
+8
+Maak een functie voor het laden en opslaan van highscores van en naar een bestand (bijv
+"highscores.json").
+   Deze functie zal verantwoordelijk zijn voor het lezen en schrijven van highscore-gegevens naar een lokaal JSON-bestand, zodat de highscores van elke speler bewaard blijven tussen spelsessies.
+
+9
+Schrijf de main functie van het programma die gebruikersinvoer verwerkt en het spel coördineert.
+   De main functie zal verantwoordelijk zijn voor het initialiseren van het spel, het verwerken van gebruikersinvoer (zoals het rollen van dobbelstenen, het selecteren van scorecategorieën en het beëindigen van het spel) en het coördineren van de spellogica.
+
+Aan het einde van deze opdracht moet je in staat zijn om een eenvoudige multiplayer Yahtzee-spel in Python te maken met behulp van peer-to-peer discovery en een dedicated server voor het hosten van het spel
+Elke speler moet in staat zijn om zijn/haar highscores lokaal op te slaan.
+
+Succes!

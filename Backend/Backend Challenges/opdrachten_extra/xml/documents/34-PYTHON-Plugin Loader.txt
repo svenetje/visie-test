@@ -1,0 +1,73 @@
+﻿Quick Details
+Opdracht ID : 34
+Opdracht titel : Plugin Loader
+Opdracht Programmeertalen en/of tech : PYTHON
+Opdracht (geschatte) moeilijkheidsgraad : Gemiddeld
+Opdracht Eisen : Plugins detecteren in een map genaamd 'plugins', inladen en hun initialize functies aanroepen.
+Opdracht Extra Omschrijving : 
+Titel: Plugin Loader
+
+Doel: Detecteer plugins in een map genaamd 'plugins', laad ze in en roep hun initialiseer-functies aan.
+
+Programmeertaal: Python
+
+Moeilijkheidsgraad: Gemiddeld
+
+Beschrijving:
+In deze opdracht ga je een plugin loader ontwikkelen die in staat is om plugins (in de vorm van Python-modules) te detecteren in een map genaamd 'plugins', ze in te laden en hun initialiseer-functies aan te roepen
+Dit is handig voor het bouwen van uitbreidbare applicaties die extra functionaliteit kunnen toevoegen door simpelweg nieuwe plugins toe te voegen.
+
+Stappen:
+
+1
+Maak een nieuw Python-bestand met de naam "plugin_loader.py".
+  
+Dit bestand zal de belangrijkste logica van de plugin loader bevatten.
+
+2
+Importeer de benodigde modules: `os` en `importlib`.
+  
+De `os` module stelt je in staat om met het bestandssysteem te werken, terwijl `importlib` wordt gebruikt om Python-modules dynamisch te importeren.
+
+3
+Maak een variabele `PLUGIN_DIRECTORY` en stel deze in op de naam van de map waar de plugins zich bevinden, in dit geval "plugins".
+  
+Dit maakt het gemakkelijker om de plugin-directory later in de code te wijzigen, indien nodig.
+
+4
+Maak een functie `detect_plugins()` die alle Python-modules in de `PLUGIN_DIRECTORY` detecteert en hun bestandsnamen retourneert als een lijst.
+  
+Deze functie zal verantwoordelijk zijn voor het vinden van alle plugins in de opgegeven map.
+
+5
+Maak een functie `load_plugin(plugin_name)` die een plugin-module importeert op basis van de gegeven bestandsnaam en de geïmporteerde module retourneert.
+  
+Deze functie zal de daadwerkelijke import van de plugin-module afhandelen.
+
+6
+Maak een functie `initialize_plugin(plugin_module)` die de initialiseer-functie van de gegeven plugin-module aanroept.
+  
+Deze functie zal verantwoordelijk zijn voor het aanroepen van de initialiseer-functie binnen elke geïmporteerde plugin-module.
+
+7
+In de `main`-functie, roep de `detect_plugins()` functie aan om een lijst met plugin-bestandsnamen te verkrijgen, laad vervolgens elke plugin met `load_plugin()` en initialiseer de plugin met `initialize_plugin()`.
+  
+Dit is het belangrijkste uitvoeringsgedeelte van de code, waar alle functies samenkomen om de plugins te detecteren, te laden en te initialiseren.
+
+Extra tips:
+- Gebruik `os.listdir()` om alle bestanden in de `PLUGIN_DIRECTORY` te verkrijgen.
+ 
+Deze functie retourneert een lijst met bestandsnamen in de opgegeven directory.
+
+- Filter de bestanden om alleen Python-bestanden te behouden (bestandsnaam eindigt op ".py").
+ 
+Gebruik een list comprehension of een for-loop met een if-statement om alleen bestandsnamen te behouden die eindigen op ".py".
+
+- Gebruik `importlib.import_module()` om een Python-module te importeren op basis van een bestandsnaam.
+ 
+Deze functie maakt het mogelijk om Python-modules dynamisch te importeren op basis van hun bestandsnaam in plaats van een vaste importverklaring.
+
+Aan het einde van deze opdracht moet je een werkende plugin loader hebben die in staat is om alle Python-modules in de 'plugins'-map te detecteren, ze in te laden en hun initialiseer-functies aan te roepen
+Dit zal je helpen bij het bouwen van schaalbare en modulaire applicaties met behulp van de Python-programmeertaal.
+
+Succes!

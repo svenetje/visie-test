@@ -1,0 +1,83 @@
+<Assignment xmlns="http://schemas.datacontract.org/2004/07/Syn_OpenAI_AppLib.Data" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><AssignmentText>Titel: Class Library Assessment
+
+Doel: Het doel van deze opdracht is om een class library te maken die de functionaliteiten van verschillende API's samenbrengt. De student moet classes en methoden in Python ontwikkelen om de gegevens van de API's op te halen en te verwerken.
+
+Programmeertaal: Python
+
+Moeilijkheidsgraad: Moeilijk
+
+Benodigde bibliotheken:
+1. requests - voor het maken van HTTP-verzoeken. (Bron: https://docs.python-requests.org/en/master/)
+2. json - voor het verwerken van JSON-gegevens. (Bron: https://docs.python.org/3/library/json.html)
+
+Opdracht:
+1. Onderzoek en kies ten minste drie verschillende API's die je wilt integreren in je class library. Noteer de basis-URL en de vereiste parameters voor elk van hen. Voorbeeld: OpenWeatherMap (https://openweathermap.org/api), Google Maps (https://developers.google.com/maps/documentation/apis-overview) en Twitter (https://developer.twitter.com/en/docs).
+
+2. Creëer een basisklasse genaamd `APIWrapper` die de volgende methoden bevat:
+    - `__init__(self, base_url)`: Constructor die de basis-URL van de API accepteert.
+    - `get(self, endpoint, params)`: Maakt een GET-verzoek naar de opgegeven endpoint met de gegeven parameters en retourneert het JSON-antwoord.
+
+3. Creëer een subclass voor elke gekozen API, bijvoorbeeld `OpenWeatherMapAPI`, `GoogleMapsAPI`, `TwitterAPI`. Elke subclass moet de volgende bevatten:
+    - `__init__(self, api_key)`: Constructor die de API-sleutel accepteert en de constructor van de basisklasse aanroept met de juiste basis-URL.
+    - Specifieke methoden voor elk van de gewenste functionaliteiten van de API. Bijvoorbeeld: `get_weather(self, city)`, `get_coordinates(self, address)`, `get_tweets(self, hashtag)`.
+
+4. Implementeer de vereiste methoden voor elk van de gekozen API's en zorg ervoor dat de gegevens op de juiste manier worden opgehaald en verwerkt. Gebruik hiervoor de documentatie van de gekozen API's om te begrijpen hoe de verzoeken moeten worden gedaan en hoe de ontvangen gegevens moeten worden verwerkt.
+
+5. Schrijf testcode om de functionaliteit van de gecreëerde classes en methoden te verifiëren. Test elke API en zorg ervoor dat de juiste gegevens worden geretourneerd. Gebruik hiervoor unit testing technieken, bijvoorbeeld met behulp van de `unittest` bibliotheek in Python (Bron: https://docs.python.org/3/library/unittest.html).
+
+6. Documenteer je code met commentaar en zorg ervoor dat de classes en methoden correct zijn gestructureerd en georganiseerd. Gebruik in-code commentaar om de werking van de code en de logica achter de implementatie uit te leggen.
+
+Inleveren:
+Lever een ZIP-bestand in met de volgende bestanden:
+1. Een Python-bestand (.py) met de geïmplementeerde classes en methoden.
+2. Een tekstbestand (.txt) met uitleg over de gekozen API's, hun basis-URL's en vereiste parameters.
+3. Een testbestand (.py) met testcode om de functionaliteit van de gecreëerde classes en methoden te verifiëren.
+
+Referenties:
+1. Requests library: https://docs.python-requests.org/en/master/
+2. JSON library: https://docs.python.org/3/library/json.html
+3. OpenWeatherMap API: https://openweathermap.org/api
+4. Google Maps API: https://developers.google.com/maps/documentation/apis-overview
+5. Twitter API: https://developer.twitter.com/en/docs
+6. Unittest library: https://docs.python.org/3/library/unittest.html</AssignmentText><Config><Difficulty>Moeilijk</Difficulty><ExtraDescription> bitly, google docs en spreadsheets, google search, weerdata. classes en interfaces voor de apis dashboards. "</ExtraDescription><ID>55</ID><Language>PYTHON</Language><Reqs>"classes voor de apis </Reqs><Title>Class Library Assessment</Title></Config><ID>55</ID><RawResponseObj z:Id="i1" xmlns:a="http://schemas.datacontract.org/2004/07/Syn_OpenAI_CoreLib.Core.Models.Data" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/"><created xmlns="http://schemas.datacontract.org/2004/07/Syn_OpenAI_CoreLib.Data">1682888757</created><id xmlns="http://schemas.datacontract.org/2004/07/Syn_OpenAI_CoreLib.Data">chatcmpl-7B8WzsTclpGTDwZ0L38a4em1Ve3Kl</id><a:choices><a:API_AIResponse_ChoicesJSON><a:finish_reason>stop</a:finish_reason><a:index>0</a:index><a:message><a:content>Titel: Class Library Assessment
+
+Doel: Het doel van deze opdracht is om een class library te maken die de functionaliteiten van verschillende API's samenbrengt. De student moet classes en methoden in Python ontwikkelen om de gegevens van de API's op te halen en te verwerken.
+
+Programmeertaal: Python
+
+Moeilijkheidsgraad: Moeilijk
+
+Benodigde bibliotheken:
+1. requests - voor het maken van HTTP-verzoeken. (Bron: https://docs.python-requests.org/en/master/)
+2. json - voor het verwerken van JSON-gegevens. (Bron: https://docs.python.org/3/library/json.html)
+
+Opdracht:
+1. Onderzoek en kies ten minste drie verschillende API's die je wilt integreren in je class library. Noteer de basis-URL en de vereiste parameters voor elk van hen. Voorbeeld: OpenWeatherMap (https://openweathermap.org/api), Google Maps (https://developers.google.com/maps/documentation/apis-overview) en Twitter (https://developer.twitter.com/en/docs).
+
+2. Creëer een basisklasse genaamd `APIWrapper` die de volgende methoden bevat:
+    - `__init__(self, base_url)`: Constructor die de basis-URL van de API accepteert.
+    - `get(self, endpoint, params)`: Maakt een GET-verzoek naar de opgegeven endpoint met de gegeven parameters en retourneert het JSON-antwoord.
+
+3. Creëer een subclass voor elke gekozen API, bijvoorbeeld `OpenWeatherMapAPI`, `GoogleMapsAPI`, `TwitterAPI`. Elke subclass moet de volgende bevatten:
+    - `__init__(self, api_key)`: Constructor die de API-sleutel accepteert en de constructor van de basisklasse aanroept met de juiste basis-URL.
+    - Specifieke methoden voor elk van de gewenste functionaliteiten van de API. Bijvoorbeeld: `get_weather(self, city)`, `get_coordinates(self, address)`, `get_tweets(self, hashtag)`.
+
+4. Implementeer de vereiste methoden voor elk van de gekozen API's en zorg ervoor dat de gegevens op de juiste manier worden opgehaald en verwerkt. Gebruik hiervoor de documentatie van de gekozen API's om te begrijpen hoe de verzoeken moeten worden gedaan en hoe de ontvangen gegevens moeten worden verwerkt.
+
+5. Schrijf testcode om de functionaliteit van de gecreëerde classes en methoden te verifiëren. Test elke API en zorg ervoor dat de juiste gegevens worden geretourneerd. Gebruik hiervoor unit testing technieken, bijvoorbeeld met behulp van de `unittest` bibliotheek in Python (Bron: https://docs.python.org/3/library/unittest.html).
+
+6. Documenteer je code met commentaar en zorg ervoor dat de classes en methoden correct zijn gestructureerd en georganiseerd. Gebruik in-code commentaar om de werking van de code en de logica achter de implementatie uit te leggen.
+
+Inleveren:
+Lever een ZIP-bestand in met de volgende bestanden:
+1. Een Python-bestand (.py) met de geïmplementeerde classes en methoden.
+2. Een tekstbestand (.txt) met uitleg over de gekozen API's, hun basis-URL's en vereiste parameters.
+3. Een testbestand (.py) met testcode om de functionaliteit van de gecreëerde classes en methoden te verifiëren.
+
+Referenties:
+1. Requests library: https://docs.python-requests.org/en/master/
+2. JSON library: https://docs.python.org/3/library/json.html
+3. OpenWeatherMap API: https://openweathermap.org/api
+4. Google Maps API: https://developers.google.com/maps/documentation/apis-overview
+5. Twitter API: https://developer.twitter.com/en/docs
+6. Unittest library: https://docs.python.org/3/library/unittest.html</a:content><a:role>assistant</a:role></a:message></a:API_AIResponse_ChoicesJSON></a:choices><a:model>gpt-4-0314</a:model><a:object>chat.completion</a:object><a:usage><a:completion_tokens>912</a:completion_tokens><a:prompt_tokens>850</a:prompt_tokens><a:total_tokens>1762</a:total_tokens></a:usage></RawResponseObj></Assignment>

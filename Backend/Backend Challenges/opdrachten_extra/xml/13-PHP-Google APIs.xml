@@ -1,0 +1,53 @@
+<Assignment xmlns="http://schemas.datacontract.org/2004/07/Syn_OpenAI_AppLib.Data" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><AssignmentText>Opdracht: Google APIs
+Titel: Google APIs Integratie
+
+Doel: Het doel van deze opdracht is om Google APIs te integreren in een eenvoudige webapplicatie met behulp van PHP. De webapplicatie moet een eigen MySQL gebruikersdatabase hebben, aangepaste gebruikersgroepen voor samenwerking, fout- en API-interactie logging naar logbestanden en een dashboard voor beheer.
+
+Benodigdheden:
+1. XAMPP of een vergelijkbare lokale webserver om PHP en MySQL te draaien. Deze software is nodig om je PHP-script en MySQL-database lokaal te hosten voor ontwikkelingsdoeleinden. Download en installeer XAMPP via https://www.apachefriends.org/index.html.
+2. Google API Console (https://console.developers.google.com/) om een API-sleutel te verkrijgen. Dit is de plek waar je je webapplicatie registreert bij Google om toegang te krijgen tot de verschillende Google-services.
+3. PHP MySQLi-extensie om verbinding te maken met de MySQL-database. Deze extensie is ingebouwd in PHP en maakt het mogelijk om eenvoudig verbinding te maken en te werken met MySQL-databases. Documentatie: https://www.php.net/manual/en/book.mysqli.php
+4. Kennis van PHP, MySQL en het werken met Google APIs is essentieel om de opdracht succesvol te voltooien.
+
+Stappen:
+1. Installeer en configureer XAMPP of een vergelijkbare lokale webserver. Volg de instructies op https://www.apachefriends.org/index.html om XAMPP op je computer te installeren en te configureren.
+2. Maak een nieuwe MySQL-database en tabel voor gebruikers met de vereiste velden (bijv. id, naam, e-mail, wachtwoord, gebruikersgroep). Gebruik phpMyAdmin, een populair webgebaseerd beheersysteem voor MySQL, om je database en tabel te beheren.
+3. Maak een PHP-configuratiebestand om verbinding te maken met de MySQL-database met behulp van de MySQLi-extensie. Zorg ervoor dat je de juiste verbindingsgegevens gebruikt, zoals de databasehost, gebruikersnaam, wachtwoord en databasenaam.
+4. Registreer uw webapplicatie in de Google API Console en verkrijg een API-sleutel. Volg de instructies op https://console.developers.google.com/ om je webapplicatie te registreren en een API-sleutel te krijgen voor de gewenste Google-services, zoals Google Maps en Google Drive.
+5. Integreer Google APIs (zoals Google Maps, Google Drive, etc.) in uw webapplicatie met behulp van de API-sleutel. Gebruik de documentatie van elke API om te begrijpen hoe je deze kunt implementeren en gebruiken in je PHP-webapplicatie:
+   - Google Maps API-documentatie: https://developers.google.com/maps/documentation
+   - Google Drive API-documentatie: https://developers.google.com/drive/api/v3/about-sdk
+6. Implementeer gebruikersauthenticatie en autorisatie op basis van gebruikersgroepen. Zorg ervoor dat alleen geautoriseerde gebruikers toegang hebben tot bepaalde functionaliteiten op basis van hun gebruikersgroep (bijv. beheerders, medewerkers, etc.).
+7. Log fouten en API-interacties in logbestanden. Leg alle fouten en API-interacties vast in logbestanden, zodat je deze later kunt analyseren om eventuele problemen op te lossen of je webapplicatie te verbeteren.
+8. Maak een dashboard voor beheer, waar beheerders gebruikers kunnen toevoegen, bewerken en verwijderen, en logbestanden kunnen bekijken. Zorg voor een gebruiksvriendelijke interface waar beheerders eenvoudig gebruikers en logbestanden kunnen beheren.
+
+Einddoel:
+Aan het einde van deze opdracht moet u een functionele webapplicatie hebben met een MySQL-database voor gebruikers, geïntegreerde Google APIs, fout- en API-interactie logging en een dashboard voor beheer.
+
+Moeilijkheidsgraad: Makkelijk. Deze opdracht is bedoeld voor beginners die vertrouwd willen raken met het integreren van Google APIs in een eenvoudige PHP-webapplicatie.</AssignmentText><Config><Difficulty>Makkelijk</Difficulty><ExtraDescription>combineer de google docs, spreadsheets en search apis om geautomatiseerd webresultaten te vinden gebaseerd op keywords in docs en spreadsheets</ExtraDescription><ID>13</ID><Language>PHP</Language><Reqs>eigen MYSQL userdatabase, custom usergroepen voor samenwerking, error en api interactie logging naar logbestanden. Een dashboard voor beheer.</Reqs><Title>Google APIs</Title></Config><ID>13</ID><RawResponseObj z:Id="i1" xmlns:a="http://schemas.datacontract.org/2004/07/Syn_OpenAI_CoreLib.Core.Models.Data" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/"><created xmlns="http://schemas.datacontract.org/2004/07/Syn_OpenAI_CoreLib.Data">1682883518</created><id xmlns="http://schemas.datacontract.org/2004/07/Syn_OpenAI_CoreLib.Data">chatcmpl-7B7AU7c7rJppAszKVJrGjN2wvc6V6</id><a:choices><a:API_AIResponse_ChoicesJSON><a:finish_reason>stop</a:finish_reason><a:index>0</a:index><a:message><a:content>Opdracht: Google APIs
+Titel: Google APIs Integratie
+
+Doel: Het doel van deze opdracht is om Google APIs te integreren in een eenvoudige webapplicatie met behulp van PHP. De webapplicatie moet een eigen MySQL gebruikersdatabase hebben, aangepaste gebruikersgroepen voor samenwerking, fout- en API-interactie logging naar logbestanden en een dashboard voor beheer.
+
+Benodigdheden:
+1. XAMPP of een vergelijkbare lokale webserver om PHP en MySQL te draaien. Deze software is nodig om je PHP-script en MySQL-database lokaal te hosten voor ontwikkelingsdoeleinden. Download en installeer XAMPP via https://www.apachefriends.org/index.html.
+2. Google API Console (https://console.developers.google.com/) om een API-sleutel te verkrijgen. Dit is de plek waar je je webapplicatie registreert bij Google om toegang te krijgen tot de verschillende Google-services.
+3. PHP MySQLi-extensie om verbinding te maken met de MySQL-database. Deze extensie is ingebouwd in PHP en maakt het mogelijk om eenvoudig verbinding te maken en te werken met MySQL-databases. Documentatie: https://www.php.net/manual/en/book.mysqli.php
+4. Kennis van PHP, MySQL en het werken met Google APIs is essentieel om de opdracht succesvol te voltooien.
+
+Stappen:
+1. Installeer en configureer XAMPP of een vergelijkbare lokale webserver. Volg de instructies op https://www.apachefriends.org/index.html om XAMPP op je computer te installeren en te configureren.
+2. Maak een nieuwe MySQL-database en tabel voor gebruikers met de vereiste velden (bijv. id, naam, e-mail, wachtwoord, gebruikersgroep). Gebruik phpMyAdmin, een populair webgebaseerd beheersysteem voor MySQL, om je database en tabel te beheren.
+3. Maak een PHP-configuratiebestand om verbinding te maken met de MySQL-database met behulp van de MySQLi-extensie. Zorg ervoor dat je de juiste verbindingsgegevens gebruikt, zoals de databasehost, gebruikersnaam, wachtwoord en databasenaam.
+4. Registreer uw webapplicatie in de Google API Console en verkrijg een API-sleutel. Volg de instructies op https://console.developers.google.com/ om je webapplicatie te registreren en een API-sleutel te krijgen voor de gewenste Google-services, zoals Google Maps en Google Drive.
+5. Integreer Google APIs (zoals Google Maps, Google Drive, etc.) in uw webapplicatie met behulp van de API-sleutel. Gebruik de documentatie van elke API om te begrijpen hoe je deze kunt implementeren en gebruiken in je PHP-webapplicatie:
+   - Google Maps API-documentatie: https://developers.google.com/maps/documentation
+   - Google Drive API-documentatie: https://developers.google.com/drive/api/v3/about-sdk
+6. Implementeer gebruikersauthenticatie en autorisatie op basis van gebruikersgroepen. Zorg ervoor dat alleen geautoriseerde gebruikers toegang hebben tot bepaalde functionaliteiten op basis van hun gebruikersgroep (bijv. beheerders, medewerkers, etc.).
+7. Log fouten en API-interacties in logbestanden. Leg alle fouten en API-interacties vast in logbestanden, zodat je deze later kunt analyseren om eventuele problemen op te lossen of je webapplicatie te verbeteren.
+8. Maak een dashboard voor beheer, waar beheerders gebruikers kunnen toevoegen, bewerken en verwijderen, en logbestanden kunnen bekijken. Zorg voor een gebruiksvriendelijke interface waar beheerders eenvoudig gebruikers en logbestanden kunnen beheren.
+
+Einddoel:
+Aan het einde van deze opdracht moet u een functionele webapplicatie hebben met een MySQL-database voor gebruikers, geïntegreerde Google APIs, fout- en API-interactie logging en een dashboard voor beheer.
+
+Moeilijkheidsgraad: Makkelijk. Deze opdracht is bedoeld voor beginners die vertrouwd willen raken met het integreren van Google APIs in een eenvoudige PHP-webapplicatie.</a:content><a:role>assistant</a:role></a:message></a:API_AIResponse_ChoicesJSON></a:choices><a:model>gpt-4-0314</a:model><a:object>chat.completion</a:object><a:usage><a:completion_tokens>1016</a:completion_tokens><a:prompt_tokens>767</a:prompt_tokens><a:total_tokens>1783</a:total_tokens></a:usage></RawResponseObj></Assignment>

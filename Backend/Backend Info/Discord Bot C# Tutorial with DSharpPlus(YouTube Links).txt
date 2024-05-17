@@ -1,0 +1,71 @@
+C# Discord Bot Tutorial (DSharpPlus)
+MORE VIDEOS MIGHT BE UPLOADED IN THE FURTURE
+Date: 19 jan 2023 - 11 apr 2023
+
+Programs used:
+Visual Studio 2022
+
+Channel:
+https://www.youtube.com/@samjesus8
+
+Playlist:
+https://www.youtube.com/watch?v=YjqoAhtSZU0&list=PLcpUxmcrEm_Bn4K-kcE9ebsQPvNcR8KZx
+
+Videos:
+Uploaded: 19 jan 2023
+MAKING A DISCORD BOT IN C# | #1 - SETTING UP THE BOT
+https://www.youtube.com/watch?v=YjqoAhtSZU0
+
+Uploaded: 13 mrt 2023
+C# DISCORD BOT | HOW TO FIX "After parsing a value an unexpected character was encountered"
+https://www.youtube.com/watch?v=PCXnyZCWm6g
+
+Uploaded: 22 jan 2023
+MAKING A DISCORD BOT IN C# | #2 - MAKING OUR VERY FIRST COMMAND
+https://www.youtube.com/watch?v=B7pw_lNtuGE
+
+Uploaded: 27 jan 2023
+MAKING A DISCORD BOT IN C# | #3 - DISCORD EMBED MESSAGES & CREATING A CARD GAME
+https://www.youtube.com/watch?v=xKV5MZIFu70
+
+Uploaded: 31 jan 2023
+MAKING A DISCORD BOT IN C# | #4 - USER INTERACTIVITY & CREATING A POLL COMMAND
+https://www.youtube.com/watch?v=c4xFcd_tZeQ
+
+Uploaded: 5 feb 2023
+MAKING A DISCORD BOT IN C# | #5 - IMPLEMENTING COOLDOWNS & THE ERROR HANDLER
+https://www.youtube.com/watch?v=qsNYXUzkwmw
+
+Uploaded: 9 feb 2023
+MAKING A DISCORD BOT IN C# | #6 - MAKING SLASH COMMANDS
+https://www.youtube.com/watch?v=Nb0TdjZP0WI
+
+Uploaded: 20 feb 2023
+MAKING A DISCORD BOT IN C# | #7 - DISCORD BUTTONS & MAKING A HELP COMMAND
+https://www.youtube.com/watch?v=ydKiWDMIrZU
+
+Uploaded: 3 mrt 2023
+MAKING A DISCORD BOT IN C# | #8 - HOSTING THE BOT ON A VPS
+https://www.youtube.com/watch?v=gPs0V1Fs2R8
+
+Uploaded: 14 mrt 2023
+MAKING A DISCORD BOT IN C# | #9 - MODERATION (+ More Tips on Slash Commands)
+https://www.youtube.com/watch?v=p50rWerZfVQ
+
+Uploaded: 28 mrt 2023
+C# DISCORD BOT | #10 - ANSWERING YOUR QUESTIONS AGAIN!!!! (Part 1 of 2)
+https://www.youtube.com/watch?v=D5NrN7fy3no
+
+Uploaded: 29 mrt 2023
+C# DISCORD BOT | #11 - QUESTIONS + CHATGPT IN A C# DISCORD BOT (Part 2 of 2)
+https://www.youtube.com/watch?v=b-zAea36K1o
+
+Uploaded: 9 apr 2023
+MAKING A DISCORD BOT IN C# | #12 - MAKING A PROFILE SYSTEM
+https://www.youtube.com/watch?v=KitKK_yZyCU
+
+Uploaded: 11 apr 2023
+MAKING A DISCORD BOT IN C# | #13 - OPTIMISING OUR BOT CODE (D# + I hope you're happy)
+https://www.youtube.com/watch?v=qqXYhBI-WKE
+
+MORE VIDEOS MIGHT BE UPLOADED IN THE FURTURE

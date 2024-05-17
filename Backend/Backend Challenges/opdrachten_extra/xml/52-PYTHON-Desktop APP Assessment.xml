@@ -1,0 +1,83 @@
+<Assignment xmlns="http://schemas.datacontract.org/2004/07/Syn_OpenAI_AppLib.Data" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><AssignmentText>Opdracht: Desktop APP Assessment - Class Libraries Beheer
+
+Doel: Ontwikkel een desktopapplicatie met een gebruikersinterface om class libraries te beheren, met behulp van Python en het Tkinter-framework.
+
+Moeilijkheidsgraad: Moeilijk
+
+Benodigde kennis:
+- Python (https://www.python.org/doc/)
+- Tkinter (https://docs.python.org/3/library/tkinter.html)
+
+Beschrijving:
+
+1. Creëer een hoofdvenster voor de applicatie met behulp van Tkinter. Het venster moet een titel, een menu en een statusbalk bevatten. Zorg ervoor dat het venster ook kan worden gesloten en vergroot/verkleind.
+
+2. Ontwerp een menu met de volgende opties:
+   - Bestand: Nieuw, Openen, Opslaan, Opslaan als, Sluiten
+   - Bewerken: Kopiëren, Plakken, Ongedaan maken, Opnieuw uitvoeren
+   - Beeld: In- en uitzoomen, Venster herstellen
+   - Help: Over, Help
+
+3. Ontwikkel een gebruikersinterface voor het beheren van class libraries. Gebruik hiervoor een Treeview-widget (https://docs.python.org/3/library/tkinter.ttk.html#treeview) om de hiërarchische lijst met classes, methoden en eigenschappen weer te geven.
+
+4. Voeg functionaliteit toe voor het toevoegen, verwijderen en hernoemen van classes, methoden en eigenschappen met behulp van contextmenu's en dialoogvensters.
+
+5. Implementeer functionaliteit voor het tonen en bewerken van de code van de geselecteerde methode of eigenschap in een apart Code-editor-venster.
+
+6. Integreer functionaliteit voor het exporteren van de class library naar een XML- of JSON-bestand.
+
+7. Integreer functionaliteit voor het importeren van een class library vanuit een XML- of JSON-bestand.
+
+8. Creëer een dialoogvenster voor de optie "Over" in het menu Help. Dit venster moet informatie over de applicatie, de versie, de licentie en de ontwikkelaar bevatten.
+
+9. Implementeer foutafhandeling en validatie voor alle invoer en acties van de gebruiker, inclusief het afvangen van uitzonderingen en het tonen van foutmeldingen.
+
+Instructies voor de student:
+
+1. Bestudeer de documentatie van Python en Tkinter om een goed begrip van de programmeertaal en het framework te krijgen.
+2. Plan en schets de gebruikersinterface op papier of met behulp van een grafisch programma, zodat je een duidelijk beeld hebt van hoe de applicatie eruit moet zien.
+3. Volg de beschrijving van de opdracht en implementeer de functionaliteit stap voor stap, waarbij je regelmatig controleert of de applicatie naar behoren werkt.
+4. Test de applicatie uitvoerig om ervoor te zorgen dat alle functies correct werken, dat er geen fouten optreden en dat de gebruikerservaring vloeiend en intuïtief is.
+
+Succes met de opdracht!</AssignmentText><Config><Difficulty>Moeilijk</Difficulty><ExtraDescription> classlibraries voor de apis </ExtraDescription><ID>52</ID><Language>PYTHON</Language><Reqs>"Userinterface voor de classlibraries </Reqs><Title>Desktop APP Assessment</Title></Config><ID>52</ID><RawResponseObj z:Id="i1" xmlns:a="http://schemas.datacontract.org/2004/07/Syn_OpenAI_CoreLib.Core.Models.Data" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/"><created xmlns="http://schemas.datacontract.org/2004/07/Syn_OpenAI_CoreLib.Data">1682888389</created><id xmlns="http://schemas.datacontract.org/2004/07/Syn_OpenAI_CoreLib.Data">chatcmpl-7B8R3nJiUXWTaztyxTsO3EItSbUqg</id><a:choices><a:API_AIResponse_ChoicesJSON><a:finish_reason>stop</a:finish_reason><a:index>0</a:index><a:message><a:content>Opdracht: Desktop APP Assessment - Class Libraries Beheer
+
+Doel: Ontwikkel een desktopapplicatie met een gebruikersinterface om class libraries te beheren, met behulp van Python en het Tkinter-framework.
+
+Moeilijkheidsgraad: Moeilijk
+
+Benodigde kennis:
+- Python (https://www.python.org/doc/)
+- Tkinter (https://docs.python.org/3/library/tkinter.html)
+
+Beschrijving:
+
+1. Creëer een hoofdvenster voor de applicatie met behulp van Tkinter. Het venster moet een titel, een menu en een statusbalk bevatten. Zorg ervoor dat het venster ook kan worden gesloten en vergroot/verkleind.
+
+2. Ontwerp een menu met de volgende opties:
+   - Bestand: Nieuw, Openen, Opslaan, Opslaan als, Sluiten
+   - Bewerken: Kopiëren, Plakken, Ongedaan maken, Opnieuw uitvoeren
+   - Beeld: In- en uitzoomen, Venster herstellen
+   - Help: Over, Help
+
+3. Ontwikkel een gebruikersinterface voor het beheren van class libraries. Gebruik hiervoor een Treeview-widget (https://docs.python.org/3/library/tkinter.ttk.html#treeview) om de hiërarchische lijst met classes, methoden en eigenschappen weer te geven.
+
+4. Voeg functionaliteit toe voor het toevoegen, verwijderen en hernoemen van classes, methoden en eigenschappen met behulp van contextmenu's en dialoogvensters.
+
+5. Implementeer functionaliteit voor het tonen en bewerken van de code van de geselecteerde methode of eigenschap in een apart Code-editor-venster.
+
+6. Integreer functionaliteit voor het exporteren van de class library naar een XML- of JSON-bestand.
+
+7. Integreer functionaliteit voor het importeren van een class library vanuit een XML- of JSON-bestand.
+
+8. Creëer een dialoogvenster voor de optie "Over" in het menu Help. Dit venster moet informatie over de applicatie, de versie, de licentie en de ontwikkelaar bevatten.
+
+9. Implementeer foutafhandeling en validatie voor alle invoer en acties van de gebruiker, inclusief het afvangen van uitzonderingen en het tonen van foutmeldingen.
+
+Instructies voor de student:
+
+1. Bestudeer de documentatie van Python en Tkinter om een goed begrip van de programmeertaal en het framework te krijgen.
+2. Plan en schets de gebruikersinterface op papier of met behulp van een grafisch programma, zodat je een duidelijk beeld hebt van hoe de applicatie eruit moet zien.
+3. Volg de beschrijving van de opdracht en implementeer de functionaliteit stap voor stap, waarbij je regelmatig controleert of de applicatie naar behoren werkt.
+4. Test de applicatie uitvoerig om ervoor te zorgen dat alle functies correct werken, dat er geen fouten optreden en dat de gebruikerservaring vloeiend en intuïtief is.
+
+Succes met de opdracht!</a:content><a:role>assistant</a:role></a:message></a:API_AIResponse_ChoicesJSON></a:choices><a:model>gpt-4-0314</a:model><a:object>chat.completion</a:object><a:usage><a:completion_tokens>732</a:completion_tokens><a:prompt_tokens>678</a:prompt_tokens><a:total_tokens>1410</a:total_tokens></a:usage></RawResponseObj></Assignment>

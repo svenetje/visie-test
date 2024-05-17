@@ -1,0 +1,44 @@
+﻿Quick Details
+Opdracht ID : 64
+Opdracht titel : CSV and JSON DATA processing
+Opdracht Programmeertalen en/of tech : PHP
+Opdracht (geschatte) moeilijkheidsgraad : Makkelijk
+Opdracht Eisen : een CSV of JSON bestand inladen en wegschrijven
+Opdracht Extra Omschrijving : 
+Opdracht: CSV en JSON gegevensverwerking
+Doel: Een CSV- of JSON-bestand inladen en wegschrijven
+Programmeertaal: PHP
+Moeilijkheidsgraad: Makkelijk
+
+Beschrijving:
+In deze opdracht ga je werken met het inladen en wegschrijven van gegevens uit een CSV- of JSON-bestand
+Je zult een PHP-script maken dat de gegevens uit een bestand inleest, manipuleert en opslaat in een nieuw bestand
+Dit helpt je om te leren hoe je met verschillende gegevensformaten kunt werken en deze kunt verwerken met PHP.
+
+Stappen:
+1
+Kies of je met een CSV- of JSON-bestand wilt werken
+CSV-bestanden zijn eenvoudiger en meer gestructureerd, terwijl JSON-bestanden flexibeler zijn in termen van gegevensstructuur.
+2
+Maak een voorbeeldbestand met gegevens (minimaal 5 rijen met 3 kolommen) in het gekozen formaat
+Zorg ervoor dat de gegevens representatief zijn voor het soort gegevens dat je in een echt project zou kunnen tegenkomen.
+3
+Schrijf een PHP-script dat het voorbeeldbestand inleest en de gegevens opslaat in een geschikte datastructuur (bijvoorbeeld een array)
+Zorg ervoor dat je script fouten kan afhandelen, zoals een onleesbaar bestand of ongeldige gegevens.
+4
+Manipuleer de gegevens, bijvoorbeeld door een kolom toe te voegen, een rij te verwijderen of de gegevens te sorteren
+Probeer verschillende operaties uit om te zien hoe je de gegevens kunt transformeren en analyseren.
+5
+Schrijf een PHP-script dat de aangepaste gegevens opslaat in een nieuw bestand in hetzelfde formaat (CSV of JSON)
+Zorg ervoor dat het nieuwe bestand correct wordt opgeslagen en geen fouten of inconsistenties bevat.
+6
+Test je script en controleer of de gegevens correct worden in- en uitgeladen
+Voer verschillende tests uit om te controleren of je script robuust is en goed werkt onder verschillende omstandigheden.
+
+Tips:
+- Gebruik `fopen()` en `fclose()` om bestanden te openen en te sluiten, respectievelijk: https://www.php.net/manual/en/function.fopen.php, https://www.php.net/manual/en/function.fclose.php
+- Gebruik `fgets()` om regels uit een bestand te lezen: https://www.php.net/manual/en/function.fgets.php
+- Gebruik `file_put_contents()` om de inhoud van een bestand te vervangen: https://www.php.net/manual/en/function.file-put-contents.php
+- Raadpleeg de PHP-handleiding voor meer informatie over het werken met bestanden: https://www.php.net/manual/en/book.filesystem.php
+
+Succes met de opdracht!

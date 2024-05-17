@@ -1,0 +1,77 @@
+<Assignment xmlns="http://schemas.datacontract.org/2004/07/Syn_OpenAI_AppLib.Data" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><AssignmentText>Opdracht: Security Standards
+
+Doel: Ontwikkel een Python-programma dat veiligheidsnormen implementeert voor het beheren van geheugen, sockets, verbindingen, databestanden en encryptie. Het uiteindelijke doel is om een veilige communicatie tussen een client en server tot stand te brengen en gevoelige gegevens te beschermen.
+
+Programmeertaal: Python
+
+Moeilijkheidsgraad: Moeilijk
+
+Benodigdheden:
+1. Python 3.x geïnstalleerd
+2. Kennis van Python-programmering
+3. Basiskennis van netwerkcommunicatie en beveiligingsprincipes
+
+Instructies:
+
+1. Schrijf een Python-programma dat de volgende taken uitvoert:
+   a. Maak een socket-verbinding met een externe server met behulp van de socket-module.
+   b. Verzend en ontvang gegevens via de socket-verbinding met de juiste foutafhandeling.
+   c. Sla de ontvangen gegevens op in een databestand met behulp van de os-module.
+   d. Implementeer encryptie en decryptie voor de verzonden en ontvangen gegevens met behulp van de cryptography-module.
+
+2. Gebruik de volgende Python-bibliotheken en modules om de opdracht te voltooien:
+   a. socket - voor het maken en beheren van socketverbindingen.
+   b. os - voor het beheren van geheugen en bestanden.
+   c. cryptography - voor het implementeren van encryptie en decryptie.
+
+3. Implementeer de volgende beveiligingsmaatregelen:
+   a. Gebruik 'try' en 'except' blokken om fouten af ​​te handelen en gevoelige informatie te beschermen.
+   b. Wissen van gevoelige gegevens uit het geheugen na gebruik om te voorkomen dat het wordt blootgesteld (bijv. met os.urandom()).
+   c. Versleutel gegevens die via de socket-verbinding worden verzonden en ontvangen met behulp van symmetrische of asymmetrische encryptietechnieken.
+   d. Implementeer een beveiligde manier om het encryptiesleutel te delen tussen de server en de client, zoals het Diffie-Hellman sleuteluitwisselingsprotocol.
+
+Bronnen:
+1. Python socket programming: https://docs.python.org/3/library/socket.html
+2. Python os module: https://docs.python.org/3/library/os.html
+3. Python cryptography: https://cryptography.io/en/latest/
+4. Diffie-Hellman sleuteluitwisseling: https://nl.wikipedia.org/wiki/Diffie-Hellman-sleuteluitwisseling
+
+Succes met de opdracht! Vergeet niet om de bronnen te raadplegen en te experimenteren met de verschillende functies om je kennis van Python en beveiliging uit te breiden. Zorg ervoor dat je de code regelmatig test om fouten te identificeren en op te lossen.</AssignmentText><Config><Difficulty>Moeilijk</Difficulty><ExtraDescription/><ID>42</ID><Language>PYTHON</Language><Reqs>Memory, sockets, connecties, data bestanden en encrypties</Reqs><Title>Security Standards</Title></Config><ID>42</ID><RawResponseObj z:Id="i1" xmlns:a="http://schemas.datacontract.org/2004/07/Syn_OpenAI_CoreLib.Core.Models.Data" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/"><created xmlns="http://schemas.datacontract.org/2004/07/Syn_OpenAI_CoreLib.Data">1682887663</created><id xmlns="http://schemas.datacontract.org/2004/07/Syn_OpenAI_CoreLib.Data">chatcmpl-7B8FLXVYUoCTCR6xqUp2d8IYihkLe</id><a:choices><a:API_AIResponse_ChoicesJSON><a:finish_reason>stop</a:finish_reason><a:index>0</a:index><a:message><a:content>Opdracht: Security Standards
+
+Doel: Ontwikkel een Python-programma dat veiligheidsnormen implementeert voor het beheren van geheugen, sockets, verbindingen, databestanden en encryptie. Het uiteindelijke doel is om een veilige communicatie tussen een client en server tot stand te brengen en gevoelige gegevens te beschermen.
+
+Programmeertaal: Python
+
+Moeilijkheidsgraad: Moeilijk
+
+Benodigdheden:
+1. Python 3.x geïnstalleerd
+2. Kennis van Python-programmering
+3. Basiskennis van netwerkcommunicatie en beveiligingsprincipes
+
+Instructies:
+
+1. Schrijf een Python-programma dat de volgende taken uitvoert:
+   a. Maak een socket-verbinding met een externe server met behulp van de socket-module.
+   b. Verzend en ontvang gegevens via de socket-verbinding met de juiste foutafhandeling.
+   c. Sla de ontvangen gegevens op in een databestand met behulp van de os-module.
+   d. Implementeer encryptie en decryptie voor de verzonden en ontvangen gegevens met behulp van de cryptography-module.
+
+2. Gebruik de volgende Python-bibliotheken en modules om de opdracht te voltooien:
+   a. socket - voor het maken en beheren van socketverbindingen.
+   b. os - voor het beheren van geheugen en bestanden.
+   c. cryptography - voor het implementeren van encryptie en decryptie.
+
+3. Implementeer de volgende beveiligingsmaatregelen:
+   a. Gebruik 'try' en 'except' blokken om fouten af ​​te handelen en gevoelige informatie te beschermen.
+   b. Wissen van gevoelige gegevens uit het geheugen na gebruik om te voorkomen dat het wordt blootgesteld (bijv. met os.urandom()).
+   c. Versleutel gegevens die via de socket-verbinding worden verzonden en ontvangen met behulp van symmetrische of asymmetrische encryptietechnieken.
+   d. Implementeer een beveiligde manier om het encryptiesleutel te delen tussen de server en de client, zoals het Diffie-Hellman sleuteluitwisselingsprotocol.
+
+Bronnen:
+1. Python socket programming: https://docs.python.org/3/library/socket.html
+2. Python os module: https://docs.python.org/3/library/os.html
+3. Python cryptography: https://cryptography.io/en/latest/
+4. Diffie-Hellman sleuteluitwisseling: https://nl.wikipedia.org/wiki/Diffie-Hellman-sleuteluitwisseling
+
+Succes met de opdracht! Vergeet niet om de bronnen te raadplegen en te experimenteren met de verschillende functies om je kennis van Python en beveiliging uit te breiden. Zorg ervoor dat je de code regelmatig test om fouten te identificeren en op te lossen.</a:content><a:role>assistant</a:role></a:message></a:API_AIResponse_ChoicesJSON></a:choices><a:model>gpt-4-0314</a:model><a:object>chat.completion</a:object><a:usage><a:completion_tokens>693</a:completion_tokens><a:prompt_tokens>680</a:prompt_tokens><a:total_tokens>1373</a:total_tokens></a:usage></RawResponseObj></Assignment>

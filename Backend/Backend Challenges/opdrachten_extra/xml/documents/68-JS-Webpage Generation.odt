@@ -1,0 +1,63 @@
+﻿Quick Details
+Opdracht ID : 68
+Opdracht titel : Webpage Generation
+Opdracht Programmeertalen en/of tech : JS
+Opdracht (geschatte) moeilijkheidsgraad : Gemiddeld
+Opdracht Eisen : HTML CSS en JS generation door middel van snippits en keywords
+Opdracht Extra Omschrijving : 
+Titel: Webpagina Generatie
+
+Doel: Maak een webpagina die HTML, CSS en JS code kan genereren op basis van snippets en trefwoorden.
+
+Programmeertaal: JavaScript
+
+Moeilijkheidsgraad: Gemiddeld
+
+Benodigdheden:
+1
+Basis kennis van HTML, CSS en JavaScript
+2
+Code-editor (zoals Visual Studio Code of Sublime Text)
+3
+Webbrowser (zoals Google Chrome of Firefox)
+
+In deze opdracht ga je een webpagina maken die stukjes code (snippets) kan genereren op basis van door de gebruiker ingevoerde trefwoorden
+Deze stukjes code zullen HTML, CSS en JS elementen bevatten
+De uitdaging zit in het correct implementeren van de JavaScript logica om de juiste code te genereren en weer te geven.
+
+Opdracht:
+1
+Maak een HTML-bestand met de basisstructuur van een webpagina
+Voeg een invoerveld (input) en een knop (button) toe
+De gebruiker moet trefwoorden kunnen invoeren in het invoerveld en op de knop klikken om de code te genereren
+Gebruik de gegeven HTML-code als uitgangspunt.
+
+2
+Maak een JavaScript-bestand (bijv
+script.js) waarin u de logica voor het genereren van de code implementeert
+Gebruik een object met trefwoorden als sleutels en code snippets als waarden
+Wanneer de gebruiker op de knop klikt, moet het script de trefwoorden uit het invoerveld halen, de bijbehorende snippets opzoeken en de gegenereerde code weergeven
+Gebruik de gegeven JavaScript-code als uitgangspunt.
+
+3
+Test uw webpagina in een browser
+Voer enkele trefwoorden in het invoerveld in, klik op de knop en controleer of de juiste code wordt gegenereerd
+Controleer of de gegenereerde code correct is en overeenkomt met de ingevoerde trefwoorden.
+
+4
+Voeg meer snippets en trefwoorden toe aan het JavaScript-bestand om de functionaliteit van uw webpagina uit te breiden
+Denk hierbij aan het toevoegen van meer HTML-elementen, CSS-stijlen en JavaScript-functies
+Probeer variatie aan te brengen in de snippets, zodat de gebruiker een breed scala aan code kan genereren.
+
+5
+(Optioneel) Voeg wat CSS toe om de webpagina stijl te geven
+Geef bijvoorbeeld kleur en typografie aan de titel, invoerveld, knop en gegenereerde code
+Dit zal de gebruikservaring van de webpagina verbeteren.
+
+Bronnen:
+1
+HTML Basics: https://www.w3schools.com/html/html_basic.asp
+2
+CSS Basics: https://www.w3schools.com/css/css_intro.asp
+3
+JavaScript Basics: https://www.w3schools.com/js/js_intro.asp

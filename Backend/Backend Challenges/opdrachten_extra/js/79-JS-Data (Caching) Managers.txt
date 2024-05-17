@@ -1,0 +1,79 @@
+﻿Quick Details
+Opdracht ID : 79
+Opdracht titel : Data (Caching) Managers
+Opdracht Programmeertalen en/of tech : JS
+Opdracht (geschatte) moeilijkheidsgraad : Gemiddeld
+Opdracht Eisen : Object Oriented
+Opdracht Extra Omschrijving : 
+Opdracht: Data (Caching) Managers
+Vereisten: Objectgeoriënteerd
+Programmeertaal: JavaScript
+Moeilijkheidsgraad: Gemiddeld
+
+Doel:
+In deze opdracht ga je een Data Manager in JavaScript ontwikkelen die gebruik maakt van objectgeoriënteerde concepten
+De Data Manager is verantwoordelijk voor het ophalen, opslaan en cachen van gegevens uit een externe API.
+
+Uitgebreide opdrachtbeschrijving:
+
+1
+Maak een Data Manager klasse met de volgende methoden:
+   
+fetchData(url): Deze methode haalt gegevens op van een externe API via de opgegeven URL en slaat ze op in een cache
+Gebruik de Fetch API om de gegevens op te halen: https://developer.mozilla.org/nl/docs/Web/API/Fetch_API/Using_Fetch
+   
+getData(url): Deze methode geeft de opgeslagen gegevens terug vanuit de cache op basis van de opgegeven URL
+Als de gegevens niet beschikbaar zijn in de cache, haalt de methode de gegevens op van de externe API met behulp van fetchData(url) en slaat ze op in de cache.
+   
+clearCache(): Deze methode verwijdert alle opgeslagen gegevens uit de cache.
+
+2
+Gebruik Promises of async/await om asynchrone operaties te verwerken
+Raadpleeg de documentatie over Promises: https://developer.mozilla.org/nl/docs/Web/JavaScript/Reference/Global_Objects/Promise en async/await: https://developer.mozilla.org/nl/docs/Web/JavaScript/Reference/Statements/async_function
+
+3
+Beheer de cache met een object of een Map
+Sla voor elke URL de gegevens op samen met een timestamp om het tijdstip van de gegevensopslag bij te houden
+Leer meer over het Map object: https://developer.mozilla.org/nl/docs/Web/JavaScript/Reference/Global_Objects/Map
+
+4
+Voeg een time-to-live (TTL) parameter toe aan de klasse om de cache te laten verlopen na een bepaalde periode
+Wanneer de cache is verlopen, moet de klasse de gegevens opnieuw ophalen van de externe API.
+
+Om een goed begrip te krijgen van objectgeoriënteerde programmering in JavaScript, raadpleeg de documentatie: https://developer.mozilla.org/nl/docs/Web/JavaScript/Guide/Working_with_Objects
+
+Voorbeeld van het eindresultaat:
+
+```javascript
+class DataManager {
+    constructor(ttl) {
+        // ...
+    }
+
+    async fetchData(url) {
+        // ...
+    }
+
+    async getData(url) {
+        // ...
+    }
+
+    clearCache() {
+        // ...
+    }
+}
+```
+
+Stappen die de student moet volgen:
+1
+Bestudeer de genoemde bronnen om de vereiste concepten te begrijpen.
+2
+Begin met het bouwen van de DataManager klasse en implementeer de constructor met de TTL-parameter.
+3
+Implementeer de fetchData, getData en clearCache methoden met behulp van de bovenstaande beschrijvingen.
+4
+Test de functionaliteit van de DataManager klasse met een externe API om ervoor te zorgen dat het correct gegevens ophaalt, opslaat en in de cache bewaart.
+5
+Zorg ervoor dat de TTL-functionaliteit correct werkt en de cache laat verlopen na de opgegeven tijd.
+
+Succes met het voltooien van deze opdracht!

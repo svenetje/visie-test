@@ -1,0 +1,49 @@
+<Assignment xmlns="http://schemas.datacontract.org/2004/07/Syn_OpenAI_AppLib.Data" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><AssignmentText>For this assignment, you will be creating a template for an account profile page using HTML and CSS. Your design must incorporate FLEX and/or GRID design patterns, css classes and ids.
+
+To get started, you will need to create an HTML file that includes the necessary elements for your account profile page. This may include a header, navigation, main content area, and a footer.
+
+Within the main content area, you will need to create sections for the account and profile details. These sections should be organized using the FLEX and/or GRID design patterns, and should include appropriate css classes and ids to style the layout and content.
+
+Some examples of the types of account and profile details you may want to include are:
+
+- User name
+- Profile picture
+- Contact information (email, phone number, etc.)
+- Bio or description
+- Social media links
+
+Be sure to use appropriate HTML tags (such as &lt;div&gt;, &lt;h1&gt;, &lt;p&gt;, etc.) to structure your content and make it accessible.
+
+In terms of styling, you can use CSS to customize the look and feel of your template. This may include setting background colors, font styles, padding and margins, and other visual elements. Again, be sure to use appropriate css classes and ids to target specific elements and apply styling.
+
+To help you get started, here are some resources you may find helpful:
+
+- A tutorial on using FLEX and GRID design patterns in CSS: https://www.w3schools.com/css/css_grid.asp
+- A guide to HTML tags: https://www.w3schools.com/tags/default.asp
+- A collection of CSS properties and values: https://www.w3schools.com/cssref/default.asp
+
+Once you have completed your template, be sure to test it in different browsers and on different devices to ensure that it looks and works as expected.</AssignmentText><Config><Difficulty>Makkelijk</Difficulty><ExtraDescription/><ID>2</ID><Language>HTML en CSS</Language><Reqs>Template voor een account profiel pagina met account en profiel details, FLEX en/of GRID design patterns, css classes en ids</Reqs><Title>Account Profiel pagina</Title></Config><ID>2</ID><RawResponseObj z:Id="i1" xmlns:a="http://schemas.datacontract.org/2004/07/Syn_OpenAI_CoreLib.Core.Models.Data" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/"><created xmlns="http://schemas.datacontract.org/2004/07/Syn_OpenAI_CoreLib.Data">1682814989</created><id xmlns="http://schemas.datacontract.org/2004/07/Syn_OpenAI_CoreLib.Data">chatcmpl-7ApLBBJEoJz23M1y3u0wxOIJYrXe7</id><a:choices><a:API_AIResponse_ChoicesJSON><a:finish_reason>stop</a:finish_reason><a:index>0</a:index><a:message><a:content>For this assignment, you will be creating a template for an account profile page using HTML and CSS. Your design must incorporate FLEX and/or GRID design patterns, css classes and ids.
+
+To get started, you will need to create an HTML file that includes the necessary elements for your account profile page. This may include a header, navigation, main content area, and a footer.
+
+Within the main content area, you will need to create sections for the account and profile details. These sections should be organized using the FLEX and/or GRID design patterns, and should include appropriate css classes and ids to style the layout and content.
+
+Some examples of the types of account and profile details you may want to include are:
+
+- User name
+- Profile picture
+- Contact information (email, phone number, etc.)
+- Bio or description
+- Social media links
+
+Be sure to use appropriate HTML tags (such as &lt;div&gt;, &lt;h1&gt;, &lt;p&gt;, etc.) to structure your content and make it accessible.
+
+In terms of styling, you can use CSS to customize the look and feel of your template. This may include setting background colors, font styles, padding and margins, and other visual elements. Again, be sure to use appropriate css classes and ids to target specific elements and apply styling.
+
+To help you get started, here are some resources you may find helpful:
+
+- A tutorial on using FLEX and GRID design patterns in CSS: https://www.w3schools.com/css/css_grid.asp
+- A guide to HTML tags: https://www.w3schools.com/tags/default.asp
+- A collection of CSS properties and values: https://www.w3schools.com/cssref/default.asp
+
+Once you have completed your template, be sure to test it in different browsers and on different devices to ensure that it looks and works as expected.</a:content><a:role>assistant</a:role></a:message></a:API_AIResponse_ChoicesJSON></a:choices><a:model>gpt-3.5-turbo-0301</a:model><a:object>chat.completion</a:object><a:usage><a:completion_tokens>368</a:completion_tokens><a:prompt_tokens>141</a:prompt_tokens><a:total_tokens>509</a:total_tokens></a:usage></RawResponseObj></Assignment>

@@ -1,0 +1,45 @@
+<Assignment xmlns="http://schemas.datacontract.org/2004/07/Syn_OpenAI_AppLib.Data" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><AssignmentText>Opdracht: CSV en JSON gegevensverwerking
+Doel: Een CSV- of JSON-bestand inladen en wegschrijven
+Programmeertaal: PHP
+Moeilijkheidsgraad: Makkelijk
+
+Beschrijving:
+In deze opdracht ga je werken met het inladen en wegschrijven van gegevens uit een CSV- of JSON-bestand. Je zult een PHP-script maken dat de gegevens uit een bestand inleest, manipuleert en opslaat in een nieuw bestand. Dit helpt je om te leren hoe je met verschillende gegevensformaten kunt werken en deze kunt verwerken met PHP.
+
+Stappen:
+1. Kies of je met een CSV- of JSON-bestand wilt werken. CSV-bestanden zijn eenvoudiger en meer gestructureerd, terwijl JSON-bestanden flexibeler zijn in termen van gegevensstructuur.
+2. Maak een voorbeeldbestand met gegevens (minimaal 5 rijen met 3 kolommen) in het gekozen formaat. Zorg ervoor dat de gegevens representatief zijn voor het soort gegevens dat je in een echt project zou kunnen tegenkomen.
+3. Schrijf een PHP-script dat het voorbeeldbestand inleest en de gegevens opslaat in een geschikte datastructuur (bijvoorbeeld een array). Zorg ervoor dat je script fouten kan afhandelen, zoals een onleesbaar bestand of ongeldige gegevens.
+4. Manipuleer de gegevens, bijvoorbeeld door een kolom toe te voegen, een rij te verwijderen of de gegevens te sorteren. Probeer verschillende operaties uit om te zien hoe je de gegevens kunt transformeren en analyseren.
+5. Schrijf een PHP-script dat de aangepaste gegevens opslaat in een nieuw bestand in hetzelfde formaat (CSV of JSON). Zorg ervoor dat het nieuwe bestand correct wordt opgeslagen en geen fouten of inconsistenties bevat.
+6. Test je script en controleer of de gegevens correct worden in- en uitgeladen. Voer verschillende tests uit om te controleren of je script robuust is en goed werkt onder verschillende omstandigheden.
+
+Tips:
+- Gebruik `fopen()` en `fclose()` om bestanden te openen en te sluiten, respectievelijk: https://www.php.net/manual/en/function.fopen.php, https://www.php.net/manual/en/function.fclose.php
+- Gebruik `fgets()` om regels uit een bestand te lezen: https://www.php.net/manual/en/function.fgets.php
+- Gebruik `file_put_contents()` om de inhoud van een bestand te vervangen: https://www.php.net/manual/en/function.file-put-contents.php
+- Raadpleeg de PHP-handleiding voor meer informatie over het werken met bestanden: https://www.php.net/manual/en/book.filesystem.php
+
+Succes met de opdracht!</AssignmentText><Config><Difficulty>Makkelijk</Difficulty><ExtraDescription/><ID>64</ID><Language>PHP</Language><Reqs>een CSV of JSON bestand inladen en wegschrijven</Reqs><Title>CSV and JSON DATA processing</Title></Config><ID>64</ID><RawResponseObj z:Id="i1" xmlns:a="http://schemas.datacontract.org/2004/07/Syn_OpenAI_CoreLib.Core.Models.Data" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/"><created xmlns="http://schemas.datacontract.org/2004/07/Syn_OpenAI_CoreLib.Data">1682889818</created><id xmlns="http://schemas.datacontract.org/2004/07/Syn_OpenAI_CoreLib.Data">chatcmpl-7B8o6dEeHiTgA27C9ANscSq0rabMG</id><a:choices><a:API_AIResponse_ChoicesJSON><a:finish_reason>stop</a:finish_reason><a:index>0</a:index><a:message><a:content>Opdracht: CSV en JSON gegevensverwerking
+Doel: Een CSV- of JSON-bestand inladen en wegschrijven
+Programmeertaal: PHP
+Moeilijkheidsgraad: Makkelijk
+
+Beschrijving:
+In deze opdracht ga je werken met het inladen en wegschrijven van gegevens uit een CSV- of JSON-bestand. Je zult een PHP-script maken dat de gegevens uit een bestand inleest, manipuleert en opslaat in een nieuw bestand. Dit helpt je om te leren hoe je met verschillende gegevensformaten kunt werken en deze kunt verwerken met PHP.
+
+Stappen:
+1. Kies of je met een CSV- of JSON-bestand wilt werken. CSV-bestanden zijn eenvoudiger en meer gestructureerd, terwijl JSON-bestanden flexibeler zijn in termen van gegevensstructuur.
+2. Maak een voorbeeldbestand met gegevens (minimaal 5 rijen met 3 kolommen) in het gekozen formaat. Zorg ervoor dat de gegevens representatief zijn voor het soort gegevens dat je in een echt project zou kunnen tegenkomen.
+3. Schrijf een PHP-script dat het voorbeeldbestand inleest en de gegevens opslaat in een geschikte datastructuur (bijvoorbeeld een array). Zorg ervoor dat je script fouten kan afhandelen, zoals een onleesbaar bestand of ongeldige gegevens.
+4. Manipuleer de gegevens, bijvoorbeeld door een kolom toe te voegen, een rij te verwijderen of de gegevens te sorteren. Probeer verschillende operaties uit om te zien hoe je de gegevens kunt transformeren en analyseren.
+5. Schrijf een PHP-script dat de aangepaste gegevens opslaat in een nieuw bestand in hetzelfde formaat (CSV of JSON). Zorg ervoor dat het nieuwe bestand correct wordt opgeslagen en geen fouten of inconsistenties bevat.
+6. Test je script en controleer of de gegevens correct worden in- en uitgeladen. Voer verschillende tests uit om te controleren of je script robuust is en goed werkt onder verschillende omstandigheden.
+
+Tips:
+- Gebruik `fopen()` en `fclose()` om bestanden te openen en te sluiten, respectievelijk: https://www.php.net/manual/en/function.fopen.php, https://www.php.net/manual/en/function.fclose.php
+- Gebruik `fgets()` om regels uit een bestand te lezen: https://www.php.net/manual/en/function.fgets.php
+- Gebruik `file_put_contents()` om de inhoud van een bestand te vervangen: https://www.php.net/manual/en/function.file-put-contents.php
+- Raadpleeg de PHP-handleiding voor meer informatie over het werken met bestanden: https://www.php.net/manual/en/book.filesystem.php
+
+Succes met de opdracht!</a:content><a:role>assistant</a:role></a:message></a:API_AIResponse_ChoicesJSON></a:choices><a:model>gpt-4-0314</a:model><a:object>chat.completion</a:object><a:usage><a:completion_tokens>684</a:completion_tokens><a:prompt_tokens>638</a:prompt_tokens><a:total_tokens>1322</a:total_tokens></a:usage></RawResponseObj></Assignment>

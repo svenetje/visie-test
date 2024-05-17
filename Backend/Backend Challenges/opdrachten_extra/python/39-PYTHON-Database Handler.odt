@@ -1,0 +1,78 @@
+﻿Quick Details
+Opdracht ID : 39
+Opdracht titel : Database Handler
+Opdracht Programmeertalen en/of tech : PYTHON
+Opdracht (geschatte) moeilijkheidsgraad : Gemiddeld
+Opdracht Eisen : Moet universeel CRUD op SQL databases kunnen toepassen.
+Opdracht Extra Omschrijving : 
+Opdracht: Database Handler
+Titel: Database Handler
+Vereisten: Moet universeel CRUD op SQL databases kunnen toepassen.
+Programmeertaal: Python
+Moeilijkheidsgraad: Gemiddeld
+
+Doel:
+Het doel van deze opdracht is om een universele databasehandler te maken die CRUD (Create, Read, Update, Delete) operaties kan uitvoeren op SQL databases
+Dit houdt in dat de databasehandler onafhankelijk van de gebruikte SQL-database de basisfuncties voor gegevensbeheer moet kunnen uitvoeren.
+
+Benodigdheden:
+1
+Python 3.x geïnstalleerd op uw computer (https://www.python.org/downloads/)
+2
+Een SQL database om mee te werken (bijvoorbeeld SQLite, MySQL, PostgreSQL)
+3
+Een geschikte Python bibliotheek om verbinding te maken met uw gekozen database (bijvoorbeeld sqlite3 voor SQLite, pymysql voor MySQL, psycopg2 voor PostgreSQL)
+
+Opdrachten:
+1
+Maak een nieuw Python-bestand genaamd "database_handler.py"
+Dit bestand zal de code voor de databasehandler bevatten.
+
+2
+Importeer de benodigde bibliotheek voor uw gekozen database en maak een verbindingsobject met de database
+Dit zorgt ervoor dat uw Python-code kan communiceren met de database.
+
+3
+Schrijf een functie genaamd "create_table" die een tabel maakt met de gegeven tabelnaam en kolommen
+De functie moet controleren of de tabel al bestaat en indien niet, maak de tabel met de opgegeven kolommen
+Dit zorgt ervoor dat u niet per ongeluk een bestaande tabel overschrijft.
+
+4
+Schrijf een functie genaamd "insert_data" die gegevens in de opgegeven tabel toevoegt
+De functie moet de tabelnaam, de kolomnamen en de waarden als argumenten accepteren en voeg de gegevens toe aan de tabel
+Dit is de "Create" in CRUD.
+
+5
+Schrijf een functie genaamd "read_data" die gegevens uit de opgegeven tabel leest en filtert op basis van de opgegeven voorwaarden
+De functie moet de tabelnaam, kolomnamen en optionele voorwaarden als argumenten accepteren en de gefilterde gegevens retourneren
+Dit is de "Read" in CRUD.
+
+6
+Schrijf een functie genaamd "update_data" die gegevens in de opgegeven tabel bijwerkt op basis van de opgegeven voorwaarden
+De functie moet de tabelnaam, de kolomnamen, de nieuwe waarden en de voorwaarden als argumenten accepteren en de gegevens in de tabel bijwerken
+Dit is de "Update" in CRUD.
+
+7
+Schrijf een functie genaamd "delete_data" die gegevens uit de opgegeven tabel verwijdert op basis van de opgegeven voorwaarden
+De functie moet de tabelnaam en de voorwaarden als argumenten accepteren en de gegevens uit de tabel verwijderen
+Dit is de "Delete" in CRUD.
+
+8
+Schrijf een hoofdfunctie (main) die de bovenstaande functies aanroept om een voorbeeld CRUD-operatie uit te voeren op uw gekozen database
+Deze functie zal dienen als het startpunt van uw programma en zal de andere functies in de juiste volgorde oproepen.
+
+9
+Test uw programma om ervoor te zorgen dat alle CRUD-operaties correct werken
+Voer verschillende testcases uit om te verifiëren dat uw code goed functioneert met uw gekozen database.
+
+Inleveren:
+Lever uw voltooide "database_handler.py"-bestand in, samen met een kort verslag waarin u uitlegt hoe uw code werkt en eventuele problemen of uitdagingen die u tegenkwam tijdens het voltooien van de opdracht
+Dit verslag zal uw inzicht in het project en uw vermogen om problemen op te lossen aantonen.
+
+Referenties:
+1
+SQLite: https://docs.python.org/3/library/sqlite3.html
+2
+MySQL: https://pymysql.readthedocs.io/en/latest/
+3
+PostgreSQL: https://www.psycopg.org/docs/

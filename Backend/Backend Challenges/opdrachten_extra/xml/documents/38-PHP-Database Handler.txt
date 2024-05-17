@@ -1,0 +1,69 @@
+﻿Quick Details
+Opdracht ID : 38
+Opdracht titel : Database Handler
+Opdracht Programmeertalen en/of tech : PHP
+Opdracht (geschatte) moeilijkheidsgraad : Gemiddeld
+Opdracht Eisen : Moet universeel CRUD op SQL databases kunnen toepassen.
+Opdracht Extra Omschrijving : 
+Opdracht: Database Handler
+
+Titel: Database Handler
+
+Vereisten:
+1
+Maak een universele PHP-class voor het uitvoeren van CRUD (Create, Read, Update, Delete) operaties op SQL-databases
+De class moet in staat zijn om te werken met verschillende soorten SQL-databases, zoals MySQL, PostgreSQL en SQLite.
+2
+De class moet ondersteuning bieden voor het verbinden met de database, het uitvoeren van query's en het afhandelen van fouten
+Zorg ervoor dat de verbinding op een veilige manier wordt opgezet en dat er gebruik wordt gemaakt van prepared statements om SQL-injectie te voorkomen.
+3
+Schrijf voorbeeldcode voor het gebruik van de class in een webtoepassing
+Geef aan hoe de class kan worden geïmporteerd en geïnstantieerd in een PHP-script en illustreer het gebruik van de verschillende CRUD-methoden.
+
+Programmeertaal: PHP
+
+Moeilijkheidsgraad: Gemiddeld
+
+Instructies:
+
+1
+Maak een nieuwe PHP-file met de naam "DatabaseHandler.php".
+2
+Definieer de "DatabaseHandler" class met de volgende methoden:
+  
+`__construct`: Deze methode wordt aangeroepen bij het aanmaken van een nieuw object van de class en wordt gebruikt om verbinding te maken met de database
+De methode moet de databaseconfiguratie als parameter accepteren (bijv
+host, gebruikersnaam, wachtwoord en databasenaam).
+  
+`query`: Deze methode voert een SQL-query uit en retourneert het resultaat
+Het moet een SQL-string en optioneel een array met parameters accepteren.
+  
+`insert`: Deze methode voegt een nieuwe rij toe aan de opgegeven tabel
+Het moet de tabelnaam en een associatieve array met kolomnamen en waarden accepteren.
+  
+`update`: Deze methode past een bestaande rij in de opgegeven tabel aan
+Het moet de tabelnaam, een associatieve array met kolomnamen en waarden en een voorwaarde (bijv
+een ID) accepteren.
+  
+`delete`: Deze methode verwijdert een rij uit de opgegeven tabel op basis van het opgegeven ID
+Het moet de tabelnaam en het ID accepteren.
+  
+`select`: Deze methode haalt gegevens op uit de opgegeven tabel op basis van de opgegeven criteria
+Het moet de tabelnaam, een array met kolomnamen en optioneel een voorwaarde accepteren.
+  
+`__destruct`: Deze methode wordt aangeroepen wanneer een object van de class wordt vernietigd en wordt gebruikt om de verbinding met de database te sluiten.
+3
+Implementeer de methoden volgens de vereisten en zorg ervoor dat er gebruik wordt gemaakt van prepared statements.
+4
+Schrijf een voorbeeld van hoe de "DatabaseHandler" class kan worden gebruikt in een webtoepassing
+Geef aan hoe de class kan worden geïmporteerd en geïnstantieerd in een PHP-script en illustreer het gebruik van de verschillende CRUD-methoden.
+
+Bronnen:
+1
+PHP MySQL Connect: https://www.php.net/manual/en/mysqli.quickstart.connections.php
+2
+PHP MySQL Prepared Statements: https://www.php.net/manual/en/mysqli.quickstart.prepared-statements.php
+3
+PHP MySQL CRUD: https://www.tutorialrepublic.com/php-tutorial/php-mysql-crud-application.php
+4
+Universele Database Handler: https://code.tutsplus.com/tutorials/create-a-universal-php-database-class-using-pdo--net-14244

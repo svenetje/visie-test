@@ -1,0 +1,51 @@
+<Assignment xmlns="http://schemas.datacontract.org/2004/07/Syn_OpenAI_AppLib.Data" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><AssignmentText>Opdracht: File Drag and Drop Feature
+
+Doel:
+In deze opdracht ga je een eenvoudige C#-applicatie maken die bestanden en mappen kan ontvangen via drag-and-drop, de inhoud van een map kan indexeren en bestanden kan uitlezen. Dit is een makkelijk niveau opdracht, bedoeld om je bekend te maken met de basisprincipes van het werken met bestanden en mappen in C#.
+
+Benodigdheden:
+- Een computer met Windows-besturingssysteem
+- Visual Studio met C# ondersteuning geïnstalleerd (https://visualstudio.microsoft.com/vs/)
+
+Uitgebreide Stappen:
+
+1. Start Visual Studio en maak een nieuw Windows Forms-project in Visual Studio. Geef het project een naam, bijvoorbeeld "FileDragAndDrop".
+
+2. Ontwerp het formulier door een TextBox en een ListBox toe te voegen. De TextBox (textBox1) wordt gebruikt om het pad van het gesleepte bestand of de map weer te geven, en de ListBox (listBox1) om de inhoud van de map weer te geven.
+
+3. Selecteer het formulier (Form1) en stel de eigenschap 'AllowDrop' in op 'true' in het eigenschappenvenster. Hierdoor kan het formulier bestanden en mappen ontvangen via drag-and-drop.
+
+4. Maak een 'DragEnter'-eventhandler voor het formulier door te dubbelklikken op het 'DragEnter'-event in de eigenschappenvenster onder het tabblad 'Events' (het bliksemschicht-icoon). Dit zorgt ervoor dat je code kunt toevoegen die wordt uitgevoerd wanneer er een bestand of map over het venster wordt gesleept.
+
+5. Voeg de gegeven code toe aan de 'DragEnter'-eventhandler. Deze code controleert of het gesleepte item een bestand of map is. Als dit het geval is, wordt het 'Copy'-effect weergegeven om aan te geven dat het item kan worden neergezet.
+
+6. Maak een 'DragDrop'-eventhandler voor het formulier door te dubbelklikken op het 'DragDrop'-event in het eigenschappenvenster. Dit zorgt ervoor dat je code kunt toevoegen die wordt uitgevoerd wanneer een bestand of map daadwerkelijk op het venster wordt neergezet.
+
+7. Voeg de gegeven code toe aan de 'DragDrop'-eventhandler. Deze code haalt de bestanden en mappen op die zijn neergezet, toont het pad van het eerste item in de TextBox en indexeert de inhoud van een map of toont de bestandsnaam als het een bestand is. De 'IndexeerFolder'-functie wordt gebruikt om de inhoud van de map (inclusief submappen) te indexeren.
+
+Klaar! Je hebt nu een eenvoudige C#-applicatie gemaakt die bestanden en mappen kan ontvangen via drag-and-drop en de inhoud van een map kan indexeren en bestanden kan uitlezen. Test je applicatie door deze te compileren en uit te voeren en probeer bestanden en mappen naar het venster te slepen.</AssignmentText><Config><Difficulty>Makkelijk</Difficulty><ExtraDescription>Maak een file manager</ExtraDescription><ID>22</ID><Language>C#</Language><Reqs>File drag en drop, Folder drag en drop, Folder indexatie, bestanden uitlezen</Reqs><Title>File Drag and Drop Feature</Title></Config><ID>22</ID><RawResponseObj z:Id="i1" xmlns:a="http://schemas.datacontract.org/2004/07/Syn_OpenAI_CoreLib.Core.Models.Data" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/"><created xmlns="http://schemas.datacontract.org/2004/07/Syn_OpenAI_CoreLib.Data">1682884727</created><id xmlns="http://schemas.datacontract.org/2004/07/Syn_OpenAI_CoreLib.Data">chatcmpl-7B7TzkmRrKAA6igFlhiZIQVakPLRq</id><a:choices><a:API_AIResponse_ChoicesJSON><a:finish_reason>stop</a:finish_reason><a:index>0</a:index><a:message><a:content>Opdracht: File Drag and Drop Feature
+
+Doel:
+In deze opdracht ga je een eenvoudige C#-applicatie maken die bestanden en mappen kan ontvangen via drag-and-drop, de inhoud van een map kan indexeren en bestanden kan uitlezen. Dit is een makkelijk niveau opdracht, bedoeld om je bekend te maken met de basisprincipes van het werken met bestanden en mappen in C#.
+
+Benodigdheden:
+- Een computer met Windows-besturingssysteem
+- Visual Studio met C# ondersteuning geïnstalleerd (https://visualstudio.microsoft.com/vs/)
+
+Uitgebreide Stappen:
+
+1. Start Visual Studio en maak een nieuw Windows Forms-project in Visual Studio. Geef het project een naam, bijvoorbeeld "FileDragAndDrop".
+
+2. Ontwerp het formulier door een TextBox en een ListBox toe te voegen. De TextBox (textBox1) wordt gebruikt om het pad van het gesleepte bestand of de map weer te geven, en de ListBox (listBox1) om de inhoud van de map weer te geven.
+
+3. Selecteer het formulier (Form1) en stel de eigenschap 'AllowDrop' in op 'true' in het eigenschappenvenster. Hierdoor kan het formulier bestanden en mappen ontvangen via drag-and-drop.
+
+4. Maak een 'DragEnter'-eventhandler voor het formulier door te dubbelklikken op het 'DragEnter'-event in de eigenschappenvenster onder het tabblad 'Events' (het bliksemschicht-icoon). Dit zorgt ervoor dat je code kunt toevoegen die wordt uitgevoerd wanneer er een bestand of map over het venster wordt gesleept.
+
+5. Voeg de gegeven code toe aan de 'DragEnter'-eventhandler. Deze code controleert of het gesleepte item een bestand of map is. Als dit het geval is, wordt het 'Copy'-effect weergegeven om aan te geven dat het item kan worden neergezet.
+
+6. Maak een 'DragDrop'-eventhandler voor het formulier door te dubbelklikken op het 'DragDrop'-event in het eigenschappenvenster. Dit zorgt ervoor dat je code kunt toevoegen die wordt uitgevoerd wanneer een bestand of map daadwerkelijk op het venster wordt neergezet.
+
+7. Voeg de gegeven code toe aan de 'DragDrop'-eventhandler. Deze code haalt de bestanden en mappen op die zijn neergezet, toont het pad van het eerste item in de TextBox en indexeert de inhoud van een map of toont de bestandsnaam als het een bestand is. De 'IndexeerFolder'-functie wordt gebruikt om de inhoud van de map (inclusief submappen) te indexeren.
+
+Klaar! Je hebt nu een eenvoudige C#-applicatie gemaakt die bestanden en mappen kan ontvangen via drag-and-drop en de inhoud van een map kan indexeren en bestanden kan uitlezen. Test je applicatie door deze te compileren en uit te voeren en probeer bestanden en mappen naar het venster te slepen.</a:content><a:role>assistant</a:role></a:message></a:API_AIResponse_ChoicesJSON></a:choices><a:model>gpt-4-0314</a:model><a:object>chat.completion</a:object><a:usage><a:completion_tokens>724</a:completion_tokens><a:prompt_tokens>790</a:prompt_tokens><a:total_tokens>1514</a:total_tokens></a:usage></RawResponseObj></Assignment>

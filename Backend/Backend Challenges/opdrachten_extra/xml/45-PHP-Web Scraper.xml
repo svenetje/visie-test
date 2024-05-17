@@ -1,0 +1,63 @@
+<Assignment xmlns="http://schemas.datacontract.org/2004/07/Syn_OpenAI_AppLib.Data" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><AssignmentText>Opdracht: Web Scraper
+Titel: Web Scraper voor nieuws van een bekende datadienst website zoals NASA of ESA
+Programmeertaal: PHP
+Moeilijkheidsgraad: Makkelijk
+
+Doel:
+Het doel van deze opdracht is om een eenvoudige web scraper te maken die de meest recente nieuwsartikelen van een bekende datadienst website zoals NASA of ESA ophaalt en de titels en links naar de artikelen op een overzichtelijke manier weergeeft.
+
+Benodigdheden:
+1. Basis kennis van PHP en HTML
+2. Kennis van PHP cURL of file_get_contents functie
+3. Kennis van PHP Simple HTML DOM Parser library (https://simplehtmldom.sourceforge.io/) of PHP's ingebouwde DOMDocument klasse (https://www.php.net/manual/en/class.domdocument.php)
+
+Opdracht stappen:
+1. Kies een bekende datadienst website (bijv. NASA of ESA) en zoek naar de pagina waar de meest recente nieuwsartikelen worden vermeld. Voorbeeld: NASA's nieuws pagina - https://www.nasa.gov/news/releases/index.html
+
+2. Installeer de PHP Simple HTML DOM Parser library met behulp van Composer, of gebruik de ingebouwde DOMDocument klasse van PHP. Meer informatie over Composer: https://getcomposer.org/
+
+3. Maak een PHP-script dat de gekozen nieuwsartikelen pagina ophaalt. Gebruik hiervoor de cURL of file_get_contents functie van PHP. Zorg ervoor dat je de juiste headers en opties instelt om een goede web scraping praktijk te volgen.
+
+4. Gebruik de PHP Simple HTML DOM Parser library of DOMDocument klasse om het HTML-document te doorzoeken en de titels en links van de nieuwsartikelen te extraheren. Let op de HTML-structuur en specifieke tags of attributen die je nodig hebt om de gewenste informatie te verkrijgen.
+
+5. Genereer een HTML-pagina die de gevonden titels en links in een overzichtelijke lijst weergeeft. Gebruik bijvoorbeeld een ongeordende lijst (&lt;ul&gt;) met lijstitems (&lt;li&gt;) die de titels en links bevatten.
+
+6. Test het script en zorg ervoor dat het correct werkt. Bewaar het script als "webscraper.php". Controleer of de titels en links correct worden weergegeven en of de scraper goed omgaat met eventuele wijzigingen in de website-structuur.
+
+Bronnen:
+1. PHP Simple HTML DOM Parser: https://simplehtmldom.sourceforge.io/
+2. PHP DOMDocument: https://www.php.net/manual/en/class.domdocument.php
+3. PHP cURL: https://www.php.net/manual/en/book.curl.php
+4. PHP file_get_contents: https://www.php.net/manual/en/function.file-get-contents.php
+5. Composer: https://getcomposer.org/</AssignmentText><Config><Difficulty>Makkelijk</Difficulty><ExtraDescription/><ID>45</ID><Language>PHP</Language><Reqs>Scraper voor een bekende datadienst website nieuws zoals NASA of ESA.</Reqs><Title>Web Scraper</Title></Config><ID>45</ID><RawResponseObj z:Id="i1" xmlns:a="http://schemas.datacontract.org/2004/07/Syn_OpenAI_CoreLib.Core.Models.Data" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/"><created xmlns="http://schemas.datacontract.org/2004/07/Syn_OpenAI_CoreLib.Data">1682888033</created><id xmlns="http://schemas.datacontract.org/2004/07/Syn_OpenAI_CoreLib.Data">chatcmpl-7B8LJHDT19MlW6xgstwmqwFJgfWh7</id><a:choices><a:API_AIResponse_ChoicesJSON><a:finish_reason>stop</a:finish_reason><a:index>0</a:index><a:message><a:content>Opdracht: Web Scraper
+Titel: Web Scraper voor nieuws van een bekende datadienst website zoals NASA of ESA
+Programmeertaal: PHP
+Moeilijkheidsgraad: Makkelijk
+
+Doel:
+Het doel van deze opdracht is om een eenvoudige web scraper te maken die de meest recente nieuwsartikelen van een bekende datadienst website zoals NASA of ESA ophaalt en de titels en links naar de artikelen op een overzichtelijke manier weergeeft.
+
+Benodigdheden:
+1. Basis kennis van PHP en HTML
+2. Kennis van PHP cURL of file_get_contents functie
+3. Kennis van PHP Simple HTML DOM Parser library (https://simplehtmldom.sourceforge.io/) of PHP's ingebouwde DOMDocument klasse (https://www.php.net/manual/en/class.domdocument.php)
+
+Opdracht stappen:
+1. Kies een bekende datadienst website (bijv. NASA of ESA) en zoek naar de pagina waar de meest recente nieuwsartikelen worden vermeld. Voorbeeld: NASA's nieuws pagina - https://www.nasa.gov/news/releases/index.html
+
+2. Installeer de PHP Simple HTML DOM Parser library met behulp van Composer, of gebruik de ingebouwde DOMDocument klasse van PHP. Meer informatie over Composer: https://getcomposer.org/
+
+3. Maak een PHP-script dat de gekozen nieuwsartikelen pagina ophaalt. Gebruik hiervoor de cURL of file_get_contents functie van PHP. Zorg ervoor dat je de juiste headers en opties instelt om een goede web scraping praktijk te volgen.
+
+4. Gebruik de PHP Simple HTML DOM Parser library of DOMDocument klasse om het HTML-document te doorzoeken en de titels en links van de nieuwsartikelen te extraheren. Let op de HTML-structuur en specifieke tags of attributen die je nodig hebt om de gewenste informatie te verkrijgen.
+
+5. Genereer een HTML-pagina die de gevonden titels en links in een overzichtelijke lijst weergeeft. Gebruik bijvoorbeeld een ongeordende lijst (&lt;ul&gt;) met lijstitems (&lt;li&gt;) die de titels en links bevatten.
+
+6. Test het script en zorg ervoor dat het correct werkt. Bewaar het script als "webscraper.php". Controleer of de titels en links correct worden weergegeven en of de scraper goed omgaat met eventuele wijzigingen in de website-structuur.
+
+Bronnen:
+1. PHP Simple HTML DOM Parser: https://simplehtmldom.sourceforge.io/
+2. PHP DOMDocument: https://www.php.net/manual/en/class.domdocument.php
+3. PHP cURL: https://www.php.net/manual/en/book.curl.php
+4. PHP file_get_contents: https://www.php.net/manual/en/function.file-get-contents.php
+5. Composer: https://getcomposer.org/</a:content><a:role>assistant</a:role></a:message></a:API_AIResponse_ChoicesJSON></a:choices><a:model>gpt-4-0314</a:model><a:object>chat.completion</a:object><a:usage><a:completion_tokens>659</a:completion_tokens><a:prompt_tokens>674</a:prompt_tokens><a:total_tokens>1333</a:total_tokens></a:usage></RawResponseObj></Assignment>

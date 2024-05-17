@@ -1,0 +1,84 @@
+﻿Quick Details
+Opdracht ID : 67
+Opdracht titel : Webpage Generation
+Opdracht Programmeertalen en/of tech : PHP
+Opdracht (geschatte) moeilijkheidsgraad : Gemiddeld
+Opdracht Eisen : HTML CSS en JS generation door middel van snippits en keywords
+Opdracht Extra Omschrijving : 
+Opdracht: Webpagina Generatie
+---
+Doel:
+Maak een PHP-programma dat automatisch HTML, CSS en JS-code genereert op basis van codefragmenten (snippets) en trefwoorden
+Dit programma helpt om snel en efficiënt webpagina's te genereren en aan te passen door simpelweg trefwoorden te selecteren die verband houden met de gewenste snippets.
+
+Benodigdheden:
+- Een teksteditor of IDE naar keuze, zoals [Visual Studio Code](https://code.visualstudio.com/)
+- Een lokale of externe webserver met PHP-ondersteuning, zoals [XAMPP](https://www.apachefriends.org/download.html)
+
+Instructies:
+1
+Maak een map genaamd "WebpageGeneration" en navigeer ernaartoe in uw teksteditor
+Dit wordt de hoofdmap van uw project.
+2
+Maak een nieuw bestand genaamd "index.php" in de map "WebpageGeneration"
+Dit wordt de hoofdpagina van uw applicatie, waar de gegenereerde HTML-, CSS- en JS-code wordt getoond.
+
+3
+Voeg de volgende code toe aan "index.php":
+
+```php
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpagina Generatie</title>
+</head>
+<body>
+    <?php
+        // TODO: Voeg hier de PHP-code toe om HTML, CSS en JS te genereren op basis van snippets en trefwoorden.
+    ?>
+</body>
+</html>
+```
+
+4
+Maak een nieuwe map genaamd "snippets" in de map "WebpageGeneration"
+In deze map komen de codefragmenten (snippets) die de basis vormen voor het genereren van de HTML-, CSS- en JS-code.
+
+5
+Maak drie submappen in de map "snippets": "html", "css" en "js"
+Hierin komen de afzonderlijke snippets per bestandstype.
+
+6
+Voeg voorbeeld codefragmenten (snippets) toe aan de mappen "html", "css" en "js"
+Deze snippets moeten kleine, herbruikbare codefragmenten zijn die kunnen worden gecombineerd om een webpagina te genereren
+Bijvoorbeeld, een HTML-snippet kan een headersectie bevatten, terwijl een CSS-snippet een bepaalde opmaakstijl voor die header kan bevatten.
+
+7
+In "index.php", schrijf PHP-functies om de volgende acties uit te voeren:
+   
+Lees de inhoud van de snippet-bestanden
+Hierbij kunt u gebruik maken van de [file_get_contents()](https://www.php.net/manual/en/function.file-get-contents.php) functie.
+   
+Combineer de snippets op basis van de opgegeven trefwoorden om een complete HTML-, CSS- en JS-code te genereren
+Dit kan bijvoorbeeld door het gebruik van reguliere expressies en de [preg_match()](https://www.php.net/manual/en/function.preg-match.php) functie.
+   
+Voeg de gegenereerde HTML-, CSS- en JS-code toe aan "index.php" en toon het resultaat in de browser
+Dit kan gedaan worden met de [echo()](https://www.php.net/manual/en/function.echo.php) functie.
+
+8
+Test uw programma door een set trefwoorden op te geven en controleer of de gegenereerde webpagina correct wordt weergegeven in de browser
+Dit helpt om te valideren dat uw code naar behoren werkt.
+
+Aandachtspunten:
+- Houd uw code overzichtelijk en georganiseerd door gebruik te maken van functies en commentaar
+Dit maakt het gemakkelijker om uw code te onderhouden en te begrijpen.
+- Zorg ervoor dat de gegenereerde HTML-, CSS- en JS-code correct is en geen syntaxisfouten bevat
+Dit voorkomt fouten in de weergave van de webpagina.
+- Test uw programma met verschillende sets van trefwoorden en snippet-bestanden om de functionaliteit te waarborgen
+Dit zorgt ervoor dat uw programma flexibel en betrouwbaar is.
+
+Moeilijkheidsgraad: Gemiddeld
+
+Succes met de opdracht!

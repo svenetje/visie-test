@@ -1,0 +1,62 @@
+﻿Quick Details
+Opdracht ID : 87
+Opdracht titel : Wetenschappelijke Calculator
+Opdracht Programmeertalen en/of tech : JS
+Opdracht (geschatte) moeilijkheidsgraad : Gemiddeld
+Opdracht Eisen : plus, minus, keer, gedeeld door, wetenschappelijke notatie, wetenschappelijke formules
+Opdracht Extra Omschrijving : 
+Titel: Wetenschappelijke Calculator
+
+Doel: Ontwikkel een wetenschappelijke calculator met behulp van JavaScript, HTML en CSS die in staat is om basisbewerkingen, wetenschappelijke notaties en formules uit te voeren.
+
+Moeilijkheidsgraad: Gemiddeld
+
+Benodigde voorkennis:
+- Basis JavaScript-kennis voor het uitvoeren van berekeningen en het verwerken van gebruikersinvoer
+- HTML-kennis voor het maken van de structuur van de calculator, inclusief invoerveld en knoppen
+- CSS-kennis voor de opmaak van de calculator, zoals lay-out, kleuren en lettertypen
+
+Benodigdheden:
+- Een teksteditor, zoals Visual Studio Code, Sublime Text of Notepad++, om de HTML-, CSS- en JavaScript-bestanden te schrijven
+- Een moderne webbrowser, zoals Google Chrome, Firefox of Safari, om de calculator te testen en debuggen
+
+Opdracht:
+
+1
+Creëer een HTML-bestand met de volgende elementen:
+  
+Een invoerveld voor het invoeren van getallen en formules
+  
+Knoppen voor basisbewerkingen (plus, min, keer, gedeeld door)
+  
+Knoppen voor wetenschappelijke notaties (bijv
+x10^y, x^2, x^3, √x)
+  
+Knoppen voor enkele wetenschappelijke formules (bijv
+sinus, cosinus, tangens, logaritme)
+  
+Een knop om de invoer te wissen (C) en een knop om het resultaat te berekenen (=)
+
+2
+Creëer een CSS-bestand om de gebruikersinterface van de calculator te stylen, zoals de lay-out, kleuren, lettertypen en knoppen.
+
+3
+Creëer een JavaScript-bestand met de volgende functionaliteiten:
+  
+Functies voor basisbewerkingen (plus, min, keer, gedeeld door)
+  
+Functies voor wetenschappelijke notaties, zoals machtsverheffen en worteltrekken
+  
+Functies voor wetenschappelijke formules, zoals trigonometrische functies en logaritmen
+  
+Eventlisteners voor de knoppen om de bijbehorende functies aan te roepen bij een klik
+  
+Functies om de gebruikersinvoer te verwerken, de berekeningen uit te voeren en het resultaat in het invoerveld te tonen
+
+Tips:
+- Gebruik de JavaScript Math-bibliotheek voor het uitvoeren van wetenschappelijke berekeningen: https://developer.mozilla.org/nl/docs/Web/JavaScript/Reference/Global_Objects/Math
+- Gebruik een switch-case-structuur om de juiste bewerking of formule uit te voeren op basis van de geselecteerde knop
+- Valideer de invoer om ervoor te zorgen dat de gebruiker geldige getallen en formules invoert, en geef een foutmelding indien nodig
+- Implementeer de mogelijkheid om meerdere berekeningen uit te voeren zonder de pagina te verversen, door de calculator opnieuw te initialiseren na elke berekening
+
+Succes met het ontwikkelen van uw wetenschappelijke calculator!

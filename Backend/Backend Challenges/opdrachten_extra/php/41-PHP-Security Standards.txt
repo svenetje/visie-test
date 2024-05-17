@@ -1,0 +1,86 @@
+﻿Quick Details
+Opdracht ID : 41
+Opdracht titel : Security Standards
+Opdracht Programmeertalen en/of tech : PHP
+Opdracht (geschatte) moeilijkheidsgraad : Moeilijk
+Opdracht Eisen : Memory, sockets, connecties, data bestanden en encrypties
+Opdracht Extra Omschrijving : 
+Opdracht: Beveiligingsstandaarden
+
+Doel: Het ontwikkelen van een PHP-applicatie die beveiligingsstandaarden toepast op verschillende aspecten van het systeem, zoals geheugen, sockets, connecties, databestanden en encrypties.
+
+Moeilijkheidsgraad: Moeilijk
+
+Benodigdheden:
+1
+Kennis van PHP en objectgeoriënteerd programmeren.
+2
+Basiskennis van netwerkcommunicatie en sockets.
+3
+Begrip van bestandsbeheer en basis encryptiemethoden.
+
+Opdrachten:
+
+1
+Geheugenbeveiliging:
+   a
+Implementeer een veilige manier om gevoelige gegevens op te slaan in het geheugen van de server
+Maak bijvoorbeeld gebruik van PHP's ingebouwde functie `password_hash` voor het opslaan van wachtwoorden.
+   b
+Zorg ervoor dat gevoelige gegevens worden gewist uit het geheugen zodra ze niet meer nodig zijn
+Gebruik hiervoor de `unset` functie in PHP.
+
+2
+Socketbeveiliging:
+   a
+Maak een socketserver en socketclient met behulp van PHP en de ingebouwde socketfuncties, zoals `socket_create` en `socket_bind`.
+   b
+Implementeer een veilige manier om gegevens te verzenden en ontvangen tussen de server en de client met behulp van encryptie en handtekeningen
+Gebruik bijvoorbeeld OpenSSL voor versleuteling en HMAC voor het verifiëren van de integriteit.
+   c
+Zorg ervoor dat de socketverbinding wordt gesloten zodra de communicatie is voltooid
+Gebruik hiervoor de `socket_close` functie.
+
+3
+Verbindingsbeveiliging:
+   a
+Gebruik een database (bijvoorbeeld MySQL) om gebruikersgegevens op te slaan.
+   b
+Implementeer een veilige manier om verbinding te maken met de database met behulp van PDO en voorbereide verklaringen
+Voorkom SQL-injectie door gebruik te maken van voorbereide verklaringen en parameterbinding.
+   c
+Beveilig het authenticatieproces met behulp van sterke wachtwoorden en veilige opslag
+Gebruik bijvoorbeeld `password_hash` en `password_verify` voor het opslaan en verifiëren van wachtwoorden.
+
+4
+Bestandsbeveiliging:
+   a
+Implementeer een veilige manier om bestanden op de server op te slaan en te beheren
+Gebruik bijvoorbeeld de ingebouwde functies `fopen`, `fwrite` en `fclose` met de juiste bestandsmodi om bestandsbewerkingen te beperken.
+   b
+Zorg ervoor dat alleen geautoriseerde gebruikers toegang hebben tot gevoelige bestanden
+Maak gebruik van bestandspermissies en authenticatie om ongeautoriseerde toegang te voorkomen.
+
+5
+Encryptie:
+   a
+Gebruik een bestaande encryptiebibliotheek (bijvoorbeeld OpenSSL) om gegevens te versleutelen en te ontsleutelen
+Maak bijvoorbeeld gebruik van de functies `openssl_encrypt` en `openssl_decrypt`.
+   b
+Implementeer asymmetrische encryptie met behulp van publieke en private sleutels voor het beveiligen van gegevens tijdens de communicatie
+Gebruik bijvoorbeeld de functies `openssl_public_encrypt` en `openssl_private_decrypt`.
+
+Bronnen:
+
+1
+PHP Documentatie: https://www.php.net/manual/nl/index.php
+2
+PDO Documentatie: https://www.php.net/manual/nl/book.pdo.php
+3
+OpenSSL Documentatie: https://www.php.net/manual/nl/book.openssl.php
+4
+Socket Documentatie: https://www.php.net/manual/nl/book.sockets.php
+5
+Password hashing: https://www.php.net/manual/nl/function.password-hash.php
+6
+Unset functie: https://www.php.net/manual/nl/function.unset.php

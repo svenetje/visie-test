@@ -1,0 +1,34 @@
+﻿Quick Details
+Opdracht ID : 71
+Opdracht titel : ASYNC Connections
+Opdracht Programmeertalen en/of tech : PHP
+Opdracht (geschatte) moeilijkheidsgraad : Makkelijk
+Opdracht Eisen : Async MYSQL CRUD calls, AJAX in combinatie met JS
+Opdracht Extra Omschrijving : 
+Titel: ASYNC Connections
+
+Doel: Maak een eenvoudige webapplicatie om asynchrone MySQL CRUD-operaties (Create, Read, Update, Delete) uit te voeren met behulp van AJAX en JavaScript in PHP.
+
+Benodigde technologieën:
+- PHP: Een server-side scripttaal die wordt gebruikt voor het maken van dynamische en interactieve webpagina's (https://www.php.net/)
+- MySQL: Een open-source relationele databasesysteem dat wordt gebruikt om gegevens op te slaan en op te halen (https://www.mysql.com/)
+- JavaScript: Een programmeertaal die wordt gebruikt om dynamische en interactieve elementen op webpagina's te maken (https://developer.mozilla.org/nl/docs/Web/JavaScript)
+- AJAX: Een techniek om asynchrone communicatie met de server mogelijk te maken zonder de hele pagina te vernieuwen (https://www.w3schools.com/xml/ajax_intro.asp)
+- HTML: De standaardtaal voor het maken van webpagina's en webapplicaties (https://developer.mozilla.org/nl/docs/Web/HTML)
+- CSS: Een stijlbladtaal die wordt gebruikt voor het beschrijven van het uiterlijk en de opmaak van een document geschreven in HTML (https://developer.mozilla.org/nl/docs/Web/CSS)
+
+Opdrachtbeschrijving:
+Volg de gegeven stappen in de opdrachttekst om een eenvoudige webapplicatie te maken die asynchrone MySQL CRUD-operaties uitvoert met behulp van AJAX en JavaScript in PHP
+Zorg ervoor dat alle CRUD-operaties asynchroon worden uitgevoerd met behulp van AJAX en dat de webapplicatie goed is gestructureerd en makkelijk te begrijpen is.
+
+Moeilijkheidsgraad: Makkelijk
+
+Referenties:
+- AJAX: https://www.w3schools.com/xml/ajax_intro.asp
+- PHP MySQL CRUD: https://www.tutorialrepublic.com/php-tutorial/php-mysql-crud-application.php
+- JSON: https://www.w3schools.com/js/js_json_intro.asp
+
+Aanvullende bronnen:
+- PHP PDO (PHP Data Objects): Een consistente interface voor toegang tot databases, inclusief MySQL (https://www.php.net/manual/en/book.pdo.php)
+- jQuery: Een populaire JavaScript-bibliotheek die het werken met AJAX en DOM-manipulatie eenvoudiger maakt (https://jquery.com/)
+- Bootstrap: Een populair CSS-framework voor het ontwikkelen van responsieve en mobiel-eerst projecten op het web (https://getbootstrap.com/)

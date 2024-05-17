@@ -1,0 +1,281 @@
+<Assignment xmlns="http://schemas.datacontract.org/2004/07/Syn_OpenAI_AppLib.Data" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><AssignmentText>For this assignment, you will create a template for an account privacy settings page for private details of an account using HTML and CSS. The design of the page should follow either the FLEX or GRID design pattern. You will need to use appropriate CSS classes and IDs to style the page.
+
+Here are the steps to complete the assignment:
+
+1. Create a new HTML file and name it "account-privacy-settings.html".
+
+2. Add the basic HTML structure to the file using the following code:
+
+```
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+	&lt;title&gt;Account Privacy Settings&lt;/title&gt;
+	&lt;link rel="stylesheet" type="text/css" href="style.css"&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+```
+
+3. Inside the `body` tag, create a `div` with an ID of "wrapper" to contain all the elements on the page:
+
+```
+&lt;div id="wrapper"&gt;
+
+&lt;/div&gt;
+```
+
+4. Inside the `wrapper` `div`, create a `header` section that contains the page title and a navigation menu:
+
+```
+&lt;header&gt;
+	&lt;h1&gt;Account Privacy Settings&lt;/h1&gt;
+	&lt;nav&gt;
+		&lt;ul&gt;
+			&lt;li&gt;&lt;a href="#"&gt;Profile&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href="#"&gt;Privacy Settings&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href="#"&gt;Security&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href="#"&gt;Notifications&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/nav&gt;
+&lt;/header&gt;
+```
+
+5. Below the `header`, create a `section` that will contain the privacy settings form. Use a `form` element and include appropriate `input` fields for name, email, password, and any other private details you want to include:
+
+```
+&lt;section&gt;
+	&lt;h2&gt;Privacy Settings&lt;/h2&gt;
+	&lt;form&gt;
+		&lt;label for="name"&gt;Name:&lt;/label&gt;
+		&lt;input type="text" id="name" name="name"&gt;
+
+		&lt;label for="email"&gt;Email:&lt;/label&gt;
+		&lt;input type="email" id="email" name="email"&gt;
+
+		&lt;label for="password"&gt;Password:&lt;/label&gt;
+		&lt;input type="password" id="password" name="password"&gt;
+
+		&lt;!-- Include any other private details you want to include --&gt;
+
+		&lt;button type="submit"&gt;Save Changes&lt;/button&gt;
+	&lt;/form&gt;
+&lt;/section&gt;
+```
+
+6. Use CSS to style the page. Create a new file named "style.css" and link it to your HTML file using the `link` element in the `head` section. Use either the FLEX or GRID design pattern to create a responsive layout for the page. Use appropriate CSS classes and IDs to style the elements on the page.
+
+Here's an example of how you can use FLEX to create a responsive layout:
+
+```
+#wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+	background-color: #f3f3f3;
+	width: 100%;
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	margin: 0 10px;
+}
+
+section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: 500px;
+	width: 100%;
+}
+
+label {
+	margin: 10px 0;
+}
+
+input {
+	padding: 10px;
+	margin: 5px 0;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+button {
+	padding: 10px 20px;
+	background-color: #4CAF50;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #3e8e41;
+}
+```
+
+7. Test the page to make sure it looks and functions as expected. You can do this by opening the HTML file in your web browser.
+
+That's it! Your account privacy settings page should now be complete.</AssignmentText><Config><Difficulty>Makkelijk</Difficulty><ExtraDescription/><ID>3</ID><Language>HTML en CSS</Language><Reqs>Template voor een account privacy settings pagina voor prive details van een account, FLEX en/of GRID design patterns, css classes en ids</Reqs><Title>Account Privacy Settings pagina</Title></Config><ID>3</ID><RawResponseObj z:Id="i1" xmlns:a="http://schemas.datacontract.org/2004/07/Syn_OpenAI_CoreLib.Core.Models.Data" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/"><created xmlns="http://schemas.datacontract.org/2004/07/Syn_OpenAI_CoreLib.Data">1682815020</created><id xmlns="http://schemas.datacontract.org/2004/07/Syn_OpenAI_CoreLib.Data">chatcmpl-7ApLgU2juRdUBOKSh5RglUmIJB2mu</id><a:choices><a:API_AIResponse_ChoicesJSON><a:finish_reason>stop</a:finish_reason><a:index>0</a:index><a:message><a:content>For this assignment, you will create a template for an account privacy settings page for private details of an account using HTML and CSS. The design of the page should follow either the FLEX or GRID design pattern. You will need to use appropriate CSS classes and IDs to style the page.
+
+Here are the steps to complete the assignment:
+
+1. Create a new HTML file and name it "account-privacy-settings.html".
+
+2. Add the basic HTML structure to the file using the following code:
+
+```
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+	&lt;title&gt;Account Privacy Settings&lt;/title&gt;
+	&lt;link rel="stylesheet" type="text/css" href="style.css"&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+```
+
+3. Inside the `body` tag, create a `div` with an ID of "wrapper" to contain all the elements on the page:
+
+```
+&lt;div id="wrapper"&gt;
+
+&lt;/div&gt;
+```
+
+4. Inside the `wrapper` `div`, create a `header` section that contains the page title and a navigation menu:
+
+```
+&lt;header&gt;
+	&lt;h1&gt;Account Privacy Settings&lt;/h1&gt;
+	&lt;nav&gt;
+		&lt;ul&gt;
+			&lt;li&gt;&lt;a href="#"&gt;Profile&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href="#"&gt;Privacy Settings&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href="#"&gt;Security&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href="#"&gt;Notifications&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/nav&gt;
+&lt;/header&gt;
+```
+
+5. Below the `header`, create a `section` that will contain the privacy settings form. Use a `form` element and include appropriate `input` fields for name, email, password, and any other private details you want to include:
+
+```
+&lt;section&gt;
+	&lt;h2&gt;Privacy Settings&lt;/h2&gt;
+	&lt;form&gt;
+		&lt;label for="name"&gt;Name:&lt;/label&gt;
+		&lt;input type="text" id="name" name="name"&gt;
+
+		&lt;label for="email"&gt;Email:&lt;/label&gt;
+		&lt;input type="email" id="email" name="email"&gt;
+
+		&lt;label for="password"&gt;Password:&lt;/label&gt;
+		&lt;input type="password" id="password" name="password"&gt;
+
+		&lt;!-- Include any other private details you want to include --&gt;
+
+		&lt;button type="submit"&gt;Save Changes&lt;/button&gt;
+	&lt;/form&gt;
+&lt;/section&gt;
+```
+
+6. Use CSS to style the page. Create a new file named "style.css" and link it to your HTML file using the `link` element in the `head` section. Use either the FLEX or GRID design pattern to create a responsive layout for the page. Use appropriate CSS classes and IDs to style the elements on the page.
+
+Here's an example of how you can use FLEX to create a responsive layout:
+
+```
+#wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+	background-color: #f3f3f3;
+	width: 100%;
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	margin: 0 10px;
+}
+
+section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: 500px;
+	width: 100%;
+}
+
+label {
+	margin: 10px 0;
+}
+
+input {
+	padding: 10px;
+	margin: 5px 0;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+button {
+	padding: 10px 20px;
+	background-color: #4CAF50;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #3e8e41;
+}
+```
+
+7. Test the page to make sure it looks and functions as expected. You can do this by opening the HTML file in your web browser.
+
+That's it! Your account privacy settings page should now be complete.</a:content><a:role>assistant</a:role></a:message></a:API_AIResponse_ChoicesJSON></a:choices><a:model>gpt-3.5-turbo-0301</a:model><a:object>chat.completion</a:object><a:usage><a:completion_tokens>860</a:completion_tokens><a:prompt_tokens>141</a:prompt_tokens><a:total_tokens>1001</a:total_tokens></a:usage></RawResponseObj></Assignment>

@@ -1,0 +1,65 @@
+<Assignment xmlns="http://schemas.datacontract.org/2004/07/Syn_OpenAI_AppLib.Data" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><AssignmentText>Opdracht: Security Standards
+
+Doel: Het ontwikkelen van een C# applicatie die aantoont hoe u geheugen, sockets, connecties, databestanden en encryptie op een veilige manier kunt beheren en beveiligen.
+
+Moeilijkheidsgraad: Moeilijk
+
+Benodigde voorkennis:
+- Basis C# programmering
+- Kennis van sockets en netwerkconnecties
+- Kennis van bestandsbeheer en databestanden
+- Begrip van basis cryptografie en encryptie concepten
+- Inzicht in beveiligingsstandaarden en best practices
+
+Opdrachtomschrijving:
+
+1. Maak een C# applicatie die gebruikmaakt van sockets om verbinding te maken met een server. Zorg ervoor dat de verbinding versleuteld is met behulp van bijvoorbeeld SSL/TLS om de gegevensuitwisseling te beveiligen.
+   Bron: https://docs.microsoft.com/en-us/dotnet/api/system.net.security.sslstream?view=net-6.0
+
+2. Implementeer een authenticatiesysteem om de identiteit van de gebruiker te verifiëren en ongeautoriseerde toegang te voorkomen. Dit kan bijvoorbeeld door middel van een wachtwoord of een token. Sla de wachtwoorden op met behulp van een sterke hashing-techniek, zoals bcrypt.
+   Bron: https://docs.microsoft.com/en-us/aspnet/core/security/authentication/add-user-data?view=aspnetcore-6.0&amp;tabs=visual-studio
+
+3. Beheer het geheugen op een veilige manier, zodat gevoelige gegevens zoals wachtwoorden en sleutels niet zichtbaar zijn voor aanvallers. Wis deze gegevens zodra ze niet meer nodig zijn en gebruik indien nodig beveiligde geheugenstructuren.
+   Bron: https://docs.microsoft.com/en-us/dotnet/standard/security/writing-data-safe-code
+
+4. Ontwerp een systeem om databestanden veilig op te slaan. Versleutel de gegevens met behulp van symmetrische cryptografie, zoals AES. Sla de sleutel voor de versleuteling veilig op, bijvoorbeeld met behulp van een sleutelbeheersysteem of een hardware security module (HSM).
+   Bron: https://docs.microsoft.com/en-us/dotnet/standard/security/writing-secure-data
+
+5. Beveilig de applicatie en de bijbehorende bestanden tegen ongeautoriseerde toegang en manipulatie. Dit kan onder andere door het gebruik van bestandspermissies, toegangscontrolelijsten (ACL's), digitale handtekeningen en checksums om de integriteit van de gegevens te waarborgen.
+   Bron: https://docs.microsoft.com/en-us/dotnet/standard/security/secure-coding-best-practices
+
+Bij elke stap, zorg ervoor dat u de best practices voor beveiliging volgt en de meest recente en veilige methoden gebruikt. U kunt bronnen raadplegen zoals OWASP (https://owasp.org/) en Microsoft's beveiligingsdocumentatie (https://docs.microsoft.com/en-us/dotnet/standard/security/) voor meer informatie en richtlijnen.
+
+Succes met de opdracht, en vergeet niet om uw code regelmatig te testen, te valideren en te herzien om potentiële beveiligingsrisico's te verminderen.</AssignmentText><Config><Difficulty>Moeilijk</Difficulty><ExtraDescription/><ID>40</ID><Language>C#</Language><Reqs>Memory, sockets, connecties, data bestanden en encrypties</Reqs><Title>Security Standards</Title></Config><ID>40</ID><RawResponseObj z:Id="i1" xmlns:a="http://schemas.datacontract.org/2004/07/Syn_OpenAI_CoreLib.Core.Models.Data" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/"><created xmlns="http://schemas.datacontract.org/2004/07/Syn_OpenAI_CoreLib.Data">1682887398</created><id xmlns="http://schemas.datacontract.org/2004/07/Syn_OpenAI_CoreLib.Data">chatcmpl-7B8B406XLpSiW7z9wTPYtexc9b3x7</id><a:choices><a:API_AIResponse_ChoicesJSON><a:finish_reason>stop</a:finish_reason><a:index>0</a:index><a:message><a:content>Opdracht: Security Standards
+
+Doel: Het ontwikkelen van een C# applicatie die aantoont hoe u geheugen, sockets, connecties, databestanden en encryptie op een veilige manier kunt beheren en beveiligen.
+
+Moeilijkheidsgraad: Moeilijk
+
+Benodigde voorkennis:
+- Basis C# programmering
+- Kennis van sockets en netwerkconnecties
+- Kennis van bestandsbeheer en databestanden
+- Begrip van basis cryptografie en encryptie concepten
+- Inzicht in beveiligingsstandaarden en best practices
+
+Opdrachtomschrijving:
+
+1. Maak een C# applicatie die gebruikmaakt van sockets om verbinding te maken met een server. Zorg ervoor dat de verbinding versleuteld is met behulp van bijvoorbeeld SSL/TLS om de gegevensuitwisseling te beveiligen.
+   Bron: https://docs.microsoft.com/en-us/dotnet/api/system.net.security.sslstream?view=net-6.0
+
+2. Implementeer een authenticatiesysteem om de identiteit van de gebruiker te verifiëren en ongeautoriseerde toegang te voorkomen. Dit kan bijvoorbeeld door middel van een wachtwoord of een token. Sla de wachtwoorden op met behulp van een sterke hashing-techniek, zoals bcrypt.
+   Bron: https://docs.microsoft.com/en-us/aspnet/core/security/authentication/add-user-data?view=aspnetcore-6.0&amp;tabs=visual-studio
+
+3. Beheer het geheugen op een veilige manier, zodat gevoelige gegevens zoals wachtwoorden en sleutels niet zichtbaar zijn voor aanvallers. Wis deze gegevens zodra ze niet meer nodig zijn en gebruik indien nodig beveiligde geheugenstructuren.
+   Bron: https://docs.microsoft.com/en-us/dotnet/standard/security/writing-data-safe-code
+
+4. Ontwerp een systeem om databestanden veilig op te slaan. Versleutel de gegevens met behulp van symmetrische cryptografie, zoals AES. Sla de sleutel voor de versleuteling veilig op, bijvoorbeeld met behulp van een sleutelbeheersysteem of een hardware security module (HSM).
+   Bron: https://docs.microsoft.com/en-us/dotnet/standard/security/writing-secure-data
+
+5. Beveilig de applicatie en de bijbehorende bestanden tegen ongeautoriseerde toegang en manipulatie. Dit kan onder andere door het gebruik van bestandspermissies, toegangscontrolelijsten (ACL's), digitale handtekeningen en checksums om de integriteit van de gegevens te waarborgen.
+   Bron: https://docs.microsoft.com/en-us/dotnet/standard/security/secure-coding-best-practices
+
+Bij elke stap, zorg ervoor dat u de best practices voor beveiliging volgt en de meest recente en veilige methoden gebruikt. U kunt bronnen raadplegen zoals OWASP (https://owasp.org/) en Microsoft's beveiligingsdocumentatie (https://docs.microsoft.com/en-us/dotnet/standard/security/) voor meer informatie en richtlijnen.
+
+Succes met de opdracht, en vergeet niet om uw code regelmatig te testen, te valideren en te herzien om potentiële beveiligingsrisico's te verminderen.</a:content><a:role>assistant</a:role></a:message></a:API_AIResponse_ChoicesJSON></a:choices><a:model>gpt-4-0314</a:model><a:object>chat.completion</a:object><a:usage><a:completion_tokens>796</a:completion_tokens><a:prompt_tokens>841</a:prompt_tokens><a:total_tokens>1637</a:total_tokens></a:usage></RawResponseObj></Assignment>

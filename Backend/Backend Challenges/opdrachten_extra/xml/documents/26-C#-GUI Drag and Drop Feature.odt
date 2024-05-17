@@ -1,0 +1,52 @@
+﻿Quick Details
+Opdracht ID : 26
+Opdracht titel : GUI Drag and Drop Feature
+Opdracht Programmeertalen en/of tech : C#
+Opdracht (geschatte) moeilijkheidsgraad : Makkelijk
+Opdracht Eisen : GUI elementen moeten kunnen worden versleept
+Opdracht Extra Omschrijving : Maak een modulaire GUI
+Opdracht: GUI Drag and Drop Feature
+
+Doel: Ontwikkel een eenvoudige C# applicatie met behulp van Windows Forms die drag-and-drop functionaliteit bevat voor GUI-elementen, waarbij de GUI-elementen kunnen worden versleept.
+
+Moeilijkheidsgraad: Makkelijk
+
+Benodigdheden:
+1
+Visual Studio (Installeer indien nodig vanaf: https://visualstudio.microsoft.com/downloads/)
+
+Uitleg:
+In deze opdracht ga je een eenvoudige Windows Forms-applicatie maken die een drag-and-drop functie heeft voor het verslepen van een afbeelding van een PictureBox naar een Panel.
+
+Stappen:
+1
+Open Visual Studio en maak een nieuw Windows Forms App (.NET) project aan.
+2
+Voeg een PictureBox en een Panel toe aan het formulier vanuit de Toolbox.
+3
+Stel de eigenschappen van de PictureBox en het Panel in (zoals grootte, kleur en afbeelding) zodat ze visueel herkenbaar zijn en geschikt voor het demonstreren van de drag-and-drop functionaliteit.
+4
+Schrijf de code voor de drag-and-drop functionaliteit met behulp van de voorbeeldcode die in de opdracht wordt gegeven
+Deze code bevat drie methoden: pictureBox1_MouseDown om het slepen te starten, panel1_DragEnter om het slepen te accepteren als het een geldig type gegevens heeft en panel1_DragDrop om de afbeelding in het doelpaneel te plaatsen.
+
+Opdracht voor de student:
+1
+Maak een Windows Forms App (.NET) project in Visual Studio.
+2
+Voeg een PictureBox en een Panel toe aan het Formulier.
+3
+Pas de grootte, kleur en afbeelding van de PictureBox en het Panel aan om de drag-and-drop-functionaliteit te demonstreren.
+4
+Implementeer de drag-and-drop functionaliteit met behulp van de voorbeeldcode die in de opdracht wordt gegeven.
+5
+Koppel de bovenstaande methoden aan de juiste gebeurtenissen (MouseDown voor pictureBox1, DragEnter en DragDrop voor panel1) via het eigenschappenvenster of in code.
+6
+Voer het programma uit en test de drag-and-drop functionaliteit om te controleren of de afbeelding in de PictureBox naar het Panel kan worden versleept.
+
+Bronnen:
+1
+Drag-and-drop in Windows Forms: https://docs.microsoft.com/nl-nl/dotnet/framework/winforms/advanced/walkthrough-performing-a-drag-and-drop-operation-in-windows-forms
+2
+PictureBox Class: https://docs.microsoft.com/nl-nl/dotnet/api/system.windows.forms.picturebox?view=net-5.0
+3
+Panel Class: https://docs.microsoft.com/nl-nl/dotnet/api/system.windows.forms.panel?view=net-5.0

@@ -1,0 +1,39 @@
+﻿Quick Details
+Opdracht ID : 25
+Opdracht titel : GUI Drag and Drop Feature
+Opdracht Programmeertalen en/of tech : JS
+Opdracht (geschatte) moeilijkheidsgraad : Makkelijk
+Opdracht Eisen : GUI elementen moeten kunnen worden versleept
+Opdracht Extra Omschrijving : Maak een modulaire GUI
+Opdracht: GUI Drag and Drop Feature
+
+Doel: Ontwikkel een eenvoudige webpagina met een drag-en-drop functionaliteit met behulp van JavaScript
+De webpagina moet GUI-elementen bevatten die kunnen worden versleept.
+
+Moeilijkheidsgraad: Makkelijk
+
+Benodigdheden:
+- Basiskennis van HTML, CSS en JavaScript
+
+Stappen:
+1
+Maak een HTML-bestand en voeg de structuur van de webpagina toe, inclusief de doctype, head en body tags
+Voeg een div-element toe met een id en een class om het als een sleepbaar element te identificeren.
+2
+Maak een CSS-bestand en koppel het aan uw HTML-bestand om de GUI-elementen te stylen
+Stel de cursor in op "move" om aan te geven dat het element sleepbaar is, en zorg voor een goede positionering en opmaak.
+3
+Maak een JavaScript-bestand en koppel het aan uw HTML-bestand om de functionaliteit van het verslepen van GUI-elementen toe te voegen
+Gebruik de JavaScript-code om de mousedown, mousemove, en mouseup events te verwerken.
+
+In deze opdracht ga je een webpagina maken met één of meerdere GUI-elementen die kunnen worden versleept met behulp van JavaScript
+Gebruik de eerder verstrekte HTML-, CSS- en JavaScript-code als basis voor je oplossing en pas deze naar wens aan.
+
+Tips:
+- Experimenteer met verschillende GUI-elementen en hun sleepbaarheid, bijvoorbeeld afbeeldingen, tekst of andere HTML-elementen.
+- Zorg ervoor dat de sleepbare elementen goed werken op verschillende schermformaten en browsers.
+- Voeg extra functionaliteit toe, zoals het beperken van het sleepgebied of het toevoegen van animaties bij het slepen.
+
+Bronnen:
+- MouseEvent: https://developer.mozilla.org/nl/docs/Web/API/MouseEvent
+- Drag-and-drop functionaliteit: https://developer.mozilla.org/nl/docs/Web/API/Document/drag_event

@@ -1,0 +1,54 @@
+﻿Quick Details
+Opdracht ID : 86
+Opdracht titel : Wetenschappelijke Calculator
+Opdracht Programmeertalen en/of tech : PYTHON
+Opdracht (geschatte) moeilijkheidsgraad : Gemiddeld
+Opdracht Eisen : plus, minus, keer, gedeeld door, wetenschappelijke notatie, wetenschappelijke formules
+Opdracht Extra Omschrijving : 
+Titel: Wetenschappelijke Calculator
+
+Doel:
+Het doel van deze opdracht is om een wetenschappelijke calculator te ontwikkelen met behulp van Python
+Deze calculator moet zowel basis- als wetenschappelijke berekeningen kunnen uitvoeren, waaronder (maar niet beperkt tot) optellen, aftrekken, vermenigvuldigen, delen, wetenschappelijke notatie en diverse wetenschappelijke formules.
+
+Benodigde voorkennis:
+- Basis Python kennis (variabelen, functies, input/output, loops, condities)
+- Kennis van wiskundige bewerkingen en wetenschappelijke notaties
+
+Opdrachtomschrijving:
+1
+Maak een interactief menu voor de gebruiker om te kiezen tussen basis- en wetenschappelijke berekeningen.
+2
+Implementeer basisberekeningen: plus (optellen), minus (aftrekken), keer (vermenigvuldigen), gedeeld door (delen).
+3
+Implementeer wetenschappelijke notatie (bijv
+1.2 x 10^3) en de mogelijkheid om deze notatie te gebruiken in berekeningen.
+4
+Implementeer diverse wetenschappelijke formules, zoals (maar niet beperkt tot):
+  
+De berekening van wortels (vierkantswortel, derdemachtswortel, enz.).
+  
+Logaritmische functies (natuurlijke logaritme, logaritme met basis 10).
+  
+Trigonometrische functies (sinus, cosinus, tangens).
+5
+Zorg ervoor dat de calculator foutmeldingen weergeeft bij ongeldige invoer en dat de calculator opnieuw start of de gebruiker de optie biedt om opnieuw te proberen.
+
+Moeilijkheidsgraad: Gemiddeld
+
+Instructies:
+1
+Importeer de benodigde bibliotheken, zoals 'math'.
+2
+Definieer aparte functies voor elke berekening die de calculator moet uitvoeren.
+3
+Gebruik de 'input()'-functie om gebruikersinvoer te verkrijgen voor zowel het menu als de berekeningen.
+4
+Gebruik 'if-elif-else'-statements om te bepalen welke berekening moet worden uitgevoerd op basis van de gebruikersinvoer.
+5
+Implementeer een 'while'-loop om de calculator actief te houden totdat de gebruiker ervoor kiest om te stoppen (bijv
+door een bepaalde toetsencombinatie in te voeren of een specifieke optie te selecteren).
+
+Bronnen:
+- Python documentatie: https://docs.python.org/3/
+- Wiskundige functies in Python: https://docs.python.org/3/library/math.html

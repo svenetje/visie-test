@@ -1,0 +1,63 @@
+﻿Quick Details
+Opdracht ID : 53
+Opdracht titel : Class Library Assessment
+Opdracht Programmeertalen en/of tech : C#
+Opdracht (geschatte) moeilijkheidsgraad : Moeilijk
+Opdracht Eisen : "classes voor de apis 
+Opdracht Extra Omschrijving :  bitly, google docs en spreadsheets, google search, weerdata. classes en interfaces voor de apis dashboards. "
+Opdracht: Class Library Assessment
+
+Doel: Maak een class library in C# die verschillende API's aanspreekt en de resultaten verwerkt.
+
+Moeilijkheidsgraad: Moeilijk
+
+Benodigde programmeertaal: C#
+
+Introductie:
+
+In de moderne softwareontwikkeling is het gebruikelijk om externe API's te gebruiken om gegevens op te halen, te verwerken en weer te geven in onze applicaties
+Voor deze opdracht is het doel om een class library te ontwikkelen die verschillende API's aanspreekt, de resultaten verwerkt en als een bruikbare module beschikbaar stelt voor andere applicaties.
+
+Beschrijving:
+
+In deze opdracht ga je een class library in C# ontwikkelen die verschillende API's aanspreekt en de resultaten verwerkt
+De library moet kunnen communiceren met ten minste drie verschillende API's
+Voorbeelden van API's die je kunt gebruiken zijn:
+
+1
+OpenWeatherMap API: https://openweathermap.org/api
+2
+The Movie Database API: https://www.themoviedb.org/documentation/api
+3
+Google Maps API: https://developers.google.com/maps/documentation/apis-overview
+
+Uitbreiding van de vereisten:
+
+1
+Creëer een nieuw project in Visual Studio met het type "Class Library (.NET Core)" en geef het een passende naam.
+2
+Voeg de benodigde NuGet packages toe voor het werken met API's (bijvoorbeeld Newtonsoft.Json voor het verwerken van JSON-data en System.Net.Http voor het maken van HTTP-verzoeken).
+3
+Creëer voor elke API een afzonderlijke klasse met duidelijke methoden om de API aan te spreken en de resultaten te verwerken
+Deze klassen moeten ook de nodige eigenschappen en methoden bevatten om foutafhandeling en het instellen van API-sleutels te ondersteunen.
+4
+Zorg ervoor dat de klassen en methoden goed gedocumenteerd zijn met behulp van XML-documentatie
+Dit maakt het gemakkelijker voor andere ontwikkelaars om de code te begrijpen en te gebruiken.
+5
+Schrijf unit tests voor elke klasse om te testen of de methoden correct functioneren
+Dit helpt om de kwaliteit van de code te garanderen en toekomstige wijzigingen te vergemakkelijken.
+6
+Gebruik async/await om asynchroon met de API's te communiceren
+Dit zorgt voor betere prestaties en schaalbaarheid van de library.
+
+Inleveren:
+
+1
+Lever alle broncodes (.cs-bestanden) en het .csproj-bestand in.
+2
+Zorg ervoor dat alle testen succesvol zijn uitgevoerd en voeg een screenshot toe van de testresultaten.
+3
+Schrijf een beknopte handleiding (in een .txt of .md-bestand) over hoe de class library gebruikt kan worden, inclusief voorbeelden van hoe de methoden aangeroepen kunnen worden
+Beschrijf ook hoe men de API-sleutels kan instellen en foutafhandeling kan implementeren.
+
+Succes met de opdracht!

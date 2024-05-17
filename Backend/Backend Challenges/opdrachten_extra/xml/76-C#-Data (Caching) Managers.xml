@@ -1,0 +1,55 @@
+<Assignment xmlns="http://schemas.datacontract.org/2004/07/Syn_OpenAI_AppLib.Data" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><AssignmentText>Opdracht: Data (Caching) Managers
+Moeilijkheidsgraad: Gemiddeld
+Programmeertaal: C#
+
+Uitgebreide beschrijving:
+In deze opdracht ga je een eenvoudig data-cachingsysteem ontwerpen en implementeren met behulp van objectgeoriënteerd programmeren in C#. Data-caching wordt vaak gebruikt om de prestaties van applicaties te verbeteren door het verminderen van de tijd die nodig is om data op te halen uit externe bronnen, zoals databases of API's. Je zult leren hoe je een cache kunt opzetten, en hoe je methoden kunt implementeren om data toe te voegen, op te halen en te verwijderen.
+
+Vereisten:
+1. Maak een klasse genaamd "DataCache", die verantwoordelijk is voor het opslaan en beheren van de gecachte data.
+2. In de "DataCache" klasse, moet je de volgende methoden implementeren:
+    a. "AddData": Voeg data toe aan de cache, met een unieke sleutel. Zorg ervoor dat de data alleen wordt toegevoegd als de sleutel nog niet bestaat.
+    b. "GetData": Haal data op uit de cache op basis van de gegeven sleutel. Als de sleutel niet bestaat, retourneer dan een foutmelding of gooi een uitzondering.
+    c. "RemoveData": Verwijder data uit de cache op basis van de gegeven sleutel. Als de sleutel niet bestaat, retourneer dan een foutmelding of gooi een uitzondering.
+    d. "ClearCache": Verwijder alle data uit de cache, zodat deze weer leeg is en klaar voor gebruik.
+3. Maak een klasse genaamd "DataManager" die de "DataCache" klasse gebruikt om data op te slaan en op te halen. Deze klasse kan extra functionaliteit bevatten, zoals het ophalen van data uit externe bronnen als de data niet in de cache beschikbaar is.
+4. Implementeer een eenvoudige gebruikersinterface (console applicatie) om data toe te voegen, op te halen en te verwijderen. De gebruiker moet in staat zijn om een sleutel en bijbehorende data in te voeren, en de applicatie moet de juiste methoden in de "DataCache" en "DataManager" klassen aanroepen om deze acties uit te voeren.
+
+Aandachtspunten:
+- Gebruik een Dictionary om de data en bijbehorende sleutels op te slaan in de "DataCache" klasse, omdat dit een efficiënte manier is om data op te slaan met een unieke sleutel.
+- Implementeer foutafhandeling en uitzonderingen in je code om potentiële problemen aan te pakken, zoals dubbele sleutels, ongeldige invoer of het niet vinden van een sleutel bij het ophalen of verwijderen van data.
+
+Inleveren:
+Lever een ZIP-bestand in met de volgende bestanden:
+1. DataCache.cs: Bevat de "DataCache" klasse, met de methoden voor het toevoegen, ophalen, verwijderen en legen van de cache.
+2. DataManager.cs: Bevat de "DataManager" klasse, die de "DataCache" klasse gebruikt om data op te slaan en op te halen.
+3. Program.cs: Bevat de hoofdcode en gebruikersinterface van de console-applicatie, waarin de gebruiker interactie heeft met het data-cachingsysteem.
+
+Veel succes met het voltooien van deze opdracht!</AssignmentText><Config><Difficulty>Gemiddeld</Difficulty><ExtraDescription/><ID>76</ID><Language>C#</Language><Reqs>Object Oriented</Reqs><Title>Data (Caching) Managers</Title></Config><ID>76</ID><RawResponseObj z:Id="i1" xmlns:a="http://schemas.datacontract.org/2004/07/Syn_OpenAI_CoreLib.Core.Models.Data" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/"><created xmlns="http://schemas.datacontract.org/2004/07/Syn_OpenAI_CoreLib.Data">1682891392</created><id xmlns="http://schemas.datacontract.org/2004/07/Syn_OpenAI_CoreLib.Data">chatcmpl-7B9DUGcB8UaYrG3skQ2zB2j0Zrmtv</id><a:choices><a:API_AIResponse_ChoicesJSON><a:finish_reason>stop</a:finish_reason><a:index>0</a:index><a:message><a:content>Opdracht: Data (Caching) Managers
+Moeilijkheidsgraad: Gemiddeld
+Programmeertaal: C#
+
+Uitgebreide beschrijving:
+In deze opdracht ga je een eenvoudig data-cachingsysteem ontwerpen en implementeren met behulp van objectgeoriënteerd programmeren in C#. Data-caching wordt vaak gebruikt om de prestaties van applicaties te verbeteren door het verminderen van de tijd die nodig is om data op te halen uit externe bronnen, zoals databases of API's. Je zult leren hoe je een cache kunt opzetten, en hoe je methoden kunt implementeren om data toe te voegen, op te halen en te verwijderen.
+
+Vereisten:
+1. Maak een klasse genaamd "DataCache", die verantwoordelijk is voor het opslaan en beheren van de gecachte data.
+2. In de "DataCache" klasse, moet je de volgende methoden implementeren:
+    a. "AddData": Voeg data toe aan de cache, met een unieke sleutel. Zorg ervoor dat de data alleen wordt toegevoegd als de sleutel nog niet bestaat.
+    b. "GetData": Haal data op uit de cache op basis van de gegeven sleutel. Als de sleutel niet bestaat, retourneer dan een foutmelding of gooi een uitzondering.
+    c. "RemoveData": Verwijder data uit de cache op basis van de gegeven sleutel. Als de sleutel niet bestaat, retourneer dan een foutmelding of gooi een uitzondering.
+    d. "ClearCache": Verwijder alle data uit de cache, zodat deze weer leeg is en klaar voor gebruik.
+3. Maak een klasse genaamd "DataManager" die de "DataCache" klasse gebruikt om data op te slaan en op te halen. Deze klasse kan extra functionaliteit bevatten, zoals het ophalen van data uit externe bronnen als de data niet in de cache beschikbaar is.
+4. Implementeer een eenvoudige gebruikersinterface (console applicatie) om data toe te voegen, op te halen en te verwijderen. De gebruiker moet in staat zijn om een sleutel en bijbehorende data in te voeren, en de applicatie moet de juiste methoden in de "DataCache" en "DataManager" klassen aanroepen om deze acties uit te voeren.
+
+Aandachtspunten:
+- Gebruik een Dictionary om de data en bijbehorende sleutels op te slaan in de "DataCache" klasse, omdat dit een efficiënte manier is om data op te slaan met een unieke sleutel.
+- Implementeer foutafhandeling en uitzonderingen in je code om potentiële problemen aan te pakken, zoals dubbele sleutels, ongeldige invoer of het niet vinden van een sleutel bij het ophalen of verwijderen van data.
+
+Inleveren:
+Lever een ZIP-bestand in met de volgende bestanden:
+1. DataCache.cs: Bevat de "DataCache" klasse, met de methoden voor het toevoegen, ophalen, verwijderen en legen van de cache.
+2. DataManager.cs: Bevat de "DataManager" klasse, die de "DataCache" klasse gebruikt om data op te slaan en op te halen.
+3. Program.cs: Bevat de hoofdcode en gebruikersinterface van de console-applicatie, waarin de gebruiker interactie heeft met het data-cachingsysteem.
+
+Veel succes met het voltooien van deze opdracht!</a:content><a:role>assistant</a:role></a:message></a:API_AIResponse_ChoicesJSON></a:choices><a:model>gpt-4-0314</a:model><a:object>chat.completion</a:object><a:usage><a:completion_tokens>847</a:completion_tokens><a:prompt_tokens>661</a:prompt_tokens><a:total_tokens>1508</a:total_tokens></a:usage></RawResponseObj></Assignment>

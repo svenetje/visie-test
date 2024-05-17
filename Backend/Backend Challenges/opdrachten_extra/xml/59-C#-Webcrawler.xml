@@ -1,0 +1,59 @@
+<Assignment xmlns="http://schemas.datacontract.org/2004/07/Syn_OpenAI_AppLib.Data" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><AssignmentText>Opdracht: Webcrawler
+Titel: Webcrawler
+Vereisten: GUI voor het instellen van zoekwoorden en beperkingen
+Programmeertaal: C#
+Moeilijkheidsgraad: Gemiddeld
+
+Introductie:
+In deze opdracht ga je een webcrawler ontwikkelen die in staat is om websites te doorzoeken op basis van door de gebruiker opgegeven zoekwoorden en beperkingen. De webcrawler maakt gebruik van C# als programmeertaal en heeft een grafische gebruikersinterface (GUI) voor het instellen van zoekwoorden en beperkingen.
+
+Stap 1: Maak een nieuw C# Windows Forms-project in Visual Studio
+- Volg de stappen zoals beschreven in de opdrachttekst.
+
+Stap 2: Installeer HtmlAgilityPack via NuGet
+- Volg de stappen zoals beschreven in de opdrachttekst.
+
+Stap 3: Ontwerp de GUI
+- Geef de TextBoxes duidelijke labels zodat gebruikers weten waar ze hun zoekwoorden en beperkingen moeten invoeren.
+- Voeg eventueel tooltips toe aan de elementen in de GUI voor extra uitleg.
+
+Stap 4: Implementeer de webcrawler
+- Gebruik de HtmlWeb klasse uit de HtmlAgilityPack om de HTML van webpagina's op te halen: (https://html-agility-pack.net/from-url)
+- Overweeg om reguliere expressies te gebruiken om de zoekwoorden in de HTML te vinden: (https://docs.microsoft.com/en-us/dotnet/standard/base-types/regular-expressions)
+- Implementeer een recursieve functie om links naar andere pagina's op de huidige pagina te vinden en deze ook te doorzoeken, rekening houdend met de beperkingen.
+
+Stap 5: Koppel de webcrawler aan de GUI
+- Gebruik een BackgroundWorker (https://docs.microsoft.com/en-us/dotnet/api/system.componentmodel.backgroundworker) om de webcrawler asynchroon uit te voeren, zodat de GUI niet bevriest tijdens het doorzoeken van websites.
+- Update de ListBox met de gevonden resultaten in de GUI via de Invoke methode om 'cross-thread' problemen te voorkomen: (https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control.invoke)
+
+Eindresultaat:
+Na het succesvol voltooien van deze opdracht, heb je een werkende webcrawler gemaakt met een GUI waarmee gebruikers zoekwoorden en beperkingen kunnen instellen. De webcrawler doorzoekt websites op basis van de opgegeven zoekwoorden en toont de gevonden resultaten in de ListBox.</AssignmentText><Config><Difficulty>Gemiddeld</Difficulty><ExtraDescription/><ID>59</ID><Language>C#</Language><Reqs>GUI voor keywords en limitaties instellen</Reqs><Title>Webcrawler</Title></Config><ID>59</ID><RawResponseObj z:Id="i1" xmlns:a="http://schemas.datacontract.org/2004/07/Syn_OpenAI_CoreLib.Core.Models.Data" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/"><created xmlns="http://schemas.datacontract.org/2004/07/Syn_OpenAI_CoreLib.Data">1682889224</created><id xmlns="http://schemas.datacontract.org/2004/07/Syn_OpenAI_CoreLib.Data">chatcmpl-7B8eWrq2ySy4pwrwrwHVrK5reIlBP</id><a:choices><a:API_AIResponse_ChoicesJSON><a:finish_reason>stop</a:finish_reason><a:index>0</a:index><a:message><a:content>Opdracht: Webcrawler
+Titel: Webcrawler
+Vereisten: GUI voor het instellen van zoekwoorden en beperkingen
+Programmeertaal: C#
+Moeilijkheidsgraad: Gemiddeld
+
+Introductie:
+In deze opdracht ga je een webcrawler ontwikkelen die in staat is om websites te doorzoeken op basis van door de gebruiker opgegeven zoekwoorden en beperkingen. De webcrawler maakt gebruik van C# als programmeertaal en heeft een grafische gebruikersinterface (GUI) voor het instellen van zoekwoorden en beperkingen.
+
+Stap 1: Maak een nieuw C# Windows Forms-project in Visual Studio
+- Volg de stappen zoals beschreven in de opdrachttekst.
+
+Stap 2: Installeer HtmlAgilityPack via NuGet
+- Volg de stappen zoals beschreven in de opdrachttekst.
+
+Stap 3: Ontwerp de GUI
+- Geef de TextBoxes duidelijke labels zodat gebruikers weten waar ze hun zoekwoorden en beperkingen moeten invoeren.
+- Voeg eventueel tooltips toe aan de elementen in de GUI voor extra uitleg.
+
+Stap 4: Implementeer de webcrawler
+- Gebruik de HtmlWeb klasse uit de HtmlAgilityPack om de HTML van webpagina's op te halen: (https://html-agility-pack.net/from-url)
+- Overweeg om reguliere expressies te gebruiken om de zoekwoorden in de HTML te vinden: (https://docs.microsoft.com/en-us/dotnet/standard/base-types/regular-expressions)
+- Implementeer een recursieve functie om links naar andere pagina's op de huidige pagina te vinden en deze ook te doorzoeken, rekening houdend met de beperkingen.
+
+Stap 5: Koppel de webcrawler aan de GUI
+- Gebruik een BackgroundWorker (https://docs.microsoft.com/en-us/dotnet/api/system.componentmodel.backgroundworker) om de webcrawler asynchroon uit te voeren, zodat de GUI niet bevriest tijdens het doorzoeken van websites.
+- Update de ListBox met de gevonden resultaten in de GUI via de Invoke methode om 'cross-thread' problemen te voorkomen: (https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control.invoke)
+
+Eindresultaat:
+Na het succesvol voltooien van deze opdracht, heb je een werkende webcrawler gemaakt met een GUI waarmee gebruikers zoekwoorden en beperkingen kunnen instellen. De webcrawler doorzoekt websites op basis van de opgegeven zoekwoorden en toont de gevonden resultaten in de ListBox.</a:content><a:role>assistant</a:role></a:message></a:API_AIResponse_ChoicesJSON></a:choices><a:model>gpt-4-0314</a:model><a:object>chat.completion</a:object><a:usage><a:completion_tokens>601</a:completion_tokens><a:prompt_tokens>760</a:prompt_tokens><a:total_tokens>1361</a:total_tokens></a:usage></RawResponseObj></Assignment>

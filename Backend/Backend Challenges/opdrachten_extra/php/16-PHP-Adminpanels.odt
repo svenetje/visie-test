@@ -1,0 +1,84 @@
+﻿Quick Details
+Opdracht ID : 16
+Opdracht titel : Adminpanels
+Opdracht Programmeertalen en/of tech : PHP
+Opdracht (geschatte) moeilijkheidsgraad : Gemiddeld
+Opdracht Eisen : Moet andere dashboards gemaakt indezelfde taal kunnen integreren door middel van plugin loading.
+Opdracht Extra Omschrijving : maak een eigen dashboard voor users en usergroepen management, plugin management voor features.
+Opdracht: Adminpanelen
+
+Doel: Maak een adminpaneel dat andere dashboards, gemaakt in dezelfde programmeertaal (PHP), kan integreren door middel van plugin loading.
+
+Moeilijkheidsgraad: Gemiddeld
+
+Benodigde kennis:
+- PHP (basis en geavanceerde concepten)
+- HTML, CSS en JavaScript voor de front-end
+- MySQL of andere databasesystemen voor het opslaan van gebruikersgegevens
+
+Stappenplan:
+
+1
+Maak een basis adminpaneel lay-out.
+  
+Gebruik HTML, CSS en JavaScript om een aantrekkelijk en gebruiksvriendelijk adminpaneel te maken.
+  
+Voeg navigatie-elementen en een inhoudssectie toe waar de verschillende dashboards kunnen worden weergegeven.
+  
+Zorg voor responsiviteit, zodat het adminpaneel er goed uitziet op verschillende apparaten en schermgroottes.
+
+2
+Implementeer gebruikersauthenticatie.
+  
+Voeg een inlogpagina of pop-up toe waar gebruikers hun e-mailadres en wachtwoord moeten invoeren om toegang te krijgen tot het adminpaneel.
+  
+Maak gebruik van een databasesysteem (zoals MySQL) om de gebruikersgegevens op te slaan en te valideren.
+  
+Implementeer beveiligingstechnieken, zoals het hashen van wachtwoorden en bescherming tegen SQL-injectie.
+
+3
+Maak een plugin-systeem.
+  
+Definieer de structuur en vereisten voor een plugin (bijv
+een specifieke mapstructuur, bestandsnamen, enz.).
+  
+Schrijf PHP-code om plugins te laden en te initialiseren volgens de gedefinieerde structuur.
+  
+Zorg ervoor dat het plugin-systeem veilig is en geen kwetsbaarheden bevat die kunnen worden misbruikt.
+
+4
+Maak een voorbeeld-dashboardplugin.
+  
+Maak een eenvoudig dashboard dat voldoet aan de plugin-vereisten die je in stap 3 hebt gedefinieerd.
+  
+Implementeer de functionaliteit om dit dashboard te integreren en weer te geven in het adminpaneel.
+  
+Zorg ervoor dat het voorbeeld-dashboard bruikbaar is en goed geïntegreerd is met het adminpaneel.
+
+5
+Test en debug het systeem.
+  
+Test het adminpaneel grondig om er zeker van te zijn dat alle functionaliteiten naar behoren werken.
+  
+Los eventuele problemen op die je tegenkomt tijdens het testen.
+  
+Voer beveiligingstests uit om ervoor te zorgen dat het adminpaneel en het plugin-systeem veilig zijn.
+
+6
+Documenteer het project.
+  
+Schrijf een handleiding voor het gebruik van het adminpaneel en het maken van plugins.
+  
+Voeg eventueel code-commentaar en -uitleg toe voor toekomstige ontwikkelaars.
+  
+Beschrijf best practices en aanbevelingen voor het ontwikkelen van nieuwe plugins en het uitbreiden van het adminpaneel.
+
+Als je klaar bent met deze opdracht, moet je in staat zijn om eenvoudig nieuwe dashboards te creëren en te integreren als plugins in het bestaande adminpaneel
+Het is belangrijk om ervoor te zorgen dat het systeem flexibel en schaalbaar is, zodat het kan worden uitgebreid met nieuwe functionaliteiten in de toekomst.
+
+Bronnen:
+- PHP: https://www.php.net/manual/nl/index.php
+- HTML: https://developer.mozilla.org/nl/docs/Web/HTML
+- CSS: https://developer.mozilla.org/nl/docs/Web/CSS
+- JavaScript: https://developer.mozilla.org/nl/docs/Web/JavaScript
+- MySQL: https://dev.mysql.com/doc/refman/8.0/en/index.html

@@ -1,0 +1,80 @@
+﻿Quick Details
+Opdracht ID : 18
+Opdracht titel : Yahtzee game
+Opdracht Programmeertalen en/of tech : C#
+Opdracht (geschatte) moeilijkheidsgraad : Makkelijk
+Opdracht Eisen : multiplayer door peer to peer discovery en dedicated hosting, gamestate en highscores lokaal voor iedere gebruiker opslaan.
+Opdracht Extra Omschrijving : maak een Yahtzee game waarin spelers samen en tegen elkaar kunnen spelen
+Titel: Yahtzee-spel
+
+Doel: Creëer een eenvoudig multiplayer Yahtzee-spel met behulp van peer-to-peer ontdekking en dedicated hosting
+Sla de gamestate en highscores lokaal op voor elke gebruiker.
+
+Programmeertaal: C#
+
+Moeilijkheidsgraad: Makkelijk
+
+Benodigdheden:
+1
+Visual Studio Community Edition met C# (https://visualstudio.microsoft.com/vs/community/)
+
+Opdrachten:
+
+1
+Maak een nieuw consoleproject in C# met de naam "YahtzeeGame".
+  
+Open Visual Studio en selecteer "Nieuw project"
+  
+Kies "Console-app" en klik op "Volgende"
+  
+Geef de naam "YahtzeeGame" en klik op "Maken"
+
+2
+Ontwerp de basisstructuur van het spel, inclusief klassen voor dobbelstenen, spelers en gamestate.
+  
+Maak een klasse "Dice" met eigenschappen zoals waarde, en een methode om de dobbelsteen te rollen.
+  
+Maak een klasse "Player" met eigenschappen zoals naam en score, en methoden om de dobbelstenen te rollen en de score bij te werken.
+  
+Maak een klasse "GameState" met eigenschappen zoals spelerslijst, huidige speler, en methoden om winnaars te controleren en het spel te beheren.
+
+3
+Implementeer de spellogica, zoals het rollen van dobbelstenen, het bijhouden van scores en het controleren van winnaars.
+  
+In de klasse "Dice", gebruik "Random"-klasse om een willekeurige waarde tussen 1 en 6 te genereren.
+  
+In de klasse "Player", implementeer methoden om de dobbelstenen te rollen, de score bij te werken en te controleren of de speler heeft gewonnen.
+  
+In de klasse "GameState", beheer de beurten van spelers en implementeer de winnaarscontrole.
+
+4
+Voeg peer-to-peer ontdekking en communicatie toe met behulp van de System.Net.Sockets-nuget package (https://docs.microsoft.com/en-us/dotnet/api/system.net.sockets?view=net-5.0).
+  
+Installeer de nuget package "System.Net.Sockets" via "Beheren NuGet-pakketten" in Visual Studio.
+  
+Implementeer het opzetten van verbindingen tussen spelers met behulp van sockets.
+  
+Stuur en ontvang spelgegevens tussen spelers door middel van sockets.
+
+5
+Implementeer dedicated hosting om meerdere spelers in één spel te ondersteunen.
+  
+Maak een klasse "Server" om het spel te hosten en verbindingen te accepteren van meerdere spelers.
+  
+Implementeer de synchronisatie van gamestate en spelgegevens tussen de server en de spelers.
+
+6
+Sla de gamestate en highscores lokaal op voor elke speler, bijvoorbeeld met behulp van bestandsopslag in JSON-formaat (https://www.newtonsoft.com/json).
+  
+Installeer de nuget package "Newtonsoft.Json" via "Beheren NuGet-pakketten" in Visual Studio.
+  
+Maak een methode om gamestate en highscores te converteren naar JSON-formaat en op te slaan in een bestand.
+  
+Maak een methode om lokale opgeslagen gamestate en highscores te lezen en te laden.
+
+Extra tips:
+- Maak gebruik van de tutorial over het maken van een console Yahtzee-spel in C# voor de basis spellogica (https://www.c-sharpcorner.com/article/yahtzee-in-c-sharp/).
+- Bestudeer de documentatie van System.Net.Sockets voor het opzetten van peer-to-peer communicatie (https://docs.microsoft.com/en-us/dotnet/api/system.net.sockets?view=net-5.0).
+- Gebruik Newtonsoft.Json (https://www.newtonsoft.com/json) om eenvoudig objecten naar JSON te converteren en vice versa voor lokale opslag.
+
+Succes met de opdracht!

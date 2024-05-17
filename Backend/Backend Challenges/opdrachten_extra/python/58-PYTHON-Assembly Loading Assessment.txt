@@ -1,0 +1,53 @@
+﻿Quick Details
+Opdracht ID : 58
+Opdracht titel : Assembly Loading Assessment
+Opdracht Programmeertalen en/of tech : PYTHON
+Opdracht (geschatte) moeilijkheidsgraad : Moeilijk
+Opdracht Eisen : Class libraries inladen geschreven in Assembly / Rust taal
+Opdracht Extra Omschrijving : 
+Opdracht: Assembly Loading Assessment
+
+Doel: Maak een Python-programma dat class libraries, geschreven in Assembly en Rust, inlaadt en gebruikt.
+
+Moeilijkheidsgraad: Moeilijk
+
+Benodigdheden:
+1
+Kennis van Python
+2
+Basiskennis van Assembly en Rust
+3
+ctypes bibliotheek voor Python (https://docs.python.org/3/library/ctypes.html)
+
+Opdrachtbeschrijving:
+
+Deel 1: Assembly Class Library
+1
+Schrijf een eenvoudige Assembly-functie, bijvoorbeeld een functie die twee getallen optelt
+Gebruik hiervoor de x86-assembly instructies (https://en.wikibooks.org/wiki/X86_Assembly).
+2
+Compileer de Assembly-code tot een gedeelde bibliotheek (.dll of .so, afhankelijk van het besturingssysteem) met behulp van een Assembler zoals NASM (https://www.nasm.us/).
+
+Deel 2: Rust Class Library
+1
+Schrijf een eenvoudige Rust-functie, bijvoorbeeld een functie die twee getallen vermenigvuldigt en zorg ervoor dat deze functie toegankelijk is via FFI (Foreign Function Interface) door de "pub" en "no_mangle" attributen toe te voegen (https://doc.rust-lang.org/nomicon/ffi.html).
+2
+Compileer de Rust-code tot een gedeelde bibliotheek (.dll of .so, afhankelijk van het besturingssysteem) met behulp van Cargo (https://doc.rust-lang.org/cargo/).
+
+Deel 3: Python-programma
+1
+Gebruik de ctypes-bibliotheek om beide gedeelde bibliotheken (Assembly en Rust) in te laden in uw Python-programma
+Gebruik hiervoor de LoadLibrary-functie (https://docs.python.org/3/library/ctypes.html#loading-shared-libraries).
+2
+Definieer de functies in Python met behulp van de ctypes-bibliotheek, zodat ze overeenkomen met de functies die in de Assembly- en Rust-code zijn gedefinieerd
+Gebruik hiervoor de juiste ctypes-types (https://docs.python.org/3/library/ctypes.html#fundamental-data-types).
+3
+Roep de functies aan met behulp van de gedefinieerde ctypes-functies en geef de resultaten weer in de console
+Vergeet niet om de resultaten te controleren op fouten (https://docs.python.org/3/library/ctypes.html#checking-for-errors).
+
+Bronnen:
+- ctypes: https://docs.python.org/3/library/ctypes.html
+- Assembly: https://en.wikibooks.org/wiki/X86_Assembly
+- Rust FFI: https://doc.rust-lang.org/nomicon/ffi.html
+- NASM: https://www.nasm.us/
+- Cargo: https://doc.rust-lang.org/cargo/

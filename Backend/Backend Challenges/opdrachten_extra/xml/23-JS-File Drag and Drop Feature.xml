@@ -1,0 +1,81 @@
+<Assignment xmlns="http://schemas.datacontract.org/2004/07/Syn_OpenAI_AppLib.Data" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><AssignmentText>Opdracht: File Drag and Drop Feature
+
+Doel: Het doel van deze opdracht is om een eenvoudige webpagina te ontwikkelen waarop gebruikers bestanden en mappen kunnen slepen en neerzetten. De webpagina moet vervolgens de inhoud van de geüploade bestanden weergeven en de geüploade mappen indexeren.
+
+Benodigde technologieën: Voor deze opdracht heb je kennis nodig van HTML, CSS en JavaScript.
+
+Moeilijkheidsgraad: Deze opdracht wordt als makkelijk beschouwd.
+
+Stappen:
+
+1. Maak een HTML-bestand en voeg basis HTML-structuur toe. Geef het een titel "File Drag and Drop Feature".
+
+2. Maak een div-element met een class "dropzone" in de body sectie van de HTML-pagina. Dit is waar gebruikers bestanden en mappen kunnen slepen en neerzetten. Zorg dat de dropzone duidelijk zichtbaar is voor de gebruiker.
+
+3. Voeg een CSS-bestand toe om stijl toe te voegen aan de webpagina. Geef de dropzone een zichtbare rand, achtergrondkleur en stel de hoogte en breedte van de dropzone in. Maak ook een extra CSS-klasse om het uiterlijk van de dropzone te veranderen wanneer bestanden en mappen er boven worden gesleept.
+
+4. Voeg een JavaScript-bestand toe om de functionaliteit voor slepen en neerzetten te implementeren. Gebruik de Drag and Drop API (1) om de volgende functionaliteiten te implementeren:
+
+   a. Voeg event listeners toe voor "dragenter", "dragover" en "drop" events op de dropzone.
+   
+   b. In de "dragenter" en "dragover" event listeners, voorkom het standaardgedrag van de browser en voeg een CSS-klasse toe om de uiterlijk van de dropzone te veranderen wanneer bestanden en mappen er boven worden gesleept.
+   
+   c. In de "drop" event listener, voorkom het standaardgedrag van de browser en verwijder de eerder toegevoegde CSS-klasse. Verwerk vervolgens de bestanden en mappen die zijn neergezet:
+
+       i. Gebruik de "DataTransfer" object om toegang te krijgen tot de gesleepte bestanden en mappen.
+       
+       ii. Gebruik de "webkitGetAsEntry" methode (voor Chrome-gebaseerde browsers) om te controleren of het item een bestand of map is.
+       
+       iii. Als het een bestand is, lees dan de inhoud van het bestand met behulp van de FileReader API (2) en toon de inhoud op de webpagina.
+       
+       iv. Als het een map is, lees dan de inhoud van de map met behulp van de "readEntries" methode van de DirectoryReader API (3). Indexeer de inhoud van de map en toon deze op de webpagina.
+
+5. Test de webpagina door bestanden en mappen te slepen en neer te zetten in de dropzone en controleer of de inhoud correct wordt weergegeven en geïndexeerd.
+
+Referenties:
+
+1. Drag and Drop API: https://developer.mozilla.org/nl/docs/Web/API/HTML_Drag_and_Drop_API
+2. FileReader API: https://developer.mozilla.org/nl/docs/Web/API/FileReader
+3. DirectoryReader: https://developer.mozilla.org/en-US/docs/Web/API/DirectoryReader
+
+Succes met de opdracht!</AssignmentText><Config><Difficulty>Makkelijk</Difficulty><ExtraDescription>Maak een file manager</ExtraDescription><ID>23</ID><Language>JS</Language><Reqs>File drag en drop, Folder drag en drop, Folder indexatie, bestanden uitlezen</Reqs><Title>File Drag and Drop Feature</Title></Config><ID>23</ID><RawResponseObj z:Id="i1" xmlns:a="http://schemas.datacontract.org/2004/07/Syn_OpenAI_CoreLib.Core.Models.Data" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/"><created xmlns="http://schemas.datacontract.org/2004/07/Syn_OpenAI_CoreLib.Data">1682884847</created><id xmlns="http://schemas.datacontract.org/2004/07/Syn_OpenAI_CoreLib.Data">chatcmpl-7B7Vvz5x1AzIvp44jIdZQmAG0QatU</id><a:choices><a:API_AIResponse_ChoicesJSON><a:finish_reason>stop</a:finish_reason><a:index>0</a:index><a:message><a:content>Opdracht: File Drag and Drop Feature
+
+Doel: Het doel van deze opdracht is om een eenvoudige webpagina te ontwikkelen waarop gebruikers bestanden en mappen kunnen slepen en neerzetten. De webpagina moet vervolgens de inhoud van de geüploade bestanden weergeven en de geüploade mappen indexeren.
+
+Benodigde technologieën: Voor deze opdracht heb je kennis nodig van HTML, CSS en JavaScript.
+
+Moeilijkheidsgraad: Deze opdracht wordt als makkelijk beschouwd.
+
+Stappen:
+
+1. Maak een HTML-bestand en voeg basis HTML-structuur toe. Geef het een titel "File Drag and Drop Feature".
+
+2. Maak een div-element met een class "dropzone" in de body sectie van de HTML-pagina. Dit is waar gebruikers bestanden en mappen kunnen slepen en neerzetten. Zorg dat de dropzone duidelijk zichtbaar is voor de gebruiker.
+
+3. Voeg een CSS-bestand toe om stijl toe te voegen aan de webpagina. Geef de dropzone een zichtbare rand, achtergrondkleur en stel de hoogte en breedte van de dropzone in. Maak ook een extra CSS-klasse om het uiterlijk van de dropzone te veranderen wanneer bestanden en mappen er boven worden gesleept.
+
+4. Voeg een JavaScript-bestand toe om de functionaliteit voor slepen en neerzetten te implementeren. Gebruik de Drag and Drop API (1) om de volgende functionaliteiten te implementeren:
+
+   a. Voeg event listeners toe voor "dragenter", "dragover" en "drop" events op de dropzone.
+   
+   b. In de "dragenter" en "dragover" event listeners, voorkom het standaardgedrag van de browser en voeg een CSS-klasse toe om de uiterlijk van de dropzone te veranderen wanneer bestanden en mappen er boven worden gesleept.
+   
+   c. In de "drop" event listener, voorkom het standaardgedrag van de browser en verwijder de eerder toegevoegde CSS-klasse. Verwerk vervolgens de bestanden en mappen die zijn neergezet:
+
+       i. Gebruik de "DataTransfer" object om toegang te krijgen tot de gesleepte bestanden en mappen.
+       
+       ii. Gebruik de "webkitGetAsEntry" methode (voor Chrome-gebaseerde browsers) om te controleren of het item een bestand of map is.
+       
+       iii. Als het een bestand is, lees dan de inhoud van het bestand met behulp van de FileReader API (2) en toon de inhoud op de webpagina.
+       
+       iv. Als het een map is, lees dan de inhoud van de map met behulp van de "readEntries" methode van de DirectoryReader API (3). Indexeer de inhoud van de map en toon deze op de webpagina.
+
+5. Test de webpagina door bestanden en mappen te slepen en neer te zetten in de dropzone en controleer of de inhoud correct wordt weergegeven en geïndexeerd.
+
+Referenties:
+
+1. Drag and Drop API: https://developer.mozilla.org/nl/docs/Web/API/HTML_Drag_and_Drop_API
+2. FileReader API: https://developer.mozilla.org/nl/docs/Web/API/FileReader
+3. DirectoryReader: https://developer.mozilla.org/en-US/docs/Web/API/DirectoryReader
+
+Succes met de opdracht!</a:content><a:role>assistant</a:role></a:message></a:API_AIResponse_ChoicesJSON></a:choices><a:model>gpt-4-0314</a:model><a:object>chat.completion</a:object><a:usage><a:completion_tokens>806</a:completion_tokens><a:prompt_tokens>873</a:prompt_tokens><a:total_tokens>1679</a:total_tokens></a:usage></RawResponseObj></Assignment>

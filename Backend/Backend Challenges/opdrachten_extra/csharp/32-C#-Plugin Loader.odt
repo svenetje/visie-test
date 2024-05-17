@@ -1,0 +1,74 @@
+﻿Quick Details
+Opdracht ID : 32
+Opdracht titel : Plugin Loader
+Opdracht Programmeertalen en/of tech : C#
+Opdracht (geschatte) moeilijkheidsgraad : Gemiddeld
+Opdracht Eisen : Plugins detecteren in een map genaamd 'plugins', inladen en hun initialize functies aanroepen.
+Opdracht Extra Omschrijving : 
+Opdracht: Plugin Loader
+Taal: C#
+Moeilijkheidsgraad: Gemiddeld
+
+Doel van de opdracht:
+In deze opdracht ga je een C#-programma ontwikkelen dat in staat is om plugins te detecteren in een map genaamd 'plugins', deze te laden en hun initialize-functies aan te roepen
+De plugins worden geïmplementeerd als DLL-bestanden (Dynamically Linked Libraries).
+
+Uitgebreide beschrijving:
+Het doel van deze opdracht is om een flexibel systeem te ontwikkelen waarbij je gemakkelijk extra functionaliteit aan je programma kunt toevoegen zonder dat je de hoofdapplicatie hoeft aan te passen
+Dit doe je door middel van het laden van plugins (DLL-bestanden) die de gewenste functionaliteit bevatten
+Deze plugins worden tijdens runtime gedetecteerd en geladen, waarna hun initialize-functies worden aangeroepen.
+
+Stappen om de opdracht te voltooien:
+
+1
+Maak een nieuw C# project in Visual Studio.
+  
+Maak een consoletoepassing om de plugin loader te ontwikkelen.
+  
+Zorg ervoor dat je de juiste .NET-versie kiest (bijvoorbeeld .NET Core 3.1 of .NET 5).
+
+2
+Maak een nieuw interface genaamd "IPlugin" met de volgende methoden:
+  
+void Initialize();
+  
+Dit interface zorgt ervoor dat elke plugin die je maakt, de Initialize()-methode moet implementeren
+Hiermee zorg je voor consistentie tussen de verschillende plugins.
+
+3
+Maak een map genaamd 'plugins' in de uitvoermap van het project (bijv
+bin/Debug/netcoreapp3.1/plugins).
+  
+Dit is de map waarin je de DLL-bestanden van de plugins plaatst
+De plugin loader zal deze map scannen om de plugins te detecteren en te laden.
+
+4
+Maak een nieuwe Class Library-project voor elke plugin die u wilt maken
+Voeg de referentie naar het hoofdproject en het IPlugin-interface toe.
+  
+Een Class Library-project is een verzameling van klassen en functies die je als DLL-bestand kunt compileren
+Dit stelt je in staat om de plugin-functionaliteit te scheiden van de hoofdapplicatie en deze later tijdens runtime toe te voegen.
+
+5
+Implementeer het IPlugin-interface in elke plugin en definieer de Initialize() methode.
+  
+In de Initialize()-methode kun je de gewenste functionaliteit van je plugin implementeren
+Bijvoorbeeld het instellen van variabelen, het laden van bestanden of het initialiseren van andere resources.
+
+6
+Compileer de plugin-projecten en kopieer de resulterende DLL-bestanden naar de 'plugins' map.
+  
+Dit zorgt ervoor dat de plugin loader de DLL-bestanden kan detecteren en laden tijdens runtime.
+
+7
+Gebruik in het hoofdproject de System.Reflection.Assembly klasse om de DLL-bestanden te laden, de types te verkrijgen en de Initialize() methode aan te roepen.
+  
+De System.Reflection.Assembly klasse stelt je in staat om tijdens runtime de DLL-bestanden te laden en toegang te krijgen tot de types en functies die ze bevatten
+Dit zorgt ervoor dat je de plugins kunt initialiseren en gebruiken in je hoofdapplicatie.
+
+Volg de voorbeeldcode in de oorspronkelijke opdrachtbeschrijving om de basisstructuur van de plugin loader en de plugins te implementeren
+Zorg ervoor dat de plugins-map bestaat en de DLL-bestanden van de plugins erin staan voordat je het programma uitvoert.
+
+Extra uitdaging:
+- Voeg error handling toe aan je plugin loader om eventuele fouten tijdens het laden en initialiseren van de plugins op te vangen en weer te geven.
+- Implementeer een systeem waarmee je de plugins kunt uitschakelen of verwijderen tijdens runtime.

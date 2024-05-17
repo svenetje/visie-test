@@ -1,0 +1,77 @@
+﻿Quick Details
+Opdracht ID : 11
+Opdracht titel : Bitly API
+Opdracht Programmeertalen en/of tech : Vue
+Opdracht (geschatte) moeilijkheidsgraad : Makkelijk
+Opdracht Eisen : eigen MYSQL userdatabase, custom usergroepen voor samenwerking, error en api interactie logging naar logbestanden. Een dashboard voor beheer.
+Opdracht Extra Omschrijving : 
+Opdracht: Bitly API
+
+Doel: Maak een eenvoudige webapplicatie met behulp van Vue.js die integreert met de Bitly API om korte URL's te genereren
+Implementeer een eigen MySQL-gebruikersdatabase, aangepaste gebruikersgroepen voor samenwerking, fout- en API-interactielogging naar logbestanden en een beheerdashboard.
+
+Benodigdheden:
+1
+Kennis van Vue.js
+2
+Kennis van MySQL-databases
+3
+Kennis van het werken met API's (Bitly API)
+
+Stappen:
+
+1
+Maak een nieuw Vue.js-project met behulp van de Vue CLI
+Volg de officiële gids om een nieuw project op te zetten: https://cli.vuejs.org/guide/creating-a-project.html
+
+2
+Maak een MySQL-database met de benodigde tabellen voor gebruikers, gebruikersgroepen en logbestanden
+Gebruik de MySQL Documentatie om te leren hoe u een database en tabellen kunt aanmaken: https://dev.mysql.com/doc/refman/8.0/en/creating-database.html
+
+3
+Integreer de Bitly API in uw Vue.js-project:
+   a
+Maak een account op Bitly en verkrijg uw API-key: https://bitly.com/a/sign_up
+   b
+Installeer een geschikte HTTP-client, zoals Axios, om API-aanvragen te doen: https://github.com/axios/axios#installing
+   c
+Maak een service om de Bitly API-aanvragen af te handelen
+Gebruik de Bitly API-documentatie als referentie: https://dev.bitly.com/docs/getting-started/authentication/authentication/
+
+4
+Implementeer de functionaliteit voor gebruikersregistratie en -authenticatie met behulp van de MySQL-database
+Zorg ervoor dat gebruikers hun accountgegevens kunnen invoeren en dat hun gegevens veilig worden opgeslagen in de database.
+
+5
+Maak een dashboard voor beheer waar beheerders gebruikers, groepen en logbestanden kunnen beheren
+Zorg ervoor dat alleen beheerders toegang hebben tot dit dashboard en de mogelijkheid hebben om gebruikers en groepen toe te voegen, te bewerken of te verwijderen.
+
+6
+Implementeer de functionaliteit voor het aanmaken van aangepaste gebruikersgroepen en het toewijzen van gebruikers aan deze groepen
+Zorg ervoor dat gebruikers in verschillende groepen kunnen samenwerken aan het genereren van korte URL's.
+
+7
+Implementeer fout- en API-interactielogging naar logbestanden in uw database
+Zorg ervoor dat alle fouten en API-interacties worden vastgelegd met details zoals tijdstempel, gebruiker en fout- of API-informatie.
+
+8
+Test uw applicatie grondig om er zeker van te zijn dat alle functies correct werken
+Voer verschillende testscenario's uit, zoals gebruikersregistratie, inloggen, groepen beheren en korte URL's genereren.
+
+Bronnen:
+
+1
+Vue.js Documentatie: https://vuejs.org/v2/guide/
+2
+Bitly API Documentatie: https://dev.bitly.com/docs/getting-started/authentication/authentication/
+3
+Axios Documentatie: https://github.com/axios/axios
+4
+MySQL Documentatie: https://dev.mysql.com/doc/refman/8.0/en/
+
+Opdracht details:
+Titel: Bitly API
+Vereisten: eigen MYSQL userdatabase, custom usergroepen voor samenwerking, error en api interactie logging naar logbestanden
+Een dashboard voor beheer.
+Programmeertaal: Vue
+Moeilijkheidsgraad: Makkelijk

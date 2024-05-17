@@ -1,0 +1,66 @@
+﻿Quick Details
+Opdracht ID : 78
+Opdracht titel : Data (Caching) Managers
+Opdracht Programmeertalen en/of tech : PYTHON
+Opdracht (geschatte) moeilijkheidsgraad : Gemiddeld
+Opdracht Eisen : Object Oriented
+Opdracht Extra Omschrijving : 
+Opdracht: Data (Caching) Managers
+
+Doel: Maak een objectgeoriënteerde cache manager in Python om gegevens efficiënt op te slaan en op te halen.
+
+Moeilijkheidsgraad: Gemiddeld
+
+Beschrijving:
+
+Caching is een techniek die helpt bij het optimaliseren van de snelheid en prestaties van een systeem door het tijdelijk opslaan van resultaten van dure operaties om ze later snel te kunnen hergebruiken
+In deze opdracht ga je een objectgeoriënteerde cache manager in Python implementeren om data tijdelijk op te slaan en snel op te halen
+Dit soort cache manager wordt vaak gebruikt in web- en databasetoepassingen om de prestaties te verbeteren.
+
+Cache manager moet de volgende functionaliteiten hebben:
+
+1
+Toevoegen van data aan de cache met een unieke sleutel.
+2
+Ophalen van data uit de cache met de unieke sleutel.
+3
+Verwijderen van data uit de cache met de unieke sleutel.
+4
+Beperking van het aantal items in de cache (optioneel: gebruik een cache vervangingsalgoritme zoals LRU of MRU).
+5
+Tijdelijke opslag van data met een verlooptijd (optioneel).
+
+Stappen:
+
+1
+Maak een nieuwe Python-klasse genaamd `CacheManager` met de volgende methoden:
+  
+`__init__(self, max_size=None, expiration_time=None)`: initialiseer de cache manager met een maximale grootte en een optionele verlooptijd voor de opgeslagen data.
+  
+`add(self, key, value)`: voeg een item toe aan de cache met een unieke sleutel en waarde.
+  
+`get(self, key)`: haal een item op uit de cache met de gegeven sleutel.
+  
+`remove(self, key)`: verwijder een item uit de cache met de gegeven sleutel.
+  
+`clear(self)`: verwijder alle items uit de cache.
+
+2
+Implementeer de cache vervangingsalgoritme (optioneel) in de `add` en `get` methoden om items te verwijderen als de cache vol is
+Gebruik bijvoorbeeld het LRU (Least Recently Used) of MRU (Most Recently Used) algoritme om te bepalen welk item verwijderd moet worden.
+
+3
+Implementeer de verlooptijd functionaliteit (optioneel) door een timestamp toe te voegen aan elk cache item en controleer de verlooptijd in de `get` methode
+Gebruik hiervoor de tijd module in Python.
+
+4
+Schrijf testgevallen om de functionaliteiten van de `CacheManager` te testen
+Zorg ervoor dat je testgevallen schrijft voor het toevoegen, ophalen, verwijderen en opschonen van items in de cache, evenals voor de optionele cache vervangingsalgoritme en verlooptijd functionaliteiten.
+
+Bronnen:
+
+- Python Classes: https://docs.python.org/3/tutorial/classes.html
+- OrderedDict voor het bijhouden van de volgorde van items: https://docs.python.org/3/library/collections.html#collections.OrderedDict
+- Tijd module voor het beheren van verlooptijd: https://docs.python.org/3/library/time.html
+
+Succes met de opdracht!

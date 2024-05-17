@@ -1,0 +1,53 @@
+<Assignment xmlns="http://schemas.datacontract.org/2004/07/Syn_OpenAI_AppLib.Data" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><AssignmentText>Opdracht: Beveiligingsstandaarden
+
+Doel: Ontwikkel een beveiligde JavaScript-applicatie die gebruik maakt van geheugen, sockets, verbindingen, databestanden en encryptie om de gegevens van gebruikers te beschermen.
+
+Programmeertaal: JavaScript
+
+Moeilijkheidsgraad: Moeilijk
+
+Beschrijving:
+
+In deze opdracht zul je een applicatie ontwikkelen die gericht is op het beschermen van de gegevens van gebruikers door gebruik te maken van verschillende beveiligingsstandaarden en technologieën. Je zult ervoor zorgen dat de applicatie veilig omgaat met geheugenmanagement, socketverbindingen, externe databaseverbindingen, databestanden en gegevensencryptie.
+
+Extra uitleg bij de opdrachten:
+
+1. SecureArray is een bibliotheek die helpt bij het beheren van gevoelige gegevens in het geheugen door automatisch de geheugenruimte te wissen wanneer deze niet meer nodig is. Dit helpt bij het voorkomen van onbedoelde lekken van gevoelige informatie.
+
+2. TLS (Transport Layer Security) is een protocol dat zorgt voor beveiligde communicatie over een computernetwerk. In deze opdracht gebruik je de TLS-module van Node.js om een veilige socketverbinding op te zetten, zodat de gegevens die tussen de server en de clients worden uitgewisseld, geauthenticeerd en versleuteld zijn.
+
+3. SSL/TLS wordt gebruikt om een veilige verbinding te maken met een externe database zoals MongoDB. Door het instellen van SSL/TLS zorg je ervoor dat alle communicatie tussen de applicatie en de database versleuteld is, waardoor het moeilijker wordt voor aanvallers om toegang te krijgen tot de gegevens.
+
+4. Encryptie is een belangrijk aspect van gegevensbeveiliging. Door gebruik te maken van de crypto-module in Node.js, zul je gevoelige gegevens die in databestanden worden opgeslagen versleutelen, waardoor de informatie onleesbaar wordt voor onbevoegde personen.
+
+5. HMAC (Hash-based Message Authentication Code) is een mechanisme dat gebruik maakt van een cryptografische hashfunctie en een geheime sleutel om de integriteit van gegevens te waarborgen. In deze opdracht implementeer je HMAC of een vergelijkbare technologie om ervoor te zorgen dat de gegevens die in de applicatie worden verwerkt, niet zijn gemanipuleerd of gewijzigd door onbevoegde personen.
+
+6. Het schrijven van testcases is een essentieel onderdeel van het ontwikkelen van een beveiligde applicatie. Deze testcases zullen helpen bij het identificeren van kwetsbaarheden en het valideren van de effectiviteit van de implementatie van de beveiligingsstandaarden en technologieën.
+
+Bij het voltooien van deze opdracht moet je ervoor zorgen dat je code goed gedocumenteerd is en dat je een grondig begrip hebt van de gebruikte beveiligingsstandaarden en technologieën. Veel succes!</AssignmentText><Config><Difficulty>Moeilijk</Difficulty><ExtraDescription/><ID>43</ID><Language>JS</Language><Reqs>Memory, sockets, connecties, data bestanden en encrypties</Reqs><Title>Security Standards</Title></Config><ID>43</ID><RawResponseObj z:Id="i1" xmlns:a="http://schemas.datacontract.org/2004/07/Syn_OpenAI_CoreLib.Core.Models.Data" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/"><created xmlns="http://schemas.datacontract.org/2004/07/Syn_OpenAI_CoreLib.Data">1682887780</created><id xmlns="http://schemas.datacontract.org/2004/07/Syn_OpenAI_CoreLib.Data">chatcmpl-7B8HE2CBC5H6gNcfVdhjJM16R9J5A</id><a:choices><a:API_AIResponse_ChoicesJSON><a:finish_reason>stop</a:finish_reason><a:index>0</a:index><a:message><a:content>Opdracht: Beveiligingsstandaarden
+
+Doel: Ontwikkel een beveiligde JavaScript-applicatie die gebruik maakt van geheugen, sockets, verbindingen, databestanden en encryptie om de gegevens van gebruikers te beschermen.
+
+Programmeertaal: JavaScript
+
+Moeilijkheidsgraad: Moeilijk
+
+Beschrijving:
+
+In deze opdracht zul je een applicatie ontwikkelen die gericht is op het beschermen van de gegevens van gebruikers door gebruik te maken van verschillende beveiligingsstandaarden en technologieën. Je zult ervoor zorgen dat de applicatie veilig omgaat met geheugenmanagement, socketverbindingen, externe databaseverbindingen, databestanden en gegevensencryptie.
+
+Extra uitleg bij de opdrachten:
+
+1. SecureArray is een bibliotheek die helpt bij het beheren van gevoelige gegevens in het geheugen door automatisch de geheugenruimte te wissen wanneer deze niet meer nodig is. Dit helpt bij het voorkomen van onbedoelde lekken van gevoelige informatie.
+
+2. TLS (Transport Layer Security) is een protocol dat zorgt voor beveiligde communicatie over een computernetwerk. In deze opdracht gebruik je de TLS-module van Node.js om een veilige socketverbinding op te zetten, zodat de gegevens die tussen de server en de clients worden uitgewisseld, geauthenticeerd en versleuteld zijn.
+
+3. SSL/TLS wordt gebruikt om een veilige verbinding te maken met een externe database zoals MongoDB. Door het instellen van SSL/TLS zorg je ervoor dat alle communicatie tussen de applicatie en de database versleuteld is, waardoor het moeilijker wordt voor aanvallers om toegang te krijgen tot de gegevens.
+
+4. Encryptie is een belangrijk aspect van gegevensbeveiliging. Door gebruik te maken van de crypto-module in Node.js, zul je gevoelige gegevens die in databestanden worden opgeslagen versleutelen, waardoor de informatie onleesbaar wordt voor onbevoegde personen.
+
+5. HMAC (Hash-based Message Authentication Code) is een mechanisme dat gebruik maakt van een cryptografische hashfunctie en een geheime sleutel om de integriteit van gegevens te waarborgen. In deze opdracht implementeer je HMAC of een vergelijkbare technologie om ervoor te zorgen dat de gegevens die in de applicatie worden verwerkt, niet zijn gemanipuleerd of gewijzigd door onbevoegde personen.
+
+6. Het schrijven van testcases is een essentieel onderdeel van het ontwikkelen van een beveiligde applicatie. Deze testcases zullen helpen bij het identificeren van kwetsbaarheden en het valideren van de effectiviteit van de implementatie van de beveiligingsstandaarden en technologieën.
+
+Bij het voltooien van deze opdracht moet je ervoor zorgen dat je code goed gedocumenteerd is en dat je een grondig begrip hebt van de gebruikte beveiligingsstandaarden en technologieën. Veel succes!</a:content><a:role>assistant</a:role></a:message></a:API_AIResponse_ChoicesJSON></a:choices><a:model>gpt-4-0314</a:model><a:object>chat.completion</a:object><a:usage><a:completion_tokens>742</a:completion_tokens><a:prompt_tokens>735</a:prompt_tokens><a:total_tokens>1477</a:total_tokens></a:usage></RawResponseObj></Assignment>

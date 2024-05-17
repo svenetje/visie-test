@@ -1,0 +1,76 @@
+﻿Quick Details
+Opdracht ID : 31
+Opdracht titel : API Handler
+Opdracht Programmeertalen en/of tech : PHP
+Opdracht (geschatte) moeilijkheidsgraad : Moeilijk
+Opdracht Eisen : Moet universeel APIs kunnen callen en de responses kunnen afhandelen OF kunnen afgeven aan een custom event.
+Opdracht Extra Omschrijving : 
+Opdracht: Universele API Handler
+Titel: Universele API Handler
+Programmeertaal: PHP
+Moeilijkheidsgraad: Moeilijk
+
+Doel:
+In deze opdracht ga je een universele API Handler in PHP ontwikkelen die in staat is om verschillende soorten API's te raadplegen en de ontvangen responses te verwerken, of door te geven aan een aangepaste gebeurtenis (custom event)
+Dit maakt het gemakkelijker om in de toekomst met verschillende API's te werken zonder telkens nieuwe code te hoeven schrijven.
+
+Uitleg:
+Bij het werken met API's is het belangrijk om te weten hoe je HTTP-verzoeken kunt verzenden en ontvangen, evenals het begrijpen van dataformaten zoals JSON en XML
+In deze opdracht zul je leren hoe je een generieke API Handler kunt maken die kan worden gebruikt om verschillende API's aan te roepen en op een gestructureerde manier met de responses om te gaan.
+
+Benodigdheden:
+1
+Basiskennis van PHP.
+2
+Ervaring met het werken met API's, bij voorkeur in PHP.
+3
+Kennis van JSON en XML dataformaten.
+4
+Een teksteditor of IDE om PHP-code te schrijven en uit te voeren.
+
+Stappen:
+1
+Creëer een nieuwe PHP-klasse met de naam "ApiHandler".
+2
+Voeg een methode toe genaamd "callApi" die de volgende parameters accepteert:
+  
+string $method: De HTTP-methode (GET, POST, PUT, DELETE, etc.).
+  
+string $url: De API URL om aan te roepen.
+  
+array $data: Optionele gegevens die moeten worden verzonden in de body van het verzoek (voor POST en PUT).
+  
+array $headers: Optionele headers die moeten worden verzonden met het verzoek.
+3
+Implementeer de "callApi" methode met behulp van "curl" of een andere PHP-bibliotheek om HTTP-verzoeken te verzenden en te ontvangen.
+4
+Voeg foutafhandeling toe aan de "callApi" methode om te zorgen voor een goede werking bij mislukte verzoeken.
+5
+Creëer een methode genaamd "registerCustomEventHandler" die een callable parameter accepteert en deze opslaat in een klasse-eigenschap.
+6
+Voeg een methode toe genaamd "triggerCustomEvent" die het opgeslagen event aanroept met de response van de API als parameter.
+7
+Pas de "callApi" methode aan om de "triggerCustomEvent" methode aan te roepen als er een custom event geregistreerd is.
+8
+Schrijf een testscript om de ApiHandler-klasse te testen met een voorbeeld API-verzoek en response.
+
+Aanvullende informatie:
+Het is belangrijk om te begrijpen hoe je met API's werkt, aangezien ze vaak worden gebruikt in moderne webapplicaties
+Door een universele API Handler te maken, vergroot je jouw vaardigheden met betrekking tot het werken met API's en leer je hoe je PHP kunt gebruiken om gestructureerde verzoeken en responses te verwerken.
+
+Referenties:
+1
+PHP: cURL
+Manual: https://www.php.net/manual/en/book.curl.php
+2
+PHP: curl_exec
+Manual: https://www.php.net/manual/en/function.curl-exec.php
+3
+PHP: curl_setopt
+Manual: https://www.php.net/manual/en/function.curl-setopt.php
+4
+Callable
+PHP: https://www.php.net/manual/en/language.types.callable.php
+
+Succes met de opdracht! Vergeet niet om je code regelmatig te testen en te controleren op fouten
+Het is essentieel om ervoor te zorgen dat je API Handler correct werkt en op een efficiënte manier met verschillende API's kan communiceren.

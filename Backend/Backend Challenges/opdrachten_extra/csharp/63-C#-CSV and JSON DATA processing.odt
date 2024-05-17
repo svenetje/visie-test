@@ -1,0 +1,99 @@
+﻿Quick Details
+Opdracht ID : 63
+Opdracht titel : CSV and JSON DATA processing
+Opdracht Programmeertalen en/of tech : C#
+Opdracht (geschatte) moeilijkheidsgraad : Makkelijk
+Opdracht Eisen : een CSV of JSON bestand inladen en wegschrijven
+Opdracht Extra Omschrijving : 
+Opdracht: CSV en JSON gegevensverwerking
+
+Doel: Maak een eenvoudige C#-toepassing om een CSV- of JSON-bestand in te laden, te verwerken en weg te schrijven
+De toepassing moet in staat zijn om de gegevens te lezen, eventueel aan te passen en op te slaan in een nieuw bestand.
+
+Programmeertaal: C#
+
+Moeilijkheidsgraad: Makkelijk
+
+Benodigdheden:
+1
+Visual Studio (https://visualstudio.microsoft.com/)
+2
+Newtonsoft.Json-bibliotheek (https://www.newtonsoft.com/json)
+
+Stappen:
+
+1
+Maak een nieuw Console App-project in Visual Studio
+Dit project zal dienen als het fundament van uw toepassing.
+
+2
+Voeg de Newtonsoft.Json-bibliotheek toe aan het project via NuGet Package Manager
+Deze bibliotheek zal het mogelijk maken om eenvoudig JSON-bestanden te lezen en te schrijven.
+
+3
+Maak een nieuwe klasse `DataItem` met de volgende eigenschappen:
+  
+Id (int): Een unieke identifier voor het item.
+  
+Naam (string): De naam van het item.
+  
+Aantal (int): Het aantal eenheden van het item.
+  
+Prijs (double): De prijs per eenheid van het item.
+
+4
+Schrijf een functie `LoadCsvData` om een CSV-bestand in te laden en een lijst met `DataItem`-objecten te retourneren
+Gebruik de `StreamReader`-klasse om het bestand te lezen en de `Split`-methode om de gegevens te splitsen op basis van komma's.
+
+5
+Schrijf een functie `LoadJsonData` om een JSON-bestand in te laden en een lijst met `DataItem`-objecten te retourneren
+Gebruik de `JsonConvert.DeserializeObject`-methode van de Newtonsoft.Json-bibliotheek om het JSON-bestand in te laden en om te zetten naar een lijst van `DataItem`-objecten.
+
+6
+Schrijf een functie `SaveCsvData` om de lijst met `DataItem`-objecten naar een CSV-bestand te schrijven
+Gebruik de `StreamWriter`-klasse om het bestand te schrijven en formatteer de gegevens met komma's als scheidingstekens.
+
+7
+Schrijf een functie `SaveJsonData` om de lijst met `DataItem`-objecten naar een JSON-bestand te schrijven
+Gebruik de `JsonConvert.SerializeObject`-methode van de Newtonsoft.Json-bibliotheek om de gegevens te converteren naar JSON-formaat en vervolgens op te slaan in een bestand.
+
+8
+In de `Main`-methode, laad een CSV- of JSON-bestand met behulp van de `LoadCsvData`- of `LoadJsonData`-functie
+Vervolgens, verwerk de gegevens indien nodig, bijvoorbeeld door het aantal eenheden van een item bij te werken of de prijs te wijzigen
+Sla ten slotte de gegevens op in een nieuw CSV- of JSON-bestand met behulp van de `SaveCsvData`- of `SaveJsonData`-functie.
+
+Voorbeeld van een CSV-bestand:
+
+```
+Id,Naam,Aantal,Prijs
+1,Item1,10,5.5
+2,Item2,20,9.99
+3,Item3,30,15.3
+```
+
+Voorbeeld van een JSON-bestand:
+
+```
+[
+  {
+    "Id": 1,
+    "Naam": "Item1",
+    "Aantal": 10,
+    "Prijs": 5.5
+  },
+  {
+    "Id": 2,
+    "Naam": "Item2",
+    "Aantal": 20,
+    "Prijs": 9.99
+  },
+  {
+    "Id": 3,
+    "Naam": "Item3",
+    "Aantal": 30,
+    "Prijs": 15.3
+  }
+]
+```
+
+Succes met de opdracht!

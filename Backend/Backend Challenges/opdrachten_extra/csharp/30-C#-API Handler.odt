@@ -1,0 +1,55 @@
+﻿Quick Details
+Opdracht ID : 30
+Opdracht titel : API Handler
+Opdracht Programmeertalen en/of tech : C#
+Opdracht (geschatte) moeilijkheidsgraad : Gemiddeld
+Opdracht Eisen : Moet universeel APIs kunnen callen en de responses kunnen afhandelen OF kunnen afgeven aan een custom event.
+Opdracht Extra Omschrijving : 
+Opdracht: Universele API Handler
+Titel: API Handler
+Vereisten:
+1
+Moet universeel APIs kunnen aanroepen.
+2
+Moet de antwoorden kunnen afhandelen OF kunnen afgeven aan een aangepaste gebeurtenis.
+Programmeertaal: C#
+Moeilijkheidsgraad: Gemiddeld
+
+In deze opdracht ga je een universele API Handler implementeren in C#
+De API Handler moet in staat zijn om verschillende API's aan te roepen en de antwoorden af te handelen of door te geven aan een aangepaste gebeurtenis
+Dit is nuttig voor het communiceren met externe diensten en het ophalen van gegevens van verschillende bronnen.
+
+Instructies:
+
+1
+Creëer een nieuw C# project met de naam "APIHandler".
+2
+Voeg een nieuwe klasse toe met de naam "APIHandler.cs".
+3
+Implementeer de onderstaande functies in de APIHandler-klasse:
+
+   a
+Een functie voor het aanmaken van een HTTP-client om API-aanvragen te kunnen uitvoeren
+De HttpClient-klasse wordt gebruikt om HTTP-verzoeken te verzenden en ontvangen (zie bron: https://docs.microsoft.com/en-us/dotnet/api/system.net.http.httpclient?view=net-6.0).
+   
+   b
+Een functie voor het uitvoeren van de API-aanvraag met behulp van de HTTP-client en de opgegeven URL
+Deze functie moet een asynchrone taak retourneren die het antwoord van de API bevat.
+   
+   c
+Een functie voor het verwerken van het API-antwoord en het toewijzen van de resultaten aan een aangepast evenement
+C#-gebeurtenissen stellen klassen in staat om andere klassen of objecten te informeren wanneer een bepaalde actie plaatsvindt (zie bron: https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/events/).
+   
+   d
+Een functie voor het inschrijven op het aangepaste evenement en het afhandelen van de resultaten
+Deze functie moet de juiste gebeurtenisafhandelingsmethode aan het evenement toevoegen.
+
+4
+Schrijf testcode in de Main-functie om de APIHandler-klasse te testen
+Gebruik de voorbeeldtestcode die hierboven is verstrekt als referentie voor het testen van de APIHandler-klasse.
+
+De voorbeeldcode voor de APIHandler-klasse en het testen ervan zijn in de opdrachttekst opgenomen
+Gebruik deze code als basis voor het bouwen en testen van je eigen API Handler
+Zorg ervoor dat je de code begrijpt en aanpast aan je specifieke behoeften.
+
+Succes met het voltooien van deze opdracht!

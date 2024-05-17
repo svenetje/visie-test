@@ -1,0 +1,117 @@
+<Assignment xmlns="http://schemas.datacontract.org/2004/07/Syn_OpenAI_AppLib.Data" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><AssignmentText>Opdracht: Web Scraper
+Titel: Web Scraper voor nieuws van een bekende datadienst website (NASA of ESA)
+Programmeertaal: Python
+Moeilijkheidsgraad: Makkelijk
+
+Beschrijving:
+In deze opdracht ga je een eenvoudige web scraper maken om nieuwsartikelen van een bekende datadienst website zoals NASA of ESA te verzamelen. Je gaat gebruik maken van Python en de libraries Requests en Beautiful Soup om de inhoud van de website te verkrijgen, de HTML-structuur te analyseren en de relevante informatie te extraheren.
+
+Benodigdheden:
+1. Python geïnstalleerd op je computer: Download en installeer Python van de officiële website (https://www.python.org/downloads/).
+2. Requests library geïnstalleerd: `pip install requests`
+3. Beautiful Soup library geïnstalleerd: `pip install beautifulsoup4`
+
+Opdracht stappen:
+
+1. Maak een nieuw Python-bestand met de naam `web_scraper_{jouw_naam}.py`.
+
+2. Importeer de benodigde libraries (Requests en Beautiful Soup) in je Python script.
+```python
+import requests
+from bs4 import BeautifulSoup
+```
+
+3. Gebruik de Requests library om de HTML-inhoud van de gewenste website (NASA of ESA) op te halen. Bijvoorbeeld, voor NASA zou je de volgende URL kunnen gebruiken: `https://www.nasa.gov/rss/dyn/breaking_news.rss`
+```python
+url = "https://www.nasa.gov/rss/dyn/breaking_news.rss"
+response = requests.get(url)
+```
+
+4. Controleer of de request succesvol is door de status code te controleren. Een status code van 200 betekent dat het succesvol is.
+```python
+if response.status_code == 200:
+    print("Request succesvol!")
+else:
+    print("Request mislukt, status code:", response.status_code)
+```
+
+5. Gebruik Beautiful Soup om de opgehaalde HTML-inhoud te parseren en de website-structuur te analyseren.
+```python
+soup = BeautifulSoup(response.content, "html.parser")
+```
+
+6. Vind en extraher de nieuwsartikelen (meestal in de vorm van HTML-tags) en sla ze op in een lijst.
+```python
+news_items = soup.find_all("item")
+```
+
+7. Itereer door de lijst met nieuwsartikelen, extraher de relevante informatie (zoals titel en link) en print deze.
+```python
+for news_item in news_items:
+    title = news_item.find("title").text
+    link = news_item.find("link").text
+    print(f"Titel: {title}\nLink: {link}\n")
+```
+
+8. Optioneel: Sla de verzamelde informatie op in een bestand (bijv. een CSV- of JSON-bestand) voor verdere verwerking of analyse. Gebruik hiervoor de `csv` of `json` libraries in Python.
+
+Inleveren:
+Lever je Python script in met de volgende bestandsnaam: `web_scraper_{jouw_naam}.py`. Zorg ervoor dat je script goed gedocumenteerd is en alle bovenstaande stappen bevat. Voeg indien van toepassing het bestand met de verzamelde informatie (CSV- of JSON-bestand) toe aan je inlevering.</AssignmentText><Config><Difficulty>Makkelijk</Difficulty><ExtraDescription/><ID>46</ID><Language>PYTHON</Language><Reqs>Scraper voor een bekende datadienst website nieuws zoals NASA of ESA.</Reqs><Title>Web Scraper</Title></Config><ID>46</ID><RawResponseObj z:Id="i1" xmlns:a="http://schemas.datacontract.org/2004/07/Syn_OpenAI_CoreLib.Core.Models.Data" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/"><created xmlns="http://schemas.datacontract.org/2004/07/Syn_OpenAI_CoreLib.Data">1682888137</created><id xmlns="http://schemas.datacontract.org/2004/07/Syn_OpenAI_CoreLib.Data">chatcmpl-7B8MzpjMbmnQSfHSJUje8BhsR4pOa</id><a:choices><a:API_AIResponse_ChoicesJSON><a:finish_reason>stop</a:finish_reason><a:index>0</a:index><a:message><a:content>Opdracht: Web Scraper
+Titel: Web Scraper voor nieuws van een bekende datadienst website (NASA of ESA)
+Programmeertaal: Python
+Moeilijkheidsgraad: Makkelijk
+
+Beschrijving:
+In deze opdracht ga je een eenvoudige web scraper maken om nieuwsartikelen van een bekende datadienst website zoals NASA of ESA te verzamelen. Je gaat gebruik maken van Python en de libraries Requests en Beautiful Soup om de inhoud van de website te verkrijgen, de HTML-structuur te analyseren en de relevante informatie te extraheren.
+
+Benodigdheden:
+1. Python geïnstalleerd op je computer: Download en installeer Python van de officiële website (https://www.python.org/downloads/).
+2. Requests library geïnstalleerd: `pip install requests`
+3. Beautiful Soup library geïnstalleerd: `pip install beautifulsoup4`
+
+Opdracht stappen:
+
+1. Maak een nieuw Python-bestand met de naam `web_scraper_{jouw_naam}.py`.
+
+2. Importeer de benodigde libraries (Requests en Beautiful Soup) in je Python script.
+```python
+import requests
+from bs4 import BeautifulSoup
+```
+
+3. Gebruik de Requests library om de HTML-inhoud van de gewenste website (NASA of ESA) op te halen. Bijvoorbeeld, voor NASA zou je de volgende URL kunnen gebruiken: `https://www.nasa.gov/rss/dyn/breaking_news.rss`
+```python
+url = "https://www.nasa.gov/rss/dyn/breaking_news.rss"
+response = requests.get(url)
+```
+
+4. Controleer of de request succesvol is door de status code te controleren. Een status code van 200 betekent dat het succesvol is.
+```python
+if response.status_code == 200:
+    print("Request succesvol!")
+else:
+    print("Request mislukt, status code:", response.status_code)
+```
+
+5. Gebruik Beautiful Soup om de opgehaalde HTML-inhoud te parseren en de website-structuur te analyseren.
+```python
+soup = BeautifulSoup(response.content, "html.parser")
+```
+
+6. Vind en extraher de nieuwsartikelen (meestal in de vorm van HTML-tags) en sla ze op in een lijst.
+```python
+news_items = soup.find_all("item")
+```
+
+7. Itereer door de lijst met nieuwsartikelen, extraher de relevante informatie (zoals titel en link) en print deze.
+```python
+for news_item in news_items:
+    title = news_item.find("title").text
+    link = news_item.find("link").text
+    print(f"Titel: {title}\nLink: {link}\n")
+```
+
+8. Optioneel: Sla de verzamelde informatie op in een bestand (bijv. een CSV- of JSON-bestand) voor verdere verwerking of analyse. Gebruik hiervoor de `csv` of `json` libraries in Python.
+
+Inleveren:
+Lever je Python script in met de volgende bestandsnaam: `web_scraper_{jouw_naam}.py`. Zorg ervoor dat je script goed gedocumenteerd is en alle bovenstaande stappen bevat. Voeg indien van toepassing het bestand met de verzamelde informatie (CSV- of JSON-bestand) toe aan je inlevering.</a:content><a:role>assistant</a:role></a:message></a:API_AIResponse_ChoicesJSON></a:choices><a:model>gpt-4-0314</a:model><a:object>chat.completion</a:object><a:usage><a:completion_tokens>767</a:completion_tokens><a:prompt_tokens>809</a:prompt_tokens><a:total_tokens>1576</a:total_tokens></a:usage></RawResponseObj></Assignment>

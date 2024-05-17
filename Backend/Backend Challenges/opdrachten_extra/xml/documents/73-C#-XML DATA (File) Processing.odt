@@ -1,0 +1,86 @@
+﻿Quick Details
+Opdracht ID : 73
+Opdracht titel : XML DATA (File) Processing
+Opdracht Programmeertalen en/of tech : C#
+Opdracht (geschatte) moeilijkheidsgraad : Gemiddeld
+Opdracht Eisen : Object Oriented
+Opdracht Extra Omschrijving : 
+Opdracht: XML Data (Bestand) Verwerking
+Vereisten: Object Georiënteerd
+Programmeertaal: C#
+Moeilijkheidsgraad: Gemiddeld
+
+Beschrijving:
+Deze opdracht heeft als doel om een C#-toepassing te ontwikkelen die XML-gegevens kan lezen, verwerken en opslaan in een gestructureerde vorm
+Je wordt gevraagd om een C#-consoletoepassing te maken die een XML-bestand leest, de gegevens verwerkt en de resultaten opslaat in een nieuw XML-bestand.
+
+Opdrachten:
+1
+Maak een nieuw C# console project aan in Visual Studio.
+  
+Start Visual Studio en kies 'Create a new project'.
+  
+Selecteer 'Console App' en klik op 'Next'.
+  
+Geef je project een naam en kies een locatie, klik vervolgens op 'Create'.
+   Bron: https://docs.microsoft.com/nl-nl/visualstudio/ide/how-to-create-a-new-project?view=vs-2019
+
+2
+Maak een klasse 'Persoon' met de volgende eigenschappen: Voornaam, Achternaam, Leeftijd, Geslacht en Woonplaats.
+  
+In je project, voeg een nieuwe C#-klasse toe en noem het 'Persoon'.
+  
+Voeg de eigenschappen toe met behulp van 'public' toegang en de juiste datatypes.
+   Bron: https://docs.microsoft.com/nl-nl/dotnet/csharp/programming-guide/classes-and-structs/how-to-define-constants
+
+3
+Maak een klasse 'XMLParser' die verantwoordelijk is voor het lezen en schrijven van XML-bestanden
+Deze klasse moet de volgende methoden bevatten:
+  
+ReadXMLFile: Lees een XML-bestand en retourneer een lijst van 'Persoon'-objecten.
+  
+WriteXMLFile: Schrijf een lijst van 'Persoon'-objecten naar een nieuw XML-bestand.
+   Bron: https://docs.microsoft.com/nl-nl/dotnet/csharp/programming-guide/classes-and-structs/methods
+
+4
+Gebruik de 'System.Xml'-bibliotheek om de XML-bestanden te lezen en te schrijven.
+  
+Voeg een 'using' statement toe aan de bovenkant van je 'XMLParser' klasse om de 'System.Xml' bibliotheek te importeren.
+   Bron: https://docs.microsoft.com/nl-nl/dotnet/csharp/language-reference/keywords/using
+
+5
+Maak in de 'Main'-methode van je consoletoepassing een lijst van 'Persoon'-objecten en lees het XML-bestand met behulp van de 'ReadXMLFile'-methode van de 'XMLParser'-klasse.
+  
+In de 'Main' methode, maak een nieuw 'XMLParser' object en roep de 'ReadXMLFile' methode aan om het XML-bestand te lezen en een lijst van 'Persoon'-objecten te verkrijgen.
+   Bron: https://docs.microsoft.com/nl-nl/dotnet/csharp/programming-guide/concepts/collections
+
+6
+Voeg een nieuwe persoon toe aan de lijst van 'Persoon'-objecten.
+  
+Maak een nieuw 'Persoon' object met de gewenste eigenschappen en voeg het toe aan de lijst met behulp van de 'Add' methode.
+   Bron: https://docs.microsoft.com/nl-nl/dotnet/api/system.collections.generic.list-1.add?view=net-5.0
+
+7
+Sla de bijgewerkte lijst van 'Persoon'-objecten op in een nieuw XML-bestand met behulp van de 'WriteXMLFile'-methode van de 'XMLParser'-klasse.
+  
+Roep de 'WriteXMLFile'-methode aan met de bijgewerkte lijst van 'Persoon'-objecten als argument.
+   Bron: https://docs.microsoft.com/nl-nl/dotnet/csharp/programming-guide/concepts/linq/how-to-save-data-to-an-output-file
+
+8
+Voeg foutafhandeling toe aan de 'ReadXMLFile'- en 'WriteXMLFile'-methoden om eventuele fouten bij het lezen of schrijven van het XML-bestand op te vangen.
+  
+Gebruik 'try-catch' blokken om uitzonderingen op te vangen en passende acties te ondernemen, zoals het weergeven van een foutmelding of het afsluiten van de toepassing.
+   Bron: https://docs.microsoft.com/nl-nl/dotnet/csharp/language-reference/keywords/try-catch
+
+Benodigde kennis:
+- C# basiskennis
+- Klassen en objecten
+- Lijsten (List<T>)
+- XML-bestandsverwerking met System.Xml-bibliotheek
+- Foutafhandeling (try-catch)
+
+Bronnen:
+- Basis C#: https://docs.microsoft.com/nl-nl/dotnet/csharp/programming-guide/
+- System.Xml: https://docs.microsoft.com/nl-nl/dotnet/api/system.xml?view=net-5.0
+- XML-lezen met XmlDocument: https://docs.microsoft.com/nl-nl/dotnet/csharp/programming-guide/concepts/linq/how-to-read-xml-from-a-file
+- XML schrijven met XmlDocument: https://docs.microsoft.com/nl-nl/dotnet/csharp/programming-guide/concepts/linq/how-to-save-data-to-an-output-file

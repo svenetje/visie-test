@@ -1,0 +1,61 @@
+<Assignment xmlns="http://schemas.datacontract.org/2004/07/Syn_OpenAI_AppLib.Data" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><AssignmentText>Opdracht: App Dynamic GUI State Manager
+
+Doel: Ontwikkel een webapplicatie waarmee gebruikers de positie van GUI-elementen kunnen aanpassen. De aangepaste lay-out moet worden opgeslagen in JSON, XML of SQL-formaat.
+
+Moeilijkheidsgraad: Gemiddeld
+
+Taal: JavaScript
+
+Benodigdheden:
+1. HTML en CSS voor het opmaken van de webpagina en de GUI-elementen.
+2. JavaScript (JS) voor het aanpassen van de positie van de elementen en het opslaan van de aangepaste GUI's.
+3. Een bibliotheek of framework voor het slepen en verplaatsen van elementen (zoals jQuery UI).
+
+Stappenplan:
+1. Creëer een HTML-bestand met de basisstructuur van een webpagina. Voeg de benodigde JavaScript- en CSS-bestanden toe. Voorbeeld: https://www.w3schools.com/html/html_basic.asp
+2. Schrijf een CSS-bestand voor het opmaken van de GUI-elementen. Geef de elementen een relatieve positie zodat ze kunnen worden verplaatst. Voorbeeld van relatieve positionering: https://www.w3schools.com/css/css_positioning.asp
+3. Creëer een JavaScript-bestand voor het aanpassen van de positie van de GUI-elementen en het opslaan van de aangepaste GUI's. Zie voorbeeld JavaScript-bestand: https://www.w3schools.com/js/js_examples.asp
+4. Integreer een bibliotheek of framework (zoals jQuery UI) om het slepen en verplaatsen van elementen te implementeren. jQuery UI Draggable: https://jqueryui.com/draggable/
+5. Voeg functionaliteit toe om de aangepaste GUI's op te slaan als JSON, XML of SQL.
+
+Opdrachten voor de student:
+1. Creëer de HTML-, CSS- en JavaScript-bestanden voor de webapplicatie.
+2. Implementeer het verslepen en verplaatsen van GUI-elementen met behulp van een bibliotheek of framework.
+3. Voeg functionaliteit toe om de aangepaste GUI's op te slaan als JSON, XML of SQL.
+4. Test de webapplicatie en zorg ervoor dat de GUI-elementen correct kunnen worden verplaatst en opgeslagen.
+
+Tips:
+- Gebruik jQuery UI voor het slepen en verplaatsen van elementen (https://jqueryui.com/draggable/).
+- Om de aangepaste GUI's op te slaan als JSON, gebruik de JSON.stringify() methode (https://developer.mozilla.org/nl/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify).
+- Om de aangepaste GUI's op te slaan als XML, gebruik een XML DOM Parser (https://www.w3schools.com/xml/xml_parser.asp) en de XMLSerializer() methode (https://developer.mozilla.org/en-US/docs/Web/API/XMLSerializer).
+- Om de aangepaste GUI's op te slaan als SQL, maak een SQL-query om de gegevens in te voegen of bij te werken in een database. Gebruik hiervoor bijvoorbeeld de IndexedDB API (https://developer.mozilla.org/nl/docs/Web/API/IndexedDB_API) of een server-side oplossing zoals PHP en MySQL.</AssignmentText><Config><Difficulty>Gemiddeld</Difficulty><ExtraDescription>Maak een modulaire GUI State manager</ExtraDescription><ID>29</ID><Language>JS</Language><Reqs>GUI elementen moeten kunnen worden versleept, veranderde GUIs moeten worden opgeslagen als JSON of XML of SQL</Reqs><Title>App Dynamic GUI State Manager</Title></Config><ID>29</ID><RawResponseObj z:Id="i1" xmlns:a="http://schemas.datacontract.org/2004/07/Syn_OpenAI_CoreLib.Core.Models.Data" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/"><created xmlns="http://schemas.datacontract.org/2004/07/Syn_OpenAI_CoreLib.Data">1682885453</created><id xmlns="http://schemas.datacontract.org/2004/07/Syn_OpenAI_CoreLib.Data">chatcmpl-7B7fh8KVE8ZAkthbKWZ8p8EfJY3ak</id><a:choices><a:API_AIResponse_ChoicesJSON><a:finish_reason>stop</a:finish_reason><a:index>0</a:index><a:message><a:content>Opdracht: App Dynamic GUI State Manager
+
+Doel: Ontwikkel een webapplicatie waarmee gebruikers de positie van GUI-elementen kunnen aanpassen. De aangepaste lay-out moet worden opgeslagen in JSON, XML of SQL-formaat.
+
+Moeilijkheidsgraad: Gemiddeld
+
+Taal: JavaScript
+
+Benodigdheden:
+1. HTML en CSS voor het opmaken van de webpagina en de GUI-elementen.
+2. JavaScript (JS) voor het aanpassen van de positie van de elementen en het opslaan van de aangepaste GUI's.
+3. Een bibliotheek of framework voor het slepen en verplaatsen van elementen (zoals jQuery UI).
+
+Stappenplan:
+1. Creëer een HTML-bestand met de basisstructuur van een webpagina. Voeg de benodigde JavaScript- en CSS-bestanden toe. Voorbeeld: https://www.w3schools.com/html/html_basic.asp
+2. Schrijf een CSS-bestand voor het opmaken van de GUI-elementen. Geef de elementen een relatieve positie zodat ze kunnen worden verplaatst. Voorbeeld van relatieve positionering: https://www.w3schools.com/css/css_positioning.asp
+3. Creëer een JavaScript-bestand voor het aanpassen van de positie van de GUI-elementen en het opslaan van de aangepaste GUI's. Zie voorbeeld JavaScript-bestand: https://www.w3schools.com/js/js_examples.asp
+4. Integreer een bibliotheek of framework (zoals jQuery UI) om het slepen en verplaatsen van elementen te implementeren. jQuery UI Draggable: https://jqueryui.com/draggable/
+5. Voeg functionaliteit toe om de aangepaste GUI's op te slaan als JSON, XML of SQL.
+
+Opdrachten voor de student:
+1. Creëer de HTML-, CSS- en JavaScript-bestanden voor de webapplicatie.
+2. Implementeer het verslepen en verplaatsen van GUI-elementen met behulp van een bibliotheek of framework.
+3. Voeg functionaliteit toe om de aangepaste GUI's op te slaan als JSON, XML of SQL.
+4. Test de webapplicatie en zorg ervoor dat de GUI-elementen correct kunnen worden verplaatst en opgeslagen.
+
+Tips:
+- Gebruik jQuery UI voor het slepen en verplaatsen van elementen (https://jqueryui.com/draggable/).
+- Om de aangepaste GUI's op te slaan als JSON, gebruik de JSON.stringify() methode (https://developer.mozilla.org/nl/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify).
+- Om de aangepaste GUI's op te slaan als XML, gebruik een XML DOM Parser (https://www.w3schools.com/xml/xml_parser.asp) en de XMLSerializer() methode (https://developer.mozilla.org/en-US/docs/Web/API/XMLSerializer).
+- Om de aangepaste GUI's op te slaan als SQL, maak een SQL-query om de gegevens in te voegen of bij te werken in een database. Gebruik hiervoor bijvoorbeeld de IndexedDB API (https://developer.mozilla.org/nl/docs/Web/API/IndexedDB_API) of een server-side oplossing zoals PHP en MySQL.</a:content><a:role>assistant</a:role></a:message></a:API_AIResponse_ChoicesJSON></a:choices><a:model>gpt-4-0314</a:model><a:object>chat.completion</a:object><a:usage><a:completion_tokens>727</a:completion_tokens><a:prompt_tokens>842</a:prompt_tokens><a:total_tokens>1569</a:total_tokens></a:usage></RawResponseObj></Assignment>

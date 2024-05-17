@@ -1,0 +1,71 @@
+﻿Quick Details
+Opdracht ID : 52
+Opdracht titel : Desktop APP Assessment
+Opdracht Programmeertalen en/of tech : PYTHON
+Opdracht (geschatte) moeilijkheidsgraad : Moeilijk
+Opdracht Eisen : "Userinterface voor de classlibraries 
+Opdracht Extra Omschrijving :  classlibraries voor de apis 
+Opdracht: Desktop APP Assessment
+Class Libraries Beheer
+
+Doel: Ontwikkel een desktopapplicatie met een gebruikersinterface om class libraries te beheren, met behulp van Python en het Tkinter-framework.
+
+Moeilijkheidsgraad: Moeilijk
+
+Benodigde kennis:
+- Python (https://www.python.org/doc/)
+- Tkinter (https://docs.python.org/3/library/tkinter.html)
+
+Beschrijving:
+
+1
+Creëer een hoofdvenster voor de applicatie met behulp van Tkinter
+Het venster moet een titel, een menu en een statusbalk bevatten
+Zorg ervoor dat het venster ook kan worden gesloten en vergroot/verkleind.
+
+2
+Ontwerp een menu met de volgende opties:
+  
+Bestand: Nieuw, Openen, Opslaan, Opslaan als, Sluiten
+  
+Bewerken: Kopiëren, Plakken, Ongedaan maken, Opnieuw uitvoeren
+  
+Beeld: In- en uitzoomen, Venster herstellen
+  
+Help: Over, Help
+
+3
+Ontwikkel een gebruikersinterface voor het beheren van class libraries
+Gebruik hiervoor een Treeview-widget (https://docs.python.org/3/library/tkinter.ttk.html#treeview) om de hiërarchische lijst met classes, methoden en eigenschappen weer te geven.
+
+4
+Voeg functionaliteit toe voor het toevoegen, verwijderen en hernoemen van classes, methoden en eigenschappen met behulp van contextmenu's en dialoogvensters.
+
+5
+Implementeer functionaliteit voor het tonen en bewerken van de code van de geselecteerde methode of eigenschap in een apart Code-editor-venster.
+
+6
+Integreer functionaliteit voor het exporteren van de class library naar een XML- of JSON-bestand.
+
+7
+Integreer functionaliteit voor het importeren van een class library vanuit een XML- of JSON-bestand.
+
+8
+Creëer een dialoogvenster voor de optie "Over" in het menu Help
+Dit venster moet informatie over de applicatie, de versie, de licentie en de ontwikkelaar bevatten.
+
+9
+Implementeer foutafhandeling en validatie voor alle invoer en acties van de gebruiker, inclusief het afvangen van uitzonderingen en het tonen van foutmeldingen.
+
+Instructies voor de student:
+
+1
+Bestudeer de documentatie van Python en Tkinter om een goed begrip van de programmeertaal en het framework te krijgen.
+2
+Plan en schets de gebruikersinterface op papier of met behulp van een grafisch programma, zodat je een duidelijk beeld hebt van hoe de applicatie eruit moet zien.
+3
+Volg de beschrijving van de opdracht en implementeer de functionaliteit stap voor stap, waarbij je regelmatig controleert of de applicatie naar behoren werkt.
+4
+Test de applicatie uitvoerig om ervoor te zorgen dat alle functies correct werken, dat er geen fouten optreden en dat de gebruikerservaring vloeiend en intuïtief is.
+
+Succes met de opdracht!

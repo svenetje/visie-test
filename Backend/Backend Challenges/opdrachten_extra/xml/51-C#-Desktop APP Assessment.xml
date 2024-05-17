@@ -1,0 +1,83 @@
+<Assignment xmlns="http://schemas.datacontract.org/2004/07/Syn_OpenAI_AppLib.Data" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><AssignmentText>Titel: Desktop App Beoordeling
+
+Beschrijving: In deze opdracht ga je een desktopapplicatie ontwikkelen met behulp van C# en Windows Forms. De applicatie maakt gebruik van verschillende class libraries om verschillende functionaliteiten te implementeren, zoals het werken met tekstbestanden, het uitvoeren van eenvoudige wiskundige berekeningen en het weergeven van een kalender. Je moet een gebruikersinterface (UI) maken die al deze functionaliteiten op een intuïtieve manier presenteert.
+
+Doelstellingen:
+
+1. Maak een Windows Forms-project in Visual Studio.
+   - Installeer indien nodig Visual Studio: https://visualstudio.microsoft.com/nl/vs/
+   - Volg deze tutorial om een nieuw Windows Forms-project aan te maken: https://docs.microsoft.com/nl-nl/dotnet/desktop/winforms/get-started/create-app-visual-studio?view=netdesktop-5.0
+
+2. Ontwerp een gebruikersinterface met de volgende elementen:
+   - MenuStrip met de volgende opties: Bestand (Nieuw, Openen, Opslaan, Afsluiten), Bewerken (Kopieer, Plak, Knip) en Help (Over)
+   - ToolStrip met de belangrijkste acties, zoals Opslaan, Openen, Afdrukken en knoppen voor de verschillende functionaliteiten (Rekenmachine, Kalender)
+   - TabControl met minstens drie tabbladen voor verschillende functionaliteiten:
+     - Tekstbewerker: voor het opslaan en openen van tekstbestanden
+     - Rekenmachine: voor het uitvoeren van eenvoudige wiskundige berekeningen
+     - Kalender: voor het weergeven van een kalender en het toevoegen van gebeurtenissen
+   - Gebruik labels, knoppen, tekstvakken en andere besturingselementen waar nodig om de functionaliteiten te ondersteunen
+
+3. Maak een Class Library-project en voeg referenties toe aan het Windows Forms-project. Implementeer de volgende klassen en methoden:
+   - Document: een klasse voor het opslaan en openen van tekstbestanden
+     - Methoden voor het lezen en schrijven van bestanden: https://docs.microsoft.com/nl-nl/dotnet/csharp/programming-guide/file-system/how-to-read-from-a-text-file
+   - Rekenmachine: een klasse voor het uitvoeren van eenvoudige wiskundige berekeningen (optellen, aftrekken, vermenigvuldigen, delen)
+     - Gebruik de standaard wiskundige operatoren in C#: https://docs.microsoft.com/nl-nl/dotnet/csharp/language-reference/operators/arithmetic-operators
+   - Kalender: een klasse voor het weergeven van een kalender en het toevoegen van gebeurtenissen
+     - Gebruik de DateTime-klasse voor kalenderfuncties: https://docs.microsoft.com/nl-nl/dotnet/api/system.datetime?view=net-5.0
+
+4. Integreer de functionaliteit van de klassebibliotheek in de gebruikersinterface van de Windows Forms-applicatie.
+   - Koppel de acties van de gebruikersinterface aan de methoden van de klassen in de klassebibliotheek
+
+5. Implementeer foutafhandeling en inputvalidatie waar nodig.
+   - Gebruik try-catch blokken voor foutafhandeling: https://docs.microsoft.com/nl-nl/dotnet/csharp/language-reference/keywords/try-catch
+   - Valideer gebruikersinvoer met behulp van reguliere expressies of andere technieken: https://docs.microsoft.com/nl-nl/dotnet/standard/base-types/how-to-verify-that-strings-are-in-valid-email-format
+
+Moeilijkheidsgraad: Moeilijk
+
+Benodigde tijd: 10-12 uur
+
+Benodigde bronnen:
+1. Windows Forms-documentatie: https://docs.microsoft.com/nl-nl/dotnet/desktop/winforms/?view=netdesktop-5.0
+2. Class Library-documentatie: https://docs.microsoft.com/nl-nl/dotnet/standard/class-library
+3. C#-documentatie: https://docs.microsoft.com/nl-nl/dotnet/csharp/</AssignmentText><Config><Difficulty>Moeilijk</Difficulty><ExtraDescription> classlibraries voor de apis </ExtraDescription><ID>51</ID><Language>C#</Language><Reqs>"Userinterface voor de classlibraries </Reqs><Title>Desktop APP Assessment</Title></Config><ID>51</ID><RawResponseObj z:Id="i1" xmlns:a="http://schemas.datacontract.org/2004/07/Syn_OpenAI_CoreLib.Core.Models.Data" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/"><created xmlns="http://schemas.datacontract.org/2004/07/Syn_OpenAI_CoreLib.Data">1682888258</created><id xmlns="http://schemas.datacontract.org/2004/07/Syn_OpenAI_CoreLib.Data">chatcmpl-7B8OwdM0C5Qyx5zpXdR9Kx7MI200z</id><a:choices><a:API_AIResponse_ChoicesJSON><a:finish_reason>stop</a:finish_reason><a:index>0</a:index><a:message><a:content>Titel: Desktop App Beoordeling
+
+Beschrijving: In deze opdracht ga je een desktopapplicatie ontwikkelen met behulp van C# en Windows Forms. De applicatie maakt gebruik van verschillende class libraries om verschillende functionaliteiten te implementeren, zoals het werken met tekstbestanden, het uitvoeren van eenvoudige wiskundige berekeningen en het weergeven van een kalender. Je moet een gebruikersinterface (UI) maken die al deze functionaliteiten op een intuïtieve manier presenteert.
+
+Doelstellingen:
+
+1. Maak een Windows Forms-project in Visual Studio.
+   - Installeer indien nodig Visual Studio: https://visualstudio.microsoft.com/nl/vs/
+   - Volg deze tutorial om een nieuw Windows Forms-project aan te maken: https://docs.microsoft.com/nl-nl/dotnet/desktop/winforms/get-started/create-app-visual-studio?view=netdesktop-5.0
+
+2. Ontwerp een gebruikersinterface met de volgende elementen:
+   - MenuStrip met de volgende opties: Bestand (Nieuw, Openen, Opslaan, Afsluiten), Bewerken (Kopieer, Plak, Knip) en Help (Over)
+   - ToolStrip met de belangrijkste acties, zoals Opslaan, Openen, Afdrukken en knoppen voor de verschillende functionaliteiten (Rekenmachine, Kalender)
+   - TabControl met minstens drie tabbladen voor verschillende functionaliteiten:
+     - Tekstbewerker: voor het opslaan en openen van tekstbestanden
+     - Rekenmachine: voor het uitvoeren van eenvoudige wiskundige berekeningen
+     - Kalender: voor het weergeven van een kalender en het toevoegen van gebeurtenissen
+   - Gebruik labels, knoppen, tekstvakken en andere besturingselementen waar nodig om de functionaliteiten te ondersteunen
+
+3. Maak een Class Library-project en voeg referenties toe aan het Windows Forms-project. Implementeer de volgende klassen en methoden:
+   - Document: een klasse voor het opslaan en openen van tekstbestanden
+     - Methoden voor het lezen en schrijven van bestanden: https://docs.microsoft.com/nl-nl/dotnet/csharp/programming-guide/file-system/how-to-read-from-a-text-file
+   - Rekenmachine: een klasse voor het uitvoeren van eenvoudige wiskundige berekeningen (optellen, aftrekken, vermenigvuldigen, delen)
+     - Gebruik de standaard wiskundige operatoren in C#: https://docs.microsoft.com/nl-nl/dotnet/csharp/language-reference/operators/arithmetic-operators
+   - Kalender: een klasse voor het weergeven van een kalender en het toevoegen van gebeurtenissen
+     - Gebruik de DateTime-klasse voor kalenderfuncties: https://docs.microsoft.com/nl-nl/dotnet/api/system.datetime?view=net-5.0
+
+4. Integreer de functionaliteit van de klassebibliotheek in de gebruikersinterface van de Windows Forms-applicatie.
+   - Koppel de acties van de gebruikersinterface aan de methoden van de klassen in de klassebibliotheek
+
+5. Implementeer foutafhandeling en inputvalidatie waar nodig.
+   - Gebruik try-catch blokken voor foutafhandeling: https://docs.microsoft.com/nl-nl/dotnet/csharp/language-reference/keywords/try-catch
+   - Valideer gebruikersinvoer met behulp van reguliere expressies of andere technieken: https://docs.microsoft.com/nl-nl/dotnet/standard/base-types/how-to-verify-that-strings-are-in-valid-email-format
+
+Moeilijkheidsgraad: Moeilijk
+
+Benodigde tijd: 10-12 uur
+
+Benodigde bronnen:
+1. Windows Forms-documentatie: https://docs.microsoft.com/nl-nl/dotnet/desktop/winforms/?view=netdesktop-5.0
+2. Class Library-documentatie: https://docs.microsoft.com/nl-nl/dotnet/standard/class-library
+3. C#-documentatie: https://docs.microsoft.com/nl-nl/dotnet/csharp/</a:content><a:role>assistant</a:role></a:message></a:API_AIResponse_ChoicesJSON></a:choices><a:model>gpt-4-0314</a:model><a:object>chat.completion</a:object><a:usage><a:completion_tokens>978</a:completion_tokens><a:prompt_tokens>647</a:prompt_tokens><a:total_tokens>1625</a:total_tokens></a:usage></RawResponseObj></Assignment>

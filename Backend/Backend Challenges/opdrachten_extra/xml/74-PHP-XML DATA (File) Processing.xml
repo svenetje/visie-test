@@ -1,0 +1,71 @@
+<Assignment xmlns="http://schemas.datacontract.org/2004/07/Syn_OpenAI_AppLib.Data" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><AssignmentText>Uitbreiding, uitleg, aanvulling en toelichting op elk van de onderwerpen in deze opdrachttekst (schrijf alleen tekst die nog niet voorkomt):
+
+Opdracht: XML Data (Bestand) Verwerking
+=====================================
+
+Doel:
+-----
+
+Het doel van deze opdracht is het verwerken van XML-bestanden met behulp van objectgeoriënteerd programmeren in PHP. XML (eXtensible Markup Language) is een opmaaktaal die wordt gebruikt om gestructureerde gegevens uit te wisselen tussen verschillende applicaties en systemen. Door een PHP-klasse te maken voor het verwerken van XML-bestanden, kunt u eenvoudig XML-gegevens lezen, wijzigen en opslaan in uw PHP-projecten.
+
+Benodigdheden:
+-------------
+
+1. Een teksteditor (zoals Visual Studio Code, Sublime Text of Notepad++): Dit is nodig om PHP-code te schrijven en te bewerken. Zorg ervoor dat uw teksteditor syntax highlighting en eventueel autocompletion ondersteunt voor PHP om het programmeren gemakkelijker te maken.
+
+2. Een lokale webserver met PHP-ondersteuning (zoals XAMPP, WampServer of MAMP): Om uw PHP-code uit te voeren, heeft u een webserver nodig die PHP ondersteunt. Dit stelt u in staat om uw PHP-bestanden in een browser te openen en de resultaten van uw code te bekijken.
+
+Opdrachtbeschrijving:
+--------------------
+
+1. Maak een PHP-klasse genaamd `XMLProcessor`: Deze klasse zal fungeren als een wrapper rond PHP's ingebouwde DOMDocument-klasse, waarmee u XML-bestanden kunt lezen, bewerken en opslaan met behulp van objectgeoriënteerd programmeren.
+
+2. Implementeer de volgende methoden in de `XMLProcessor`-klasse: Deze methoden zullen de basisfunctionaliteit van de klasse vormen en zullen worden gebruikt om XML-elementen te manipuleren en bestanden te lezen en te schrijven.
+
+3. Creëer een XML-bestand met de volgende structuur: Dit bestand zal dienen als voorbeeld voor het testen van uw `XMLProcessor`-klasse. Het bevat een `root`-element met twee `item`-elementen, elk met een `name`- en een `price`-element.
+
+4. Gebruik de `XMLProcessor`-klasse om het XML-bestand te laden, elementen toe te voegen, te verwijderen of te bewerken, en het resultaat op te slaan in een nieuw XML-bestand: Dit zal u in staat stellen om te zien of uw klasse correct werkt en u in staat stelt om XML-bestanden te verwerken zoals verwacht.
+
+5. Test uw oplossing grondig om er zeker van te zijn dat alle methoden correct werken: Probeer verschillende testcases uit om te controleren of uw code correct werkt en geen fouten bevat. Houd rekening met zowel basis- als randgevallen.
+
+Bronnen:
+--------
+
+1. PHP Documentatie - DOMDocument: [https://www.php.net/manual/en/class.domdocument.php](https://www.php.net/manual/en/class.domdocument.php) - Dit is de officiële documentatie voor de DOMDocument-klasse. Hier vindt u meer informatie over de beschikbare methoden en eigenschappen, evenals voorbeeldcode en uitleg.
+
+2. PHP Documentatie - DOMElement: [https://www.php.net/manual/en/class.domelement.php](https://www.php.net/manual/en/class.domelement.php) - Dit is de officiële documentatie voor de DOMElement-klasse, die wordt gebruikt om individuele elementen in een DOMDocument-object te vertegenwoordigen. U zult deze klasse gebruiken bij het implementeren van verschillende methoden in uw `XMLProcessor`-klasse.</AssignmentText><Config><Difficulty>Gemiddeld</Difficulty><ExtraDescription/><ID>74</ID><Language>PHP</Language><Reqs>Object Oriented</Reqs><Title>XML DATA (File) Processing</Title></Config><ID>74</ID><RawResponseObj z:Id="i1" xmlns:a="http://schemas.datacontract.org/2004/07/Syn_OpenAI_CoreLib.Core.Models.Data" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/"><created xmlns="http://schemas.datacontract.org/2004/07/Syn_OpenAI_CoreLib.Data">1682891129</created><id xmlns="http://schemas.datacontract.org/2004/07/Syn_OpenAI_CoreLib.Data">chatcmpl-7B99FrZDJCLBbofpZEH6eP1DbD2gR</id><a:choices><a:API_AIResponse_ChoicesJSON><a:finish_reason>stop</a:finish_reason><a:index>0</a:index><a:message><a:content>Uitbreiding, uitleg, aanvulling en toelichting op elk van de onderwerpen in deze opdrachttekst (schrijf alleen tekst die nog niet voorkomt):
+
+Opdracht: XML Data (Bestand) Verwerking
+=====================================
+
+Doel:
+-----
+
+Het doel van deze opdracht is het verwerken van XML-bestanden met behulp van objectgeoriënteerd programmeren in PHP. XML (eXtensible Markup Language) is een opmaaktaal die wordt gebruikt om gestructureerde gegevens uit te wisselen tussen verschillende applicaties en systemen. Door een PHP-klasse te maken voor het verwerken van XML-bestanden, kunt u eenvoudig XML-gegevens lezen, wijzigen en opslaan in uw PHP-projecten.
+
+Benodigdheden:
+-------------
+
+1. Een teksteditor (zoals Visual Studio Code, Sublime Text of Notepad++): Dit is nodig om PHP-code te schrijven en te bewerken. Zorg ervoor dat uw teksteditor syntax highlighting en eventueel autocompletion ondersteunt voor PHP om het programmeren gemakkelijker te maken.
+
+2. Een lokale webserver met PHP-ondersteuning (zoals XAMPP, WampServer of MAMP): Om uw PHP-code uit te voeren, heeft u een webserver nodig die PHP ondersteunt. Dit stelt u in staat om uw PHP-bestanden in een browser te openen en de resultaten van uw code te bekijken.
+
+Opdrachtbeschrijving:
+--------------------
+
+1. Maak een PHP-klasse genaamd `XMLProcessor`: Deze klasse zal fungeren als een wrapper rond PHP's ingebouwde DOMDocument-klasse, waarmee u XML-bestanden kunt lezen, bewerken en opslaan met behulp van objectgeoriënteerd programmeren.
+
+2. Implementeer de volgende methoden in de `XMLProcessor`-klasse: Deze methoden zullen de basisfunctionaliteit van de klasse vormen en zullen worden gebruikt om XML-elementen te manipuleren en bestanden te lezen en te schrijven.
+
+3. Creëer een XML-bestand met de volgende structuur: Dit bestand zal dienen als voorbeeld voor het testen van uw `XMLProcessor`-klasse. Het bevat een `root`-element met twee `item`-elementen, elk met een `name`- en een `price`-element.
+
+4. Gebruik de `XMLProcessor`-klasse om het XML-bestand te laden, elementen toe te voegen, te verwijderen of te bewerken, en het resultaat op te slaan in een nieuw XML-bestand: Dit zal u in staat stellen om te zien of uw klasse correct werkt en u in staat stelt om XML-bestanden te verwerken zoals verwacht.
+
+5. Test uw oplossing grondig om er zeker van te zijn dat alle methoden correct werken: Probeer verschillende testcases uit om te controleren of uw code correct werkt en geen fouten bevat. Houd rekening met zowel basis- als randgevallen.
+
+Bronnen:
+--------
+
+1. PHP Documentatie - DOMDocument: [https://www.php.net/manual/en/class.domdocument.php](https://www.php.net/manual/en/class.domdocument.php) - Dit is de officiële documentatie voor de DOMDocument-klasse. Hier vindt u meer informatie over de beschikbare methoden en eigenschappen, evenals voorbeeldcode en uitleg.
+
+2. PHP Documentatie - DOMElement: [https://www.php.net/manual/en/class.domelement.php](https://www.php.net/manual/en/class.domelement.php) - Dit is de officiële documentatie voor de DOMElement-klasse, die wordt gebruikt om individuele elementen in een DOMDocument-object te vertegenwoordigen. U zult deze klasse gebruiken bij het implementeren van verschillende methoden in uw `XMLProcessor`-klasse.</a:content><a:role>assistant</a:role></a:message></a:API_AIResponse_ChoicesJSON></a:choices><a:model>gpt-4-0314</a:model><a:object>chat.completion</a:object><a:usage><a:completion_tokens>894</a:completion_tokens><a:prompt_tokens>759</a:prompt_tokens><a:total_tokens>1653</a:total_tokens></a:usage></RawResponseObj></Assignment>

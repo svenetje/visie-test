@@ -1,0 +1,61 @@
+﻿Quick Details
+Opdracht ID : 36
+Opdracht titel : Plugin Loader
+Opdracht Programmeertalen en/of tech : Vue
+Opdracht (geschatte) moeilijkheidsgraad : Gemiddeld
+Opdracht Eisen : Plugins detecteren in een map genaamd 'plugins', inladen en hun initialize functies aanroepen.
+Opdracht Extra Omschrijving : 
+Opdracht: Plugin Loader
+
+Doel: Maak een Vue-applicatie die automatisch plugins detecteert in een map genaamd 'plugins', deze inlaadt en hun initialiseerfuncties aanroept.
+
+Programmeertaal: Vue.js
+
+Moeilijkheidsgraad: Gemiddeld
+
+Instructies:
+
+1
+Installeer en configureer Vue CLI:
+   Om een nieuw Vue-project te maken, moet je eerst Vue CLI installeren en configureren
+Volg de onderstaande link voor de installatie-instructies:
+  
+Vue CLI installatie: https://cli.vuejs.org/guide/installation.html
+
+2
+Creëer een nieuw Vue-project:
+   Gebruik de Vue CLI om een nieuw Vue-project aan te maken met het volgende commando:
+   ```
+   vue create my-plugin-loader
+   ```
+   Navigeer vervolgens naar de projectmap:
+   ```
+   cd my-plugin-loader
+   ```
+
+3
+Maak een map voor de plugins:
+   Maak een nieuwe map genaamd 'plugins' in de 'src' map van het project om de plugin-bestanden op te slaan.
+
+4
+Creëer plugin-bestanden:
+   Maak voor elke plugin die je wilt inladen een nieuw .js-bestand in de 'plugins' map
+Zorg ervoor dat elke plugin een object exporteert met een `initialize`-functie.
+
+5
+Implementeer de PluginLoader:
+   Maak een nieuw bestand genaamd 'PluginLoader.js' in de 'src' map dat verantwoordelijk zal zijn voor het detecteren, inladen en aanroepen van de initialiseerfuncties van de plugins.
+
+6
+Pas het 'main.js' bestand aan:
+   Importeer en gebruik de 'PluginLoader' in het 'main.js'-bestand van het project om de plugin-loader automatisch uit te voeren wanneer de Vue-applicatie start.
+
+7
+Test de applicatie:
+   Start de Vue-applicatie en controleer de console om te zien of de initialiseerfuncties van de plugins correct worden uitgevoerd.
+
+Bronnen:
+
+- Vue CLI: https://cli.vuejs.org/
+- Webpack require.context: https://webpack.js.org/guides/dependency-management/#requirecontext
+- Vue.js documentatie: https://vuejs.org/v2/guide/

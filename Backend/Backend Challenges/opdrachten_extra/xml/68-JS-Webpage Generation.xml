@@ -1,0 +1,59 @@
+<Assignment xmlns="http://schemas.datacontract.org/2004/07/Syn_OpenAI_AppLib.Data" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><AssignmentText>Titel: Webpagina Generatie
+
+Doel: Maak een webpagina die HTML, CSS en JS code kan genereren op basis van snippets en trefwoorden.
+
+Programmeertaal: JavaScript
+
+Moeilijkheidsgraad: Gemiddeld
+
+Benodigdheden:
+1. Basis kennis van HTML, CSS en JavaScript
+2. Code-editor (zoals Visual Studio Code of Sublime Text)
+3. Webbrowser (zoals Google Chrome of Firefox)
+
+In deze opdracht ga je een webpagina maken die stukjes code (snippets) kan genereren op basis van door de gebruiker ingevoerde trefwoorden. Deze stukjes code zullen HTML, CSS en JS elementen bevatten. De uitdaging zit in het correct implementeren van de JavaScript logica om de juiste code te genereren en weer te geven.
+
+Opdracht:
+1. Maak een HTML-bestand met de basisstructuur van een webpagina. Voeg een invoerveld (input) en een knop (button) toe. De gebruiker moet trefwoorden kunnen invoeren in het invoerveld en op de knop klikken om de code te genereren. Gebruik de gegeven HTML-code als uitgangspunt.
+
+2. Maak een JavaScript-bestand (bijv. script.js) waarin u de logica voor het genereren van de code implementeert. Gebruik een object met trefwoorden als sleutels en code snippets als waarden. Wanneer de gebruiker op de knop klikt, moet het script de trefwoorden uit het invoerveld halen, de bijbehorende snippets opzoeken en de gegenereerde code weergeven. Gebruik de gegeven JavaScript-code als uitgangspunt.
+
+3. Test uw webpagina in een browser. Voer enkele trefwoorden in het invoerveld in, klik op de knop en controleer of de juiste code wordt gegenereerd. Controleer of de gegenereerde code correct is en overeenkomt met de ingevoerde trefwoorden.
+
+4. Voeg meer snippets en trefwoorden toe aan het JavaScript-bestand om de functionaliteit van uw webpagina uit te breiden. Denk hierbij aan het toevoegen van meer HTML-elementen, CSS-stijlen en JavaScript-functies. Probeer variatie aan te brengen in de snippets, zodat de gebruiker een breed scala aan code kan genereren.
+
+5. (Optioneel) Voeg wat CSS toe om de webpagina stijl te geven. Geef bijvoorbeeld kleur en typografie aan de titel, invoerveld, knop en gegenereerde code. Dit zal de gebruikservaring van de webpagina verbeteren.
+
+Bronnen:
+1. HTML Basics: https://www.w3schools.com/html/html_basic.asp
+2. CSS Basics: https://www.w3schools.com/css/css_intro.asp
+3. JavaScript Basics: https://www.w3schools.com/js/js_intro.asp</AssignmentText><Config><Difficulty>Gemiddeld</Difficulty><ExtraDescription/><ID>68</ID><Language>JS</Language><Reqs>HTML CSS en JS generation door middel van snippits en keywords</Reqs><Title>Webpage Generation</Title></Config><ID>68</ID><RawResponseObj z:Id="i1" xmlns:a="http://schemas.datacontract.org/2004/07/Syn_OpenAI_CoreLib.Core.Models.Data" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/"><created xmlns="http://schemas.datacontract.org/2004/07/Syn_OpenAI_CoreLib.Data">1682890346</created><id xmlns="http://schemas.datacontract.org/2004/07/Syn_OpenAI_CoreLib.Data">chatcmpl-7B8wcj0FGY7W8OUFTWnlHi70tdq2I</id><a:choices><a:API_AIResponse_ChoicesJSON><a:finish_reason>stop</a:finish_reason><a:index>0</a:index><a:message><a:content>Titel: Webpagina Generatie
+
+Doel: Maak een webpagina die HTML, CSS en JS code kan genereren op basis van snippets en trefwoorden.
+
+Programmeertaal: JavaScript
+
+Moeilijkheidsgraad: Gemiddeld
+
+Benodigdheden:
+1. Basis kennis van HTML, CSS en JavaScript
+2. Code-editor (zoals Visual Studio Code of Sublime Text)
+3. Webbrowser (zoals Google Chrome of Firefox)
+
+In deze opdracht ga je een webpagina maken die stukjes code (snippets) kan genereren op basis van door de gebruiker ingevoerde trefwoorden. Deze stukjes code zullen HTML, CSS en JS elementen bevatten. De uitdaging zit in het correct implementeren van de JavaScript logica om de juiste code te genereren en weer te geven.
+
+Opdracht:
+1. Maak een HTML-bestand met de basisstructuur van een webpagina. Voeg een invoerveld (input) en een knop (button) toe. De gebruiker moet trefwoorden kunnen invoeren in het invoerveld en op de knop klikken om de code te genereren. Gebruik de gegeven HTML-code als uitgangspunt.
+
+2. Maak een JavaScript-bestand (bijv. script.js) waarin u de logica voor het genereren van de code implementeert. Gebruik een object met trefwoorden als sleutels en code snippets als waarden. Wanneer de gebruiker op de knop klikt, moet het script de trefwoorden uit het invoerveld halen, de bijbehorende snippets opzoeken en de gegenereerde code weergeven. Gebruik de gegeven JavaScript-code als uitgangspunt.
+
+3. Test uw webpagina in een browser. Voer enkele trefwoorden in het invoerveld in, klik op de knop en controleer of de juiste code wordt gegenereerd. Controleer of de gegenereerde code correct is en overeenkomt met de ingevoerde trefwoorden.
+
+4. Voeg meer snippets en trefwoorden toe aan het JavaScript-bestand om de functionaliteit van uw webpagina uit te breiden. Denk hierbij aan het toevoegen van meer HTML-elementen, CSS-stijlen en JavaScript-functies. Probeer variatie aan te brengen in de snippets, zodat de gebruiker een breed scala aan code kan genereren.
+
+5. (Optioneel) Voeg wat CSS toe om de webpagina stijl te geven. Geef bijvoorbeeld kleur en typografie aan de titel, invoerveld, knop en gegenereerde code. Dit zal de gebruikservaring van de webpagina verbeteren.
+
+Bronnen:
+1. HTML Basics: https://www.w3schools.com/html/html_basic.asp
+2. CSS Basics: https://www.w3schools.com/css/css_intro.asp
+3. JavaScript Basics: https://www.w3schools.com/js/js_intro.asp</a:content><a:role>assistant</a:role></a:message></a:API_AIResponse_ChoicesJSON></a:choices><a:model>gpt-4-0314</a:model><a:object>chat.completion</a:object><a:usage><a:completion_tokens>658</a:completion_tokens><a:prompt_tokens>796</a:prompt_tokens><a:total_tokens>1454</a:total_tokens></a:usage></RawResponseObj></Assignment>

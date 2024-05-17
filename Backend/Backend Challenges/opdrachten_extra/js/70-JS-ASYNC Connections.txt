@@ -1,0 +1,68 @@
+﻿Quick Details
+Opdracht ID : 70
+Opdracht titel : ASYNC Connections
+Opdracht Programmeertalen en/of tech : JS
+Opdracht (geschatte) moeilijkheidsgraad : Makkelijk
+Opdracht Eisen : Async MYSQL CRUD calls, AJAX in combinatie met PHP
+Opdracht Extra Omschrijving : 
+Titel: ASYNC Connections
+
+Doel: Maak een eenvoudige webapplicatie die asynchrone MySQL CRUD-acties uitvoert met behulp van AJAX en PHP.
+
+Benodigdheden:
+1
+Text editor of IDE (zoals Visual Studio Code)
+2
+Webserver met PHP en MySQL-ondersteuning (bijvoorbeeld XAMPP of WAMP)
+3
+Webbrowser
+
+Instructies:
+
+1
+Database en tabel opzetten:
+  
+Maak een nieuwe MySQL-database met de naam 'async_connections', dit kan via phpMyAdmin of een andere databasebeheer tool.
+  
+Maak een tabel genaamd 'gebruikers' met de volgende kolommen:
+     * id (INT, PRIMARY KEY, AUTO_INCREMENT)
+     * voornaam (VARCHAR, lengte 255)
+     * achternaam (VARCHAR, lengte 255)
+     * email (VARCHAR, lengte 255, UNIQUE)
+
+2
+PHP-bestanden voorbereiden:
+  
+Maak een nieuw PHP-bestand genaamd 'config.php' en configureer de databaseverbinding met behulp van de mysqli_connect-functie
+Zorg ervoor dat je het bestand beveiligt tegen SQL-injectie en andere beveiligingsrisico's.
+  
+Maak vier PHP-bestanden genaamd 'create.php', 'read.php', 'update.php' en 'delete.php' voor de CRUD-acties
+Zorg ervoor dat de juiste SQL-query's worden uitgevoerd en dat de resultaten correct worden geretourneerd.
+
+3
+AJAX en PHP gebruiken voor asynchrone CRUD-acties:
+  
+Maak een HTML-bestand met een formulier voor het invoeren van gebruikersgegevens (voornaam, achternaam en e-mail)
+Zorg ervoor dat inputvelden de juiste attributen hebben, zoals 'required' en 'type'.
+  
+Voeg JavaScript toe om AJAX te gebruiken voor het verzenden van de gebruikersgegevens naar 'create.php' zonder de pagina te vernieuwen
+Gebruik hiervoor de XMLHttpRequest- of Fetch API.
+  
+Gebruik AJAX om de gegevens van de 'gebruikers'-tabel op te halen uit 'read.php' en weer te geven in een HTML-tabel
+Zorg ervoor dat de tabel automatisch wordt bijgewerkt wanneer er gegevens worden toegevoegd, bijgewerkt of verwijderd.
+  
+Voeg een knop toe om een gebruiker bij te werken
+Gebruik AJAX om de gebruikersgegevens naar 'update.php' te sturen zonder de pagina te vernieuwen
+Zorg ervoor dat de gebruiker een bevestigingsbericht ontvangt wanneer de update is voltooid.
+  
+Voeg een knop toe om een gebruiker te verwijderen
+Gebruik AJAX om het verwijderverzoek naar 'delete.php' te sturen zonder de pagina te vernieuwen
+Vraag de gebruiker om bevestiging voordat de gegevens worden verwijderd.
+
+Moeilijkheidsgraad: Makkelijk
+
+Bronnen:
+- AJAX: https://www.w3schools.com/xml/ajax_intro.asp
+- PHP en MySQL: https://www.w3schools.com/php/php_mysql_intro.asp
+- Fetch API: https://developer.mozilla.org/nl/docs/Web/API/Fetch_API/Using_Fetch
+- Beveiliging: https://www.w3schools.com/php/php_ajax_security.asp

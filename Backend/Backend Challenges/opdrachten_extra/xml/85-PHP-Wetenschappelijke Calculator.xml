@@ -1,0 +1,73 @@
+<Assignment xmlns="http://schemas.datacontract.org/2004/07/Syn_OpenAI_AppLib.Data" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><AssignmentText>Titel: Wetenschappelijke Calculator
+
+Beschrijving: Maak een wetenschappelijke calculator in PHP die de volgende bewerkingen en functionaliteiten ondersteunt:
+
+1. Plus: Het optellen van twee getallen.
+2. Minus: Het aftrekken van het tweede getal van het eerste getal.
+3. Keer: Het vermenigvuldigen van twee getallen.
+4. Gedeeld door: Het delen van het eerste getal door het tweede getal.
+5. Wetenschappelijke notatie: Het weergeven van getallen in de vorm van a x 10^b, waarbij a en b variabelen zijn.
+6. Wetenschappelijke formules: Het verwerken en berekenen van formules met wetenschappelijke notatie en functies zoals machtsverheffen, worteltrekken, logaritmen, sinus, cosinus en tangens.
+
+Moeilijkheidsgraad: Gemiddeld
+
+Benodigdheden:
+- Basiskennis van PHP
+- Basiskennis van HTML en CSS voor het maken van de gebruikersinterface
+
+Stappen:
+
+1. Maak een HTML-bestand met de benodigde elementen voor de calculator, zoals invoervelden voor getallen en formules, knoppen voor de verschillende bewerkingen en functionaliteiten, en een resultaatveld om het antwoord weer te geven.
+2. Voeg CSS toe voor de opmaak van de calculator, zodat de elementen netjes op de pagina worden weergegeven en de gebruikerservaring wordt verbeterd.
+3. Schrijf PHP-functies voor de basisbewerkingen (plus, minus, keer, gedeeld door) en de wetenschappelijke notatie, met behulp van ingebouwde PHP-functies zoals `pow()` voor machtsverheffen en `exp()` voor exponenten.
+4. Schrijf een PHP-functie die wetenschappelijke formules kan verwerken en berekenen, bijvoorbeeld met behulp van de `eval()` functie (let op: dit kan veiligheidsrisico's met zich meebrengen, dus zorg ervoor dat de invoer goed wordt gevalideerd met behulp van reguliere expressies of andere validatiemethoden).
+5. Koppel de PHP-functies aan de HTML-elementen met behulp van form handling en de `$_POST` methode, zodat de calculator kan reageren op gebruikersinvoer en de resultaten kan tonen op de pagina.
+6. Test de calculator grondig en zorg ervoor dat alle functionaliteiten correct werken, inclusief de validatie van gebruikersinvoer en de berekeningen van formules met wetenschappelijke notatie en functies.
+
+Extra uitdagingen:
+
+- Voeg extra wetenschappelijke functies toe, zoals worteltrekken (gebruik `sqrt()`), machtsverheffen (gebruik `pow()`), logaritmen (gebruik `log()`), sinus (gebruik `sin()`), cosinus (gebruik `cos()`) en tangens (gebruik `tan()`).
+- Maak een geavanceerde invoer validatie om onveilige of ongeldige formules te voorkomen, bijvoorbeeld door het gebruik van reguliere expressies om te controleren of de invoer alleen toegestane karakters en combinaties bevat.
+- Implementeer een gebruikersvriendelijke interface met behulp van JavaScript en AJAX, zodat de pagina niet hoeft te worden vernieuwd bij elke berekening en de resultaten direct op de pagina worden weergegeven zonder vertraging.
+
+Bronnen:
+- PHP documentatie: https://www.php.net/manual/nl/index.php
+- HTML en CSS tutorial: https://www.w3schools.com/html/html_css.asp
+- PHP form handling: https://www.w3schools.com/php/php_forms.asp
+- JavaScript en AJAX tutorial: https://www.w3schools.com/js/js_ajax_intro.asp</AssignmentText><Config><Difficulty>Gemiddeld</Difficulty><ExtraDescription/><ID>85</ID><Language>PHP</Language><Reqs>plus, minus, keer, gedeeld door, wetenschappelijke notatie, wetenschappelijke formules</Reqs><Title>Wetenschappelijke Calculator</Title></Config><ID>85</ID><RawResponseObj z:Id="i1" xmlns:a="http://schemas.datacontract.org/2004/07/Syn_OpenAI_CoreLib.Core.Models.Data" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/"><created xmlns="http://schemas.datacontract.org/2004/07/Syn_OpenAI_CoreLib.Data">1682892485</created><id xmlns="http://schemas.datacontract.org/2004/07/Syn_OpenAI_CoreLib.Data">chatcmpl-7B9V7vnMfQu7E9pFI2yrFKKvRei6Y</id><a:choices><a:API_AIResponse_ChoicesJSON><a:finish_reason>stop</a:finish_reason><a:index>0</a:index><a:message><a:content>Titel: Wetenschappelijke Calculator
+
+Beschrijving: Maak een wetenschappelijke calculator in PHP die de volgende bewerkingen en functionaliteiten ondersteunt:
+
+1. Plus: Het optellen van twee getallen.
+2. Minus: Het aftrekken van het tweede getal van het eerste getal.
+3. Keer: Het vermenigvuldigen van twee getallen.
+4. Gedeeld door: Het delen van het eerste getal door het tweede getal.
+5. Wetenschappelijke notatie: Het weergeven van getallen in de vorm van a x 10^b, waarbij a en b variabelen zijn.
+6. Wetenschappelijke formules: Het verwerken en berekenen van formules met wetenschappelijke notatie en functies zoals machtsverheffen, worteltrekken, logaritmen, sinus, cosinus en tangens.
+
+Moeilijkheidsgraad: Gemiddeld
+
+Benodigdheden:
+- Basiskennis van PHP
+- Basiskennis van HTML en CSS voor het maken van de gebruikersinterface
+
+Stappen:
+
+1. Maak een HTML-bestand met de benodigde elementen voor de calculator, zoals invoervelden voor getallen en formules, knoppen voor de verschillende bewerkingen en functionaliteiten, en een resultaatveld om het antwoord weer te geven.
+2. Voeg CSS toe voor de opmaak van de calculator, zodat de elementen netjes op de pagina worden weergegeven en de gebruikerservaring wordt verbeterd.
+3. Schrijf PHP-functies voor de basisbewerkingen (plus, minus, keer, gedeeld door) en de wetenschappelijke notatie, met behulp van ingebouwde PHP-functies zoals `pow()` voor machtsverheffen en `exp()` voor exponenten.
+4. Schrijf een PHP-functie die wetenschappelijke formules kan verwerken en berekenen, bijvoorbeeld met behulp van de `eval()` functie (let op: dit kan veiligheidsrisico's met zich meebrengen, dus zorg ervoor dat de invoer goed wordt gevalideerd met behulp van reguliere expressies of andere validatiemethoden).
+5. Koppel de PHP-functies aan de HTML-elementen met behulp van form handling en de `$_POST` methode, zodat de calculator kan reageren op gebruikersinvoer en de resultaten kan tonen op de pagina.
+6. Test de calculator grondig en zorg ervoor dat alle functionaliteiten correct werken, inclusief de validatie van gebruikersinvoer en de berekeningen van formules met wetenschappelijke notatie en functies.
+
+Extra uitdagingen:
+
+- Voeg extra wetenschappelijke functies toe, zoals worteltrekken (gebruik `sqrt()`), machtsverheffen (gebruik `pow()`), logaritmen (gebruik `log()`), sinus (gebruik `sin()`), cosinus (gebruik `cos()`) en tangens (gebruik `tan()`).
+- Maak een geavanceerde invoer validatie om onveilige of ongeldige formules te voorkomen, bijvoorbeeld door het gebruik van reguliere expressies om te controleren of de invoer alleen toegestane karakters en combinaties bevat.
+- Implementeer een gebruikersvriendelijke interface met behulp van JavaScript en AJAX, zodat de pagina niet hoeft te worden vernieuwd bij elke berekening en de resultaten direct op de pagina worden weergegeven zonder vertraging.
+
+Bronnen:
+- PHP documentatie: https://www.php.net/manual/nl/index.php
+- HTML en CSS tutorial: https://www.w3schools.com/html/html_css.asp
+- PHP form handling: https://www.w3schools.com/php/php_forms.asp
+- JavaScript en AJAX tutorial: https://www.w3schools.com/js/js_ajax_intro.asp</a:content><a:role>assistant</a:role></a:message></a:API_AIResponse_ChoicesJSON></a:choices><a:model>gpt-4-0314</a:model><a:object>chat.completion</a:object><a:usage><a:completion_tokens>897</a:completion_tokens><a:prompt_tokens>699</a:prompt_tokens><a:total_tokens>1596</a:total_tokens></a:usage></RawResponseObj></Assignment>

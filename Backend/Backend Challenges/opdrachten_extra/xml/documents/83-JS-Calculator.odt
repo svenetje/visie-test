@@ -1,0 +1,59 @@
+﻿Quick Details
+Opdracht ID : 83
+Opdracht titel : Calculator
+Opdracht Programmeertalen en/of tech : JS
+Opdracht (geschatte) moeilijkheidsgraad : Makkelijk
+Opdracht Eisen : plus, minus, keer, gedeeld door
+Opdracht Extra Omschrijving : 
+Opdracht: Calculator
+Taal: JavaScript
+Moeilijkheidsgraad: Makkelijk
+
+Doel: In deze opdracht ga je een eenvoudige rekenmachine maken met behulp van JavaScript
+De rekenmachine moet in staat zijn om de basisbewerkingen uit te voeren: optellen, aftrekken, vermenigvuldigen en delen.
+
+Instructies:
+
+1
+Maak een HTML-bestand met de volgende elementen:
+  
+Een titel "Eenvoudige Rekenmachine"
+  
+Vier invoervakken (input): 
+     * Twee voor de getallen (bijvoorbeeld met de id's "getal1" en "getal2")
+     * Twee voor de operatoren (+, -, *, /) als select-elementen (bijvoorbeeld met de id's "operator1" en "operator2")
+  
+Een knop "Bereken" met een id (bijv
+"berekenKnop") om de berekening uit te voeren
+  
+Een leeg element om het resultaat weer te geven (bijv
+een div of een paragraaf met een id, zoals "resultaat")
+
+2
+Voeg in hetzelfde HTML-bestand een scripttag toe om JavaScript-code te kunnen schrijven.
+
+3
+Schrijf een JavaScript-functie (bijv
+"berekenResultaat") die de volgende stappen uitvoert:
+  
+Haal de waarden op uit de invoervakken en sla deze op in variabelen (bijv
+getal1, getal2, operator1, operator2).
+  
+Voer de geselecteerde bewerking uit op basis van de gekozen operator (gebruik een switch statement).
+  
+Controleer of de ingevoerde waarden geldig zijn (bijvoorbeeld geen deling door nul).
+  
+Geef het resultaat weer in het lege element (resultaat).
+
+4
+Voeg een eventlistener toe aan de knop "Bereken" om de functie uit te voeren wanneer erop wordt geklikt (gebruik bijvoorbeeld de addEventListener-functie).
+
+5
+Test de rekenmachine door verschillende berekeningen uit te voeren en controleer of het resultaat correct wordt weergegeven.
+
+Tips:
+- Gebruik de getElementById of querySelector-functie om toegang te krijgen tot de HTML-elementen vanuit JavaScript.
+- Gebruik parseFloat om de ingevoerde waarden om te zetten naar getallen.
+- Gebruik een switch statement om de juiste bewerking uit te voeren op basis van de geselecteerde operator.
+
+Succes met het maken van de eenvoudige rekenmachine!

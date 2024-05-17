@@ -1,0 +1,63 @@
+﻿Quick Details
+Opdracht ID : 3
+Opdracht titel : Weerdata API
+Opdracht Programmeertalen en/of tech : JS
+Opdracht (geschatte) moeilijkheidsgraad : Gemiddeld
+Opdracht Eisen : Weerdata moet worden opgehaald, verwerkt en in grafieken worden weergegeven
+Opdracht Extra Omschrijving : 
+Opdracht: Weerdata API
+
+Doel:
+Het doel van deze opdracht is om weerdata op te halen van een externe API, deze data te verwerken en vervolgens in grafieken weer te geven op een webpagina
+Dit zal je helpen om je vaardigheden in JavaScript en het werken met API's te verbeteren.
+
+Benodigdheden:
+1
+Code-editor (bijv
+Visual Studio Code)
+2
+Basis kennis van HTML, CSS en JavaScript
+3
+Webbrowser
+4
+GIT (optioneel, voor versiebeheer)
+
+Stappen:
+1
+Maak een nieuwe map voor dit project en open deze in je code-editor
+Geef de map een duidelijke naam, zoals "weerdata-api".
+2
+Initialiseer GIT in de map (optioneel) met het commando 'git init' in de terminal.
+3
+Maak een HTML-bestand met de naam 'index.html' en voeg de basis HTML5-structuur toe, inclusief een titel, zoals "Weerdata API".
+4
+Maak een CSS-bestand met de naam 'styles.css' en voeg enkele basisstijlen toe, zoals marges, lettertype en kleuren.
+5
+Maak een JavaScript-bestand met de naam 'scripts.js' en voeg een lege functie toe genaamd 'getWeatherData'.
+6
+Kies een weerdata API, bijvoorbeeld OpenWeatherMap (https://openweathermap.org/api) en registreer voor een gratis API-key.
+7
+Voeg de API-key toe aan je 'scripts.js' bestand en schrijf de code om de weerdata op te halen (bijv
+met fetch()) en te verwerken (bijv
+JSON.parse()).
+8
+Schrijf de code om de opgehaalde data in grafieken weer te geven met een JavaScript-bibliotheek zoals Chart.js (https://www.chartjs.org/).
+9
+Voeg een knop toe aan je 'index.html' bestand om de 'getWeatherData' functie te kunnen aanroepen en test je code in de browser.
+
+Aanwijzingen voor de student:
+1
+Bestudeer de documentatie van de gekozen weerdata API en leer hoe je gegevens kunt opvragen en verwerken
+Let op de benodigde queryparameters en de structuur van het JSON-antwoord.
+2
+Bestudeer de documentatie van de gekozen JavaScript-bibliotheek voor het weergeven van grafieken en leer hoe je deze kunt gebruiken en aanpassen
+Let op de verschillende grafiektypen en opties om de grafiek te personaliseren.
+3
+Zorg ervoor dat je code netjes en overzichtelijk is, met behulp van comments en consistente naamgeving van variabelen en functies.
+4
+Test regelmatig om eventuele fouten gemakkelijker te kunnen vinden en oplossen.
+5
+Denk na over eventuele extra functionaliteiten die je kunt toevoegen, zoals het kiezen van verschillende locaties of het weergeven van meer gedetailleerde weerinformatie
+Overweeg ook om de gebruikerservaring te verbeteren met behulp van bijvoorbeeld animaties of een responsive design.
+
+Succes met het voltooien van deze opdracht!

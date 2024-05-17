@@ -1,0 +1,65 @@
+<Assignment xmlns="http://schemas.datacontract.org/2004/07/Syn_OpenAI_AppLib.Data" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><AssignmentText>Opdracht: Formules en Algoritmes
+
+Titel: Formules en Algoritmes
+
+Doel: Het oplossen van het "Traveling Salesman Problem" met behulp van objectgeoriënteerde programmering, een MySQL-database en JavaScript.
+
+Moeilijkheidsgraad: Moeilijk
+
+Beschrijving:
+
+In deze opdracht ga je een oplossing voor het Traveling Salesman Problem (TSP) ontwikkelen met behulp van objectgeoriënteerde programmering in JavaScript en het opslaan van gegevens in een MySQL-database.
+
+De opdracht bestaat uit de volgende stappen:
+
+1. Bestudeer het Traveling Salesman Problem (TSP). Het is een bekend probleem in de computationele wiskunde, waarbij het doel is om de kortste route te vinden voor een handelsreiziger die alle steden eenmaal moet bezoeken en terugkeren naar de oorspronkelijke stad. Hier is een handige link om je op weg te helpen: https://nl.wikipedia.org/wiki/Handelsreizigersprobleem
+
+2. Bepaal welk algoritme je wilt gebruiken om het TSP op te lossen. Er zijn verschillende algoritmen die je kunt gebruiken, elk met hun eigen voor- en nadelen. Enkele mogelijkheden zijn de Brute Force-methode, Dynamic Programming of een heuristische benadering zoals de Nearest Neighbour-methode of Simulated Annealing. Hier is een bron die enkele TSP-algoritmes vergelijkt: https://towardsdatascience.com/solving-tsp-using-optimization-algorithms-6d0b9e19d1ad
+
+3. Ontwerp klassen en objecten die nodig zijn om het TSP te modelleren, zoals City, Route en TSPSolver. City kan bijvoorbeeld eigenschappen hebben zoals naam en coördinaten (x, y). Route kan een lijst van City-objecten bevatten en methoden om de totale afstand van de route te berekenen. TSPSolver kan de kernfunctionaliteit bevatten om het TSP op te lossen met behulp van het gekozen algoritme. Zorg ervoor dat je objectgeoriënteerde principes toepast, zoals encapsulatie, overerving en polymorfisme waar nodig.
+
+4. Implementeer het gekozen algoritme in JavaScript om het TSP op te lossen. Schrijf de code om het algoritme uit te voeren met behulp van de eerder gedefinieerde klassen en objecten. Zorg ervoor dat je code efficiënt en leesbaar is.
+
+5. Creëer een MySQL-database om de steden en hun coördinaten op te slaan. Maak een tabel met de juiste velden, zoals stadnaam, x-coördinaat en y-coördinaat.
+
+6. Maak een webinterface met HTML, CSS en JavaScript om de steden en hun coördinaten in te voeren, het TSP-algoritme uit te voeren en de oplossing weer te geven. De gebruiker moet in staat zijn om steden toe te voegen, te bewerken en te verwijderen, en om het algoritme uit te voeren met de ingevoerde gegevens. Presenteer de resultaten op een duidelijke en visueel aantrekkelijke manier.
+
+7. Integreer de MySQL-database met je JavaScript-code om de gegevens op te slaan en op te halen. Gebruik bijvoorbeeld de MySQL-connector voor Node.js om verbinding te maken met de database vanuit je JavaScript-code.
+
+8. Test je oplossing met verschillende sets van steden en vergelijk de resultaten met andere algoritmen of oplossingen die beschikbaar zijn. Analyseer de prestaties van jouw oplossing en identificeer eventuele verbeterpunten.
+
+Na het voltooien van deze opdracht zou je in staat moeten zijn om een efficiënte oplossing voor het Traveling Salesman Problem te ontwikkelen met behulp van objectgeoriënteerde programmering en een MySQL-database in JavaScript.
+
+Succes!</AssignmentText><Config><Difficulty>Moeilijk</Difficulty><ExtraDescription/><ID>91</ID><Language>JS</Language><Reqs>Traveling salesman problem, object oriented, mysql database</Reqs><Title>Formulas and Algorithms</Title></Config><ID>91</ID><RawResponseObj z:Id="i1" xmlns:a="http://schemas.datacontract.org/2004/07/Syn_OpenAI_CoreLib.Core.Models.Data" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/"><created xmlns="http://schemas.datacontract.org/2004/07/Syn_OpenAI_CoreLib.Data">1682893295</created><id xmlns="http://schemas.datacontract.org/2004/07/Syn_OpenAI_CoreLib.Data">chatcmpl-7B9iBM7yT7LaQxorVTlJmkVhu0yEf</id><a:choices><a:API_AIResponse_ChoicesJSON><a:finish_reason>stop</a:finish_reason><a:index>0</a:index><a:message><a:content>Opdracht: Formules en Algoritmes
+
+Titel: Formules en Algoritmes
+
+Doel: Het oplossen van het "Traveling Salesman Problem" met behulp van objectgeoriënteerde programmering, een MySQL-database en JavaScript.
+
+Moeilijkheidsgraad: Moeilijk
+
+Beschrijving:
+
+In deze opdracht ga je een oplossing voor het Traveling Salesman Problem (TSP) ontwikkelen met behulp van objectgeoriënteerde programmering in JavaScript en het opslaan van gegevens in een MySQL-database.
+
+De opdracht bestaat uit de volgende stappen:
+
+1. Bestudeer het Traveling Salesman Problem (TSP). Het is een bekend probleem in de computationele wiskunde, waarbij het doel is om de kortste route te vinden voor een handelsreiziger die alle steden eenmaal moet bezoeken en terugkeren naar de oorspronkelijke stad. Hier is een handige link om je op weg te helpen: https://nl.wikipedia.org/wiki/Handelsreizigersprobleem
+
+2. Bepaal welk algoritme je wilt gebruiken om het TSP op te lossen. Er zijn verschillende algoritmen die je kunt gebruiken, elk met hun eigen voor- en nadelen. Enkele mogelijkheden zijn de Brute Force-methode, Dynamic Programming of een heuristische benadering zoals de Nearest Neighbour-methode of Simulated Annealing. Hier is een bron die enkele TSP-algoritmes vergelijkt: https://towardsdatascience.com/solving-tsp-using-optimization-algorithms-6d0b9e19d1ad
+
+3. Ontwerp klassen en objecten die nodig zijn om het TSP te modelleren, zoals City, Route en TSPSolver. City kan bijvoorbeeld eigenschappen hebben zoals naam en coördinaten (x, y). Route kan een lijst van City-objecten bevatten en methoden om de totale afstand van de route te berekenen. TSPSolver kan de kernfunctionaliteit bevatten om het TSP op te lossen met behulp van het gekozen algoritme. Zorg ervoor dat je objectgeoriënteerde principes toepast, zoals encapsulatie, overerving en polymorfisme waar nodig.
+
+4. Implementeer het gekozen algoritme in JavaScript om het TSP op te lossen. Schrijf de code om het algoritme uit te voeren met behulp van de eerder gedefinieerde klassen en objecten. Zorg ervoor dat je code efficiënt en leesbaar is.
+
+5. Creëer een MySQL-database om de steden en hun coördinaten op te slaan. Maak een tabel met de juiste velden, zoals stadnaam, x-coördinaat en y-coördinaat.
+
+6. Maak een webinterface met HTML, CSS en JavaScript om de steden en hun coördinaten in te voeren, het TSP-algoritme uit te voeren en de oplossing weer te geven. De gebruiker moet in staat zijn om steden toe te voegen, te bewerken en te verwijderen, en om het algoritme uit te voeren met de ingevoerde gegevens. Presenteer de resultaten op een duidelijke en visueel aantrekkelijke manier.
+
+7. Integreer de MySQL-database met je JavaScript-code om de gegevens op te slaan en op te halen. Gebruik bijvoorbeeld de MySQL-connector voor Node.js om verbinding te maken met de database vanuit je JavaScript-code.
+
+8. Test je oplossing met verschillende sets van steden en vergelijk de resultaten met andere algoritmen of oplossingen die beschikbaar zijn. Analyseer de prestaties van jouw oplossing en identificeer eventuele verbeterpunten.
+
+Na het voltooien van deze opdracht zou je in staat moeten zijn om een efficiënte oplossing voor het Traveling Salesman Problem te ontwikkelen met behulp van objectgeoriënteerde programmering en een MySQL-database in JavaScript.
+
+Succes!</a:content><a:role>assistant</a:role></a:message></a:API_AIResponse_ChoicesJSON></a:choices><a:model>gpt-4-0314</a:model><a:object>chat.completion</a:object><a:usage><a:completion_tokens>944</a:completion_tokens><a:prompt_tokens>760</a:prompt_tokens><a:total_tokens>1704</a:total_tokens></a:usage></RawResponseObj></Assignment>

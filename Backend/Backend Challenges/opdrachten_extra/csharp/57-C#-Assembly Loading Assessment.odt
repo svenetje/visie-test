@@ -1,0 +1,64 @@
+﻿Quick Details
+Opdracht ID : 57
+Opdracht titel : Assembly Loading Assessment
+Opdracht Programmeertalen en/of tech : C#
+Opdracht (geschatte) moeilijkheidsgraad : Moeilijk
+Opdracht Eisen : Class libraries inladen geschreven in Assembly / Rust taal
+Opdracht Extra Omschrijving : 
+Opdracht: Assembly Loading Assessment
+
+Doel:
+In deze opdracht ga je class libraries inladen die geschreven zijn in Assembly en Rust-taal
+Je zult een C#-programma maken dat deze bibliotheken gebruikt om hun functionaliteit te demonstreren.
+
+Moeilijkheidsgraad: Moeilijk
+
+Benodigdheden:
+1
+Visual Studio of een andere C#-ontwikkelomgeving
+2
+Rust taal en de benodigde tools geinstalleerd (https://www.rust-lang.org/tools/install)
+3
+Kennis van C# en P/Invoke
+4
+Basiskennis van Rust
+
+Stappenplan:
+
+1
+Maak een nieuwe C# Console Applicatie in je ontwikkelomgeving.
+   Hier begin je met het opzetten van je C# project waarin je later de Rust en Assembly bibliotheken zal inladen en gebruiken.
+
+2
+Schrijf een eenvoudige Rust-bibliotheek met een publieke functie die een bewerking uitvoert (bijvoorbeeld het optellen van twee getallen)
+Compileer de Rust-code naar een dynamische bibliotheek (.dll op Windows of .so op Linux/Mac).
+   In deze stap ga je een Rust-bibliotheek maken die je later in je C#-project zal gebruiken
+Zorg ervoor dat de functie goed geëxporteerd wordt voor gebruik met FFI (Foreign Function Interface).
+
+3
+Gebruik P/Invoke in je C#-project om de functie uit de Rust-bibliotheek aan te roepen
+Zorg ervoor dat de gecompileerde Rust-bibliotheek toegankelijk is voor het C#-project (bijvoorbeeld door deze naar de uitvoermap te kopiëren).
+   Met P/Invoke kun je in je C#-project de geëxporteerde Rust-functie aanroepen
+Zorg ervoor dat de dynamische bibliotheek op een toegankelijke locatie staat.
+
+4
+Maak een Assembly-bibliotheek met een publieke klasse en functie die een andere bewerking uitvoert (bijvoorbeeld het vermenigvuldigen van twee getallen).
+   Assembly is een .NET-taal
+In deze stap maak je een nieuwe bibliotheek die je later in je C#-project zal inladen en gebruiken.
+
+5
+In je C#-project, laad de Assembly-bibliotheek dynamisch met behulp van `Assembly.Load` en gebruik `Activator.CreateInstance` en `Type.InvokeMember` om de publieke functie van de klasse aan te roepen.
+   Met deze technieken kun je de Assembly-bibliotheek inladen en de gewenste functie aanroepen.
+
+6
+Demonstreer de functionaliteit van beide bibliotheken in je C#-consoleapplicatie door de geëxporteerde functies aan te roepen en de resultaten af te drukken.
+   Laat zien dat de Rust- en Assembly-functies correct werken door de resultaten in de console te tonen.
+
+7
+Schrijf je C#-code op een modulaire en leesbare manier, met behulp van functies en klassen waar nodig.
+   Zorg voor een overzichtelijke en goed gestructureerde code, zodat het gemakkelijk te begrijpen en te onderhouden is.
+
+Bronnen:
+- P/Invoke in C#: https://docs.microsoft.com/en-us/dotnet/standard/native-interop/pinvoke
+- Rust FFI: https://doc.rust-lang.org/nomicon/ffi.html
+- Dynamisch laden van Assembly in C#: https://docs.microsoft.com/en-us/dotnet/framework/app-domains/how-to-load-assemblies-into-an-application-domain

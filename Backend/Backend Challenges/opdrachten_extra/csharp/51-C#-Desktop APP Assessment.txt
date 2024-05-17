@@ -1,0 +1,78 @@
+﻿Quick Details
+Opdracht ID : 51
+Opdracht titel : Desktop APP Assessment
+Opdracht Programmeertalen en/of tech : C#
+Opdracht (geschatte) moeilijkheidsgraad : Moeilijk
+Opdracht Eisen : "Userinterface voor de classlibraries 
+Opdracht Extra Omschrijving :  classlibraries voor de apis 
+Titel: Desktop App Beoordeling
+
+Beschrijving: In deze opdracht ga je een desktopapplicatie ontwikkelen met behulp van C# en Windows Forms
+De applicatie maakt gebruik van verschillende class libraries om verschillende functionaliteiten te implementeren, zoals het werken met tekstbestanden, het uitvoeren van eenvoudige wiskundige berekeningen en het weergeven van een kalender
+Je moet een gebruikersinterface (UI) maken die al deze functionaliteiten op een intuïtieve manier presenteert.
+
+Doelstellingen:
+
+1
+Maak een Windows Forms-project in Visual Studio.
+  
+Installeer indien nodig Visual Studio: https://visualstudio.microsoft.com/nl/vs/
+  
+Volg deze tutorial om een nieuw Windows Forms-project aan te maken: https://docs.microsoft.com/nl-nl/dotnet/desktop/winforms/get-started/create-app-visual-studio?view=netdesktop-5.0
+
+2
+Ontwerp een gebruikersinterface met de volgende elementen:
+  
+MenuStrip met de volgende opties: Bestand (Nieuw, Openen, Opslaan, Afsluiten), Bewerken (Kopieer, Plak, Knip) en Help (Over)
+  
+ToolStrip met de belangrijkste acties, zoals Opslaan, Openen, Afdrukken en knoppen voor de verschillende functionaliteiten (Rekenmachine, Kalender)
+  
+TabControl met minstens drie tabbladen voor verschillende functionaliteiten:
+    
+Tekstbewerker: voor het opslaan en openen van tekstbestanden
+    
+Rekenmachine: voor het uitvoeren van eenvoudige wiskundige berekeningen
+    
+Kalender: voor het weergeven van een kalender en het toevoegen van gebeurtenissen
+  
+Gebruik labels, knoppen, tekstvakken en andere besturingselementen waar nodig om de functionaliteiten te ondersteunen
+
+3
+Maak een Class Library-project en voeg referenties toe aan het Windows Forms-project
+Implementeer de volgende klassen en methoden:
+  
+Document: een klasse voor het opslaan en openen van tekstbestanden
+    
+Methoden voor het lezen en schrijven van bestanden: https://docs.microsoft.com/nl-nl/dotnet/csharp/programming-guide/file-system/how-to-read-from-a-text-file
+  
+Rekenmachine: een klasse voor het uitvoeren van eenvoudige wiskundige berekeningen (optellen, aftrekken, vermenigvuldigen, delen)
+    
+Gebruik de standaard wiskundige operatoren in C#: https://docs.microsoft.com/nl-nl/dotnet/csharp/language-reference/operators/arithmetic-operators
+  
+Kalender: een klasse voor het weergeven van een kalender en het toevoegen van gebeurtenissen
+    
+Gebruik de DateTime-klasse voor kalenderfuncties: https://docs.microsoft.com/nl-nl/dotnet/api/system.datetime?view=net-5.0
+
+4
+Integreer de functionaliteit van de klassebibliotheek in de gebruikersinterface van de Windows Forms-applicatie.
+  
+Koppel de acties van de gebruikersinterface aan de methoden van de klassen in de klassebibliotheek
+
+5
+Implementeer foutafhandeling en inputvalidatie waar nodig.
+  
+Gebruik try-catch blokken voor foutafhandeling: https://docs.microsoft.com/nl-nl/dotnet/csharp/language-reference/keywords/try-catch
+  
+Valideer gebruikersinvoer met behulp van reguliere expressies of andere technieken: https://docs.microsoft.com/nl-nl/dotnet/standard/base-types/how-to-verify-that-strings-are-in-valid-email-format
+
+Moeilijkheidsgraad: Moeilijk
+
+Benodigde tijd: 10-12 uur
+
+Benodigde bronnen:
+1
+Windows Forms-documentatie: https://docs.microsoft.com/nl-nl/dotnet/desktop/winforms/?view=netdesktop-5.0
+2
+Class Library-documentatie: https://docs.microsoft.com/nl-nl/dotnet/standard/class-library
+3
+C#-documentatie: https://docs.microsoft.com/nl-nl/dotnet/csharp/

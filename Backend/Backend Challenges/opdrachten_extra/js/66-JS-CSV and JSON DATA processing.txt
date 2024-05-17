@@ -1,0 +1,79 @@
+﻿Quick Details
+Opdracht ID : 66
+Opdracht titel : CSV and JSON DATA processing
+Opdracht Programmeertalen en/of tech : JS
+Opdracht (geschatte) moeilijkheidsgraad : Makkelijk
+Opdracht Eisen : een CSV of JSON bestand inladen en wegschrijven
+Opdracht Extra Omschrijving : 
+Opdracht: CSV en JSON gegevensverwerking
+Titel: CSV en JSON gegevensverwerking
+
+Doel: Maak een eenvoudige webpagina waarin je een CSV- of JSON-bestand kunt inladen, de gegevens verwerken, bijvoorbeeld door kolomnamen te wijzigen of rijen te filteren in een CSV-bestand of eigenschappen toe te voegen of te verwijderen in een JSON-bestand, en vervolgens wegschrijven naar een nieuw bestand.
+
+Programmeertaal: JavaScript
+
+Moeilijkheidsgraad: Makkelijk
+
+Benodigdheden:
+1
+Een teksteditor (zoals Visual Studio Code, Sublime Text, of Notepad++)
+2
+Een moderne webbrowser (zoals Google Chrome, Firefox, of Microsoft Edge)
+
+Stappen:
+
+1
+Maak een nieuwe HTML-bestand en voeg de basis HTML-structuur toe:
+
+   (volg de gegeven code in de oorspronkelijke tekst)
+
+2
+Voeg een bestandsinput toe om een CSV- of JSON-bestand te kunnen uploaden:
+
+   (volg de gegeven code in de oorspronkelijke tekst)
+
+3
+Voeg een knop toe om het geüploade bestand te verwerken:
+
+   (volg de gegeven code in de oorspronkelijke tekst)
+
+4
+Voeg een script tag toe om JavaScript-code te schrijven:
+
+   (volg de gegeven code in de oorspronkelijke tekst)
+
+5
+Schrijf JavaScript-code om het geüploade bestand te lezen en te verwerken:
+
+   (volg de gegeven code in de oorspronkelijke tekst)
+
+6
+Schrijf functies om CSV- en JSON-bestanden te verwerken:
+
+   (volg de gegeven code in de oorspronkelijke tekst)
+
+7
+Roep de juiste functie aan op basis van het bestandstype:
+
+   (volg de gegeven code in de oorspronkelijke tekst)
+
+8
+Implementeer de functies om de gegevens te verwerken en een nieuw bestand te maken:
+
+   (volg de gegeven code in de oorspronkelijke tekst)
+
+9
+Gebruik een bibliotheek of zelfgeschreven code om CSV- en JSON-gegevens te verwerken, afhankelijk van de vereisten
+Hier zijn enkele bronnen die je kunt raadplegen:
+
+  
+CSV verwerken: [Papa Parse](https://www.papaparse.com/)
+  
+JSON verwerken: [MDN JSON-documentatie](https://developer.mozilla.org/nl/docs/Learn/JavaScript/Objects/JSON)
+
+10
+Test je webpagina in een moderne webbrowser.
+
+Na het volgen van deze stappen zou je een eenvoudige webpagina moeten hebben waarin je CSV- en JSON-bestanden kunt uploaden, verwerken en opslaan als nieuwe bestanden
+Vergeet niet om je code te testen en te debuggen om ervoor te zorgen dat alles soepel werkt
+Veel succes!

@@ -1,0 +1,106 @@
+﻿Quick Details
+Opdracht ID : 88
+Opdracht titel : Formulas and Algorithms
+Opdracht Programmeertalen en/of tech : C#
+Opdracht (geschatte) moeilijkheidsgraad : Moeilijk
+Opdracht Eisen : Traveling salesman problem, object oriented, mysql database
+Opdracht Extra Omschrijving : 
+Opdracht: Formules en Algoritmes
+Titel: Reizende handelsman probleem
+Programmeertaal: C#
+
+Moeilijkheidsgraad: Moeilijk
+
+Doel:
+Het doel van deze opdracht is om een C#-applicatie te ontwikkelen die het reizende handelsman probleem oplost met behulp van objectgeoriënteerd programmeren en een MySQL-database
+Het reizende handelsman probleem is een klassiek optimalisatieprobleem waarbij het doel is om de kortste route te vinden langs een verzameling steden, waarbij elke stad precies één keer wordt bezocht en de handelsman uiteindelijk terugkeert naar de startstad.
+
+Benodigdheden:
+1
+Visual Studio of een andere C#-ontwikkelomgeving.
+2
+MySQL-server en -cliënt.
+3
+Een C# MySQL-connector zoals MySQL Connector/NET (https://dev.mysql.com/downloads/connector/net/)
+
+Opdrachtbeschrijving:
+
+1
+Maak een nieuwe C#-applicatie in Visual Studio.
+  
+Kies voor een console-applicatie, zodat het resultaat kan worden geprint naar de console.
+
+2
+Installeer de C# MySQL-connector in uw project:
+  
+Ga naar de NuGet Package Manager en zoek naar "MySql.Data"
+Installeer de officiële MySQL Connector/NET van Oracle.
+
+3
+Maak een MySQL-database genaamd "tsp_database" en maak daarin een tabel "cities" met de volgende kolommen:
+  
+id (int, primary key, auto_increment)
+  
+name (varchar, lengte 100)
+  
+x_coordinate (double)
+  
+y_coordinate (double)
+  
+De x- en y-coördinaten stellen de locatie van de stad op een tweedimensionale kaart voor.
+
+4
+Voeg voorbeeldgegevens toe aan de "cities" tabel, bijvoorbeeld:
+  
+Amsterdam, 52.370216, 4.895168
+  
+Rotterdam, 51.92442, 4.477733
+  
+Utrecht, 52.090737, 5.12142
+  
+Den Haag, 52.070498, 4.3007
+
+5
+Maak in uw C#-project een klasse "City" met de volgende eigenschappen en methoden:
+  
+Id (int)
+  
+Name (string)
+  
+XCoordinate (double)
+  
+YCoordinate (double)
+  
+Een constructor die alle eigenschappen initialiseert
+  
+Een methode "CalculateDistanceTo" die de afstand tot een andere stad berekent
+     -- Gebruik de formule voor de Euclidische afstand: Math.Sqrt(Math.Pow(x2
+x1, 2) + Math.Pow(y2
+y1, 2))
+
+6
+Maak een klasse "TravelingSalesman" met de volgende eigenschappen en methoden:
+  
+Cities (List<City>)
+  
+Een constructor die de lijst met steden initialiseert
+  
+Een methode "LoadCitiesFromDatabase" die de steden uit de "cities" tabel laadt
+     -- Maak gebruik van de eerder geïnstalleerde MySQL Connector/NET om verbinding te maken met de database en de gegevens op te halen
+  
+Een methode "Solve" die het reizende handelsman probleem oplost met een algoritme naar keuze (bijvoorbeeld Brute Force, Simulated Annealing, of Genetisch Algoritme)
+     -- Brute Force: Probeer alle mogelijke routes en kies de kortste.
+     -- Simulated Annealing: Start met een willekeurige route en verbeter deze iteratief door middel van een lokaal zoekalgoritme (zie https://en.wikipedia.org/wiki/Simulated_annealing)
+     -- Genetisch Algoritme: Gebruik genetische operators zoals selectie, crossover en mutatie om iteratief een populatie oplossingen te verbeteren (zie https://en.wikipedia.org/wiki/Genetic_algorithm)
+
+7
+In uw hoofdprogramma (Program.cs), instantieer een object van de "TravelingSalesman" klasse, laad de steden uit de database en los het reizende handelsman probleem op.
+  
+Maak een TravelingSalesman-object en roep de methoden LoadCitiesFromDatabase en Solve aan.
+
+8
+Print het resultaat (de kortste route) naar de console.
+  
+Gebruik bijvoorbeeld een foreach-loop om de steden in de kortste route af te drukken.
+
+Succes met het uitvoeren van deze opdracht! Als u vragen hebt of hulp nodig hebt, aarzel dan niet om contact op te nemen.

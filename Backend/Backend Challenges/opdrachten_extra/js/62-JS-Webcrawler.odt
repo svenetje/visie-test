@@ -1,0 +1,58 @@
+﻿Quick Details
+Opdracht ID : 62
+Opdracht titel : Webcrawler
+Opdracht Programmeertalen en/of tech : JS
+Opdracht (geschatte) moeilijkheidsgraad : Gemiddeld
+Opdracht Eisen : GUI voor keywords en limitaties instellen
+Opdracht Extra Omschrijving : 
+Titel: Webcrawler
+
+Omschrijving:
+Ontwikkel een webcrawler in JavaScript met een grafische gebruikersinterface (GUI) om trefwoorden en zoeklimieten in te stellen
+De webcrawler moet webpagina's doorzoeken op basis van de opgegeven trefwoorden en de resultaten weergeven
+De moeilijkheidsgraad van dit project is gemiddeld
+Dit project vereist vaardigheden in het programmeren met JavaScript en het ontwerpen van een GUI met HTML en CSS.
+
+Benodigdheden:
+1
+Kennis van JavaScript, HTML en CSS voor het ontwikkelen van de GUI en het implementeren van de webcrawler-functionaliteit.
+2
+Ervaring met het werken met API's en web scraping-technieken om gegevens van webpagina's te extraheren.
+3
+Ervaring met het maken van GUI's in HTML en CSS voor het interactief instellen van trefwoorden en zoeklimieten.
+
+Opdracht:
+1
+Creëer een HTML-bestand met de basisstructuur en include CSS- en JavaScript-bestanden voor styling en functionaliteit
+Gebruik de basis HTML-structuur uit de referenties als uitgangspunt.
+2
+Ontwerp een eenvoudige GUI met invoervelden voor trefwoorden en zoeklimieten, en een knop om het zoeken te starten
+Gebruik CSS om de GUI visueel aantrekkelijk en gebruiksvriendelijk te maken.
+3
+Schrijf JavaScript-functies om de invoer van de gebruiker te valideren (bijv
+controleer of er trefwoorden en een geldige zoeklimiet zijn ingevoerd) en de webcrawler te starten.
+4
+Implementeer een web scraping-techniek (bijvoorbeeld met behulp van de Fetch API of een library zoals Cheerio) om webpagina's te doorzoeken op basis van de opgegeven trefwoorden
+Zorg ervoor dat de webcrawler de juiste gegevens uit de webpagina's kan halen.
+5
+Beperk het aantal doorzochte pagina's op basis van de ingestelde zoeklimiet
+Dit voorkomt dat de webcrawler te veel pagina's doorzoekt en te veel tijd in beslag neemt.
+6
+Toon de resultaten in een overzichtelijke en gestructureerde manier op de webpagina
+Gebruik HTML en CSS om de resultaten op een duidelijke en leesbare manier weer te geven.
+7
+Voeg error handling toe om fouten op te vangen en de gebruiker op de hoogte te stellen van eventuele problemen, zoals het niet kunnen vinden van de opgegeven trefwoorden of problemen met het verbinden met webpagina's.
+
+Referenties:
+1
+Fetch API: https://developer.mozilla.org/nl/docs/Web/API/Fetch_API
+2
+Cheerio library: https://cheerio.js.org/
+3
+Basis HTML-structuur: https://www.w3schools.com/html/html5_intro.asp
+4
+CSS: https://www.w3schools.com/css/css_intro.asp
+5
+JavaScript: https://www.w3schools.com/js/js_intro.asp
+6
+Web scraping-technieken: https://www.freecodecamp.org/news/the-ultimate-guide-to-web-scraping-with-node-js-daa2027dcd3/

@@ -1,0 +1,73 @@
+﻿Quick Details
+Opdracht ID : 37
+Opdracht titel : Database Handler
+Opdracht Programmeertalen en/of tech : C#
+Opdracht (geschatte) moeilijkheidsgraad : Gemiddeld
+Opdracht Eisen : Moet universeel CRUD op SQL databases kunnen toepassen.
+Opdracht Extra Omschrijving : 
+Opdracht: Database Handler
+Titel: Database Handler
+Vereisten: Universeel CRUD op SQL databases kunnen toepassen
+Programmeertaal: C#
+Moeilijkheidsgraad: Gemiddeld
+
+Opdrachtomschrijving:
+In deze opdracht ga je een C#-toepassing ontwikkelen die universele CRUD-operaties (Create, Read, Update en Delete) op SQL-databases uitvoert
+De toepassing moet in staat zijn om verbinding te maken met verschillende soorten SQL-databases, zoals MySQL, MS SQL en PostgreSQL.
+
+De student dient de volgende stappen te voltooien:
+
+1
+Onderzoek de verschillende SQL-databases en hun verbindingsmogelijkheden in C#
+Zoek naar de verschillen en overeenkomsten tussen de databases en hoe je een verbinding kunt opzetten vanuit een C#-toepassing.
+
+2
+Creëer een nieuw C# project in Visual Studio
+Kies een geschikt projecttype, zoals een consoletoepassing of een Windows Forms-toepassing.
+
+3
+Voeg de benodigde namespaces en pakketten toe voor het werken met SQL-databases
+Dit kunnen bijvoorbeeld NuGet-pakketten zijn zoals MySQL.Data, Npgsql of System.Data.SqlClient.
+
+4
+Creëer een klasse genaamd "DatabaseHandler" met de volgende methoden:
+   a
+Connect()
+voor het opzetten van een verbinding met de database.
+   b
+Disconnect()
+voor het verbreken van de verbinding met de database.
+   c
+Create()
+voor het invoegen van nieuwe gegevens in de database.
+   d
+Read()
+voor het ophalen van gegevens uit de database.
+   e
+Update()
+voor het bijwerken van gegevens in de database.
+   f
+Delete()
+voor het verwijderen van gegevens uit de database.
+
+5
+Implementeer de methoden om CRUD-operaties uit te voeren op de SQL-database naar keuze
+Zorg ervoor dat je de juiste SQL-statements gebruikt voor elke methode, passend bij de gekozen database.
+
+6
+Schrijf een testprogramma om de werking van de DatabaseHandler-klasse te demonstreren
+Voer verschillende CRUD-operaties uit en controleer of de resultaten overeenkomen met de verwachtingen.
+
+Bij het werken aan dit project kunnen de volgende bronnen nuttig zijn:
+
+1
+Verbinding maken met een SQL Server-database in C#: https://docs.microsoft.com/en-us/dotnet/framework/data/adonet/sql/linq/how-to-connect-to-a-database
+2
+Verbinding maken met een MySQL-database in C#: https://www.connectionstrings.com/mysql-connector-net-mysqlconnection/connectionstrings/
+3
+Verbinding maken met een PostgreSQL-database in C#: https://www.npgsql.org/doc/connection-string-parameters.html
+4
+ADO.NET-documentatie voor het werken met databases in C#: https://docs.microsoft.com/en-us/dotnet/framework/data/adonet/ado-net-overview
+
+Zorg ervoor dat je bij elke stap van de opdracht goed begrijpt wat je doet en waarom je het doet
+Succes!

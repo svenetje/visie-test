@@ -1,0 +1,130 @@
+﻿Quick Details
+Opdracht ID : 65
+Opdracht titel : CSV and JSON DATA processing
+Opdracht Programmeertalen en/of tech : PYTHON
+Opdracht (geschatte) moeilijkheidsgraad : Makkelijk
+Opdracht Eisen : een CSV of JSON bestand inladen en wegschrijven
+Opdracht Extra Omschrijving : 
+Opdracht: CSV en JSON gegevensverwerking
+Taal: Python
+Moeilijkheidsgraad: Makkelijk
+
+Doel:
+In deze opdracht ga je een CSV- of JSON-bestand inladen, de gegevens verwerken en het resultaat wegschrijven naar een nieuw bestand
+Dit helpt je om bekend te raken met het werken met verschillende bestandsformaten en het verwerken van gegevens in Python.
+
+Benodigdheden:
+- Python 3 (https://www.python.org/downloads/)
+- Een teksteditor of IDE naar keuze (bijvoorbeeld Visual Studio Code: https://code.visualstudio.com/)
+
+Stappen:
+1
+Maak een nieuw Python-bestand aan en noem het "data_processing.py".
+   In dit bestand ga je alle benodigde functies schrijven om met CSV- en JSON-bestanden te werken.
+
+2
+Importeer de benodigde modules voor het werken met CSV- en JSON-bestanden:
+   ```
+   import csv
+   import json
+   ```
+   De `csv` en `json` modules maken het eenvoudiger om met CSV- en JSON-bestanden te werken door het lezen en schrijven van bestanden te vergemakkelijken.
+
+3
+Schrijf een functie om een CSV-bestand in te laden:
+   ```
+   def load_csv(file_path):
+       data = []
+       with open(file_path, 'r') as file:
+           reader = csv.DictReader(file)
+           for row in reader:
+               data.append(row)
+       return data
+   ```
+   Deze functie opent het CSV-bestand, leest de gegevensregels en slaat ze op als een lijst van woordenboeken.
+
+4
+Schrijf een functie om een JSON-bestand in te laden:
+   ```
+   def load_json(file_path):
+       with open(file_path, 'r') as file:
+           data = json.load(file)
+       return data
+   ```
+   Deze functie opent het JSON-bestand en leest de gegevens met behulp van de `json.load()` functie.
+
+5
+Schrijf een functie om de gegevens te verwerken (in dit voorbeeld voegen we een nieuw veld toe met de lengte van de naam):
+   ```
+   def process_data(data):
+       for item in data:
+           item['name_length'] = len(item['name'])
+       return data
+   ```
+   Deze functie verwerkt de ingeladen gegevens en voegt voor elk item een nieuw veld toe met de lengte van de naam.
+
+6
+Schrijf een functie om de gegevens weg te schrijven naar een CSV-bestand:
+   ```
+   def write_csv(data, file_path):
+       with open(file_path, 'w', newline='') as file:
+           writer = csv.DictWriter(file, fieldnames=data[0].keys())
+           writer.writeheader()
+           writer.writerows(data)
+   ```
+   Deze functie schrijft de verwerkte gegevens naar een nieuw CSV-bestand met behulp van de `csv.DictWriter()` klasse.
+
+7
+Schrijf een functie om de gegevens weg te schrijven naar een JSON-bestand:
+   ```
+   def write_json(data, file_path):
+       with open(file_path, 'w') as file:
+           json.dump(data, file, indent=4)
+   ```
+   Deze functie schrijft de verwerkte gegevens naar een nieuw JSON-bestand met behulp van de `json.dump()` functie.
+
+8
+Gebruik de bovenstaande functies om een CSV- of JSON-bestand in te laden, de gegevens te verwerken en het resultaat weg te schrijven naar een nieuw bestand:
+   ```
+   if __name__ == "__main__":
+       input_file = "input.csv"  # of "input.json"
+       output_file = "output.csv"  # of "output.json"
+
+       if input_file.endswith(".csv"):
+           data = load_csv(input_file)
+       elif input_file.endswith(".json"):
+           data = load_json(input_file)
+       else:
+           raise ValueError("Ongeldig bestandstype")
+
+       processed_data = process_data(data)
+
+       if output_file.endswith(".csv"):
+           write_csv(processed_data, output_file)
+       elif output_file.endswith(".json"):
+           write_json(processed_data, output_file)
+       else:
+           raise ValueError("Ongeldig bestandstype")
+   ```
+   Deze code maakt gebruik van de functies die je eerder hebt geschreven om een CSV- of JSON-bestand in te laden, de gegevens te verwerken en het resultaat weg te schrijven naar een nieuw bestand.
+
+9
+Test je code met een voorbeeld CSV- of JSON-bestand
+Je kunt bijvoorbeeld dit CSV-bestand gebruiken:
+   ```
+   name,age
+   Alice,30
+   Bob,25
+   Charlie,22
+   ```
+
+   Of dit JSON-bestand:
+   ```
+   [
+       {"name": "Alice", "age": 30},
+       {"name": "Bob", "age": 25},
+       {"name": "Charlie", "age": 22}
+   ]
+   ```
+
+Succes met je opdracht!

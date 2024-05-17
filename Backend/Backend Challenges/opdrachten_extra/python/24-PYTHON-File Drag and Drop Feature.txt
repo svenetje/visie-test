@@ -1,0 +1,88 @@
+﻿Quick Details
+Opdracht ID : 24
+Opdracht titel : File Drag and Drop Feature
+Opdracht Programmeertalen en/of tech : PYTHON
+Opdracht (geschatte) moeilijkheidsgraad : Makkelijk
+Opdracht Eisen : File drag en drop, Folder drag en drop, Folder indexatie, bestanden uitlezen
+Opdracht Extra Omschrijving : Maak een file manager
+Opdracht: File Drag and Drop Feature
+
+Doel: Maak een Python-programma dat bestanden en mappen kan accepteren via drag en drop, de inhoud van mappen kan indexeren en de inhoud van bestanden kan uitlezen.
+
+Moeilijkheidsgraad: Makkelijk
+
+Benodigdheden:
+1
+Python geïnstalleerd op uw computer (https://www.python.org/downloads/)
+2
+Een code-editor, zoals Visual Studio Code (https://code.visualstudio.com/)
+
+Instructies:
+
+1
+Installeer de benodigde bibliotheek 'tkinter' voor het maken van een gebruikersinterface.
+  
+Open de terminal of opdrachtprompt en voer het volgende commando uit:
+     ```
+     pip install tk
+     ```
+
+2
+Maak een nieuw Python-bestand (bijv
+drag_and_drop.py) in uw code-editor en importeer de benodigde modules.
+   ```python
+   import os
+   import tkinter as tk
+   from tkinter import filedialog
+   ```
+
+3
+Maak een functie 'on_drag' die de drag en drop-functionaliteit afhandelt.
+   ```python
+   def on_drag(event):
+       # Verkrijg het bestand of de map die wordt gesleept
+       data = event.data
+       if os.path.isfile(data):
+           # Lees het bestand uit als het een bestand is
+           with open(data, 'r') as file:
+               print(file.read())
+       elif os.path.isdir(data):
+           # Indexeer de map als het een map is
+           for root, dirs, files in os.walk(data):
+               print(f"Directory: {root}")
+               for file in files:
+                   print(f"  File: {file}")
+   ```
+
+4
+Maak een functie 'create_ui' om de gebruikersinterface te maken.
+   ```python
+   def create_ui():
+       # Maak het hoofdvenster
+       root = tk.Tk()
+       root.title("File Drag and Drop")
+
+       # Maak een label
+       label = tk.Label(root, text="Sleep hier bestanden en mappen", bg="gray", padx=10, pady=10)
+       label.pack(fill=tk.BOTH, expand=True)
+
+       # Bind de drag en drop-functie aan het label
+       label.bind("<Drop>", on_drag)
+
+       # Voer de GUI uit
+       root.mainloop()
+   ```
+
+5
+Roep de 'create_ui'-functie aan in de hoofdfunctie.
+   ```python
+   if __name__ == "__main__":
+       create_ui()
+   ```
+
+6
+Sla uw Python-bestand op en voer het uit
+Sleep bestanden en mappen naar het grijze gebied in het venster en controleer de uitvoer in de terminal of opdrachtprompt.
+
+   Let op: afhankelijk van de besturingssysteemconfiguratie werkt de drag en drop-functionaliteit mogelijk niet correct in sommige gevallen
+In dat geval kunt u de bestanden en mappen via een bestandsdialoogvenster selecteren door de 'filedialog.askopenfilename()' en 'filedialog.askdirectory()' functies te gebruiken.

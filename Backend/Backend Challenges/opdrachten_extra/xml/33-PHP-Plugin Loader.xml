@@ -1,0 +1,79 @@
+<Assignment xmlns="http://schemas.datacontract.org/2004/07/Syn_OpenAI_AppLib.Data" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><AssignmentText>Opdracht: Plugin Loader
+Titel: Plugin Loader
+Vereisten:
+1. Detecteer plugins in een map genaamd 'plugins'.
+2. Laad de plugins in en roep hun initialiseerfuncties aan.
+Programmeertaal: PHP
+Moeilijkheidsgraad: Gemiddeld
+
+In deze opdracht ga je een plugin loader in PHP ontwikkelen. De plugin loader zal verantwoordelijk zijn voor het detecteren van plugins in een map genaamd 'plugins', het inladen van deze plugins en het aanroepen van hun initialiseerfuncties.
+
+Instructies:
+
+1. Maak een nieuw PHP-bestand met de naam "plugin_loader.php".
+   - Dit bestand zal de hoofdfunctie bevatten die verantwoordelijk is voor het laden van de plugins.
+
+2. Maak een map met de naam "plugins" in dezelfde map als "plugin_loader.php".
+   - Deze map zal de plugins bevatten die door de plugin loader worden gedetecteerd en ingeladen.
+
+3. In "plugin_loader.php", schrijf een functie met de naam "loadPlugins" die het volgende doet:
+   a. Leest de inhoud van de "plugins" map.
+      - Gebruik de `scandir()` functie om alle bestanden in de "plugins" map te verkrijgen.
+      
+   b. Filtert de bestanden om alleen PHP-bestanden te verkrijgen.
+      - Gebruik de `pathinfo()` functie met de `PATHINFO_EXTENSION` vlag om de extensie van elk bestand te controleren.
+      
+   c. Laadt de PHP-bestanden in met "include_once".
+      - Gebruik de `include_once()` functie om elk PHP-bestand in te laden.
+      
+   d. Roep de "initialize" functie aan voor elk ingeladen PHP-bestand (plugin).
+      - Gebruik de `function_exists()` functie om te controleren of de "initialize" functie bestaat en roep deze vervolgens aan.
+
+4. Maak een voorbeeld PHP-bestand in de "plugins" map met de naam "example_plugin.php" dat een "initialize" functie bevat die simpelweg een bericht afdrukt zoals "Example plugin loaded!".
+   - Dit voorbeeldbestand laat zien hoe een plugin moet worden gestructureerd, zodat deze correct wordt geladen en geïnitialiseerd door de plugin loader.
+
+5. In "plugin_loader.php", roep de "loadPlugins" functie aan om de werking van de plugin loader te testen.
+   - Hiermee controleer je of de plugin loader correct functioneert en de plugins detecteert, inlaadt en hun initialiseerfuncties aanroept.
+
+Zorg ervoor dat je je code regelmatig test om eventuele fouten op te sporen en op te lossen. Voeg indien nodig foutafhandeling toe, bijvoorbeeld door het controleren op ongeldige bestandspaden of het afhandelen van fouten bij het inladen van plugins.
+
+Succes met de opdracht!</AssignmentText><Config><Difficulty>Gemiddeld</Difficulty><ExtraDescription/><ID>33</ID><Language>PHP</Language><Reqs>Plugins detecteren in een map genaamd 'plugins', inladen en hun initialize functies aanroepen.</Reqs><Title>Plugin Loader</Title></Config><ID>33</ID><RawResponseObj z:Id="i1" xmlns:a="http://schemas.datacontract.org/2004/07/Syn_OpenAI_CoreLib.Core.Models.Data" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/"><created xmlns="http://schemas.datacontract.org/2004/07/Syn_OpenAI_CoreLib.Data">1682886588</created><id xmlns="http://schemas.datacontract.org/2004/07/Syn_OpenAI_CoreLib.Data">chatcmpl-7B7y0G9RL5rQLByytIJLBqSfSXDqX</id><a:choices><a:API_AIResponse_ChoicesJSON><a:finish_reason>stop</a:finish_reason><a:index>0</a:index><a:message><a:content>Opdracht: Plugin Loader
+Titel: Plugin Loader
+Vereisten:
+1. Detecteer plugins in een map genaamd 'plugins'.
+2. Laad de plugins in en roep hun initialiseerfuncties aan.
+Programmeertaal: PHP
+Moeilijkheidsgraad: Gemiddeld
+
+In deze opdracht ga je een plugin loader in PHP ontwikkelen. De plugin loader zal verantwoordelijk zijn voor het detecteren van plugins in een map genaamd 'plugins', het inladen van deze plugins en het aanroepen van hun initialiseerfuncties.
+
+Instructies:
+
+1. Maak een nieuw PHP-bestand met de naam "plugin_loader.php".
+   - Dit bestand zal de hoofdfunctie bevatten die verantwoordelijk is voor het laden van de plugins.
+
+2. Maak een map met de naam "plugins" in dezelfde map als "plugin_loader.php".
+   - Deze map zal de plugins bevatten die door de plugin loader worden gedetecteerd en ingeladen.
+
+3. In "plugin_loader.php", schrijf een functie met de naam "loadPlugins" die het volgende doet:
+   a. Leest de inhoud van de "plugins" map.
+      - Gebruik de `scandir()` functie om alle bestanden in de "plugins" map te verkrijgen.
+      
+   b. Filtert de bestanden om alleen PHP-bestanden te verkrijgen.
+      - Gebruik de `pathinfo()` functie met de `PATHINFO_EXTENSION` vlag om de extensie van elk bestand te controleren.
+      
+   c. Laadt de PHP-bestanden in met "include_once".
+      - Gebruik de `include_once()` functie om elk PHP-bestand in te laden.
+      
+   d. Roep de "initialize" functie aan voor elk ingeladen PHP-bestand (plugin).
+      - Gebruik de `function_exists()` functie om te controleren of de "initialize" functie bestaat en roep deze vervolgens aan.
+
+4. Maak een voorbeeld PHP-bestand in de "plugins" map met de naam "example_plugin.php" dat een "initialize" functie bevat die simpelweg een bericht afdrukt zoals "Example plugin loaded!".
+   - Dit voorbeeldbestand laat zien hoe een plugin moet worden gestructureerd, zodat deze correct wordt geladen en geïnitialiseerd door de plugin loader.
+
+5. In "plugin_loader.php", roep de "loadPlugins" functie aan om de werking van de plugin loader te testen.
+   - Hiermee controleer je of de plugin loader correct functioneert en de plugins detecteert, inlaadt en hun initialiseerfuncties aanroept.
+
+Zorg ervoor dat je je code regelmatig test om eventuele fouten op te sporen en op te lossen. Voeg indien nodig foutafhandeling toe, bijvoorbeeld door het controleren op ongeldige bestandspaden of het afhandelen van fouten bij het inladen van plugins.
+
+Succes met de opdracht!</a:content><a:role>assistant</a:role></a:message></a:API_AIResponse_ChoicesJSON></a:choices><a:model>gpt-4-0314</a:model><a:object>chat.completion</a:object><a:usage><a:completion_tokens>682</a:completion_tokens><a:prompt_tokens>720</a:prompt_tokens><a:total_tokens>1402</a:total_tokens></a:usage></RawResponseObj></Assignment>

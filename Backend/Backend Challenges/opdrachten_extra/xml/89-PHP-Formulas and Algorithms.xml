@@ -1,0 +1,73 @@
+<Assignment xmlns="http://schemas.datacontract.org/2004/07/Syn_OpenAI_AppLib.Data" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><AssignmentText>Opdracht: Formules en Algoritmen
+
+Titel: De Rondreizende Handelsman
+
+Doel: Maak een PHP-webapplicatie die het Traveling Salesman Problem (TSP) oplost met behulp van een objectgeoriënteerde aanpak en een MySQL-database om de gegevens op te slaan.
+
+Moeilijkheidsgraad: Moeilijk
+
+Instructies:
+
+1. Installeer en configureer een lokale webserver (bijvoorbeeld XAMPP) met PHP en MySQL-ondersteuning. Zorg ervoor dat u de meest recente versies van PHP en MySQL gebruikt voor optimale prestaties en compatibiliteit. Hier is een handleiding voor het installeren van XAMPP: https://www.apachefriends.org/download.html
+
+2. Maak een MySQL-database met de naam 'tsp' en een tabel met de naam 'cities' om de gegevens van de steden op te slaan. De tabel moet de volgende kolommen bevatten: id (INT, primary key, auto_increment), name (VARCHAR), latitude (FLOAT) en longitude (FLOAT). Gebruik een database management tool zoals phpMyAdmin (https://www.phpmyadmin.net) om de database en tabel te maken.
+
+3. Maak een PHP-klasse met de naam 'City', die de eigenschappen 'id', 'name', 'latitude' en 'longitude' heeft. Deze klasse moet methoden bevatten om steden aan de database toe te voegen, te verwijderen en op te halen. Zorg ervoor dat u een veilige manier gebruikt om met de database te communiceren, zoals prepared statements (https://www.php.net/manual/en/pdo.prepared-statements.php).
+
+4. Maak een PHP-klasse met de naam 'TSPSolver', die een algoritme bevat om het Traveling Salesman Problem op te lossen. U kunt bijvoorbeeld het Nearest Neighbor-algoritme of het Simulated Annealing-algoritme gebruiken. Deze algoritmen zijn slechts voorbeelden, en u kunt andere TSP-algoritmen onderzoeken en implementeren als u dat wilt.
+
+5. Maak een formulier op een webpagina waarmee gebruikers steden kunnen toevoegen aan de database. Gebruik de 'City'-klasse om gegevens toe te voegen en weer te geven. Valideer de invoer van de gebruiker om ervoor te zorgen dat de gegevens correct en veilig zijn.
+
+6. Maak een knop op de webpagina die, wanneer erop wordt geklikt, de 'TSPSolver'-klasse gebruikt om de optimale route tussen de steden in de database te berekenen. Gebruik AJAX (https://www.w3schools.com/xml/ajax_intro.asp) om de berekening op de achtergrond uit te voeren zonder de pagina opnieuw te laden.
+
+7. Geef de optimale route weer op de webpagina en sla deze op in de database in een nieuwe tabel met de naam 'optimal_routes'. Deze tabel moet de volgende kolommen bevatten: id (INT, primary key, auto_increment), route (TEXT), distance (FLOAT) en created_at (DATETIME). Converteer de route naar een tekstformaat, zoals JSON (https://www.php.net/manual/en/function.json-encode.php), voordat u deze opslaat in de database.
+
+8. Voeg een optie toe om eerder berekende optimale routes weer te geven en te verwijderen. Gebruik de 'optimal_routes' tabel om deze routes op te halen en te verwijderen.
+
+9. Zorg ervoor dat de webpagina en de PHP-klassen goed gedocumenteerd zijn met behulp van commentaar. Gebruik PHPDoc (https://www.phpdoc.org) om gestructureerde documentatie in uw code op te nemen.
+
+10. Test de webapplicatie grondig om ervoor te zorgen dat er geen bugs of fouten zijn. Gebruik verschillende invoergegevens en controleer of de resultaten correct zijn en de app soepel werkt.
+
+Extra uitdagingen (optioneel):
+
+- Visualiseer de optimale route op een kaart met behulp van een JavaScript-bibliotheek zoals Leaflet (https://leafletjs.com) of Google Maps (https://developers.google.com/maps/documentation/javascript/overview). Toon de steden en de optimale route op de kaart om de gebruiker een visueel overzicht van de route te geven.
+
+- Voeg de mogelijkheid toe om verschillende TSP-algoritmen te selecteren en vergelijk de resultaten. Implementeer meerdere algoritmen en laat de gebruiker kiezen welk algoritme ze willen gebruiken om de optimale route te berekenen. Vergelijk de resultaten van de verschillende algoritmen op basis van hun afstand en reken tijd.
+
+- Implementeer gebruikersauthenticatie en -autorisatie om de toegang tot de webapplicatie en de gegevens te beperken. Gebruik bijvoorbeeld een registratie- en login-systeem om gebruikers te beheren en hun toegang tot bepaalde functionaliteiten te beperken.</AssignmentText><Config><Difficulty>Moeilijk</Difficulty><ExtraDescription/><ID>89</ID><Language>PHP</Language><Reqs>Traveling salesman problem, object oriented, mysql database</Reqs><Title>Formulas and Algorithms</Title></Config><ID>89</ID><RawResponseObj z:Id="i1" xmlns:a="http://schemas.datacontract.org/2004/07/Syn_OpenAI_CoreLib.Core.Models.Data" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/"><created xmlns="http://schemas.datacontract.org/2004/07/Syn_OpenAI_CoreLib.Data">1682892993</created><id xmlns="http://schemas.datacontract.org/2004/07/Syn_OpenAI_CoreLib.Data">chatcmpl-7B9dJuFP9KRM23QKaZZzJi9VudBEi</id><a:choices><a:API_AIResponse_ChoicesJSON><a:finish_reason>stop</a:finish_reason><a:index>0</a:index><a:message><a:content>Opdracht: Formules en Algoritmen
+
+Titel: De Rondreizende Handelsman
+
+Doel: Maak een PHP-webapplicatie die het Traveling Salesman Problem (TSP) oplost met behulp van een objectgeoriënteerde aanpak en een MySQL-database om de gegevens op te slaan.
+
+Moeilijkheidsgraad: Moeilijk
+
+Instructies:
+
+1. Installeer en configureer een lokale webserver (bijvoorbeeld XAMPP) met PHP en MySQL-ondersteuning. Zorg ervoor dat u de meest recente versies van PHP en MySQL gebruikt voor optimale prestaties en compatibiliteit. Hier is een handleiding voor het installeren van XAMPP: https://www.apachefriends.org/download.html
+
+2. Maak een MySQL-database met de naam 'tsp' en een tabel met de naam 'cities' om de gegevens van de steden op te slaan. De tabel moet de volgende kolommen bevatten: id (INT, primary key, auto_increment), name (VARCHAR), latitude (FLOAT) en longitude (FLOAT). Gebruik een database management tool zoals phpMyAdmin (https://www.phpmyadmin.net) om de database en tabel te maken.
+
+3. Maak een PHP-klasse met de naam 'City', die de eigenschappen 'id', 'name', 'latitude' en 'longitude' heeft. Deze klasse moet methoden bevatten om steden aan de database toe te voegen, te verwijderen en op te halen. Zorg ervoor dat u een veilige manier gebruikt om met de database te communiceren, zoals prepared statements (https://www.php.net/manual/en/pdo.prepared-statements.php).
+
+4. Maak een PHP-klasse met de naam 'TSPSolver', die een algoritme bevat om het Traveling Salesman Problem op te lossen. U kunt bijvoorbeeld het Nearest Neighbor-algoritme of het Simulated Annealing-algoritme gebruiken. Deze algoritmen zijn slechts voorbeelden, en u kunt andere TSP-algoritmen onderzoeken en implementeren als u dat wilt.
+
+5. Maak een formulier op een webpagina waarmee gebruikers steden kunnen toevoegen aan de database. Gebruik de 'City'-klasse om gegevens toe te voegen en weer te geven. Valideer de invoer van de gebruiker om ervoor te zorgen dat de gegevens correct en veilig zijn.
+
+6. Maak een knop op de webpagina die, wanneer erop wordt geklikt, de 'TSPSolver'-klasse gebruikt om de optimale route tussen de steden in de database te berekenen. Gebruik AJAX (https://www.w3schools.com/xml/ajax_intro.asp) om de berekening op de achtergrond uit te voeren zonder de pagina opnieuw te laden.
+
+7. Geef de optimale route weer op de webpagina en sla deze op in de database in een nieuwe tabel met de naam 'optimal_routes'. Deze tabel moet de volgende kolommen bevatten: id (INT, primary key, auto_increment), route (TEXT), distance (FLOAT) en created_at (DATETIME). Converteer de route naar een tekstformaat, zoals JSON (https://www.php.net/manual/en/function.json-encode.php), voordat u deze opslaat in de database.
+
+8. Voeg een optie toe om eerder berekende optimale routes weer te geven en te verwijderen. Gebruik de 'optimal_routes' tabel om deze routes op te halen en te verwijderen.
+
+9. Zorg ervoor dat de webpagina en de PHP-klassen goed gedocumenteerd zijn met behulp van commentaar. Gebruik PHPDoc (https://www.phpdoc.org) om gestructureerde documentatie in uw code op te nemen.
+
+10. Test de webapplicatie grondig om ervoor te zorgen dat er geen bugs of fouten zijn. Gebruik verschillende invoergegevens en controleer of de resultaten correct zijn en de app soepel werkt.
+
+Extra uitdagingen (optioneel):
+
+- Visualiseer de optimale route op een kaart met behulp van een JavaScript-bibliotheek zoals Leaflet (https://leafletjs.com) of Google Maps (https://developers.google.com/maps/documentation/javascript/overview). Toon de steden en de optimale route op de kaart om de gebruiker een visueel overzicht van de route te geven.
+
+- Voeg de mogelijkheid toe om verschillende TSP-algoritmen te selecteren en vergelijk de resultaten. Implementeer meerdere algoritmen en laat de gebruiker kiezen welk algoritme ze willen gebruiken om de optimale route te berekenen. Vergelijk de resultaten van de verschillende algoritmen op basis van hun afstand en reken tijd.
+
+- Implementeer gebruikersauthenticatie en -autorisatie om de toegang tot de webapplicatie en de gegevens te beperken. Gebruik bijvoorbeeld een registratie- en login-systeem om gebruikers te beheren en hun toegang tot bepaalde functionaliteiten te beperken.</a:content><a:role>assistant</a:role></a:message></a:API_AIResponse_ChoicesJSON></a:choices><a:model>gpt-4-0314</a:model><a:object>chat.completion</a:object><a:usage><a:completion_tokens>1154</a:completion_tokens><a:prompt_tokens>907</a:prompt_tokens><a:total_tokens>2061</a:total_tokens></a:usage></RawResponseObj></Assignment>

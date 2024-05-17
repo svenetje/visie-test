@@ -1,0 +1,87 @@
+﻿Quick Details
+Opdracht ID : 90
+Opdracht titel : Formulas and Algorithms
+Opdracht Programmeertalen en/of tech : PYTHON
+Opdracht (geschatte) moeilijkheidsgraad : Moeilijk
+Opdracht Eisen : Traveling salesman problem, object oriented, mysql database
+Opdracht Extra Omschrijving : 
+Opdracht: Formules en Algoritmen
+Titel: Reizende Handelsman Probleem
+
+Doel:
+Het doel van deze opdracht is om een oplossing te ontwikkelen voor het Reizende Handelsman Probleem (TSP) met behulp van een objectgeoriënteerde benadering in Python en gegevens op te slaan in een MySQL-database.
+
+Beschrijving:
+Het Reizende Handelsman Probleem is een bekend probleem in de grafentheorie
+Het doel is om de kortste route te vinden die een handelsman kan nemen om alle steden te bezoeken en terug te keren naar de oorspronkelijke stad
+In deze opdracht moet je een Python-programma schrijven dat een oplossing biedt voor het TSP en de resultaten opslaat in een MySQL-database.
+
+Vereisten:
+1
+Maak een Python-project en importeer de benodigde bibliotheken (MySQL-connector, NumPy, enz.).
+2
+Ontwerp een objectgeoriënteerde structuur met klassen zoals City, Route en TSPSolver.
+3
+Implementeer een algoritme voor het oplossen van het TSP, zoals het Nearest Neighbor-algoritme, het Minimum Spanning Tree-algoritme of een metaheuristiek zoals Simulated Annealing.
+4
+Maak een MySQL-database en ontwerp de tabellen om de steden, routes en oplossing van het TSP op te slaan.
+5
+Schrijf functies om gegevens van en naar de database te lezen en te schrijven (bijv
+het opslaan van oplossingen, het ophalen van steden, enz.).
+6
+Test het programma met verschillende datasets en analyseer de resultaten.
+
+Moeilijkheidsgraad: Moeilijk
+
+Stappen om te volgen:
+
+1
+Bestudeer het Reizende Handelsman Probleem en de verschillende algoritmen die kunnen worden gebruikt om het op te lossen.
+   Bronnen:
+  
+https://nl.wikipedia.org/wiki/Handelsreizigersprobleem
+  
+https://www.geeksforgeeks.org/travelling-salesman-problem-implementation-using-backtracking/
+
+2
+Leer hoe je een objectgeoriënteerd programma in Python kunt schrijven en hoe je gegevens kunt opslaan in een MySQL-database met behulp van Python.
+   Bronnen:
+  
+https://realpython.com/python3-object-oriented-programming/
+  
+https://www.w3schools.com/python/python_mysql_getstarted.asp
+
+3
+Implementeer de klassen en algoritmen in Python en test je programma.
+   Bronnen:
+  
+https://github.com/AnirudhAnasuri/Travelling-Salesman-Problem
+  
+https://nl.wikipedia.org/wiki/Nearest_neighbour_algorithm
+
+4
+Maak een MySQL-database en ontwerp de tabellen voor het opslaan van de TSP-gegevens.
+   Bronnen:
+  
+https://www.mysqltutorial.org/mysql-create-table/
+  
+https://www.mysqltutorial.org/mysql-insert-data/
+
+5
+Implementeer de functies om gegevens van en naar de database te lezen en te schrijven en integreer deze in je Python-programma.
+   Bronnen:
+  
+https://www.mysqltutorial.org/python-mysql-query/
+  
+https://www.mysqltutorial.org/python-mysql-update/
+
+6
+Test je programma met verschillende datasets en analyseer de resultaten
+Gebruik bijvoorbeeld datasets van de TSPLIB, een verzameling van TSP-problemen die vaak worden gebruikt voor het testen van algoritmen.
+   Bronnen:
+  
+http://elib.zib.de/pub/mp-testdata/tsp/tsplib/tsplib.html
+  
+https://www.iwr.uni-heidelberg.de/groups/comopt/software/TSPLIB95/
+
+Succes met de opdracht!

@@ -1,0 +1,41 @@
+﻿Quick Details
+Opdracht ID : 80
+Opdracht titel : Calculator
+Opdracht Programmeertalen en/of tech : C#
+Opdracht (geschatte) moeilijkheidsgraad : Makkelijk
+Opdracht Eisen : plus, minus, keer, gedeeld door
+Opdracht Extra Omschrijving : 
+Opdracht: Calculator
+Taal: C#
+
+Doel: Maak een eenvoudige rekenmachine die de basisbewerkingen kan uitvoeren: optellen (plus), aftrekken (min), vermenigvuldigen (keer) en delen (gedeeld door).
+
+Moeilijkheidsgraad: Makkelijk
+
+Instructies:
+
+1
+Maak een nieuw Console Application-project in C# met de naam "Calculator".
+2
+Gebruik Console.WriteLine() om een menu te tonen met de beschikbare bewerkingen (optellen, aftrekken, vermenigvuldigen en delen) en een optie om het programma af te sluiten.
+3
+Gebruik Console.ReadLine() om de gebruikerskeuze te accepteren en converteer deze naar een getal (int) met behulp van Convert.ToInt32().
+4
+Controleer of de gebruiker het programma wil afsluiten (keuze == 5)
+Zo ja, gebruik 'break' om uit de loop te gaan.
+5
+Als de gebruiker niet wil afsluiten, vraag dan om twee getallen in te voeren
+Gebruik Console.ReadLine() en sla deze op in twee double variabelen (nummer1 en nummer2) door Convert.ToDouble() te gebruiken.
+6
+Gebruik een switch-case om de gekozen bewerking uit te voeren op basis van de gebruikerskeuze en sla het resultaat op in een nieuwe double variabele (resultaat)
+Gebruik 'default' om ongeldige keuzes af te handelen en start de loop opnieuw met 'continue'.
+7
+Gebruik Console.WriteLine() om het resultaat aan de gebruiker te tonen.
+8
+Implementeer een 'do-while' loop om de gebruiker meerdere berekeningen te laten uitvoeren of het programma af te sluiten door optie 5 te kiezen.
+
+De voorbeeldcode in de opdrachttekst is een goede basis voor het maken van de rekenmachine
+Volg de instructies en gebruik de voorbeeldcode om de opdracht te voltooien
+Vergeet niet om de variabelen en methoden correct te benoemen volgens de C#-standaarden.
+
+Succes met het maken van de calculator!

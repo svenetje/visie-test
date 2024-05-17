@@ -1,0 +1,73 @@
+<Assignment xmlns="http://schemas.datacontract.org/2004/07/Syn_OpenAI_AppLib.Data" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><AssignmentText>Titel: Data (Caching) Managers
+
+Doel: Het ontwikkelen van een eenvoudig caching-systeem met behulp van objectgeoriënteerd programmeren in PHP.
+
+Moeilijkheidsgraad: Gemiddeld
+
+Beschrijving:
+
+In deze opdracht ga je een eenvoudig caching-systeem ontwikkelen met behulp van objectgeoriënteerd programmeren in PHP. Caching is een techniek om de snelheid van een systeem te verbeteren door veelgebruikte gegevens tijdelijk op te slaan, zodat ze snel kunnen worden opgehaald zonder opnieuw te hoeven worden berekend of opgevraagd. Dit systeem zal bestaan uit verschillende klassen en methoden om data op te slaan, op te halen en te beheren. Je zult ook een mechanisme implementeren om verlopen cache-items automatisch te verwijderen.
+
+Benodigdheden:
+
+1. Basiskennis van PHP en objectgeoriënteerd programmeren.
+2. Een ontwikkelomgeving met PHP geïnstalleerd (bijvoorbeeld XAMPP, MAMP of een online PHP-editor).
+
+Stappen:
+
+1. Maak een nieuwe PHP-bestand genaamd "CacheManager.php".
+2. Definieer een klasse genaamd "CacheManager" in het bestand. Deze klasse zal de kernfunctionaliteit van het caching-systeem bevatten.
+3. Voeg privé-eigenschappen toe aan de klasse voor het opslaan van de cache-items en de standaard vervaltijd voor cache-items. Deze eigenschappen stellen de klasse in staat om de opgeslagen gegevens bij te houden en te bepalen wanneer een cache-item moet worden verwijderd.
+4. Voeg een constructor toe aan de klasse om de standaard vervaltijd in te stellen. De constructor moet een parameter hebben om de standaard vervaltijd in te stellen, met een standaardwaarde als er geen waarde wordt opgegeven bij het aanmaken van een nieuw CacheManager-object.
+5. Implementeer de volgende methoden in de klasse:
+    a. add($key, $value, $expiration): Voeg een nieuw cache-item toe met een gegeven sleutel, waarde en vervaltijd. Deze methode moet een controle uitvoeren om te zien of het cache-item al bestaat. Als dit het geval is, moet de methode een foutmelding retourneren.
+    b. get($key): Haal de waarde van een cache-item op met een gegeven sleutel. Deze methode moet controleren of het cache-item bestaat en of het niet is verlopen. Als het item bestaat en niet is verlopen, retourneert de methode de waarde van het item. Anders retourneert de methode een foutmelding of null.
+    c. update($key, $value, $expiration): Werk de waarde en vervaltijd van een cache-item bij met een gegeven sleutel. Deze methode moet controleren of het cache-item bestaat. Als dit het geval is, werkt de methode de waarde en vervaltijd van het item bij. Anders retourneert de methode een foutmelding.
+    d. delete($key): Verwijder een cache-item met een gegeven sleutel. Deze methode moet controleren of het cache-item bestaat. Als dit het geval is, verwijdert de methode het item uit de cache. Anders retourneert de methode een foutmelding.
+    e. clean(): Verwijder alle verlopen cache-items uit de cache. Deze methode moet door alle cache-items itereren en controleren of ze zijn verlopen. Als een item is verlopen, wordt het verwijderd uit de cache.
+
+6. Test de werking van de "CacheManager" klasse door het aanmaken, bijwerken, verwijderen en ophalen van cache-items. Schrijf een klein testscript om de verschillende methoden van de CacheManager-klasse te testen en ervoor te zorgen dat alles naar behoren werkt.
+
+Extra uitdaging:
+
+1. Implementeer een methode om de cache automatisch te legen op basis van een bepaalde frequentie (bijvoorbeeld elke 5 minuten). Gebruik hiervoor bijvoorbeeld de PHP-functie `time()` en sla de laatste keer dat de cache is geleegd op als een eigenschap van de klasse.
+2. Voeg een extra caching-strategie toe, zoals opslaan op schijf, in plaats van alleen in het geheugen. Maak hiervoor een nieuwe klasse die de CacheManager-klasse uitbreidt en overschrijf de methoden om met bestanden op schijf te werken in plaats van alleen in het geheugen.
+3. Optimaliseer de prestaties van het caching-systeem door bijvoorbeeld een Least Recently Used (LRU) algoritme te implementeren voor het verwijderen van cache-items. Dit houdt in dat wanneer de cache vol raakt, het minst recent gebruikte item wordt verwijderd om ruimte te maken voor nieuwe items.
+
+Succes met de opdracht! Vergeet niet om goed te testen en eventuele fouten op te lossen.</AssignmentText><Config><Difficulty>Gemiddeld</Difficulty><ExtraDescription/><ID>77</ID><Language>PHP</Language><Reqs>Object Oriented</Reqs><Title>Data (Caching) Managers</Title></Config><ID>77</ID><RawResponseObj z:Id="i1" xmlns:a="http://schemas.datacontract.org/2004/07/Syn_OpenAI_CoreLib.Core.Models.Data" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/"><created xmlns="http://schemas.datacontract.org/2004/07/Syn_OpenAI_CoreLib.Data">1682891518</created><id xmlns="http://schemas.datacontract.org/2004/07/Syn_OpenAI_CoreLib.Data">chatcmpl-7B9FWPg7aBMOUfDIuiChXmR39RUZT</id><a:choices><a:API_AIResponse_ChoicesJSON><a:finish_reason>stop</a:finish_reason><a:index>0</a:index><a:message><a:content>Titel: Data (Caching) Managers
+
+Doel: Het ontwikkelen van een eenvoudig caching-systeem met behulp van objectgeoriënteerd programmeren in PHP.
+
+Moeilijkheidsgraad: Gemiddeld
+
+Beschrijving:
+
+In deze opdracht ga je een eenvoudig caching-systeem ontwikkelen met behulp van objectgeoriënteerd programmeren in PHP. Caching is een techniek om de snelheid van een systeem te verbeteren door veelgebruikte gegevens tijdelijk op te slaan, zodat ze snel kunnen worden opgehaald zonder opnieuw te hoeven worden berekend of opgevraagd. Dit systeem zal bestaan uit verschillende klassen en methoden om data op te slaan, op te halen en te beheren. Je zult ook een mechanisme implementeren om verlopen cache-items automatisch te verwijderen.
+
+Benodigdheden:
+
+1. Basiskennis van PHP en objectgeoriënteerd programmeren.
+2. Een ontwikkelomgeving met PHP geïnstalleerd (bijvoorbeeld XAMPP, MAMP of een online PHP-editor).
+
+Stappen:
+
+1. Maak een nieuwe PHP-bestand genaamd "CacheManager.php".
+2. Definieer een klasse genaamd "CacheManager" in het bestand. Deze klasse zal de kernfunctionaliteit van het caching-systeem bevatten.
+3. Voeg privé-eigenschappen toe aan de klasse voor het opslaan van de cache-items en de standaard vervaltijd voor cache-items. Deze eigenschappen stellen de klasse in staat om de opgeslagen gegevens bij te houden en te bepalen wanneer een cache-item moet worden verwijderd.
+4. Voeg een constructor toe aan de klasse om de standaard vervaltijd in te stellen. De constructor moet een parameter hebben om de standaard vervaltijd in te stellen, met een standaardwaarde als er geen waarde wordt opgegeven bij het aanmaken van een nieuw CacheManager-object.
+5. Implementeer de volgende methoden in de klasse:
+    a. add($key, $value, $expiration): Voeg een nieuw cache-item toe met een gegeven sleutel, waarde en vervaltijd. Deze methode moet een controle uitvoeren om te zien of het cache-item al bestaat. Als dit het geval is, moet de methode een foutmelding retourneren.
+    b. get($key): Haal de waarde van een cache-item op met een gegeven sleutel. Deze methode moet controleren of het cache-item bestaat en of het niet is verlopen. Als het item bestaat en niet is verlopen, retourneert de methode de waarde van het item. Anders retourneert de methode een foutmelding of null.
+    c. update($key, $value, $expiration): Werk de waarde en vervaltijd van een cache-item bij met een gegeven sleutel. Deze methode moet controleren of het cache-item bestaat. Als dit het geval is, werkt de methode de waarde en vervaltijd van het item bij. Anders retourneert de methode een foutmelding.
+    d. delete($key): Verwijder een cache-item met een gegeven sleutel. Deze methode moet controleren of het cache-item bestaat. Als dit het geval is, verwijdert de methode het item uit de cache. Anders retourneert de methode een foutmelding.
+    e. clean(): Verwijder alle verlopen cache-items uit de cache. Deze methode moet door alle cache-items itereren en controleren of ze zijn verlopen. Als een item is verlopen, wordt het verwijderd uit de cache.
+
+6. Test de werking van de "CacheManager" klasse door het aanmaken, bijwerken, verwijderen en ophalen van cache-items. Schrijf een klein testscript om de verschillende methoden van de CacheManager-klasse te testen en ervoor te zorgen dat alles naar behoren werkt.
+
+Extra uitdaging:
+
+1. Implementeer een methode om de cache automatisch te legen op basis van een bepaalde frequentie (bijvoorbeeld elke 5 minuten). Gebruik hiervoor bijvoorbeeld de PHP-functie `time()` en sla de laatste keer dat de cache is geleegd op als een eigenschap van de klasse.
+2. Voeg een extra caching-strategie toe, zoals opslaan op schijf, in plaats van alleen in het geheugen. Maak hiervoor een nieuwe klasse die de CacheManager-klasse uitbreidt en overschrijf de methoden om met bestanden op schijf te werken in plaats van alleen in het geheugen.
+3. Optimaliseer de prestaties van het caching-systeem door bijvoorbeeld een Least Recently Used (LRU) algoritme te implementeren voor het verwijderen van cache-items. Dit houdt in dat wanneer de cache vol raakt, het minst recent gebruikte item wordt verwijderd om ruimte te maken voor nieuwe items.
+
+Succes met de opdracht! Vergeet niet om goed te testen en eventuele fouten op te lossen.</a:content><a:role>assistant</a:role></a:message></a:API_AIResponse_ChoicesJSON></a:choices><a:model>gpt-4-0314</a:model><a:object>chat.completion</a:object><a:usage><a:completion_tokens>1200</a:completion_tokens><a:prompt_tokens>808</a:prompt_tokens><a:total_tokens>2008</a:total_tokens></a:usage></RawResponseObj></Assignment>

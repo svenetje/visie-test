@@ -1,0 +1,63 @@
+<Assignment xmlns="http://schemas.datacontract.org/2004/07/Syn_OpenAI_AppLib.Data" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><AssignmentText>Opdracht: Assembly Loading Assessment
+
+Doel: Maak een Python-programma dat class libraries, geschreven in Assembly en Rust, inlaadt en gebruikt.
+
+Moeilijkheidsgraad: Moeilijk
+
+Benodigdheden:
+1. Kennis van Python
+2. Basiskennis van Assembly en Rust
+3. ctypes bibliotheek voor Python (https://docs.python.org/3/library/ctypes.html)
+
+Opdrachtbeschrijving:
+
+Deel 1: Assembly Class Library
+1. Schrijf een eenvoudige Assembly-functie, bijvoorbeeld een functie die twee getallen optelt. Gebruik hiervoor de x86-assembly instructies (https://en.wikibooks.org/wiki/X86_Assembly).
+2. Compileer de Assembly-code tot een gedeelde bibliotheek (.dll of .so, afhankelijk van het besturingssysteem) met behulp van een Assembler zoals NASM (https://www.nasm.us/).
+
+Deel 2: Rust Class Library
+1. Schrijf een eenvoudige Rust-functie, bijvoorbeeld een functie die twee getallen vermenigvuldigt en zorg ervoor dat deze functie toegankelijk is via FFI (Foreign Function Interface) door de "pub" en "no_mangle" attributen toe te voegen (https://doc.rust-lang.org/nomicon/ffi.html).
+2. Compileer de Rust-code tot een gedeelde bibliotheek (.dll of .so, afhankelijk van het besturingssysteem) met behulp van Cargo (https://doc.rust-lang.org/cargo/).
+
+Deel 3: Python-programma
+1. Gebruik de ctypes-bibliotheek om beide gedeelde bibliotheken (Assembly en Rust) in te laden in uw Python-programma. Gebruik hiervoor de LoadLibrary-functie (https://docs.python.org/3/library/ctypes.html#loading-shared-libraries).
+2. Definieer de functies in Python met behulp van de ctypes-bibliotheek, zodat ze overeenkomen met de functies die in de Assembly- en Rust-code zijn gedefinieerd. Gebruik hiervoor de juiste ctypes-types (https://docs.python.org/3/library/ctypes.html#fundamental-data-types).
+3. Roep de functies aan met behulp van de gedefinieerde ctypes-functies en geef de resultaten weer in de console. Vergeet niet om de resultaten te controleren op fouten (https://docs.python.org/3/library/ctypes.html#checking-for-errors).
+
+Bronnen:
+- ctypes: https://docs.python.org/3/library/ctypes.html
+- Assembly: https://en.wikibooks.org/wiki/X86_Assembly
+- Rust FFI: https://doc.rust-lang.org/nomicon/ffi.html
+- NASM: https://www.nasm.us/
+- Cargo: https://doc.rust-lang.org/cargo/</AssignmentText><Config><Difficulty>Moeilijk</Difficulty><ExtraDescription/><ID>58</ID><Language>PYTHON</Language><Reqs>Class libraries inladen geschreven in Assembly / Rust taal</Reqs><Title>Assembly Loading Assessment</Title></Config><ID>58</ID><RawResponseObj z:Id="i1" xmlns:a="http://schemas.datacontract.org/2004/07/Syn_OpenAI_CoreLib.Core.Models.Data" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/"><created xmlns="http://schemas.datacontract.org/2004/07/Syn_OpenAI_CoreLib.Data">1682889111</created><id xmlns="http://schemas.datacontract.org/2004/07/Syn_OpenAI_CoreLib.Data">chatcmpl-7B8chVNf0jNf9EeHOwUl0s1fmZF0w</id><a:choices><a:API_AIResponse_ChoicesJSON><a:finish_reason>stop</a:finish_reason><a:index>0</a:index><a:message><a:content>Opdracht: Assembly Loading Assessment
+
+Doel: Maak een Python-programma dat class libraries, geschreven in Assembly en Rust, inlaadt en gebruikt.
+
+Moeilijkheidsgraad: Moeilijk
+
+Benodigdheden:
+1. Kennis van Python
+2. Basiskennis van Assembly en Rust
+3. ctypes bibliotheek voor Python (https://docs.python.org/3/library/ctypes.html)
+
+Opdrachtbeschrijving:
+
+Deel 1: Assembly Class Library
+1. Schrijf een eenvoudige Assembly-functie, bijvoorbeeld een functie die twee getallen optelt. Gebruik hiervoor de x86-assembly instructies (https://en.wikibooks.org/wiki/X86_Assembly).
+2. Compileer de Assembly-code tot een gedeelde bibliotheek (.dll of .so, afhankelijk van het besturingssysteem) met behulp van een Assembler zoals NASM (https://www.nasm.us/).
+
+Deel 2: Rust Class Library
+1. Schrijf een eenvoudige Rust-functie, bijvoorbeeld een functie die twee getallen vermenigvuldigt en zorg ervoor dat deze functie toegankelijk is via FFI (Foreign Function Interface) door de "pub" en "no_mangle" attributen toe te voegen (https://doc.rust-lang.org/nomicon/ffi.html).
+2. Compileer de Rust-code tot een gedeelde bibliotheek (.dll of .so, afhankelijk van het besturingssysteem) met behulp van Cargo (https://doc.rust-lang.org/cargo/).
+
+Deel 3: Python-programma
+1. Gebruik de ctypes-bibliotheek om beide gedeelde bibliotheken (Assembly en Rust) in te laden in uw Python-programma. Gebruik hiervoor de LoadLibrary-functie (https://docs.python.org/3/library/ctypes.html#loading-shared-libraries).
+2. Definieer de functies in Python met behulp van de ctypes-bibliotheek, zodat ze overeenkomen met de functies die in de Assembly- en Rust-code zijn gedefinieerd. Gebruik hiervoor de juiste ctypes-types (https://docs.python.org/3/library/ctypes.html#fundamental-data-types).
+3. Roep de functies aan met behulp van de gedefinieerde ctypes-functies en geef de resultaten weer in de console. Vergeet niet om de resultaten te controleren op fouten (https://docs.python.org/3/library/ctypes.html#checking-for-errors).
+
+Bronnen:
+- ctypes: https://docs.python.org/3/library/ctypes.html
+- Assembly: https://en.wikibooks.org/wiki/X86_Assembly
+- Rust FFI: https://doc.rust-lang.org/nomicon/ffi.html
+- NASM: https://www.nasm.us/
+- Cargo: https://doc.rust-lang.org/cargo/</a:content><a:role>assistant</a:role></a:message></a:API_AIResponse_ChoicesJSON></a:choices><a:model>gpt-4-0314</a:model><a:object>chat.completion</a:object><a:usage><a:completion_tokens>668</a:completion_tokens><a:prompt_tokens>651</a:prompt_tokens><a:total_tokens>1319</a:total_tokens></a:usage></RawResponseObj></Assignment>

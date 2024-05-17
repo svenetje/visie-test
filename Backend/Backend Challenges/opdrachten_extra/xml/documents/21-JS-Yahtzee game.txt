@@ -1,0 +1,100 @@
+﻿Quick Details
+Opdracht ID : 21
+Opdracht titel : Yahtzee game
+Opdracht Programmeertalen en/of tech : JS
+Opdracht (geschatte) moeilijkheidsgraad : Makkelijk
+Opdracht Eisen : multiplayer door peer to peer discovery en dedicated hosting, gamestate en highscores lokaal voor iedere gebruiker opslaan.
+Opdracht Extra Omschrijving : maak een Yahtzee game waarin spelers samen en tegen elkaar kunnen spelen
+Titel: Yahtzee-spel
+
+Doel: Het maken van een multiplayer Yahtzee-spel met peer-to-peer discovery en dedicated hosting
+De gamestate en highscores moeten lokaal worden opgeslagen voor elke gebruiker.
+
+Programmeertaal: JavaScript
+
+Moeilijkheidsgraad: Makkelijk
+
+Opdracht:
+
+1
+Bestudeer de basisregels van het Yahtzee-spel
+Hier zijn de basisregels: https://www.spelregels.eu/yahtzee/
+  
+Zorg ervoor dat je bekend bent met de puntentelling en de verschillende combinaties die spelers moeten maken.
+
+2
+Maak een eenvoudige gebruikersinterface met HTML en CSS voor het spel
+Dit moet het volgende bevatten:
+    a
+Een speelbord met 5 dobbelstenen die willekeurige getallen tussen 1 en 6 kunnen tonen.
+      
+Gebruik SVG-afbeeldingen of Unicode-symbolen voor de dobbelstenen.
+    b
+Een knop om de dobbelstenen te rollen.
+      
+Zorg ervoor dat spelers de dobbelstenen maximaal drie keer per beurt kunnen rollen.
+    c
+Een scorebord om de scores van de spelers bij te houden.
+      
+Het scorebord moet de scores voor elke combinatie en de totale scores voor elke speler bevatten.
+
+3
+Schrijf JavaScript-code om de functionaliteit van het spel te implementeren
+Dit moet het volgende bevatten:
+    a
+Willekeurige dobbelsteen worpen genereren en weergeven op de gebruikersinterface.
+      
+Gebruik de Math.random() functie om willekeurige worpen te genereren.
+    b
+De score van elke speler bijhouden en weergeven op het scorebord.
+      
+Maak een scoreberekening functie die de scores voor elke combinatie controleert.
+    c
+Het spel afhandelen, inclusief beurten wisselen, winnaar bepalen en het spel resetten.
+      
+Gebruik variabelen en functies om de huidige speler en het aantal beurten bij te houden.
+
+4
+Implementeer peer-to-peer discovery en dedicated hosting met behulp van WebRTC en WebSocket
+Hier zijn enkele bronnen om mee te beginnen:
+    a
+WebRTC handleiding: https://developer.mozilla.org/nl/docs/Web/API/WebRTC_API
+      
+Gebruik WebRTC om directe verbindingen tussen spelers tot stand te brengen.
+    b
+WebSocket handleiding: https://developer.mozilla.org/nl/docs/Web/API/WebSockets_API
+      
+Gebruik WebSocket om een dedicated server te maken die de verbindingen tussen spelers beheert.
+
+5
+Sla de gamestate en highscores lokaal op voor elke gebruiker met behulp van LocalStorage
+Hier is een bron om mee te beginnen:
+    a
+LocalStorage handleiding: https://developer.mozilla.org/nl/docs/Web/API/Window/localStorage
+      
+Gebruik LocalStorage om de gamestate en highscores op te slaan en te laden.
+
+6
+Test het spel grondig en los eventuele fouten op.
+  
+Probeer verschillende scenario's en combinaties om ervoor te zorgen dat het spel correct werkt.
+
+7
+Documenteer uw code en schrijf een korte handleiding over het gebruik van het spel.
+  
+Geef uitleg over de belangrijkste functies en hoe spelers het spel moeten spelen.
+
+In te leveren:
+
+1
+Een zip-bestand met alle broncodebestanden (HTML, CSS en JavaScript), afbeeldingen en andere benodigde bestanden.
+2
+Een kort verslag over het ontwikkelingsproces en de gebruikte technologieën.
+  
+Beschrijf de stappen die u heeft genomen om het spel te ontwikkelen en eventuele uitdagingen die u tegenkwam.
+3
+Een korte handleiding over het gebruik van het spel.
+  
+Leg uit hoe spelers het spel moeten starten, verbinding moeten maken met anderen, en de scores moeten bijhouden.
+
+Succes met de opdracht!

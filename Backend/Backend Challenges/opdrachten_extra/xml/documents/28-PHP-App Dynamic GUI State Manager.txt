@@ -1,0 +1,69 @@
+﻿Quick Details
+Opdracht ID : 28
+Opdracht titel : App Dynamic GUI State Manager
+Opdracht Programmeertalen en/of tech : PHP
+Opdracht (geschatte) moeilijkheidsgraad : Gemiddeld
+Opdracht Eisen : GUI elementen moeten kunnen worden versleept, veranderde GUIs moeten worden opgeslagen als JSON of XML of SQL
+Opdracht Extra Omschrijving : Maak een modulaire GUI State manager
+Titel: App Dynamische GUI Statusbeheerder
+
+Doel: Ontwikkel een webapplicatie waarin gebruikers de positie van GUI-elementen kunnen aanpassen, de aangepaste GUI-status opslaan in JSON, XML of SQL-formaat en eerder opgeslagen GUI-statussen kunnen laden.
+
+Benodigdheden:
+1
+PHP
+server-side programmeertaal voor het verwerken van opslag- en laadverzoeken
+2
+MySQL of SQLite
+databasesysteem (optioneel, als u ervoor kiest om SQL te gebruiken)
+3
+HTML, CSS, JavaScript
+voor het maken van de interactieve frontend van de webapplicatie
+
+Opdracht:
+
+1
+Creëer een webpagina met diverse GUI-elementen (zoals knoppen, tekstvelden, afbeeldingen) die door de gebruiker kunnen worden verplaatst
+Gebruik HTML en CSS om de paginastructuur en stijl te definiëren
+Gebruik JavaScript (bijvoorbeeld met jQuery UI) om de elementen interactief en verplaatsbaar te maken.
+
+   Bronnen:
+  
+HTML & CSS: https://www.w3schools.com/html/ en https://www.w3schools.com/css/
+  
+JavaScript & jQuery UI: https://www.w3schools.com/js/ en https://jqueryui.com/draggable/
+
+2
+Schrijf een JavaScript-functie die de huidige posities van de GUI-elementen detecteert en opslaat in een datastructuur (bijvoorbeeld een JSON-object).
+
+   Bron: https://www.w3schools.com/js/js_json.asp
+
+3
+Ontwikkel een PHP-script om de GUI-status op de server op te slaan
+Kies een van de volgende opslagmethoden:
+   
+Als JSON-bestand: https://www.w3schools.com/php/php_file_create.asp
+   
+Als XML-bestand: https://www.w3schools.com/php/php_xml_create.asp
+   
+In een SQL-database (bijv
+MySQL of SQLite): https://www.w3schools.com/php/php_mysql_intro.asp of https://www.sqlite.org/quickstart.html
+
+4
+Implementeer een functionaliteit waarmee de webapplicatie eerder opgeslagen GUI-statussen kan laden
+De applicatie moet opgeslagen gegevens in JSON, XML of SQL-formaat kunnen lezen en de GUI-elementen positioneren op basis van de geladen gegevens.
+
+5
+Test de webapplicatie grondig om te verzekeren dat alle functionaliteiten correct werken, zoals het verplaatsen van GUI-elementen, het opslaan van de GUI-status en het laden van eerder opgeslagen GUI-statussen.
+
+Moeilijkheidsgraad: Gemiddeld
+
+In te leveren bestanden:
+1
+HTML-, CSS- en JavaScript-bestanden voor de interactieve frontend van de webapplicatie
+2
+PHP-script(s) voor het opslaan en laden van de GUI-status
+3
+Eventuele databasebestanden of -scripts (indien u ervoor kiest om SQL te gebruiken)
+4
+Documentatie van de code en een handleiding voor het gebruik van de webapplicatie, inclusief instructies voor het verplaatsen van GUI-elementen, het opslaan en laden van GUI-statussen, en het gebruik van de gekozen opslagmethode (JSON, XML of SQL).

@@ -1,0 +1,50 @@
+﻿Quick Details
+Opdracht ID : 82
+Opdracht titel : Calculator
+Opdracht Programmeertalen en/of tech : PYTHON
+Opdracht (geschatte) moeilijkheidsgraad : Makkelijk
+Opdracht Eisen : plus, minus, keer, gedeeld door
+Opdracht Extra Omschrijving : 
+Opdracht: Calculator
+
+Doel: Maak een eenvoudige rekenmachine die in staat is om de basisbewerkingen (optellen, aftrekken, vermenigvuldigen en delen) uit te voeren met behulp van Python.
+
+Moeilijkheidsgraad: Makkelijk
+
+Instructies:
+
+1
+Schrijf een functie genaamd `optellen` die twee getallen als argumenten accepteert en hun som retourneert
+Gebruik het `+` teken voor deze bewerking.
+2
+Schrijf een functie genaamd `aftrekken` die twee getallen als argumenten accepteert en hun verschil retourneert
+Gebruik het `-` teken voor deze bewerking.
+3
+Schrijf een functie genaamd `vermenigvuldigen` die twee getallen als argumenten accepteert en hun product retourneert
+Gebruik het `*` teken voor deze bewerking.
+4
+Schrijf een functie genaamd `delen` die twee getallen als argumenten accepteert en hun quotiënt retourneert
+Gebruik het `/` teken voor deze bewerking
+Zorg ervoor dat je controleert of de deler niet gelijk is aan nul om een ZeroDivisionError te voorkomen.
+5
+Maak een menu voor de gebruiker om een keuze te maken tussen de verschillende bewerkingen (optellen, aftrekken, vermenigvuldigen, delen) en om de benodigde getallen in te voeren
+Gebruik input() functie om de keuze en getallen van de gebruiker te vragen.
+6
+Voer de gekozen bewerking uit door de juiste functie aan te roepen met de ingevoerde getallen en toon het resultaat aan de gebruiker met behulp van de print() functie.
+
+Extra uitdagingen:
+
+1
+Voeg foutafhandeling toe om te controleren of de gebruiker geldige getallen invoert
+Gebruik try-except blokken om fouten op te vangen.
+2
+Maak het programma afsluitbaar door een afsluitoptie toe te voegen aan het menu
+Gebruik een while-lus om het menu te blijven tonen totdat de gebruiker ervoor kiest om af te sluiten.
+3
+Breid het programma uit met extra bewerkingen, zoals machtsverheffen (gebruik `**` teken), worteltrekken (gebruik math.sqrt() functie) of moduloberekening (gebruik `%` teken)
+Vergeet niet om de math-bibliotheek te importeren voor de worteltrekking.
+
+Bronnen:
+- Input en output in Python: https://docs.python.org/3/tutorial/inputoutput.html
+- Foutafhandeling in Python: https://docs.python.org/3/tutorial/errors.html
+- Math module in Python: https://docs.python.org/3/library/math.html

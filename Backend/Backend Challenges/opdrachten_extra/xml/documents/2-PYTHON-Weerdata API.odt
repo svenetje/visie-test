@@ -1,0 +1,92 @@
+﻿Quick Details
+Opdracht ID : 2
+Opdracht titel : Weerdata API
+Opdracht Programmeertalen en/of tech : PYTHON
+Opdracht (geschatte) moeilijkheidsgraad : Gemiddeld
+Opdracht Eisen : Weerdata moet worden opgehaald, verwerkt en in grafieken worden weergegeven (numpy bijv)
+Opdracht Extra Omschrijving : 
+Opdracht: Weerdata API uitbreiding
+
+Titel: Weerdata API
+
+Vereisten:
+1
+Weerdata ophalen van een online bron (bijv
+OpenWeatherMap API)
+2
+Verwerken van de opgehaalde data
+3
+Weergeven van de data in grafieken (bijv
+met behulp van numpy en matplotlib)
+4
+Toevoegen van extra weerparameters zoals windsnelheid en luchtdruk
+5
+Grafieken voor extra weerparameters genereren en weergeven
+6
+Foutafhandeling toevoegen bij het ophalen van de API-data
+
+Programmeertaal: Python
+
+Moeilijkheidsgraad: Gemiddeld
+
+Instructies:
+
+1
+Volg de instructies van de oorspronkelijke opdracht om een account aan te maken bij OpenWeatherMap, de benodigde bibliotheken te installeren en het Python-script te schrijven.
+
+2
+Voeg extra weerparameters toe aan het script, zoals windsnelheid en luchtdruk:
+   ```python
+   wind_speed = weather_data['wind']['speed']
+   pressure = weather_data['main']['pressure']
+   ```
+
+3
+Pas de functie 'plot_graphs' aan om de extra weerparameters in de grafieken op te nemen:
+   ```python
+   def plot_graphs(temperature, humidity, wind_speed, pressure):
+       x = np.array(['Temperatuur', 'Luchtvochtigheid', 'Windsnelheid', 'Luchtdruk'])
+       y = np.array([temperature, humidity, wind_speed, pressure])
+       plt.bar(x, y)
+       plt.title("Weerdata")
+       plt.xlabel("Weerparameters")
+       plt.ylabel("Waarden")
+       plt.show()
+   ```
+
+4
+Roep de aangepaste 'plot_graphs' functie aan met de extra weerparameters:
+   ```python
+   plot_graphs(temperature, humidity, wind_speed, pressure)
+   ```
+
+5
+Voeg foutafhandeling toe bij het ophalen van de API-data
+Controleer of er een fout is opgetreden bij het ophalen van de gegevens en geef een foutmelding weer indien nodig:
+   ```python
+   def get_weather_data(api_key, base_url, city_name, units):
+       complete_url = f"{base_url}appid={api_key}&q={city_name}&units={units}"
+       response = requests.get(complete_url)
+       data = response.json()
+       if data["cod"] != "404":
+           return data
+       else:
+           print("Stad niet gevonden
+Controleer de stadnaam en probeer opnieuw.")
+           return None
+   ```
+
+6
+Controleer of de weerdata correct is opgehaald voordat je de grafieken genereert en weergeeft:
+   ```python
+   weather_data = get_weather_data(api_key, base_url, city_name, units)
+   if weather_data is not None:
+       temperature = weather_data['main']['temp']
+       humidity = weather_data['main']['humidity']
+       wind_speed = weather_data['wind']['speed']
+       pressure = weather_data['main']['pressure']
+       plot_graphs(temperature, humidity, wind_speed, pressure)
+   ```
+
+7
+Voer het uitgebreide Python-script uit en controleer de grafieken met de extra weerparameters en foutafhandeling.

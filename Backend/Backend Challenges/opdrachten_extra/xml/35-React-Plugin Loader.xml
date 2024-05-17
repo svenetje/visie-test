@@ -1,0 +1,47 @@
+<Assignment xmlns="http://schemas.datacontract.org/2004/07/Syn_OpenAI_AppLib.Data" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><AssignmentText>Opdracht: Plugin Loader
+
+Doel: Ontwikkel een React-applicatie die in staat is om plugins te detecteren in een map genaamd 'plugins', deze te laden en hun initialiseerfuncties uit te voeren.
+
+Moeilijkheidsgraad: Gemiddeld
+
+Vereisten:
+1. Zet een nieuwe React-applicatie op met behulp van `create-react-app` of een vergelijkbaar hulpmiddel.
+2. Creëer een map met de naam 'plugins' binnen de 'src' map van de React-applicatie.
+3. Ontwikkel minimaal drie verschillende plugins. Elke plugin dient een afzonderlijke JavaScript-module te zijn met een `initialize`-functie. De `initialize`-functie moet een bericht loggen in de console, dat aantoont dat de plugin correct is geïnitialiseerd.
+4. Implementeer een `PluginLoader`-component die de plugins in de 'plugins'-map opspoort en laadt. Gebruik hiervoor `import()`, wat dynamische import mogelijk maakt. Let op: `import()` geeft een Promise terug.
+5. Voer de `initialize`-functie uit voor elke geladen plugin.
+6. Zorg ervoor dat de `PluginLoader`-component wordt weergegeven in de hoofdcomponent van de React-applicatie (bijvoorbeeld 'App.js').
+
+Instructies:
+1. Installeer Node.js en npm als je dat nog niet hebt gedaan.
+2. Gebruik `npx create-react-app plugin-loader` om een nieuwe React-applicatie te maken en navigeer naar de map met `cd plugin-loader`.
+3. Maak een map genaamd 'plugins' in de 'src' map.
+4. Implementeer drie JavaScript-modules (bijvoorbeeld 'pluginA.js', 'pluginB.js', 'pluginC.js') in de 'plugins'-map, elk met een `initialize`-functie die een bericht naar de console logt.
+5. Maak een bestand genaamd `PluginLoader.js` in de 'src' map en importeer de plugins dynamisch met behulp van `import()`.
+6. Integreer de `PluginLoader`-component in 'src/App.js', zodat deze wordt weergegeven wanneer de applicatie wordt uitgevoerd.
+7. Test de applicatie door `npm start` uit te voeren en controleer de browserconsole om te zien of de initialiseerfuncties van de plugins succesvol worden aangeroepen.
+
+Opmerking: Dynamische import in React kan soms lastig zijn, vooral bij het laden van meerdere modules uit een map. Het kan nodig zijn om Webpack of een andere bundler te configureren om dit te ondersteunen. Hier is een nuttige bron om mee te beginnen: [Dynamische import met React en Webpack](https://reactjs.org/docs/code-splitting.html#webpack).</AssignmentText><Config><Difficulty>Gemiddeld</Difficulty><ExtraDescription/><ID>35</ID><Language>React</Language><Reqs>Plugins detecteren in een map genaamd 'plugins', inladen en hun initialize functies aanroepen.</Reqs><Title>Plugin Loader</Title></Config><ID>35</ID><RawResponseObj z:Id="i1" xmlns:a="http://schemas.datacontract.org/2004/07/Syn_OpenAI_CoreLib.Core.Models.Data" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/"><created xmlns="http://schemas.datacontract.org/2004/07/Syn_OpenAI_CoreLib.Data">1682886830</created><id xmlns="http://schemas.datacontract.org/2004/07/Syn_OpenAI_CoreLib.Data">chatcmpl-7B81uCTtYmBdURpI2Jpw7k5HC5kvx</id><a:choices><a:API_AIResponse_ChoicesJSON><a:finish_reason>stop</a:finish_reason><a:index>0</a:index><a:message><a:content>Opdracht: Plugin Loader
+
+Doel: Ontwikkel een React-applicatie die in staat is om plugins te detecteren in een map genaamd 'plugins', deze te laden en hun initialiseerfuncties uit te voeren.
+
+Moeilijkheidsgraad: Gemiddeld
+
+Vereisten:
+1. Zet een nieuwe React-applicatie op met behulp van `create-react-app` of een vergelijkbaar hulpmiddel.
+2. Creëer een map met de naam 'plugins' binnen de 'src' map van de React-applicatie.
+3. Ontwikkel minimaal drie verschillende plugins. Elke plugin dient een afzonderlijke JavaScript-module te zijn met een `initialize`-functie. De `initialize`-functie moet een bericht loggen in de console, dat aantoont dat de plugin correct is geïnitialiseerd.
+4. Implementeer een `PluginLoader`-component die de plugins in de 'plugins'-map opspoort en laadt. Gebruik hiervoor `import()`, wat dynamische import mogelijk maakt. Let op: `import()` geeft een Promise terug.
+5. Voer de `initialize`-functie uit voor elke geladen plugin.
+6. Zorg ervoor dat de `PluginLoader`-component wordt weergegeven in de hoofdcomponent van de React-applicatie (bijvoorbeeld 'App.js').
+
+Instructies:
+1. Installeer Node.js en npm als je dat nog niet hebt gedaan.
+2. Gebruik `npx create-react-app plugin-loader` om een nieuwe React-applicatie te maken en navigeer naar de map met `cd plugin-loader`.
+3. Maak een map genaamd 'plugins' in de 'src' map.
+4. Implementeer drie JavaScript-modules (bijvoorbeeld 'pluginA.js', 'pluginB.js', 'pluginC.js') in de 'plugins'-map, elk met een `initialize`-functie die een bericht naar de console logt.
+5. Maak een bestand genaamd `PluginLoader.js` in de 'src' map en importeer de plugins dynamisch met behulp van `import()`.
+6. Integreer de `PluginLoader`-component in 'src/App.js', zodat deze wordt weergegeven wanneer de applicatie wordt uitgevoerd.
+7. Test de applicatie door `npm start` uit te voeren en controleer de browserconsole om te zien of de initialiseerfuncties van de plugins succesvol worden aangeroepen.
+
+Opmerking: Dynamische import in React kan soms lastig zijn, vooral bij het laden van meerdere modules uit een map. Het kan nodig zijn om Webpack of een andere bundler te configureren om dit te ondersteunen. Hier is een nuttige bron om mee te beginnen: [Dynamische import met React en Webpack](https://reactjs.org/docs/code-splitting.html#webpack).</a:content><a:role>assistant</a:role></a:message></a:API_AIResponse_ChoicesJSON></a:choices><a:model>gpt-4-0314</a:model><a:object>chat.completion</a:object><a:usage><a:completion_tokens>654</a:completion_tokens><a:prompt_tokens>769</a:prompt_tokens><a:total_tokens>1423</a:total_tokens></a:usage></RawResponseObj></Assignment>

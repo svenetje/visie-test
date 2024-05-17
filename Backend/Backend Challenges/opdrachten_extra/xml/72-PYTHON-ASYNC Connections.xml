@@ -1,0 +1,171 @@
+<Assignment xmlns="http://schemas.datacontract.org/2004/07/Syn_OpenAI_AppLib.Data" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><AssignmentText>Opdracht: ASYNC Connections
+Doel: Maak asynchrone MySQL CRUD-calls met Python
+Moeilijkheidsgraad: Makkelijk
+
+In deze opdracht ga je een eenvoudige Python-applicatie maken die asynchrone MySQL CRUD (Create, Read, Update, Delete) calls uitvoert. CRUD staat voor het creëren, lezen, bijwerken en verwijderen van gegevens in een database. Je maakt hiervoor gebruik van de `aiomysql` bibliotheek, die een asynchrone interface biedt voor het werken met MySQL-databases.
+
+ASYNC staat voor asynchrone verbindingen, wat betekent dat je meerdere taken tegelijkertijd kunt uitvoeren zonder te wachten op het voltooien van één taak voordat je aan de volgende begint. Dit kan de prestaties en efficiëntie van je applicatie verbeteren, vooral bij het werken met databases.
+
+Volg de onderstaande stappen om de opdracht te voltooien:
+
+1. Installeer de benodigde software (Python en MySQL Server) als je dit nog niet gedaan hebt.
+   - Python (https://www.python.org/downloads/)
+   - MySQL Server (https://dev.mysql.com/downloads/mysql/)
+
+2. Installeer de aiomysql bibliotheek met behulp van pip: `pip install aiomysql`. Deze bibliotheek maakt het mogelijk om asynchrone connecties op te zetten met een MySQL server.
+
+3. Maak een nieuwe MySQL-database en een tabel met de volgende structuur:
+
+```
+CREATE DATABASE asyncdb;
+USE asyncdb;
+
+CREATE TABLE persons (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(50) NOT NULL,
+  age INT NOT NULL
+);
+```
+
+Deze SQL-code maakt een nieuwe database genaamd 'asyncdb' en een tabel genaamd 'persons' met drie kolommen: id, name en age.
+
+4. Maak een nieuw Python-bestand en importeer de benodigde bibliotheken:
+
+```python
+import asyncio
+import aiomysql
+```
+
+`asyncio` is een Python-bibliotheek voor het schrijven van asynchrone code met behulp van de async/await-syntax. `aiomysql` is de bibliotheek die je in stap 2 hebt geïnstalleerd.
+
+5. Maak een asynchrone functie om verbinding te maken met de database:
+
+```python
+async def create_conn_pool(host, user, password, db):
+    pool = await aiomysql.create_pool(
+        host=host,
+        port=3306,
+        user=user,
+        password=password,
+        db=db
+    )
+    return pool
+```
+
+Deze functie maakt een asynchrone verbinding met de MySQL-database en retourneert een connection pool. Een connection pool is een cache van databaseverbindingen die kunnen worden hergebruikt, wat de prestaties kan verbeteren.
+
+6. Maak asynchrone functies voor CRUD-operaties:
+
+```python
+async def insert_person(pool, name, age):
+    ...
+async def get_persons(pool):
+    ...
+async def update_person(pool, person_id, name, age):
+    ...
+async def delete_person(pool, person_id):
+    ...
+```
+
+Deze functies voeren respectievelijk de CRUD-operaties uit: het invoegen van een persoon, het ophalen van alle personen, het bijwerken van een persoon en het verwijderen van een persoon uit de database.
+
+7. Maak een asynchrone hoofdfunctie om de CRUD-operaties te testen:
+
+```python
+async def main():
+    ...
+asyncio.run(main())
+```
+
+Deze functie maakt een verbinding met de database, voert de CRUD-operaties uit en sluit de verbinding.
+
+8. Voer je Python-bestand uit en controleer of de CRUD-operaties correct werken. Als alles goed is gegaan, zou je de gegevens in de 'persons'-tabel moeten kunnen creëren, lezen, bijwerken en verwijderen.
+
+Bronnen:
+- https://pypi.org/project/aiomysql/
+- https://docs.python.org/3/library/asyncio.html</AssignmentText><Config><Difficulty>Makkelijk</Difficulty><ExtraDescription/><ID>72</ID><Language>PYTHON</Language><Reqs>Async MYSQL CRUD calls</Reqs><Title>ASYNC Connections</Title></Config><ID>72</ID><RawResponseObj z:Id="i1" xmlns:a="http://schemas.datacontract.org/2004/07/Syn_OpenAI_CoreLib.Core.Models.Data" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/"><created xmlns="http://schemas.datacontract.org/2004/07/Syn_OpenAI_CoreLib.Data">1682890803</created><id xmlns="http://schemas.datacontract.org/2004/07/Syn_OpenAI_CoreLib.Data">chatcmpl-7B93zEFbssmZ8QeRakPHPHLl2AbOV</id><a:choices><a:API_AIResponse_ChoicesJSON><a:finish_reason>stop</a:finish_reason><a:index>0</a:index><a:message><a:content>Opdracht: ASYNC Connections
+Doel: Maak asynchrone MySQL CRUD-calls met Python
+Moeilijkheidsgraad: Makkelijk
+
+In deze opdracht ga je een eenvoudige Python-applicatie maken die asynchrone MySQL CRUD (Create, Read, Update, Delete) calls uitvoert. CRUD staat voor het creëren, lezen, bijwerken en verwijderen van gegevens in een database. Je maakt hiervoor gebruik van de `aiomysql` bibliotheek, die een asynchrone interface biedt voor het werken met MySQL-databases.
+
+ASYNC staat voor asynchrone verbindingen, wat betekent dat je meerdere taken tegelijkertijd kunt uitvoeren zonder te wachten op het voltooien van één taak voordat je aan de volgende begint. Dit kan de prestaties en efficiëntie van je applicatie verbeteren, vooral bij het werken met databases.
+
+Volg de onderstaande stappen om de opdracht te voltooien:
+
+1. Installeer de benodigde software (Python en MySQL Server) als je dit nog niet gedaan hebt.
+   - Python (https://www.python.org/downloads/)
+   - MySQL Server (https://dev.mysql.com/downloads/mysql/)
+
+2. Installeer de aiomysql bibliotheek met behulp van pip: `pip install aiomysql`. Deze bibliotheek maakt het mogelijk om asynchrone connecties op te zetten met een MySQL server.
+
+3. Maak een nieuwe MySQL-database en een tabel met de volgende structuur:
+
+```
+CREATE DATABASE asyncdb;
+USE asyncdb;
+
+CREATE TABLE persons (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(50) NOT NULL,
+  age INT NOT NULL
+);
+```
+
+Deze SQL-code maakt een nieuwe database genaamd 'asyncdb' en een tabel genaamd 'persons' met drie kolommen: id, name en age.
+
+4. Maak een nieuw Python-bestand en importeer de benodigde bibliotheken:
+
+```python
+import asyncio
+import aiomysql
+```
+
+`asyncio` is een Python-bibliotheek voor het schrijven van asynchrone code met behulp van de async/await-syntax. `aiomysql` is de bibliotheek die je in stap 2 hebt geïnstalleerd.
+
+5. Maak een asynchrone functie om verbinding te maken met de database:
+
+```python
+async def create_conn_pool(host, user, password, db):
+    pool = await aiomysql.create_pool(
+        host=host,
+        port=3306,
+        user=user,
+        password=password,
+        db=db
+    )
+    return pool
+```
+
+Deze functie maakt een asynchrone verbinding met de MySQL-database en retourneert een connection pool. Een connection pool is een cache van databaseverbindingen die kunnen worden hergebruikt, wat de prestaties kan verbeteren.
+
+6. Maak asynchrone functies voor CRUD-operaties:
+
+```python
+async def insert_person(pool, name, age):
+    ...
+async def get_persons(pool):
+    ...
+async def update_person(pool, person_id, name, age):
+    ...
+async def delete_person(pool, person_id):
+    ...
+```
+
+Deze functies voeren respectievelijk de CRUD-operaties uit: het invoegen van een persoon, het ophalen van alle personen, het bijwerken van een persoon en het verwijderen van een persoon uit de database.
+
+7. Maak een asynchrone hoofdfunctie om de CRUD-operaties te testen:
+
+```python
+async def main():
+    ...
+asyncio.run(main())
+```
+
+Deze functie maakt een verbinding met de database, voert de CRUD-operaties uit en sluit de verbinding.
+
+8. Voer je Python-bestand uit en controleer of de CRUD-operaties correct werken. Als alles goed is gegaan, zou je de gegevens in de 'persons'-tabel moeten kunnen creëren, lezen, bijwerken en verwijderen.
+
+Bronnen:
+- https://pypi.org/project/aiomysql/
+- https://docs.python.org/3/library/asyncio.html</a:content><a:role>assistant</a:role></a:message></a:API_AIResponse_ChoicesJSON></a:choices><a:model>gpt-4-0314</a:model><a:object>chat.completion</a:object><a:usage><a:completion_tokens>945</a:completion_tokens><a:prompt_tokens>971</a:prompt_tokens><a:total_tokens>1916</a:total_tokens></a:usage></RawResponseObj></Assignment>

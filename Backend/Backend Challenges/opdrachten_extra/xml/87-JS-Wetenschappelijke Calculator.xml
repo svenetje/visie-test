@@ -1,0 +1,79 @@
+<Assignment xmlns="http://schemas.datacontract.org/2004/07/Syn_OpenAI_AppLib.Data" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><AssignmentText>Titel: Wetenschappelijke Calculator
+
+Doel: Ontwikkel een wetenschappelijke calculator met behulp van JavaScript, HTML en CSS die in staat is om basisbewerkingen, wetenschappelijke notaties en formules uit te voeren.
+
+Moeilijkheidsgraad: Gemiddeld
+
+Benodigde voorkennis:
+- Basis JavaScript-kennis voor het uitvoeren van berekeningen en het verwerken van gebruikersinvoer
+- HTML-kennis voor het maken van de structuur van de calculator, inclusief invoerveld en knoppen
+- CSS-kennis voor de opmaak van de calculator, zoals lay-out, kleuren en lettertypen
+
+Benodigdheden:
+- Een teksteditor, zoals Visual Studio Code, Sublime Text of Notepad++, om de HTML-, CSS- en JavaScript-bestanden te schrijven
+- Een moderne webbrowser, zoals Google Chrome, Firefox of Safari, om de calculator te testen en debuggen
+
+Opdracht:
+
+1. Creëer een HTML-bestand met de volgende elementen:
+   - Een invoerveld voor het invoeren van getallen en formules
+   - Knoppen voor basisbewerkingen (plus, min, keer, gedeeld door)
+   - Knoppen voor wetenschappelijke notaties (bijv. x10^y, x^2, x^3, √x)
+   - Knoppen voor enkele wetenschappelijke formules (bijv. sinus, cosinus, tangens, logaritme)
+   - Een knop om de invoer te wissen (C) en een knop om het resultaat te berekenen (=)
+
+2. Creëer een CSS-bestand om de gebruikersinterface van de calculator te stylen, zoals de lay-out, kleuren, lettertypen en knoppen.
+
+3. Creëer een JavaScript-bestand met de volgende functionaliteiten:
+   - Functies voor basisbewerkingen (plus, min, keer, gedeeld door)
+   - Functies voor wetenschappelijke notaties, zoals machtsverheffen en worteltrekken
+   - Functies voor wetenschappelijke formules, zoals trigonometrische functies en logaritmen
+   - Eventlisteners voor de knoppen om de bijbehorende functies aan te roepen bij een klik
+   - Functies om de gebruikersinvoer te verwerken, de berekeningen uit te voeren en het resultaat in het invoerveld te tonen
+
+Tips:
+- Gebruik de JavaScript Math-bibliotheek voor het uitvoeren van wetenschappelijke berekeningen: https://developer.mozilla.org/nl/docs/Web/JavaScript/Reference/Global_Objects/Math
+- Gebruik een switch-case-structuur om de juiste bewerking of formule uit te voeren op basis van de geselecteerde knop
+- Valideer de invoer om ervoor te zorgen dat de gebruiker geldige getallen en formules invoert, en geef een foutmelding indien nodig
+- Implementeer de mogelijkheid om meerdere berekeningen uit te voeren zonder de pagina te verversen, door de calculator opnieuw te initialiseren na elke berekening
+
+Succes met het ontwikkelen van uw wetenschappelijke calculator!</AssignmentText><Config><Difficulty>Gemiddeld</Difficulty><ExtraDescription/><ID>87</ID><Language>JS</Language><Reqs>plus, minus, keer, gedeeld door, wetenschappelijke notatie, wetenschappelijke formules</Reqs><Title>Wetenschappelijke Calculator</Title></Config><ID>87</ID><RawResponseObj z:Id="i1" xmlns:a="http://schemas.datacontract.org/2004/07/Syn_OpenAI_CoreLib.Core.Models.Data" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/"><created xmlns="http://schemas.datacontract.org/2004/07/Syn_OpenAI_CoreLib.Data">1682892722</created><id xmlns="http://schemas.datacontract.org/2004/07/Syn_OpenAI_CoreLib.Data">chatcmpl-7B9YwJFY23m83p6aUDZfHuZXfiX2g</id><a:choices><a:API_AIResponse_ChoicesJSON><a:finish_reason>stop</a:finish_reason><a:index>0</a:index><a:message><a:content>Titel: Wetenschappelijke Calculator
+
+Doel: Ontwikkel een wetenschappelijke calculator met behulp van JavaScript, HTML en CSS die in staat is om basisbewerkingen, wetenschappelijke notaties en formules uit te voeren.
+
+Moeilijkheidsgraad: Gemiddeld
+
+Benodigde voorkennis:
+- Basis JavaScript-kennis voor het uitvoeren van berekeningen en het verwerken van gebruikersinvoer
+- HTML-kennis voor het maken van de structuur van de calculator, inclusief invoerveld en knoppen
+- CSS-kennis voor de opmaak van de calculator, zoals lay-out, kleuren en lettertypen
+
+Benodigdheden:
+- Een teksteditor, zoals Visual Studio Code, Sublime Text of Notepad++, om de HTML-, CSS- en JavaScript-bestanden te schrijven
+- Een moderne webbrowser, zoals Google Chrome, Firefox of Safari, om de calculator te testen en debuggen
+
+Opdracht:
+
+1. Creëer een HTML-bestand met de volgende elementen:
+   - Een invoerveld voor het invoeren van getallen en formules
+   - Knoppen voor basisbewerkingen (plus, min, keer, gedeeld door)
+   - Knoppen voor wetenschappelijke notaties (bijv. x10^y, x^2, x^3, √x)
+   - Knoppen voor enkele wetenschappelijke formules (bijv. sinus, cosinus, tangens, logaritme)
+   - Een knop om de invoer te wissen (C) en een knop om het resultaat te berekenen (=)
+
+2. Creëer een CSS-bestand om de gebruikersinterface van de calculator te stylen, zoals de lay-out, kleuren, lettertypen en knoppen.
+
+3. Creëer een JavaScript-bestand met de volgende functionaliteiten:
+   - Functies voor basisbewerkingen (plus, min, keer, gedeeld door)
+   - Functies voor wetenschappelijke notaties, zoals machtsverheffen en worteltrekken
+   - Functies voor wetenschappelijke formules, zoals trigonometrische functies en logaritmen
+   - Eventlisteners voor de knoppen om de bijbehorende functies aan te roepen bij een klik
+   - Functies om de gebruikersinvoer te verwerken, de berekeningen uit te voeren en het resultaat in het invoerveld te tonen
+
+Tips:
+- Gebruik de JavaScript Math-bibliotheek voor het uitvoeren van wetenschappelijke berekeningen: https://developer.mozilla.org/nl/docs/Web/JavaScript/Reference/Global_Objects/Math
+- Gebruik een switch-case-structuur om de juiste bewerking of formule uit te voeren op basis van de geselecteerde knop
+- Valideer de invoer om ervoor te zorgen dat de gebruiker geldige getallen en formules invoert, en geef een foutmelding indien nodig
+- Implementeer de mogelijkheid om meerdere berekeningen uit te voeren zonder de pagina te verversen, door de calculator opnieuw te initialiseren na elke berekening
+
+Succes met het ontwikkelen van uw wetenschappelijke calculator!</a:content><a:role>assistant</a:role></a:message></a:API_AIResponse_ChoicesJSON></a:choices><a:model>gpt-4-0314</a:model><a:object>chat.completion</a:object><a:usage><a:completion_tokens>742</a:completion_tokens><a:prompt_tokens>749</a:prompt_tokens><a:total_tokens>1491</a:total_tokens></a:usage></RawResponseObj></Assignment>

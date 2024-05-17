@@ -1,0 +1,58 @@
+﻿Quick Details
+Opdracht ID : 29
+Opdracht titel : App Dynamic GUI State Manager
+Opdracht Programmeertalen en/of tech : JS
+Opdracht (geschatte) moeilijkheidsgraad : Gemiddeld
+Opdracht Eisen : GUI elementen moeten kunnen worden versleept, veranderde GUIs moeten worden opgeslagen als JSON of XML of SQL
+Opdracht Extra Omschrijving : Maak een modulaire GUI State manager
+Opdracht: App Dynamic GUI State Manager
+
+Doel: Ontwikkel een webapplicatie waarmee gebruikers de positie van GUI-elementen kunnen aanpassen
+De aangepaste lay-out moet worden opgeslagen in JSON, XML of SQL-formaat.
+
+Moeilijkheidsgraad: Gemiddeld
+
+Taal: JavaScript
+
+Benodigdheden:
+1
+HTML en CSS voor het opmaken van de webpagina en de GUI-elementen.
+2
+JavaScript (JS) voor het aanpassen van de positie van de elementen en het opslaan van de aangepaste GUI's.
+3
+Een bibliotheek of framework voor het slepen en verplaatsen van elementen (zoals jQuery UI).
+
+Stappenplan:
+1
+Creëer een HTML-bestand met de basisstructuur van een webpagina
+Voeg de benodigde JavaScript- en CSS-bestanden toe
+Voorbeeld: https://www.w3schools.com/html/html_basic.asp
+2
+Schrijf een CSS-bestand voor het opmaken van de GUI-elementen
+Geef de elementen een relatieve positie zodat ze kunnen worden verplaatst
+Voorbeeld van relatieve positionering: https://www.w3schools.com/css/css_positioning.asp
+3
+Creëer een JavaScript-bestand voor het aanpassen van de positie van de GUI-elementen en het opslaan van de aangepaste GUI's
+Zie voorbeeld JavaScript-bestand: https://www.w3schools.com/js/js_examples.asp
+4
+Integreer een bibliotheek of framework (zoals jQuery UI) om het slepen en verplaatsen van elementen te implementeren
+jQuery UI Draggable: https://jqueryui.com/draggable/
+5
+Voeg functionaliteit toe om de aangepaste GUI's op te slaan als JSON, XML of SQL.
+
+Opdrachten voor de student:
+1
+Creëer de HTML-, CSS- en JavaScript-bestanden voor de webapplicatie.
+2
+Implementeer het verslepen en verplaatsen van GUI-elementen met behulp van een bibliotheek of framework.
+3
+Voeg functionaliteit toe om de aangepaste GUI's op te slaan als JSON, XML of SQL.
+4
+Test de webapplicatie en zorg ervoor dat de GUI-elementen correct kunnen worden verplaatst en opgeslagen.
+
+Tips:
+- Gebruik jQuery UI voor het slepen en verplaatsen van elementen (https://jqueryui.com/draggable/).
+- Om de aangepaste GUI's op te slaan als JSON, gebruik de JSON.stringify() methode (https://developer.mozilla.org/nl/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify).
+- Om de aangepaste GUI's op te slaan als XML, gebruik een XML DOM Parser (https://www.w3schools.com/xml/xml_parser.asp) en de XMLSerializer() methode (https://developer.mozilla.org/en-US/docs/Web/API/XMLSerializer).
+- Om de aangepaste GUI's op te slaan als SQL, maak een SQL-query om de gegevens in te voegen of bij te werken in een database
+Gebruik hiervoor bijvoorbeeld de IndexedDB API (https://developer.mozilla.org/nl/docs/Web/API/IndexedDB_API) of een server-side oplossing zoals PHP en MySQL.

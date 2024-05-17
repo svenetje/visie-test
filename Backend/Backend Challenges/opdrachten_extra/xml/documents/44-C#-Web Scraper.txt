@@ -1,0 +1,105 @@
+﻿Quick Details
+Opdracht ID : 44
+Opdracht titel : Web Scraper
+Opdracht Programmeertalen en/of tech : C#
+Opdracht (geschatte) moeilijkheidsgraad : Makkelijk
+Opdracht Eisen : Scraper voor een bekende datadienst website nieuws zoals NASA of ESA.
+Opdracht Extra Omschrijving : 
+Opdracht: Web Scraper
+
+Titel: Web Scraper voor nieuws van NASA of ESA
+
+Doel: Maak een eenvoudige web scraper die nieuwsartikelen van NASA of ESA ophaalt en de titel, publicatiedatum en samenvatting van elk artikel weergeeft.
+
+Programmeertaal: C#
+
+Moeilijkheidsgraad: Makkelijk
+
+Inleiding: In deze opdracht ga je een eenvoudige web scraper bouwen die nieuwsartikelen van NASA of ESA verzamelt
+Een web scraper is een programma dat gegevens van websites haalt en de verkregen gegevens structureert en opslaat voor analyse of andere doeleinden
+Je gaat gebruikmaken van C# en de HtmlAgilityPack library om dit te realiseren.
+
+Benodigdheden:
+1
+Visual Studio of een andere C#-ontwikkelomgeving.
+2
+HtmlAgilityPack (https://www.nuget.org/packages/HtmlAgilityPack/)
+
+Stappen:
+1
+Maak een nieuw C# Console Application-project in Visual Studio.
+  
+Open Visual Studio en kies voor 'Create a new project'.
+  
+Zoek naar 'Console App (.NET Core)' en selecteer deze optie
+Klik vervolgens op 'Next'.
+  
+Geef je project een naam en kies een locatie waar je het wilt opslaan
+Klik op 'Create' om het project aan te maken.
+
+2
+Installeer HtmlAgilityPack via NuGet Package Manager.
+  
+Ga naar 'Tools' > 'NuGet Package Manager' > 'Manage NuGet Packages for Solution'.
+  
+Klik op 'Browse' en zoek naar 'HtmlAgilityPack'.
+  
+Selecteer 'HtmlAgilityPack' en installeer het in je project.
+
+3
+Gebruik de volgende code als basis voor uw web scraper:
+
+```csharp
+using System;
+using System.Net.Http;
+using HtmlAgilityPack;
+
+namespace WebScraper
+{
+    class Program
+    {
+        static async System.Threading.Tasks.Task Main(string[] args)
+        {
+            var url = "https://www.nasa.gov/rss/dyn/breaking_news.rss"; // of een andere nieuws-URL van NASA of ESA
+
+            var httpClient = new HttpClient();
+            var html = await httpClient.GetStringAsync(url);
+
+            var htmlDocument = new HtmlDocument();
+            htmlDocument.LoadHtml(html);
+            
+            var htmlBody = htmlDocument.DocumentNode.SelectSingleNode("//rss//channel");
+
+            var newsItems = htmlBody.SelectNodes(".//item");
+            if(newsItems != null)
+            {
+                foreach (var item in newsItems)
+                {
+                    var title = item.SelectSingleNode(".//title").InnerText;
+                    var pubDate = item.SelectSingleNode(".//pubDate").InnerText;
+                    var description = item.SelectSingleNode(".//description").InnerText;
+
+                    Console.WriteLine($"Titel: {title}");
+                    Console.WriteLine($"Publicatiedatum: {pubDate}");
+                    Console.WriteLine($"Samenvatting: {description}");
+                    Console.WriteLine("----------------------------------------------------");
+                }
+            }
+            else
+            {
+                Console.WriteLine("Geen nieuwsartikelen gevonden.");
+            }
+        }
+    }
+}
+```
+
+4
+Voer het programma uit en controleer of de informatie correct wordt weergegeven.
+  
+Druk op 'Ctrl + F5' om het programma te starten zonder de debugger.
+  
+Het programma zou nu de titel, publicatiedatum en samenvatting van elk nieuwsartikel van NASA of ESA moeten weergeven.
+
+Opmerking: Deze basiscode kan verder worden aangepast en verbeterd, afhankelijk van de vereisten van de opdracht
+Zorg ervoor dat je de juiste URL voor de nieuwsfeed gebruikt en pas de scrapingcode aan als de structuur van de webpagina verandert.

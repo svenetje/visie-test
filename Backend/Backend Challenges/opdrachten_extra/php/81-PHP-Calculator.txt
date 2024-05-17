@@ -1,0 +1,59 @@
+﻿Quick Details
+Opdracht ID : 81
+Opdracht titel : Calculator
+Opdracht Programmeertalen en/of tech : PHP
+Opdracht (geschatte) moeilijkheidsgraad : Makkelijk
+Opdracht Eisen : plus, minus, keer, gedeeld door
+Opdracht Extra Omschrijving : 
+Opdracht: Calculator
+Taal: PHP
+Moeilijkheidsgraad: Makkelijk
+
+Beschrijving:
+In deze opdracht ga je een eenvoudige rekenmachine maken met behulp van PHP
+Gebruikers moeten twee getallen kunnen invoeren en vervolgens een keuze maken uit de vier basis rekenkundige operaties: optellen, aftrekken, vermenigvuldigen en delen
+Je maakt hiervoor gebruik van de basis rekenkundige operatoren (+, -, *, /) in PHP.
+
+Benodigdheden:
+1
+PHP geïnstalleerd op een lokale of externe webserver.
+  
+Download en installeer bijvoorbeeld XAMPP voor een lokale webserver: https://www.apachefriends.org/index.html
+2
+Een teksteditor om PHP-code te schrijven, zoals Visual Studio Code, Sublime Text, etc.
+  
+Download bijvoorbeeld Visual Studio Code hier: https://code.visualstudio.com/
+
+Instructies:
+1
+Maak een nieuw PHP-bestand en noem het "calculator.php".
+2
+Schrijf een HTML-formulier in "calculator.php" met de volgende elementen:
+   a
+Twee invoervelden voor de getallen (type "number").
+   b
+Vier knoppen voor de rekenkundige operaties: plus, minus, keer en gedeeld door.
+   c
+Een verzendknop om het formulier te versturen en de berekening uit te voeren.
+3
+Voeg PHP-code toe om de ingevoerde getallen en de gekozen operatie op te vangen en de bijbehorende berekening uit te voeren.
+4
+Toon het resultaat van de berekening op de pagina.
+5
+Test de rekenmachine om er zeker van te zijn dat alle operaties correct werken.
+
+PHP biedt ingebouwde functies om met getallen te werken en rekenkundige operaties uit te voeren
+In deze opdracht wordt de switch-functie gebruikt om te bepalen welke rekenkundige operatie moet worden uitgevoerd op basis van de gebruikersinvoer.
+
+Voorbeeld van de basisstructuur voor "calculator.php" vind je in de oorspronkelijke opdracht
+Gebruik dit als uitgangspunt voor je eigen rekenmachine en pas het aan waar nodig.
+
+Tips:
+- Zorg ervoor dat je de juiste bestandsnaam en extensie gebruikt, bijvoorbeeld "calculator.php".
+- Let op de juiste syntax van PHP, zoals het afsluiten van elke regel met een puntkomma (;).
+
+Referentie:
+- PHP rekenkundige operatoren: https://www.php.net/manual/nl/language.operators.arithmetic.php
+- PHP switch-functie: https://www.php.net/manual/nl/control-structures.switch.php
+- XAMPP installatie: https://www.apachefriends.org/index.html
+- Visual Studio Code: https://code.visualstudio.com/

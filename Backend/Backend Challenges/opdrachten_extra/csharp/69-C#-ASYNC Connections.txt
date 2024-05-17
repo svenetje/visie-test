@@ -1,0 +1,89 @@
+﻿Quick Details
+Opdracht ID : 69
+Opdracht titel : ASYNC Connections
+Opdracht Programmeertalen en/of tech : C#
+Opdracht (geschatte) moeilijkheidsgraad : Makkelijk
+Opdracht Eisen : Async MYSQL CRUD calls
+Opdracht Extra Omschrijving : 
+Opdracht: ASYNC Connections
+Taal: C#
+Moeilijkheidsgraad: Makkelijk
+
+Doel:
+Leer async CRUD (Create, Read, Update, Delete) operaties uit te voeren met MySQL in een C# applicatie
+Door deze opdracht te voltooien, krijg je inzicht in het gebruik van asynchrone methoden en hoe je verbinding maakt met een MySQL-database in C#.
+
+Benodigdheden:
+1
+Visual Studio (https://visualstudio.microsoft.com/downloads/)
+2
+MySQL Connector for .NET (https://dev.mysql.com/downloads/connector/net/)
+3
+MySQL Server (https://dev.mysql.com/downloads/mysql/)
+
+Opdracht:
+1
+Installeer Visual Studio, MySQL Connector for .NET en MySQL Server (als je ze nog niet hebt geïnstalleerd)
+Deze tools zijn nodig om een C#-applicatie te ontwikkelen die verbinding maakt met een MySQL-database.
+
+2
+Maak een nieuw Console App-project in Visual Studio met de naam "AsyncConnections"
+Dit project zal dienen als basis voor je applicatie waarin je asynchrone CRUD-operaties uitvoert op de MySQL-database.
+
+3
+Voeg de MySQL.Data NuGet-pakket toe aan het project (https://www.nuget.org/packages/MySql.Data/)
+Deze connector stelt je in staat om verbinding te maken en te communiceren met MySQL-databases vanuit je C#-applicatie.
+
+4
+Maak een MySQL-database en een tabel met de volgende structuur:
+
+```
+CREATE DATABASE asyncdb;
+
+USE asyncdb;
+
+CREATE TABLE persons (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(50) NOT NULL,
+    age INT NOT NULL
+);
+```
+
+Deze tabel zal dienen als opslag voor personen met hun naam en leeftijd.
+
+5
+Update de `appsettings.json`-bestand met de juiste verbindingsinformatie voor je MySQL-database
+Dit bestand helpt je bij het beheren van de configuratiegegevens, zoals de verbindingsstring voor je database.
+
+```json
+{
+    "ConnectionStrings": {
+        "DefaultConnection": "server=localhost;user=root;password=your_password;database=asyncdb"
+    }
+}
+```
+
+6
+Maak een nieuwe class "Person" met de volgende eigenschappen: Id, Name en Age
+Deze class dient als model voor een persoon in de database.
+
+7
+Maak een nieuwe class "Database" met een constructor die de verbinding met de database initialiseert en de volgende async CRUD-methoden implementeert:
+  
+CreatePersonAsync(): Voeg een nieuwe persoon toe aan de tabel.
+  
+ReadPersonAsync(): Haal een persoon op uit de tabel op basis van zijn/haar id.
+  
+UpdatePersonAsync(): Update de naam en leeftijd van een persoon op basis van zijn/haar id.
+  
+DeletePersonAsync(): Verwijder een persoon uit de tabel op basis van zijn/haar id.
+
+Deze async-methoden stellen je in staat om asynchrone databaseoperaties uit te voeren zonder de UI of andere functionaliteiten van je applicatie te blokkeren.
+
+8
+Gebruik de async CRUD-methoden in de `Main()`-methode van je programma om nieuwe personen toe te voegen, gegevens op te halen, bij te werken en te verwijderen
+Dit zal je helpen om te begrijpen hoe je asynchrone methoden in C# kunt gebruiken en hoe je verbinding maakt met een MySQL-database om CRUD-operaties uit te voeren.
+
+Referenties:
+- https://dev.mysql.com/doc/connector-net/en/connector-net-programming-connecting.html
+- https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/async/

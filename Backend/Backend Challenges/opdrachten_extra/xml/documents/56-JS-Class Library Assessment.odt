@@ -1,0 +1,67 @@
+﻿Quick Details
+Opdracht ID : 56
+Opdracht titel : Class Library Assessment
+Opdracht Programmeertalen en/of tech : JS
+Opdracht (geschatte) moeilijkheidsgraad : Moeilijk
+Opdracht Eisen : "classes voor de apis 
+Opdracht Extra Omschrijving :  bitly, google docs en spreadsheets, google search, weerdata. classes en interfaces voor de apis dashboards. "
+Titel: Class Library Assessment
+
+Doel: Ontwikkel een JavaScript bibliotheek met daarin klassen om te communiceren met verschillende API's.
+
+Vereisten:
+1
+Creëer JavaScript klassen voor ten minste 3 verschillende API's naar keuze
+Enkele voorbeelden van API's zijn:
+  
+OpenWeatherMap API (weerinformatie): https://openweathermap.org/api
+  
+The Movie Database API (filminformatie): https://www.themoviedb.org/documentation/api
+  
+REST Countries API (landinformatie): https://restcountries.com/
+
+   Meld je aan voor de benodigde API-sleutels en integreer deze op een veilige manier in je code, bijvoorbeeld met behulp van environment variabelen.
+
+2
+Elke klasse moet minimaal 4 methoden bevatten om gegevens op te halen en te manipuleren
+Voorbeelden van methoden zijn:
+  
+Zoeken op naam
+  
+Ophalen van details op basis van ID
+  
+Ophalen van de populairste items
+  
+Filteren van items op basis van bepaalde criteria
+
+3
+Schrijf JSDoc-commentaar (https://jsdoc.app/) voor elke klasse en methode om de functionaliteit en het gebruik ervan uit te leggen.
+
+4
+Ontwerp een eenvoudige gebruikersinterface in HTML en CSS waarmee gebruikers de verschillende API's kunnen testen en de gegevens die door de klassen worden geretourneerd, kunnen bekijken.
+
+5
+Schrijf een testbestand met minimaal 2 testgevallen per API-klasse om de functionaliteit van de klas te testen
+Gebruik hiervoor bijvoorbeeld het Jasmine framework (https://jasmine.github.io/).
+
+Opdracht:
+1
+Kies 3 API's waarvoor je JavaScript-klassen wilt maken.
+2
+Meld je aan voor de benodigde API-sleutels en sla deze op een veilige manier op.
+3
+Maak een nieuw JavaScript-project en implementeer de klassen voor de gekozen API's.
+4
+Implementeer de vereiste methoden in elke klasse.
+5
+Schrijf JSDoc-commentaar voor de klassen en methoden.
+6
+Ontwikkel een eenvoudige gebruikersinterface om de klassen te testen en de resultaten te tonen.
+7
+Schrijf testbestanden met testgevallen om de functionaliteit van de klassen te testen en zorg ervoor dat alle tests slagen.
+
+Opmerkingen:
+- Houd rekening met foutafhandeling in je klassen en methoden
+Zorg ervoor dat eventuele fouten op een duidelijke manier worden afgehandeld en weergegeven in de gebruikersinterface.
+- Gebruik moderne JavaScript-technieken zoals async/await en fetch() om gegevens op te halen van de API's.
+- Zorg ervoor dat je code goed gestructureerd is en volg best practices voor het schrijven van JavaScript-code.

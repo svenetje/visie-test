@@ -1,0 +1,64 @@
+﻿Quick Details
+Opdracht ID : 61
+Opdracht titel : Webcrawler
+Opdracht Programmeertalen en/of tech : PYTHON
+Opdracht (geschatte) moeilijkheidsgraad : Gemiddeld
+Opdracht Eisen : GUI voor keywords en limitaties instellen
+Opdracht Extra Omschrijving : 
+Titel: Webcrawler
+
+Doel: Het ontwikkelen van een webcrawler met een grafische gebruikersinterface (GUI) die keywords en limieten kan instellen
+Een webcrawler is een programma dat automatisch websites bezoekt en de inhoud ervan analyseert om bijvoorbeeld zoekmachines te helpen bij het indexeren van webpagina's.
+
+Programmeertaal: Python
+
+Moeilijkheidsgraad: Gemiddeld
+
+Benodigde bibliotheken:
+1
+BeautifulSoup: voor het parsen van HTML- en XML-bestanden
+Hiermee kunnen we de structuur en inhoud van webpagina's begrijpen en manipuleren (https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
+2
+Requests: voor het versturen van HTTP-verzoeken
+Deze bibliotheek stelt ons in staat om op eenvoudige wijze verbinding te maken met websites en de inhoud op te halen (https://docs.python-requests.org/en/latest/)
+3
+tkinter: voor het bouwen van de grafische gebruikersinterface
+Met deze bibliotheek kunnen we een intuïtieve en gebruiksvriendelijke interface maken voor de webcrawler (https://docs.python.org/3/library/tkinter.html)
+
+Opdracht:
+
+1
+Installeer de benodigde bibliotheken met behulp van pip
+Dit is een belangrijke stap om ervoor te zorgen dat je de benodigde hulpmiddelen hebt om de opdracht te voltooien.
+
+2
+Maak een nieuw Python-bestand met de naam `webcrawler.py`
+Dit bestand wordt het centrale punt van je project waarin je de webcrawler en de GUI implementeert.
+
+3
+Importeer de benodigde bibliotheken aan het begin van het bestand
+Dit zorgt ervoor dat je toegang hebt tot de functionaliteit van de bibliotheken in je code.
+
+4
+Maak een functie genaamd `crawl_website` die de volgende parameters accepteert en de bijbehorende taken uitvoert
+Deze functie vormt de kern van de webcrawler en is verantwoordelijk voor het bezoeken van webpagina's, het analyseren van de inhoud en het vinden van de opgegeven zoekwoorden.
+
+5
+Maak een grafische gebruikersinterface (GUI) met behulp van de `tkinter`-bibliotheek
+De GUI zorgt voor een eenvoudige en gebruiksvriendelijke manier voor gebruikers om de webcrawler te bedienen
+Zorg ervoor dat de gebruiker de benodigde informatie kan invoeren en dat de resultaten op een overzichtelijke manier worden gepresenteerd.
+
+6
+Voeg foutafhandeling toe om te zorgen dat de gebruiker alleen geldige waarden kan invoeren
+Dit helpt om problemen en onverwachte gedrag van de webcrawler te voorkomen.
+
+7
+Test de webcrawler op verschillende websites en met verschillende zoekwoorden en limieten om te controleren of deze correct werkt
+Dit is een belangrijke stap om ervoor te zorgen dat je webcrawler betrouwbaar en nuttig is.
+
+8
+Schrijf commentaar bij uw code om de verschillende onderdelen en de werking ervan uit te leggen
+Dit helpt jezelf en anderen om de code beter te begrijpen en te onderhouden.
+
+Inleveren: Lever het Python-bestand `webcrawler.py` in, samen met een kort verslag waarin u uitlegt hoe u de opdracht heeft uitgevoerd en eventuele problemen die u tijdens de ontwikkeling bent tegengekomen
+Dit helpt om uw begrip van de opdracht en de oplossing die u hebt geïmplementeerd te demonstreren.

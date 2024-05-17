@@ -1,0 +1,50 @@
+﻿Quick Details
+Opdracht ID : 10
+Opdracht titel : Bitly API
+Opdracht Programmeertalen en/of tech : React
+Opdracht (geschatte) moeilijkheidsgraad : Makkelijk
+Opdracht Eisen : eigen MYSQL userdatabase, custom usergroepen voor samenwerking, error en api interactie logging naar logbestanden. Een dashboard voor beheer.
+Opdracht Extra Omschrijving : 
+Opdracht: Bitly API-integratie
+
+Doel: Maak een eenvoudige webapplicatie met behulp van de React-programmeertaal die de Bitly API gebruikt om korte URLs te genereren
+De applicatie moet een eigen MySQL-gebruikersdatabase hebben, aangepaste gebruikersgroepen om samenwerking mogelijk te maken, fout- en API-interactie logging naar logbestanden en een beheerdersdashboard.
+
+Uitbreiding en toelichting op de vereisten:
+1
+Maak een React-applicatie: Gebruik de `create-react-app` tool om een nieuwe React-applicatie te genereren
+Volg de officiële documentatie hier: https://reactjs.org/docs/create-a-new-react-app.html
+2
+Integreer de Bitly API om korte URLs te genereren: Meld je aan voor een Bitly-account, verkrijg een API-toegangstoken en gebruik het om korte URLs te genereren
+Raadpleeg de officiële documentatie hier: https://dev.bitly.com/docs/getting-started/authentication/
+3
+Maak een MySQL-database voor het opslaan van gebruikersinformatie: Gebruik een MySQL-server om een database te maken en een tabel voor gebruikersinformatie te definiëren
+Volg de documentatie hier: https://dev.mysql.com/doc/refman/8.0/en/creating-database.html
+4
+Implementeer aangepaste gebruikersgroepen voor samenwerking: Geef verschillende niveaus van toegang en mogelijkheden aan verschillende groepen gebruikers, zoals beheerders, gewone gebruikers en gasten.
+5
+Log fouten en API-interacties naar logbestanden: Registreer alle belangrijke gebeurtenissen, zoals fouten en API-aanroepen, in logbestanden om te helpen bij het opsporen en oplossen van problemen.
+6
+Creëer een beheerdersdashboard: Ontwikkel een eenvoudig, gebruiksvriendelijk dashboard voor beheerders om gebruikers, gebruikersgroepen en logbestanden te beheren.
+
+Stappen:
+
+1
+Maak een nieuwe React-applicatie met behulp van `create-react-app`: https://reactjs.org/docs/create-a-new-react-app.html
+2
+Configureer en implementeer de Bitly API-integratie met behulp van de officiële documentatie: https://dev.bitly.com/docs/getting-started/authentication/
+3
+Installeer en configureer een MySQL-database en maak tabellen voor gebruikers (https://dev.mysql.com/doc/refman/8.0/en/creating-database.html).
+4
+Creëer een registratie- en inlogfunctionaliteit voor gebruikers en sla hun gegevens op in de MySQL-database.
+5
+Implementeer aangepaste gebruikersgroepen en rollen door middel van de database (beheerders, gewone gebruikers, gasten, etc.).
+6
+Creëer een API-interactie en foutenlogboek systeem, bijvoorbeeld met behulp van `winston` (https://github.com/winstonjs/winston).
+7
+Bouw een eenvoudig beheerdersdashboard met functies zoals het bekijken van de lijst met gebruikers, het beheren van gebruikersgroepen en het bekijken van logbestanden.
+8
+Zorg ervoor dat de code netjes en goed gedocumenteerd is door middel van opmerkingen en consistentie in de code.
+
+Opmerking: Deze opdracht heeft een 'Makkelijk'-moeilijkheidsgraad
+Het is belangrijk om te focussen op de basisfunctionaliteit en een gebruiksvriendelijke interface te bieden.
