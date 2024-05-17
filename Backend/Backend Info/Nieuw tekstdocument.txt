@@ -1,0 +1,8 @@
+
+            List<my_custom_class> t = new List<my_custom_class>();
+		t.Add(new my_custom_class());
+
+            dataGridView1.DataSource = t;
+            dataGridView1.Refresh();
+            dataGridView1.Update();
+            dataGridView1.Refresh();
